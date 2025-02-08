@@ -1,0 +1,113 @@
+
+.openModal{
+    display: block;
+    animation: mymove 1s;
+}
+@keyframes mymove {
+    0%   {    transform: translateX(110%);}
+    100% {    transform: translateX(0);}
+}
+
+.closeModal{
+    display: block;
+    animation: mymove2 1s;
+}
+@keyframes mymove2 {
+    0%   {    transform: translateX(0);}
+    100% {    transform: translateX(110%);}
+}
+.modal{
+    position: absolute;
+    z-index: 6;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .5);
+    width: 100%;
+    // height: 106vh;
+    display: block;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    &_wrapper{
+        position: relative;
+        width: 300px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        background-color: #fff;
+        height: 100%;
+        flex-direction: column;
+        .cart_top{
+            color: #000;
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem;
+            width: 100%;
+            height: auto;
+            border-bottom: solid 1px #000;
+            .title{
+
+            }
+            .exit{
+                color: #000;
+                line-height: 1rem;
+                font-family: cursive;
+                cursor: pointer;
+            }
+        }
+        .product_content{
+             color: #000000;
+             height: 75%;
+             width: 100%;
+             border-bottom: solid 1px #000;
+             text-align: center;
+        }
+        .footer_cart{
+            color: #000;
+            text-align: center;
+            text-align: center;
+            .card{
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                justify-content: space-around;
+                text-align: justify;
+                picture{
+                    width: 29%;
+                }
+                .text{
+                    width: 63%;
+                    h1{
+                        font-size: 0.9rem;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                        overflow: hidden;
+                    }
+                    a{
+                        color: #007bff;
+                        cursor: pointer;
+                    }
+                }
+            }
+            .btn_shop{
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                font-weight: bold;
+                overflow: hidden;
+                margin: 12px 30px;
+                padding: 15px 25px;
+                background: linear-gradient(to right, #32509d, #6faadb, #32509d);
+                background-size: 300% 100%;
+                background-color: #777;
+                color: #fff;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                justify-content: center;
+            }
+        }
+    }
+    // padding: 156px 20px 0;
+}

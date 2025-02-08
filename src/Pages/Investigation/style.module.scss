@@ -1,0 +1,150 @@
+@use 'sass:math';
+
+@function Clamp-all($half, $viewH, $full, $viewport: 1920) {
+    $scaled-value-px: math.div($half, 2);
+    $scaled-value-vw: math.div($viewH, $viewport) * 100;
+    @return clamp(
+        calc(#{$scaled-value-px}px), // Half value in px
+        calc(#{$scaled-value-vw}vw), // Viewport-based value in vw
+        #{$full} 
+    );
+}
+
+.solutions{
+    overflow: hidden;
+    max-width: 100%;
+    padding: 40px 0 133px;
+    .container{
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 1598px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .solutionsTitle {
+        margin-bottom: 40px;
+    }
+    .title {
+        font-size: Clamp-all(52, 42, 42px );
+        font-weight: bold;
+        line-height: 1.354;
+        margin-bottom: 40px;
+        span{
+            background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    .disputeInfo{
+        font-size: 16px;
+        line-height: 1.83;
+        max-width: 1369px;
+        margin-bottom: 40px;
+        color: #656565;
+    }
+    .disputeWrapper {
+        display: grid;
+        width: 100%;
+        margin-bottom: 83px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px;
+        @media only screen and (max-width: 1185px){
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media only screen and (max-width: 700px){
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+    .disputeSubtitle {
+        font-size: Clamp-all(42, 32, 32px );
+        margin-bottom: 32px;
+    }
+    .disputeSubinfo {
+        font-size: 16px;
+        line-height: 1.8;
+        max-width: 1350px;
+        margin-bottom: 50px;
+        color: #656565;
+        p {
+            margin-bottom: 28px;
+        }
+    }
+}
+
+
+.abt_explore{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    @media only screen and (max-width: 1185px){
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media only screen and (max-width: 700px){
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .abt_explore_item{
+        position: relative;
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        height: auto;
+        min-height: 165px;
+        padding: 20px 15px;
+        margin-bottom: 15px;
+        background-color: #f5f5f5;
+        align-items: center;
+        justify-content: center;
+        i{
+            margin-right: 21px;
+            flex-grow: 0;
+            flex-shrink: 0;
+        }
+        &::before{
+            position: absolute;
+            visibility: hidden;
+            width: 0;
+            height: 0;
+            content: '';
+            border-style: solid;
+            border-image-source: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+            border-image-slice: 1;
+            bottom: 0;
+            left: 0;
+            transition: height .15s ease-in .45s, width .15s ease-in .3s, visibility .15s ease-in .45s;
+            border-width: 2px 0 0 2px;
+        }
+        &::after{
+            top: 0;
+            right: 0;
+            transition: height .15s ease-in .15s, width .15s ease-in, visibility .15s ease-in .15s;
+            border-width: 0 2px 2px 0;
+            position: absolute;
+            visibility: hidden;
+            width: 0;
+            height: 0;
+            content: '';
+            border-style: solid;
+            border-image-source: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+            border-image-slice: 1;
+        }
+        .disputeBenefContent{
+            display: grid;
+
+            .abt_explore_name{
+                font-size: 18px;
+                font-weight: 600;
+                line-height: 1.354;
+                margin-bottom: -4px;
+                color: #0f0f0f;
+            }
+            .disputeBenefPos {
+                font-size: 14px;
+                font-weight: normal;
+                line-height: 1.8;
+                display: block;
+                color: #656565;
+            }
+        }
+    }
+}
