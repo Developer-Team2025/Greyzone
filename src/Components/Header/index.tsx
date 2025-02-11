@@ -6,19 +6,19 @@ import classNames from 'classnames';
 import logo from '../../assets/images/photo_2025-01-20_15-12-38-removebg-preview.png'
 import { clearTimeout } from 'timers';
 
-// import ReactDOMServer from "react-dom/server";
+import ReactDOMServer from "react-dom/server";
 // const content =   [
-//     {"name":"10 Signs to Spot a Love Scam Checklist", "id":"10-indicators-of-a-love-scam-a-comprehensive-checklist", part:"Digital"},
-//     {"name":"How Not to Get Scammed: A Guide to Protecting Yourself Online", "id":"online-fraud-protection-a-practical-guide", part:"Digital"},
-//     {"name":"Printable Workbook with Exercises – Fraud Awareness", "id":"printable-fraud-awareness-workbook-with-exercises", part:"Digital"},
-//     {"name":"Fraud Awareness Masterclass + Presentation", "id":"fraud-awareness-masterclass-with-detailed-presentation", part:"Digital"},
-//     {"name":"Crypto Transaction Risk Audit", "id":"cryptocurrency-transaction-risk-analysis", part:"cryptocurrency"},
-//     {"name":"Asset Search and Tracing", "id":"asset-location-and-tracing-services", part:"cryptocurrency"},
-//     {"name":"Expert Witness for Cryptocurrency", "id":"expert-cryptocurrency-witness-services", part:"cryptocurrency"},
-//     {"name":"Cryptocurrency Intelligence Report for Business", "id":"business-focused-cryptocurrency-intelligence-report", part:"cryptocurrency"},
-//     {"name":"Cryptocurrency Investigation", "id":"cryptocurrency-investigation", part:"cryptocurrency"},
-//     {"name":"Cryptocurrency Intelligence Report", "id":"cryptocurrency-intelligence-report", part:"cryptocurrency"},
-//     {"name":"Cryptocurrency Information Gathering Support", "id":"cryptocurrency-information-gathering-support", part:"cryptocurrency"},
+//     {"name":"10 Indicators of a Love Scam: A Comprehensive Checklist", "id":"10-indicators-of-a-love-scam-a-comprehensive-checklist", part:"Digital"},
+//     {"name":"Online Fraud Protection: A Practical Guide", "id":"online-fraud-protection-a-practical-guide", part:"Digital"},
+//     {"name":"Printable Fraud Awareness Workbook with Exercises", "id":"printable-fraud-awareness-workbook-with-exercises", part:"Digital"},
+//     {"name":"Fraud Awareness Masterclass with Detailed Presentation", "id":"fraud-awareness-masterclass-with-detailed-presentation", part:"Digital"},
+//     {"name":"Cryptocurrency Transaction Risk Analysis", "id":"cryptocurrency-transaction-risk-analysis", part:"cryptocurrency"},
+//     {"name":"Asset Location and Tracing Services", "id":"asset-location-and-tracing-services", part:"cryptocurrency"},
+//     {"name":"Expert Cryptocurrency Witness Services", "id":"expert-cryptocurrency-witness-services", part:"cryptocurrency"},
+//     {"name":"Business-Focused Cryptocurrency Intelligence Report", "id":"business-focused-cryptocurrency-intelligence-report", part:"cryptocurrency"},
+//     {"name":"In-Depth Cryptocurrency Investigation Services", "id":"in-depth-cryptocurrency-investigation-services", part:"cryptocurrency"},
+//     {"name":"General Cryptocurrency Intelligence Reports", "id":"general-cryptocurrency-intelligence-report", part:"cryptocurrency"},
+//     {"name":"Support for Cryptocurrency Data Collection", "id":"support-for-cryptocurrency-data-collection", part:"cryptocurrency"},
 //     {"name":"Due Diligence Services", "id":"due-diligence-services", part:"Disputes"},
 //     {"name":"Dispute Settlement “Premium Package”", "id":"dispute-settlement-premium-package", part:"Disputes"},
 //     {"name":"Dispute Settlement “Optimal Package”", "id":"dispute-settlement-optimal-package", part:"Disputes"},
@@ -35,6 +35,40 @@ import { clearTimeout } from 'timers';
 //     {"name": "Company Valuation", "id":"business-valuation-and-assessment-services", part:"Business"},
 //     {"name": "Chargeback Process for Merchants", "id":"merchant-chargeback-assistance-process", part:"Business"}
 //   ]
+const content = [
+    {"name":"10 Indicators of a Love Scam: A Comprehensive Checklist", "id":"10-indicators-of-a-love-scam-a-comprehensive-checklist", part:"Digital Products"},
+    {"name":"Online Fraud Protection: A Practical Guide", "id":"online-fraud-protection-a-practical-guide", part:"Digital Products"},
+    {"name":"Printable Fraud Awareness Workbook with Exercises", "id":"printable-fraud-awareness-workbook-with-exercises", part:"Digital Products"},
+    {"name":"Fraud Awareness Masterclass with Detailed Presentation", "id":"fraud-awareness-masterclass-with-detailed-presentation", part:"Digital Products"},
+    {"name":"Merchant Chargeback Assistance Process", "id":"merchant-chargeback-assistance-process", part:"Digital Products"},
+
+    {"name":"Comprehensive Due Diligence Solutions", "id":"comprehensive-due-diligence-solutions", part:"Investigation and Disputes"},
+    {"name":"Premium Dispute Settlement Package", "id":"premium-dispute-settlement-package", part:"Investigation and Disputes"},
+    {"name":"Optimal Dispute Settlement Package", "id":"optimal-dispute-settlement-package", part:"Investigation and Disputes"},
+    {"name":"Special Dispute Settlement Package", "id":"special-dispute-settlement-package", part:"Investigation and Disputes"},
+    {"name":"Basic Dispute Settlement Package", "id":"basic-dispute-settlement-package", part:"Investigation and Disputes"},
+
+    {"name":"Technical Document Translation (Non-Certified)", "id":"technical-document-translation-non-certified", part:"Consulting and Documental Support"},
+    {"name":"Case Evaluation and Documentation Services", "id":"case-evaluation-and-documentation-services", part:"Consulting and Documental Support"},
+    {"name":"Application Drafting and Processing Support", "id":"application-drafting-and-processing-support", part:"Consulting and Documental Support"},
+    {"name":"Initial Consultation and Assessment Services", "id":"initial-consultation-and-assessment-services", part:"Consulting and Documental Support"},
+    {"name":"Chargeback Consultation", "id":"chargeback-consultation", part:"Consulting and Documental Support"},
+
+    {"name":"Cryptocurrency Transaction Risk Analysis", "id":"cryptocurrency-transaction-risk-analysis", part:"Cryptocurrency Investigation and Compliance"},
+    {"name":"Asset Location and Tracing Services", "id":"asset-location-and-tracing-services", part:"Cryptocurrency Investigation and Compliance"},
+    {"name":"Expert Cryptocurrency Witness Services", "id":"expert-cryptocurrency-witness-services", part:"Cryptocurrency Investigation and Compliance"},
+    {"name":"Business-Focused Cryptocurrency Intelligence Report", "id":"business-focused-cryptocurrency-intelligence-report", part:"Cryptocurrency Investigation and Compliance"},
+    {"name":"In-Depth Cryptocurrency Investigation Services", "id":"in-depth-cryptocurrency-investigation-services", part:"Cryptocurrency Investigation and Compliance"},
+    {"name":"General Cryptocurrency Intelligence Reports", "id":"general-cryptocurrency-intelligence-report", part:"Cryptocurrency Investigation and Compliance"},
+    {"name":"Support for Cryptocurrency Data Collection", "id":"support-for-cryptocurrency-data-collection", part:"Cryptocurrency Investigation and Compliance"},
+
+    {"name":"Comprehensive Due Diligence Solutions", "id":"comprehensive-due-diligence-solutions", part:"Business Services"},
+    {"name":"Cryptocurrency Transaction Risk Analysis", "id":"cryptocurrency-transaction-risk-analysis", part:"Business Services"},
+    {"name":"Background Check Services for Employees", "id":"background-check-services-for-employees", part:"Business Services"},
+    {"name":"Corporate Background Verification Services", "id":"corporate-background-verification-services", part:"Business Services"},
+    {"name":"Corporate Fraud Investigation Solutions", "id":"corporate-fraud-investigation-solutions", part:"Business Services"},
+    {"name":"Business Valuation and Assessment Services", "id":"business-valuation-and-assessment-services", part:"Business Services"}
+];
 //   const category = [
 //     {"id": "why-you-shouldnt-face-banks-alone-the-importance-of-professional-help-in-scam-cases", "name": "Why You Shouldn’t Face Banks Alone: The Importance of Professional Help in Scams"},
 //     {"id": "common-ticket-scams", "name": "Common Ticket Scams – What You Need to Know and How to Protect Yourself"},
@@ -59,40 +93,62 @@ import { clearTimeout } from 'timers';
 //     {"id": "due-diligence-services-importance", "name": "The Indispensable Role of Due Diligence Services in Business"},
 //     {"id": "ai-blockchain-digital-surveillance", "name": "AI, Blockchain and Digital Surveillance: A Comprehensive Exploration"},                                       
 //   ]
+const category = [
+    {"id": "the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases", "name": "The Crucial Role of Expert Support When Dealing with Banks in Fraud Cases"},
+    {"id": "understanding-common-ticket-scams-essential-tips-for-protection", "name": "Understanding Common Ticket Scams Essential Tips for Protection"},
+    {"id": "identifying-and-handling-business-identity-theft-what-you-should-know", "name": "Identifying and Handling Business Identity Theft What You Should Know"},
+    {"id": "a-guide-to-reporting-scams-in-portugal", "name": "A Guide to Reporting Scams in Portugal"},
+    {"id": "a-guide-to-reporting-scams-in-norway", "name": "A Guide to Reporting Scams in Norway"},
+    {"id": "a-guide-to-reporting-scams-in-spain", "name": "A Guide to Reporting Scams in Spain"},
+    {"id": "beware-of-task-completion-and-fake-job-scams-protect-yourself-from-online-fraud", "name": "Beware of Task Completion and Fake Job Scams: Protect Yourself from Online Fraud"},
+    {"id": "navigating-scams-on-facebook-marketplace", "name": "Navigating Scams on Facebook Marketplace"},
+    {"id": "step-by-step-guide-to-reporting-a-scam-in-new-zealand", "name": "Step-by-Step Guide to Reporting a Scam in New Zealand"},
+    {"id": "how-to-file-a-scam-report-in-qatar", "name": "How to File a Scam Report in Qatar"},
+    {"id": "a-complete-guide-to-reporting-scams-in-france", "name": "A Complete Guide to Reporting Scams in France"},
+    {"id": "reporting-scams-in-canada-what-you-need-to-know", "name": "Reporting Scams in Canada: What You Need to Know"},
+    {"id": "exposing-cryptocurrency-fraud-case-studies-by-th-consulting", "name": "Exposing Cryptocurrency Fraud: Case Studies by T&H Consulting"},
+    {"id": "comprehensive-business-security-your-background-check-guide", "name": "Comprehensive Business Security: Your Background Check Guide"},
+    {"id": "fraud-reporting-in-south-africa-a-how-to-guide", "name": "Fraud Reporting in South Africa: A How-To Guide"},
+    {"id": "understanding-cryptocurrency-investigations-key-insights", "name": "Understanding Cryptocurrency Investigations: Key Insights"},
+    {"id": "essential-due-diligence-tips-for-small-business-purchases", "name": "Essential Due Diligence Tips for Small Business Purchases"},
+    {"id": "due-diligence-mastery-a-guide-for-business-buyers", "name": "Due Diligence Mastery: A Guide for Business Buyers"},
+    {"id": "how-to-effectively-report-fraud-in-germany", "name": "How to Effectively Report Fraud in Germany"},
+    {"id": "why-due-diligence-services-are-crucial-for-business-success", "name": "Why Due Diligence Services Are Crucial for Business Success"},
+    {"id": "exploring-ai-blockchain-and-digital-surveillance-in-depth", "name": "Exploring AI, Blockchain, and Digital Surveillance in Depth"}
+];
 
 
-
-//   const category_loop =  category.map(data => {return { path:`/blog/${data.id}` , name: `${data.name}`}});
-//   const digital_loop = content.map(data => {
-//     return data.part === 'Digital' ?  { path:`/solutions/digital-goods/${data.id}` , name: `${data.name}`} : 
-//     data.part === 'Business' ?   { path:`/solutions/corporate-services/${data.id}` , name: `${data.name}`} : 
-//     data.part === 'Documental' ?   { path:`/solutions/advisory-and-documentation-assistance/${data.id}` , name: `${data.name}`} : 
-//     data.part === 'Disputes' ? { path:`/solutions/research-and-dispute-resolution/${data.id}` , name: `${data.name}`} :   
-//     { path:`/solutions/cryptocurrency-investigations-and-regulatory-compliance/${data.id}` , name: `${data.name}`} 
-//   })
-//     const routes = [
-//     { path: "/", name: "Home" },
-//     { path: "/about-us" ,name: "About Us"  },
-//     { path: "/terms-and-conditions" ,name: "Terms and Conditions"  },
-//     { path: "/privacy-policy" ,name: "Privacy Policy"  },
-//     { path: "/blog" ,name: "Blog" },
-//     { path: "/contact-us" ,name: "Contact Us"  },
-//     { path:"/fraud-awareness" , name: "Fraud" },
-//     { path:"/faq" , name: "Faq"},   
-//         {path:"/our-certificates" , name: "Certificates"},
-//     { path:"/our-team" , name: "Team"}, 
-//     { path:"/solutions" , name: "Solutions"  },
-//     { path:"/partners" , name: "Partners" },
-//     { path:"/solutions/research-and-dispute-resolution" , name: "Investigations"  },
-//     { path:"/solutions/advisory-and-documentation-assistance" , name: "Consulting"  },
-//     { path:"/solutions/cryptocurrency-investigations-and-regulatory-compliance" , name: "Cryptocurrency"  },
-//     { path:"/solutions/digital-goods" , name: "Digital"  },
-//     { path:"/solutions/corporate-services" , name: "Business" },
-//     { path:"/my-account" , name: "My Account" },
-//     { path:"/my-account/lost-password" , name: "Lost Password"}, 
-//     ...digital_loop,
-//     ...category_loop
-//     ];
+  const category_loop =  category.map(data => {return { path:`/blog/${data.id}` , name: `${data.name}`}});
+  const digital_loop = content.map(data => {
+    return data.part === 'Digital' ?  { path:`/solutions/digital-goods/${data.id}` , name: `${data.name}`} : 
+    data.part === 'Business' ?   { path:`/solutions/corporate-services/${data.id}` , name: `${data.name}`} : 
+    data.part === 'Documental' ?   { path:`/solutions/advisory-and-documentation-assistance/${data.id}` , name: `${data.name}`} : 
+    data.part === 'Disputes' ? { path:`/solutions/research-and-dispute-resolution/${data.id}` , name: `${data.name}`} :   
+    { path:`/solutions/cryptocurrency-investigations-and-regulatory-compliance/${data.id}` , name: `${data.name}`} 
+  })
+    const routes = [
+    { path: "/", name: "Home" },
+    { path: "/about-us" ,name: "About Us"  },
+    { path: "/terms-and-conditions" ,name: "Terms and Conditions"  },
+    { path: "/privacy-policy" ,name: "Privacy Policy"  },
+    { path: "/blog" ,name: "Blog" },
+    { path: "/contact-us" ,name: "Contact Us"  },
+    { path:"/fraud-awareness" , name: "Fraud" },
+    { path:"/faq" , name: "Faq"},   
+        {path:"/our-certificates" , name: "Certificates"},
+    { path:"/our-team" , name: "Team"}, 
+    { path:"/solutions" , name: "Solutions"  },
+    { path:"/partners" , name: "Partners" },
+    { path:"/solutions/research-and-dispute-resolution" , name: "Investigations"  },
+    { path:"/solutions/advisory-and-documentation-assistance" , name: "Consulting"  },
+    { path:"/solutions/cryptocurrency-investigations-and-regulatory-compliance" , name: "Cryptocurrency"  },
+    { path:"/solutions/digital-goods" , name: "Digital"  },
+    { path:"/solutions/corporate-services" , name: "Business" },
+    { path:"/my-account" , name: "My Account" },
+    { path:"/my-account/lost-password" , name: "Lost Password"}, 
+    ...digital_loop,
+    ...category_loop
+    ];
 
 function App(props: any) {
     const [ Modal , setModal ] = useState(false)
@@ -114,7 +170,7 @@ function App(props: any) {
         window.removeEventListener('resize', handleResize);
       };
     }, []);
-    const {pathname, click} = props
+    const {pathname} = props
     const color =  pathname ? "#fff" : "#fff"
     const icon = logo
     // pathname ? 'https://tandhconsult.com/wp-content/uploads/2021/05/logo-black.png' : 'https://tandhconsult.com/wp-content/uploads/2021/05/logo.png'
@@ -186,27 +242,26 @@ function App(props: any) {
     
     const debouncedLog = debounce(handleToggleModal, 500);
 
-    // const [searchTerm, setSearchTerm] = useState("");
+    const [searchTerm, setSearchTerm] = useState("");
 
-    // // Helper function to extract text content from a component
-    // const extractTextContent = (component: any) => {
-    //   const htmlString = ReactDOMServer.renderToStaticMarkup(component);
-    //   return htmlString.replace(/<\/?[^>]+(>|$)/g, ""); // Strip HTML tags
-    // };
+    // Helper function to extract text content from a component
+    const extractTextContent = (component: any) => {
+      const htmlString = ReactDOMServer.renderToStaticMarkup(component);
+      return htmlString.replace(/<\/?[^>]+(>|$)/g, ""); // Strip HTML tags
+    };
   
-    // // Filter routes based on search term
-    // const filteredRoutes = routes.filter((route: any) => {
-    //   const textContent = extractTextContent(route.component);
-    //   return (
-    //     route.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    //     route.path.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    //     textContent.toLowerCase().includes(searchTerm.toLowerCase())
-    //   );
-    // });
-
+    // Filter routes based on search term
+    const filteredRoutes = routes.filter((route: any) => {
+      const textContent = extractTextContent(route.component);
+      return (
+        route.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        route.path.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        textContent.toLowerCase().includes(searchTerm.toLowerCase())
+      );
+    });
+    console.log(filteredRoutes, 'filteredRoutes')
   return (
     <>
-    {/* { searchTerm !== "" && filteredRoutes.map(data => {return(<> <a href={data.path}><span>{data.name}</span></a><br/></>)})} */}
     <div className={styles.heading}>
         <div className={styles.header_part}>
             <div className={styles.header_row}>
@@ -259,8 +314,15 @@ function App(props: any) {
                         {/* {<div className='dropdown'>sss</div>} */}
                         <div className={classNames(`${styles.controls} wow animate__animated animate__fadeInRight`)}>
                             <div ref={modalRef} style={{display:'contents'}}>
-                                { isModalOpen && ""
-                                // <div className={styles.modal_input} ><input type="text" placeholder="Search components or text..."  className={styles.search_input} /></div>
+                                { isModalOpen && 
+                                <div className={styles.modal_input}>
+                                    <input type="text" placeholder="Search components or text..." onChange={(e)=>setSearchTerm(e.target.value)}  className={styles.search_input} />
+                                    { searchTerm !== "" &&
+                                        <div className={styles.classList}>
+                                            {filteredRoutes.map((data: any) => {return(<> <p style={{width:"max-content", cursor:"pointer"}} onClick={()=>{window.location.pathname = data.path}}>{data.name}</p></>)})}
+                                        </div>
+                                    }
+                                </div>
                                 }
                                 <a  style={{width: "1.2rem", cursor:'pointer', zIndex: '2'}} onClick={() => {debouncedLog()}}  >
                                     <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M15.7955 15.8111L21 21M18 10.5C18 14.6421 14.6421 18 10.5 18C6.35786 18 3 14.6421 3 10.5C3 6.35786 6.35786 3 10.5 3C14.6421 3 18 6.35786 18 10.5Z" stroke={color} strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path> </g></svg>
@@ -276,9 +338,9 @@ function App(props: any) {
                             </a>
                             <span className={styles.txtlogin} style={{color:`${color}`, cursor: 'pointer'}} onClick={() => {window.location.pathname = '/my-account'}} >Register</span>
                         </div>
-                        <a onClick={click} className={classNames(`${styles.btn_quote} wow animate__animated animate__fadeInRight`)}>
+                        {/* <a onClick={click} className={classNames(`${styles.btn_quote} wow animate__animated animate__fadeInRight`)}>
                                 GET A QUOTE
-                        </a>
+                        </a> */}
                     </div>
                     <header className={styles.App_header}>
                         <ul className="wow animate__animated animate__fadeInDown">

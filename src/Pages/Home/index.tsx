@@ -64,7 +64,7 @@ const index = () => {
             <h2 className={classNames(`${styles.title_about} wow  animate__fadeInLeft animate__animated`)}><span>About us</span></h2>
             <div className={styles.about_wrapper}>
               <picture className={classNames(`${styles.about_pic} wow  animate__zoomIn animate__animated`)}>
-                <img src="/img/about_us.jpg" alt="about us" />
+                <img src={`${import.meta.env.VITE_REDIRECT}/img/about_us.jpg`} alt="about us" />
               </picture>
               <div className={classNames(`${styles.about_content} wow  animate__fadeInRight animate__animated`)}>
                 <h3 className={styles.about_subtitle}> <span>Thorough Blockchain Investigations</span> </h3>
@@ -96,7 +96,7 @@ const index = () => {
         </section>
         <section className={styles.banner_digital}>
           <picture className={styles.digital_bg}>
-            <img src="/img/digital.jpg" alt="digital_bg" />
+            <img src={`${import.meta.env.VITE_REDIRECT}/img/digital.jpg`} alt="digital_bg" />
           </picture>
           <div className={styles.container}>
             <h2 className={classNames(`${styles.digital_title} wow  animate__fadeInUp animate__animated`)}>It's challenging to capture everything Greyzone Consulting represents in just one statement, but here are a few key highlights.</h2>
@@ -145,27 +145,27 @@ const index = () => {
             <div className={styles.solution_wrapper}>
               <div className={styles.card}>
                 <div className={classNames(styles.design, ' wow  animate__fadeInLeft animate__animated')}/>
-                <ImageBox image="/img/we_can_help.jpg" href={`/blog/${edit('The Crucial Role of Expert Support When Dealing with Banks in Fraud Cases')}/`} style={{minHeight: '315px', height: '20rem', borderRadius: '3rem', boxShadow: '6px 8px 10px #888888'}} name="The Crucial Role of Expert Support When Dealing with Banks in Fraud Cases" size="100%"></ImageBox>
+                <ImageBox image={`${import.meta.env.VITE_REDIRECT}/img/we_can_help.jpg`} href={`/blog/${edit('The Crucial Role of Expert Support When Dealing with Banks in Fraud Cases')}/`} style={{minHeight: '315px', height: '20rem', borderRadius: '3rem', boxShadow: '6px 8px 10px #888888'}} name="The Crucial Role of Expert Support When Dealing with Banks in Fraud Cases" size="100%"></ImageBox>
               </div>  
               <div className={styles.card}>
                 <div className={classNames(styles.design, ' wow  animate__fadeInLeft animate__animated')}/>
-                <ImageBox image="/img/ticket_scam.jpg" href={`/blog/${edit('Understanding Common Ticket Scams Essential Tips for Protection')}/`} style={{minHeight: '315px', height: '20rem', borderRadius: '3rem', boxShadow: '6px 8px 10px #888888'}} name="Understanding Common Ticket Scams: Essential Tips for Protection" size="100%"></ImageBox>
+                <ImageBox image={`${import.meta.env.VITE_REDIRECT}/img/ticket_scam.jpg`} href={`/blog/${edit('Understanding Common Ticket Scams Essential Tips for Protection')}/`} style={{minHeight: '315px', height: '20rem', borderRadius: '3rem', boxShadow: '6px 8px 10px #888888'}} name="Understanding Common Ticket Scams: Essential Tips for Protection" size="100%"></ImageBox>
               </div>
               <div className={styles.card}>
                 <div className={classNames(styles.design, ' wow  animate__fadeInLeft animate__animated')}/>
-                <ImageBox image="/img/business_identity_theft.jpg" href={`/blog/${edit('Identifying and Handling Business Identity Theft What You Should Know')}/`} style={{minHeight: '315px', height: '20rem', borderRadius: '3rem', boxShadow: '6px 8px 10px #888888'}} name="Identifying and Handling Business Identity Theft: What You Should Know" size="100%"></ImageBox>
+                <ImageBox image={`${import.meta.env.VITE_REDIRECT}/img/business_identity_theft.jpg`} href={`/blog/${edit('Identifying and Handling Business Identity Theft What You Should Know')}/`} style={{minHeight: '315px', height: '20rem', borderRadius: '3rem', boxShadow: '6px 8px 10px #888888'}} name="Identifying and Handling Business Identity Theft: What You Should Know" size="100%"></ImageBox>
               </div>
               <div className={styles.card}>
                 <div className={classNames(styles.design, ' wow  animate__fadeInLeft animate__animated')}/>
-                <ImageBox image="/img/report_scam_norway.jpg" href={`/blog/${edit('A Guide to Reporting Scams in Norway')}/`} style={{minHeight: '315px', height: '20rem', borderRadius: '3rem', boxShadow: '6px 8px 10px #888888'}} name="A Guide to Reporting Scams in Norway" size="100%"></ImageBox>
+                <ImageBox image={`${import.meta.env.VITE_REDIRECT}/img/report_scam_norway.jpg`} href={`/blog/${edit('A Guide to Reporting Scams in Norway')}/`} style={{minHeight: '315px', height: '20rem', borderRadius: '3rem', boxShadow: '6px 8px 10px #888888'}} name="A Guide to Reporting Scams in Norway" size="100%"></ImageBox>
               </div>
               <div className={styles.card}>
                 <div className={classNames(styles.design, ' wow  animate__fadeInLeft animate__animated')}/>
-                <ImageBox image="/img/report_scam_spain.jpg" href={`/blog/${edit('A Guide to Reporting Scams in Spain')}/`} style={{minHeight: '315px', height: '20rem', borderRadius: '3rem', boxShadow: '6px 8px 10px #888888'}} name="A Guide to Reporting Scams in Spain" size="100%"></ImageBox>
+                <ImageBox image={`${import.meta.env.VITE_REDIRECT}/img/report_scam_spain.jpg`} href={`/blog/${edit('A Guide to Reporting Scams in Spain')}/`} style={{minHeight: '315px', height: '20rem', borderRadius: '3rem', boxShadow: '6px 8px 10px #888888'}} name="A Guide to Reporting Scams in Spain" size="100%"></ImageBox>
               </div>
               <div className={styles.card}>
                 <div className={classNames(styles.design, ' wow  animate__fadeInLeft animate__animated')}/>  
-                <ImageBox image="/img/fake_job_scam.jpg" href={`/blog/${edit('Beware of Task Completion and Fake Job Scams How to Protect Yourself from Online Fraud')}/`} style={{minHeight: '315px', height: '20rem', borderRadius: '3rem', boxShadow: '6px 8px 10px #888888'}} name="Beware of Task Completion and Fake Job Scams: How to Protect Yourself from Online Fraud" size="100%"></ImageBox>
+                <ImageBox image={`${import.meta.env.VITE_REDIRECT}/img/fake_job_scam.jpg`} href={`/blog/${edit('Beware of Task Completion and Fake Job Scams How to Protect Yourself from Online Fraud')}/`} style={{minHeight: '315px', height: '20rem', borderRadius: '3rem', boxShadow: '6px 8px 10px #888888'}} name="Beware of Task Completion and Fake Job Scams: How to Protect Yourself from Online Fraud" size="100%"></ImageBox>
               </div>
             </div>
           </div>

@@ -29,7 +29,7 @@ const index = () => {
                     href="/solutions/digital-goods/10-indicators-of-a-love-scam-a-comprehensive-checklist"
                 >
                     <picture className="dispute__pic">
-                    <img src="/img/indicators.jpg" alt="" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/indicators.jpg`} alt="indicators" />
                     </picture>
                     <span className="dispute__name">10 Indicators Of A Love Scam: A Comprehensive Checklist</span>
                     <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
@@ -41,7 +41,7 @@ const index = () => {
                     href="/solutions/digital-goods/online-fraud-protection-a-practical-guide"
                 >
                     <picture className="dispute__pic">
-                    <img src="/img/online_fraud.jpg" alt="" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/online_fraud.jpg`} alt="online_fraud" />
                     </picture>
                     <span className="dispute__name">Online Fraud Protection: A Practical Guide</span>
                     <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
@@ -53,7 +53,7 @@ const index = () => {
                     href="/solutions/digital-goods/printable-fraud-awareness-workbook-with-exercises"
                 >
                     <picture className="dispute__pic">
-                    <img src="/img/printable.jpg" alt="" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/printable.jpg`} alt="printable" />
                     </picture>
                     <span className="dispute__name">Printable Fraud Awareness Workbook with Exercises</span>
                     <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
@@ -65,7 +65,7 @@ const index = () => {
                     href="/solutions/digital-goods/fraud-awareness-masterclass-with-detailed-presentation"
                 >
                     <picture className="dispute__pic">
-                    <img src="/img/masterclass.jpg" alt="" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/masterclass.jpg`} alt="masterclass" />
                     </picture>
                     <span className="dispute__name">Fraud Awareness Masterclass with Detailed Presentation</span>
                     <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>

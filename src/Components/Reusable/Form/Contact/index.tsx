@@ -13,20 +13,24 @@ const index = () => {
   const [phone,setphone] = useState('')
   const [selectOption, setSelectOption] = useState('');  
  
-    const UseCallback = useCallback(debounce((form_value:any, keys: any, event: any) =>{
+  const UseCallback = useCallback(debounce((form_value:any, keys: any, event: any) =>{
       formApi('google-api-create-row', form_value).then(res => {
-        setload(true)
-        if(res.response){
-          toast.success(res.response)
-          keys.map((data: any) => event[`${data}`].value = '');
-          setphone('');  
-          setSelectOption('')
+        console.log('res', res)
+        if(res){
+          setload(true)
+          if(res.response){
+            toast.success(res.response)
+            keys.map((data: any) => event[`${data}`].value = '');
+            setphone('');  
+            setSelectOption('')
+          }else{
+            toast.error(res.errors)
+          }
         }else{
-          toast.error(res.errors)
+          toast.error('Something Went Wrong')
         }
-      }
-
-    )}, 300),[])
+      })
+  }, 300),[])
   
   const form = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault()
@@ -36,7 +40,6 @@ const index = () => {
           const keys = Object.keys(object)
           // console.log(keys.map(data => event.currentTarget[`${data}`].value = ''))
           setload(false)
-          console.log(event.currentTarget, 'event')
           const form_value: any = {...object,   "country": "USA",  "accept_privacy": reF.current?.checked ? 1 : 0}
           UseCallback(form_value, keys, event.currentTarget)
       }

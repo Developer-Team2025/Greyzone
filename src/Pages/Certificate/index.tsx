@@ -3,62 +3,62 @@ import styles from './style.module.scss'
 import classNames from "classnames";
 const certificates = [
   {
-    "src": "/img/certificate/benjamin.jpg",
+    "src": `${import.meta.env.VITE_REDIRECT}/img/certificate/benjamin.jpg`,
     "alt": "benjamin",
     "caption": ""
   },
   {
-    "src": "/img/certificate/benjamin_acad.jpg",
+    "src": `${import.meta.env.VITE_REDIRECT}/img/certificate/benjamin_acad.jpg`,
     "alt": "benjamin_acad",
     "caption": ""
   },
   {
-    "src": "/img/certificate/Amanda_acad.jpg",
+    "src": `${import.meta.env.VITE_REDIRECT}/img/certificate/Amanda_acad.jpg`,
     "alt": "Amanda",
     "caption": ""
   },
   {
-    "src": "/img/certificate/Amanda_inves.jpg",
+    "src": `${import.meta.env.VITE_REDIRECT}/img/certificate/Amanda_inves.jpg`,
     "alt": "Amanda_inves",
     "caption": ""
   },
   {
-    "src": "/img/certificate/Gabriella.jpg",
+    "src": `${import.meta.env.VITE_REDIRECT}/img/certificate/Gabriella.jpg`,
     "alt": "Gabriella",
     "caption": ""
   },
   {
-    "src": "/img/certificate/jasmine_valentine.jpg",
+    "src": `${import.meta.env.VITE_REDIRECT}/img/certificate/jasmine_valentine.jpg`,
     "alt": "Jasmine",
     "caption": ""
   },
   {
-    "src": "/img/certificate/Jessica.jpg",
+    "src": `${import.meta.env.VITE_REDIRECT}/img/certificate/Jessica.jpg`,
     "alt": "Jessica",
     "caption": ""
   },
   {
-    "src": "/img/certificate/John.jpg",
+    "src": `${import.meta.env.VITE_REDIRECT}/img/certificate/John.jpg`,
     "alt": "John",
     "caption": ""
   },
   {
-    "src": "/img/certificate/Jon.jpg",
+    "src": `${import.meta.env.VITE_REDIRECT}/img/certificate/Jon.jpg`,
     "alt": "jon",
     "caption": ""
   },	
   {
-    "src": "/img/certificate/Joseph.jpg",
+    "src": `${import.meta.env.VITE_REDIRECT}/img/certificate/Joseph.jpg`,
     "alt": "Joseph",
     "caption": ""
   },
   {
-    "src": "/img/certificate/Phoebe.jpg",
+    "src": `${import.meta.env.VITE_REDIRECT}/img/certificate/Phoebe.jpg`,
     "alt": "Phoebe",
     "caption": ""
   },
   {
-    "src": "/img/certificate/Richard.jpg",
+    "src": `${import.meta.env.VITE_REDIRECT}/img/certificate/Richard.jpg`,
     "alt": "Richard",
     "caption": ""
   }

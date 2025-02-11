@@ -1,17 +1,22 @@
 // var local = 'http://localhost:5001'
-var production = 'https://nodejs-google.vercel.app'
+var production = 'https://scarlettelove.com/api/'
 
 export const api = async(url: any, body: any) =>{
-    const response = await fetch(`${production}/scarlettelove/${url}`,{
-        method:"POST",
-        headers: {
-            'Content-Type': 'application/json', // Make sure the server knows it's JSON
-        },
-        body:JSON.stringify(body)
-    })
-        const json = await response.json()
-        const status = json
-    return status
+    try{
+        const response = await fetch(`${production}/scarlettelove/${url}`,{
+            method:"POST",
+            headers: {
+                'Content-Type': 'application/json', // Make sure the server knows it's JSON
+            },
+            body:JSON.stringify(body)
+        })
+            const json = await response.json()
+            const status = json
+        return status
+    }catch(e){
+        const err = {errors: "Something went wrong"}
+        return err
+    }
 }
 
 export const formApi = (url: any, body: any) =>{

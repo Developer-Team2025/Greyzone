@@ -1,7 +1,7 @@
 
 import styles from './style.module.scss'
 import classNames from 'classnames'
-import Button from '../../Components/Reusable/Buttons/index'
+// import Button from '../../Components/Reusable/Buttons/index'
 import Carousel from '../../Components/Reusable/Swiper'
 import Consult from '../../Components/Reusable/Form/Consult/index'
 const index = () => {
@@ -9,7 +9,7 @@ const index = () => {
     <>
         <section className={styles.overlay}>
             <picture className={classNames(`${styles.overlay_bg} wow animate__animated animate__fadeIn`)}>
-                <img src="	https://tandhconsult.com/wp-content/uploads/2021/07/sam-moqadam-pdovqfpz4z8-unsplash-1-scaled.jpg" alt="overlay" />
+                <img src={`${import.meta.env.VITE_REDIRECT}/img/about-us.jpg`} alt="overlay" />
             </picture>
             <div className={styles.container}>
                 <h1 className={classNames(`${styles.overlay_title} wow animate__animated animate__fadeInUp`)}>About Us</h1>
@@ -21,25 +21,25 @@ const index = () => {
                     <div className={classNames(`${styles.abt_sidebar} wow animate__animated animate__fadeInUp`)}>
                         <ul className={styles.abit_sidebar_list}>
                             <li className={styles.abt_sidebar_item }>
-                                <a href="">
+                                <a href="/terms-and-conditions">
                                 Terms and Conditions
                                 <i className={styles.arrow_right_icon}></i>
                                 </a>
                             </li>
                             <li className={styles.abt_sidebar_item }>
-                                <a href="">
+                                <a href="/privacy-policy">
                                     Privacy and Policy
                                     <i className={styles.arrow_right_icon}></i>
                                 </a>
                             </li>
                             <li className={styles.abt_sidebar_item }>
-                                <a href="">
+                                <a href="/our-team">
                                     Our Team
                                     <i className={styles.arrow_right_icon}></i>
                                 </a>
                             </li>
                             <li className={styles.abt_sidebar_item }>
-                                <a href="">
+                                <a href="/our-certificates">
                                     Certificates
                                     <i className={styles.arrow_right_icon}></i>
                                 </a>
@@ -99,36 +99,12 @@ const index = () => {
                                 </div>
                             </div>
                             <div className={classNames(`${styles.outer} wow animate_animated animate__fadeInUp`)} >
-                            <div className={classNames(`${styles.abt_app} wow animate_animated animate__fadeInUp`)}>
-                                <h3 className={styles.abt_app_title}><span>Interested in getting to know more about us?</span></h3>
-                                <span className={styles.abt_app_text}>Consulting is more than giving advice. Here you can find out more about our company, approach to work and certificates.</span>
-                                <div className={classNames(styles.abt_app_row, 'gap-[.8rem]')}>
-                                    <Button direct='https://tandhconsult.com/wp-content/uploads/2022/01/th-consulting_b2b-services.pdf' 
-                                    style={{    
-                                    fontSize:" 14px",
-                                    fontWeight:" bold",
-                                    lineHeight:" 1.4",
-                                    overflow:" hidden",
-                                    minHeight:" 60px",
-                                    padding:" 15px 30px",
-                                    transition:" background-position .5s ease",
-                                    textAlign: "center",
-                                    color:" #fff",
-                                    borderRadius:" 5px",
-                                    background:" linear-gradient(to right, #32509d, #6faadb, #32509d)",
-                                    textTransform: "uppercase",
-                                    backgroundSize:" 300% 100%",
-                                    position:"relative",
-                                    display:" inline-flex",
-                                    outlineWidth:"0",
-                                    alignItems:"center",
-                                    }}
-                                    element=""
-                                    >
-                                        <span>Download our Company Presentation</span>
-                                    </Button>
-                                    <Button direct='/our-certificates'
-                                    style={{    
+                                {/* <div className={classNames(`${styles.abt_app} wow animate_animated animate__fadeInUp`)}>
+                                    <h3 className={styles.abt_app_title}><span>Interested in getting to know more about us?</span></h3>
+                                    <span className={styles.abt_app_text}>Consulting is more than giving advice. Here you can find out more about our company, approach to work and certificates.</span>
+                                    <div className={classNames(styles.abt_app_row, 'gap-[.8rem]')}>
+                                        <Button direct='https://tandhconsult.com/wp-content/uploads/2022/01/th-consulting_b2b-services.pdf' 
+                                        style={{    
                                         fontSize:" 14px",
                                         fontWeight:" bold",
                                         lineHeight:" 1.4",
@@ -140,19 +116,43 @@ const index = () => {
                                         color:" #fff",
                                         borderRadius:" 5px",
                                         background:" linear-gradient(to right, #32509d, #6faadb, #32509d)",
+                                        textTransform: "uppercase",
                                         backgroundSize:" 300% 100%",
                                         position:"relative",
                                         display:" inline-flex",
                                         outlineWidth:"0",
-                                        textTransform: "uppercase",
                                         alignItems:"center",
                                         }}
                                         element=""
-                                    >
-                                        <span>Check out our certificates</span>
-                                    </Button>
-                                </div>
-                            </div>
+                                        >
+                                            <span>Download our Company Presentation</span>
+                                        </Button>
+                                        <Button direct='/our-certificates'
+                                        style={{    
+                                            fontSize:" 14px",
+                                            fontWeight:" bold",
+                                            lineHeight:" 1.4",
+                                            overflow:" hidden",
+                                            minHeight:" 60px",
+                                            padding:" 15px 30px",
+                                            transition:" background-position .5s ease",
+                                            textAlign: "center",
+                                            color:" #fff",
+                                            borderRadius:" 5px",
+                                            background:" linear-gradient(to right, #32509d, #6faadb, #32509d)",
+                                            backgroundSize:" 300% 100%",
+                                            position:"relative",
+                                            display:" inline-flex",
+                                            outlineWidth:"0",
+                                            textTransform: "uppercase",
+                                            alignItems:"center",
+                                            }}
+                                            element=""
+                                        >
+                                            <span>Check out our certificates</span>
+                                        </Button>
+                                    </div>
+                                </div> */}
                             </div>
                         </article>
                         <Carousel></Carousel>

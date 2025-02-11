@@ -24,12 +24,12 @@ const index = () => {
               <span className={styles.contacts__subinfo}>Here are all the ways you can contact Greyzone consulting:</span>
               <div className={styles.contacts__line}>
                 <div className={styles.contacts__col}>
-                  <div className={classNames(styles.contacts__item, styles.contact__item__tel)}>
+                  {/* <div className={classNames(styles.contacts__item, styles.contact__item__tel)}>
                     <div className={styles.contacts__item__icon}><i className={styles.i_phone_call}></i></div>
                     <div className={styles.contacts__item__content}>
                       <p><em>Phone: </em><a href="tel:+3619010272">+3619010272</a></p>
                     </div>
-                  </div>
+                  </div> */}
                   <div className={styles.contacts__item}>
                     <div className={styles.contacts__item__icon}><i className={styles.i_email}></i></div>
                     <div className={styles.contacts__item__content}>
@@ -56,13 +56,13 @@ const index = () => {
                   <p>Saturday: Only by appointment.<br/>Sunday: Closed.</p>
                 </div>
               </div>
-              <div className={styles.footer_soc} >
+              {/* <div className={styles.footer_soc} >
                 <a href="" className={styles.footer_socItem}><i className={styles.linkedIn_Icon}></i></a>
                 <a href="" className={styles.footer_socItem}><i className={styles.insta_Icon}></i></a>
                 <a href="" className={styles.footer_socItem}><i className={styles.facebook_Icon}></i></a>
                 <a href="" className={styles.footer_socItem}><i className={styles.telegram_Icon}></i></a>
                 <a href="" className={styles.footer_socItem}><i className={styles.viber_Icon}></i></a>
-              </div>
+              </div> */}
               <div className={styles.contacts__from}>
                 <div className={styles.contacts__from_item}>
                   <p>For technical support, and other questions: support@greyzone.com</p>

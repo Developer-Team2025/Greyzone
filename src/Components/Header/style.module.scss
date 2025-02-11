@@ -422,6 +422,26 @@
                     height: 100%;
                     border-radius: 1rem;
                 }
+                .classList{
+                    position: absolute;
+                    top: 3rem;
+                    width: 13rem;
+                    background: #fff;
+                    left: -3rem;
+                    max-height: 18rem;
+                    /* display: flex; */
+                    /* align-items: center; */
+                    // justify-content: center;
+                    // flex-direction: column;
+                    overflow-y: scroll;
+                    text-align: center;
+                    border: solid .2rem #fff;
+                    padding: .5rem;
+                    border-radius: 1rem;
+                    &::-webkit-scrollbar{
+                        display: none;
+                    }
+                }
             
             }
             .header__controlls_separate {

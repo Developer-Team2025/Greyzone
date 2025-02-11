@@ -37,7 +37,7 @@ const Index = () => {
                     <picture className={styles.blogs__pic}>
                       <a >
                         <img
-                          src={data.img}
+                          src={`${data.img}`}
                           alt="data"
                         />
                       </a>

@@ -51,7 +51,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src="/img/we_can_help.jpg" alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/we_can_help.jpg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
 
@@ -99,7 +99,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src="/img/ticket_scam.jpg" alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/ticket_scam.jpg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -144,7 +144,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src="/img/business_identity_theft.jpg" alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/business_identity_theft.jpg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -387,7 +387,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src="/img/report_scam_norway.jpg" alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/report_scam_norway.jpg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -488,7 +488,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src="/img/report_scam_spain.jpg" alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/report_scam_spain.jpg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -579,7 +579,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src="/img/fake_job_scam.jpg" alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/fake_job_scam.jpg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>

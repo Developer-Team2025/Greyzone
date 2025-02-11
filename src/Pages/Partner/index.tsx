@@ -205,7 +205,7 @@ const index = () => {
         </div>
       </div>
     </section>
-    <section className={styles.call} id="call">
+    {/* <section className={styles.call} id="call">
       <div className={styles.container}>
         <div className={classNames(styles.callRow, 'wow', 'animate__fadeIn')}>
           <div className={classNames(styles.callCol, styles.callColTitle)}>
@@ -246,7 +246,7 @@ const index = () => {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
     </>
   )
 }

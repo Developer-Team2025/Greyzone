@@ -34,35 +34,35 @@ const index = () => {
                     delay: "0.1s",
                     href: "/solutions/research-and-dispute-resolution/comprehensive-due-diligence-solutions/",
                     imgSrc:
-                    "/img/due_diligence.jpg",
+                    `${import.meta.env.VITE_REDIRECT}/img/due_diligence.jpg`,
                     name: "Comprehensive Due Diligence Solutions",
                 },
                 {
                     delay: "0.2s",
                     href: "/solutions/research-and-dispute-resolution/premium-dispute-settlement-package/",
                     imgSrc:
-                    "/img/premium_dispute.jpg",
+                    `${import.meta.env.VITE_REDIRECT}/img/premium_dispute.jpg`,
                     name: "Premium Dispute Settlement Package",
                 },
                 {
                     delay: "0.3s",
                     href: "/solutions/research-and-dispute-resolution/optimal-dispute-settlement-package/",
                     imgSrc:
-                    "/img/optimal_dispute.jpg",
+                    `${import.meta.env.VITE_REDIRECT}/img/optimal_dispute.jpg`,
                     name: "Optimal Dispute Settlement Package",
                 },
                 {
                     delay: "0.4s",
                     href: "/solutions/research-and-dispute-resolution/special-dispute-settlement-package/",
                     imgSrc:
-                    "/img/special_dispute.jpg",
+                    `${import.meta.env.VITE_REDIRECT}/img/special_dispute.jpg`,
                     name: "Special Dispute Settlement Package",
                 },
                 {
                     delay: "0.5s",
                     href: "/solutions/research-and-dispute-resolution/basic-dispute-settlement-package/",
                     imgSrc:
-                    "/img/basic_dispute.jpg",
+                    `${import.meta.env.VITE_REDIRECT}/img/basic_dispute.jpg`,
                     name: "Basic Dispute Settlement Package",
                 },
                 ].map((item, idx) => (
