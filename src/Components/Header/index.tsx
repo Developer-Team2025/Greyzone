@@ -282,9 +282,9 @@ function App(props: any) {
                     </div>
                     <header className={styles.App_header}>
                         <ul className="wow animate__animated animate__fadeInDown">
-                            <li  className={styles.nav_header}>
+                            {/* <li  className={styles.nav_header}>
                                 <a className={styles.page} style={{color: `${ filter === 'home' ? '#012555' : color}`}} href="/" >Home</a>
-                            </li>
+                            </li> */}
                             <li  className={ classNames(`${styles.nav_header} ${ color === "#fff"? styles.arrow : styles.arrow} ${styles.down}`)}>
                                 <a className={styles.page} style={{color: `${filter === 'about us' ? '#012555' :color}`}} href="/about-us"  >About Us</a>
                                 <ul className={classNames(`absolute left-0 w-[14.5rem] left-[-5rem] top-[1.5rem] h-[auto] mt-2 bg-white border border-gray-300 rounded-md shadow-lg z-10 `, styles.hover)}>
