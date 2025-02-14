@@ -172,8 +172,8 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
-                        `}
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+              `}
             </style>
             <section className="card" id="card">
               <div className="container">

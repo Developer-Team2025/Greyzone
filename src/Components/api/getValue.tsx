@@ -1,9 +1,9 @@
 // var local = 'http://localhost:5001'
-var production = 'https://scarlettelove.com/api/'
+var production = 'https://scarlettelove.com/api'
 
 export const api = async(url: any, body: any) =>{
     try{
-        const response = await fetch(`${production}/scarlettelove/${url}`,{
+        const response = await fetch(`${production}/${url}`,{
             method:"POST",
             headers: {
                 'Content-Type': 'application/json', // Make sure the server knows it's JSON

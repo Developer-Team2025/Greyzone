@@ -3,32 +3,42 @@ import classNames from 'classnames'
 import styles from './style.module.scss'
 import Input from '../../Inputs/index'
 import Button from '../../Buttons/index'
-import React, { useCallback, useEffect, useState } from 'react'
+import React, { useCallback, useContext, useEffect, useRef, useState } from 'react'
 import {formApi} from '../../../api/getValue'
 import toast from 'react-hot-toast';
 import {debounce} from '../../Addition/index'
+import { ThemeContext } from '../../../../App'
 const index = () => {
     const today = new Date()
+      const reF = useRef<HTMLInputElement | null>(null)
     const [phone,setphone] = useState('')
     const [load, setload] = useState(true)
-    const [selectOption, setSelectOption] = useState('');     
+    const [selectOption, setSelectOption] = useState(''); 
+    const themeContext = useContext(ThemeContext)    
     useEffect(() => {
-        console.log("Parent re-rendered! selectOption:", selectOption);
-    }, [selectOption]);
-    const UseCallback = useCallback(debounce((form_value:any) =>{
-        formApi('google-api-create-row', form_value).then(res => {
-            console.log(res, 'res')
-            if(res){
-                res.response ? toast.success(res.response) : toast.error(res.errors),setTimeout(() =>{res.response && setload(false)},300 )                
-            }else{
-                console.log('err')
-            }
 
-        
+    }, [selectOption]);
+    const UseCallback = useCallback(debounce((form_value:any, keys: any, event: any) =>{
+        formApi('google-api-create-row', form_value).then(res => {
+          if(res){
+            setload(true)
+            if(res.response){
+              toast.success(res.response)
+              keys.map((data: any) => event[`${data}`].value = '');
+              // setModal(true)
+              reF.current &&(reF.current.checked = false)
+              themeContext?.toggleTheme("Congrats")
+              themeContext?.Animate(true)
+              setphone('');  
+              setSelectOption('')
+            }else{
+              toast.error(res.errors)
+            }
+          }else{
+            toast.error('Something Went Wrong')
+          }
         })
-        
     }, 300),[])
-    
     const form = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault()
         const target = new FormData(event.currentTarget)
@@ -39,9 +49,8 @@ const index = () => {
                 const object = Object.fromEntries(target.entries())
                 const keys = Object.keys(object)
                 // console.log(keys.map(data => event.currentTarget[`${data}`].value = ''))
-                load && keys.map(data => event.currentTarget[`${data}`].value = '') && setphone(''), setSelectOption('')
-                const form_value: any = {...object,   "country": "USA",  "accept_privacy": 1}
-                UseCallback(form_value)
+                const form_value: any = {...object,   "country": "USA",  "accept_privacy": reF.current?.checked ? 1 : 0}
+                UseCallback(form_value, keys, event.currentTarget)
             }
         }
     }
@@ -71,7 +80,10 @@ const index = () => {
                                     <Input classess='w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none h-32' placeholder='How we can help you? Please provide as much details as possible ' name="description" type="textarea"  />
                                     
                                     <div className="p-4"></div>
-                                    <span className={styles.privacy}>I accept Privacy Policy</span>
+                                    <div className='flex gap-[.5rem] items-center'>
+                                        <input type="checkbox" id='checkbox' name='checkbox' ref={reF}/>
+                                        <span className={styles.privacy} onClick={()=>{window.location.pathname = '/privacy-policy'}}>I accept Privacy Policy</span>
+                                    </div>
                                     <Button element='input' text={load ? 'Submit': '...Loading'}/>
                                 </form>
                             </div>

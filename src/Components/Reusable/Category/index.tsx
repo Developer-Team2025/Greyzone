@@ -18,7 +18,7 @@ const index = () => {
          'how-to-file-a-scam-report-in-qatar',
          'a-complete-guide-to-reporting-scams-in-france',
          'reporting-scams-in-canada-what-you-need-to-know',
-         'exposing-cryptocurrency-fraud-case-studies-by-th-consulting',
+         'exposing-cryptocurrency-fraud-case-studies-by-greyzone-consulting',
          'comprehensive-business-security-your-background-check-guide',
          'fraud-reporting-in-south-africa-a-how-to-guide',
          'understanding-cryptocurrency-investigations-key-insights',
@@ -1017,7 +1017,7 @@ const index = () => {
                         </>
                     }
                     {
-                        id === 'exposing-cryptocurrency-fraud-case-studies-by-th-consulting' &&
+                        id === 'exposing-cryptocurrency-fraud-case-studies-by-greyzone-consulting' &&
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft" >

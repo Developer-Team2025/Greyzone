@@ -95,9 +95,9 @@ const index = () => {
                   EU VAT identification number: HU27125508
                 </p>
               </div>
-              <a className={classNames(styles.btn, styles.btn__gradient, styles.contacts__last_btn)} href="#modal-header" data-modal="">
+              {/* <a className={classNames(styles.btn, styles.btn__gradient, styles.contacts__last_btn)} href="#modal-header" data-modal="">
                 <span>Make an appointment</span>
-              </a>
+              </a> */}
             </div>
             <div className={classNames(styles.contact__right,' h-[34rem] overflow-hidden wow animate__animated animate__fadeInUp')}>
               <Map/>

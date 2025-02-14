@@ -88,11 +88,14 @@ const index: React.FC<InputType> = ({type, name, placeholder, option, classess, 
   return (
     <>
     {
-      type === 'text' || type === 'textarea' ? 
+      type === 'text'  ? 
       <input type={type} className={`${classess}`} name={name} placeholder={placeholder} style={{color:"#000"}} />
       :
       type === 'number' ? 
       <input  className={`${classess}`} value={phoneData} name={name}  onChange={handleChange} onKeyDown={handleKeyDown} placeholder={placeholder} style={{color:"#000"}}/> 
+      :
+      type === 'textarea' ?
+      <textarea className={`${classess}`} name={name} placeholder={placeholder} style={{color:"#000"}} />
       :
       <div className="relative w-full">
         <input

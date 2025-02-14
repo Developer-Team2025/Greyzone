@@ -5,39 +5,39 @@
             "desc": "Senior Consultant Cristian Sepulveda, part of the team at Greyzone Consulting, offers valuable guidance on Why You Shouldn't Face Banks Alone and The Importance of Professional...",
             "date": "October 3, 2024",
             "href": "/blog/the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases/",
-            "img": "Frontend/img/we_can_help.jpg",
+            "img": "/img/we_can_help.jpg",
             "content":[
                 {
                     "href": "/blog/understanding-common-ticket-scams-essential-tips-for-protection/",
-                    "img": "Frontend/img/ticket_scam.jpg",
+                    "img": "/img/ticket_scam.jpg",
                     "name": "Understanding Common Ticket Scams: Essential Tips for Protection",
                     "desc": "Senior Consultant Hasan Muhandes, part of the team at Greyzone Consulting, provides professional insight on identifying and avoiding Common Ticket Scams Why Are Ticket Scams Increasing?...",
                     "date": "September 27, 2024"
                 },
                 {
                     "href": "/blog/identifying-and-handling-business-identity-theft-what-you-should-know/",
-                    "img": "Frontend/img/business_identity_theft.jpg",
+                    "img": "/img/business_identity_theft.jpg",
                     "name": "Identifying and Handling Business Identity Theft: What You Should Know",
                     "desc": "Consultant Safoora Savio, part of the team at Greyzone Consulting, shares specialized insights on identifying and avoiding Business Identity Theft Cases Business identity theft is a...",
                     "date": "October 2, 2024"
                 },
                 {
                     "href": "/blog/a-guide-to-reporting-scams-in-norway/",
-                    "img": "Frontend/img/report_scam_norway.jpg",
+                    "img": "/img/report_scam_norway.jpg",
                     "name": "A Guide to Reporting Scams in Norway",
                     "desc": "The Importance of Reporting Scams in Norway Before diving into the specifics, let's set the stage for the importance of knowing how to report a...",
                     "date": "April 22, 2024"
                 },
                 {
                     "href": "/blog/a-guide-to-reporting-scams-in-spain/",
-                    "img": "Frontend/img/report_scam_spain.jpg",
+                    "img": "/img/report_scam_spain.jpg",
                     "name": "A Guide to Reporting Scams in Spain",
                     "desc": "Understanding how to report a scam in Spain is crucial in the digital era where fraud and deception are rampant. This guide will explore the...",
                     "date": ""
                 },
                 {
                     "href": "/blog/beware-of-task-completion-and-fake-job-scams-how-to-protect-yourself-from-online-fraud/",
-                    "img": "Frontend/img/fake_job_scam.jpg",
+                    "img": "/img/fake_job_scam.jpg",
                     "name": "Beware of Task Completion and Fake Job Scams: How to Protect Yourself from Online Fraud",
                     "desc": "La consultora Jennifer Serrano, parte del equipo de Greyzone Consulting, comparte consejos expertos sobre cómo identificar y evitar estafas de empleo falsas. Oportunidades y Peligros...",
                     "date": "April 12, 2024"
@@ -101,7 +101,7 @@
                     "name": "Exposing Cryptocurrency Fraud: Case Studies by Greyzone Consulting",
                     "desc": "Cryptocurrencies have gained significant traction worldwide, and their impact on the market is undeniable. The global cryptocurrency market size reached an impressive USD 4.67 billion...",
                     "date": "August 6, 2023",
-                    "href": "/blog/exposing-cryptocurrency-fraud-case-studies-by-th-consulting/",
+                    "href": "/blog/exposing-cryptocurrency-fraud-case-studies-by-greyzone-consulting/",
                     "img": "https://tandhconsult.com/wp-content/uploads/2023/08/private-detective-sitting-at-desk-2023-08-04-18-43-13-utc-scaled.jpg"
                 },
                 {

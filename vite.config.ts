@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/Frontend/', // Ensure Vite is correctly resolving assets within the /Frontend directory
+  // base: '/Frontend/', // Ensure Vite is correctly resolving assets within the /Frontend directory
   build: {
     outDir: 'dist', // Optional: Define build output directory
     assetsDir: 'assets', // Optional: Directory for static assets
@@ -17,4 +17,5 @@ export default defineConfig({
   define: {
     global: {}, // Polyfill global object for browser compatibility if needed
   },
+
 })

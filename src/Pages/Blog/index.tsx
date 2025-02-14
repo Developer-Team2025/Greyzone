@@ -11,7 +11,6 @@ const Index = () => {
   const handlePageClick = (selectedItem: { selected: number }) => {
     const newPage = selectedItem.selected;
     setPage(newPage)
-    console.log(page)
   };
 
   useEffect(() => {
