@@ -124,7 +124,6 @@ function App() {
     //     setMachineId(result.visitorId);
     //   };
   
-    //   fetchMachineId();
     // }, []);
     const [theme, setTheme] = useState("");
     const [animate, setAnimate] = useState(Boolean);
