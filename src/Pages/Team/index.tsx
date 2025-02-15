@@ -1,22 +1,23 @@
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react';
 import styles from './style.module.scss'
-import classNames from 'classnames';
-import HttpService from '../../Components/api/apiService';
-
-interface OurTeamMembers {
-  fullname: string;
-  job_position: string;
-  profile_img: {
-    file_name: string;
-    file_location: string;
-    full_path_location: string;
-  };
-}
-
-const api = new HttpService('http://localhost:8000/api')
+import classNames from 'classnames'
+import HttpService from '../../Components/api/getValue';
 
 const TeamSection = () => {
+
+  const api = HttpService
+
+  interface OurTeamMembers {
+    fullname: string;
+    job_position: string;
+    profile_img: {
+      file_name: string;
+      file_location: string;
+      full_path_location: string;
+    };
+  }
+
   const [ourTeams, setOurTeams] = useState<OurTeamMembers[]>([]);
 
   useEffect(() => {
@@ -60,7 +61,6 @@ const TeamSection = () => {
                 </h2>
                 <p
                   className={classNames(` ${styles.title2} wow animate__fadeInUp animate__animated`)}
-
                 >
                   {member.job_position}
                 </p>
