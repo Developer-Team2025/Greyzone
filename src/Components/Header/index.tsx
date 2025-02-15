@@ -91,52 +91,119 @@ const content = [
 //     {"id": "due-diligence-services-importance", "name": "The Indispensable Role of Due Diligence Services in Business"},
 //     {"id": "ai-blockchain-digital-surveillance", "name": "AI, Blockchain and Digital Surveillance: A Comprehensive Exploration"},                                       
 //   ]
-// const category = [
-//     {"id": "the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases", "name": "The Crucial Role of Expert Support When Dealing with Banks in Fraud Cases"},
-//     {"id": "understanding-common-ticket-scams-essential-tips-for-protection", "name": "Understanding Common Ticket Scams Essential Tips for Protection"},
-//     {"id": "identifying-and-handling-business-identity-theft-what-you-should-know", "name": "Identifying and Handling Business Identity Theft What You Should Know"},
-//     {"id": "a-guide-to-reporting-scams-in-portugal", "name": "A Guide to Reporting Scams in Portugal"},
-//     {"id": "a-guide-to-reporting-scams-in-norway", "name": "A Guide to Reporting Scams in Norway"},
-//     {"id": "a-guide-to-reporting-scams-in-spain", "name": "A Guide to Reporting Scams in Spain"},
-//     {"id": "beware-of-task-completion-and-fake-job-scams-protect-yourself-from-online-fraud", "name": "Beware of Task Completion and Fake Job Scams: Protect Yourself from Online Fraud"},
-//     {"id": "navigating-scams-on-facebook-marketplace", "name": "Navigating Scams on Facebook Marketplace"},
-//     {"id": "step-by-step-guide-to-reporting-a-scam-in-new-zealand", "name": "Step-by-Step Guide to Reporting a Scam in New Zealand"},
-//     {"id": "how-to-file-a-scam-report-in-qatar", "name": "How to File a Scam Report in Qatar"},
-//     {"id": "a-complete-guide-to-reporting-scams-in-france", "name": "A Complete Guide to Reporting Scams in France"},
-//     {"id": "reporting-scams-in-canada-what-you-need-to-know", "name": "Reporting Scams in Canada: What You Need to Know"},
-//     {"id": "exposing-cryptocurrency-fraud-case-studies-by-th-consulting", "name": "Exposing Cryptocurrency Fraud: Case Studies by T&H Consulting"},
-//     {"id": "comprehensive-business-security-your-background-check-guide", "name": "Comprehensive Business Security: Your Background Check Guide"},
-//     {"id": "fraud-reporting-in-south-africa-a-how-to-guide", "name": "Fraud Reporting in South Africa: A How-To Guide"},
-//     {"id": "understanding-cryptocurrency-investigations-key-insights", "name": "Understanding Cryptocurrency Investigations: Key Insights"},
-//     {"id": "essential-due-diligence-tips-for-small-business-purchases", "name": "Essential Due Diligence Tips for Small Business Purchases"},
-//     {"id": "due-diligence-mastery-a-guide-for-business-buyers", "name": "Due Diligence Mastery: A Guide for Business Buyers"},
-//     {"id": "how-to-effectively-report-fraud-in-germany", "name": "How to Effectively Report Fraud in Germany"},
-//     {"id": "why-due-diligence-services-are-crucial-for-business-success", "name": "Why Due Diligence Services Are Crucial for Business Success"},
-//     {"id": "exploring-ai-blockchain-and-digital-surveillance-in-depth", "name": "Exploring AI, Blockchain, and Digital Surveillance in Depth"}
-// ];
+
 const category = [
-    {"id": "the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases", "name": "The Crucial Role of Expert Support When Dealing with Banks in Fraud Cases", "img": `${import.meta.env.VITE_REDIRECT}/img/we_can_help.jpg`},
-    {"id": "understanding-common-ticket-scams-essential-tips-for-protection", "name": "Understanding Common Ticket Scams Essential Tips for Protection", "img": `${import.meta.env.VITE_REDIRECT}/img/ticket_scam.jpg`},
-    {"id": "identifying-and-handling-business-identity-theft-what-you-should-know", "name": "Identifying and Handling Business Identity Theft What You Should Know", "img": `${import.meta.env.VITE_REDIRECT}/img/business_identity_theft.jpg`},
-    {"id": "a-guide-to-reporting-scams-in-portugal", "name": "A Guide to Reporting Scams in Portugal", "img": "https://tandhconsult.com/wp-content/uploads/2025/01/large.jpg"},
-    {"id": "a-guide-to-reporting-scams-in-norway", "name": "A Guide to Reporting Scams in Norway", "img": `${import.meta.env.VITE_REDIRECT}/img/report_scam_norway.jpg`},
-    {"id": "a-guide-to-reporting-scams-in-spain", "name": "A Guide to Reporting Scams in Spain", "img": `${import.meta.env.VITE_REDIRECT}/img/report_scam_spain.jpg`},
-    {"id": "beware-of-task-completion-and-fake-job-scams-protect-yourself-from-online-fraud", "name": "Beware of Task Completion and Fake Job Scams: Protect Yourself from Online Fraud", "img": `${import.meta.env.VITE_REDIRECT}/img/fake_job_scam.jpg`},
-    {"id": "navigating-scams-on-facebook-marketplace", "name": "Navigating Scams on Facebook Marketplace", "img": "https://tandhconsult.com/wp-content/uploads/2024/03/66b85120-3b5f-46a4-a55d-0acc2ffe3f61.webp"},
-    {"id": "step-by-step-guide-to-reporting-a-scam-in-new-zealand", "name": "Step-by-Step Guide to Reporting a Scam in New Zealand", "img": "https://tandhconsult.com/wp-content/uploads/2023/09/stack-of-coins-money-with-new-zealand-flag-financ-2023-08-01-02-57-26-utc-scaled.jpg"},
-    {"id": "how-to-file-a-scam-report-in-qatar", "name": "How to File a Scam Report in Qatar", "img": "https://tandhconsult.com/wp-content/uploads/2023/09/qatari-flag-flag-of-qatar-national-flag-doha-i-2022-11-11-08-53-33-utc-scaled.jpg"},
-    {"id": "a-complete-guide-to-reporting-scams-in-france", "name": "A Complete Guide to Reporting Scams in France", "img": "https://tandhconsult.com/wp-content/uploads/2023/09/french-flag-hanging-outside-a-beautifully-ornate-b-2022-10-31-21-57-50-utc-scaled.jpg"},
-    {"id": "reporting-scams-in-canada-what-you-need-to-know", "name": "Reporting Scams in Canada: What You Need to Know", "img": "https://tandhconsult.com/wp-content/uploads/2023/09/canada-flag-with-canadian-rocky-mountain-at-the-ba-2022-10-31-23-50-00-utc-scaled.jpg"},
-    {"id": "exposing-cryptocurrency-fraud-case-studies-by-greyzone-consulting", "name": "Exposing Cryptocurrency Fraud: Case Studies by T&H Consulting", "img": "https://tandhconsult.com/wp-content/uploads/2023/08/private-detective-sitting-at-desk-2023-08-04-18-43-13-utc-scaled.jpg"},
-    {"id": "comprehensive-business-security-your-background-check-guide", "name": "Comprehensive Business Security: Your Background Check Guide", "img": "https://tandhconsult.com/wp-content/uploads/2023/08/busy-middle-aged-male-entrepreneur-working-on-comp-2023-07-06-19-52-32-utc-scaled.jpg"},
-    {"id": "fraud-reporting-in-south-africa-a-how-to-guide", "name": "Fraud Reporting in South Africa: A How-To Guide", "img": "https://tandhconsult.com/wp-content/uploads/2023/07/south-african-flag-on-flagpole-against-clear-blue-2022-11-16-15-04-13-utc-scaled.jpg"},
-    {"id": "understanding-cryptocurrency-investigations-key-insights", "name": "Understanding Cryptocurrency Investigations: Key Insights", "img": "https://tandhconsult.com/wp-content/uploads/2023/07/police-investigator-working-on-criminal-case-2023-04-28-17-11-17-utc-scaled.jpg"},
-    {"id": "essential-due-diligence-tips-for-small-business-purchases", "name": "Essential Due Diligence Tips for Small Business Purchases", "img": "https://tandhconsult.com/wp-content/uploads/2023/06/beautiful-asian-woman-celebrate-with-laptop-succe-2023-05-04-18-33-36-utc-scaled.jpg"},
-    {"id": "due-diligence-mastery-a-guide-for-business-buyers", "name": "Due Diligence Mastery: A Guide for Business Buyers", "img": "https://tandhconsult.com/wp-content/uploads/2023/06/krakenimages-376kn_isple-unsplash-scaled.jpg"},
-    {"id": "how-to-effectively-report-fraud-in-germany", "name": "How to Effectively Report Fraud in Germany", "img": "https://tandhconsult.com/wp-content/uploads/2023/06/german-flag-waving-in-front-of-the-building-in-mun-2022-11-14-05-19-37-utc-scaled.jpg"},
-    {"id": "why-due-diligence-services-are-crucial-for-business-success", "name": "Why Due Diligence Services Are Crucial for Business Success", "img": "https://tandhconsult.com/wp-content/uploads/2023/06/professional-investor-standing-office-thinking-inv-2023-05-30-11-29-41-utc-scaled.jpg"},
-    {"id": "exploring-ai-blockchain-and-digital-surveillance-in-depth", "name": "Exploring AI, Blockchain, and Digital Surveillance in Depth", "img": "https://tandhconsult.com/wp-content/uploads/2023/06/879972a0-f8ca-4757-9224-ac2db4baf74d.jpg"}
-];
+    {
+    "name": "The Crucial Role of Expert Support When Dealing with Banks in Fraud Cases",
+    "id": "the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases/",
+    "img": "/img/we_can_help.jpg",
+    },
+    {
+    "id": "understanding-common-ticket-scams-essential-tips-for-protection/",
+    "img": "/img/ticket_scam.jpg",
+    "name": "Understanding Common Ticket Scams: Essential Tips for Protection",
+    },
+    {
+    "id": "identifying-and-handling-business-identity-theft-what-you-should-know/",
+    "img": "/img/business_identity_theft.jpg",
+    "name": "Identifying and Handling Business Identity Theft: What You Should Know",
+    },
+    {
+    "id": "a-guide-to-reporting-scams-in-norway/",
+    "img": "/img/report_scam_norway.jpg",
+    "name": "A Guide to Reporting Scams in Norway",
+    },
+    {
+    "id": "a-guide-to-reporting-scams-in-spain/",
+    "img": "/img/report_scam_spain.jpg",
+    "name": "A Guide to Reporting Scams in Spain",
+    },
+    {
+    "id": "beware-of-task-completion-and-fake-job-scams-how-to-protect-yourself-from-online-fraud/",
+    "img": "/img/fake_job_scam.jpg",
+    "name": "Beware of Task Completion and Fake Job Scams: How to Protect Yourself from Online Fraud",
+    },
+    {
+    "id": "fake-employment-scams/",
+    "img": "https://tandhconsult.com/wp-content/uploads/2024/04/dall·e-2024-04-12-15.05.47-an-image-of-a-person-seen-from-behind-working-at-a-very-small-and-humble-desk-in-a-cozy-dimly-lit-room.-the-computer-screen-displays-sad-emoticons-a.webp",
+    "name": "Beware of Task Completion and Fake Employment Scams: Protect Yourself from Online Fraud",
+    },
+    {
+    "name": "Navigating Scams on Facebook Marketplace",
+    "id": "navigating-scams-on-facebook-marketplace",
+    "img": "/img/blog_v2/navigating_scams.jpg",
+    },
+    {
+    "id": "step-by-step-guide-to-reporting-a-scam-in-new-zealand/",
+    "img": "/img/blog_v2/newzealand.jpg",
+    "name": "Step-by-Step Guide to Reporting a Scam in New Zealand",
+    },
+    {
+    "id": "how-to-file-a-scam-report-in-qatar/",
+    "img": "/img/blog_v2/qatar.jpg",
+    "name": "How to File a Scam Report in Qatar",
+    },
+    {
+    "id": "a-complete-guide-to-reporting-scams-in-france/",
+    "img": "/img/blog_v2/france.jpg",
+    "name": "A Complete Guide to Reporting Scams in France",
+    },
+    {
+    "name": "A Complete Guide to Reporting Scams in France",
+    "id": "a-complete-guide-to-reporting-scams-in-france/",
+    "img": "/img/blog_v2/france.jpg",
+    },
+    {
+    "name": "Reporting Scams in Canada: What You Need to Know",
+    "id": "reporting-scams-in-canada-what-you-need-to-know/",
+    "img": "/img/blog_v2/canada.jpg"
+    },
+    {
+    "name": "Exposing Cryptocurrency Fraud: Case Studies by Greyzone Consulting",
+    "id": "exposing-cryptocurrency-fraud-case-studies-by-greyzone-consulting/",
+    "img": "/img/blog_v2/exposing_crypto_fraud.jpg"
+    },
+    {
+    "name": "Comprehensive Business Security: Your Background Check Guide",
+    "id": "comprehensive-business-security-your-background-check-guide/",
+    "img": "/img/blog_v2/business_security.jpg"
+    },
+    {
+    "name": "Fraud Reporting in South Africa: A How-To Guid",
+    "id": "fraud-reporting-in-south-africa-a-how-to-guide/",
+    "img": "/img/blog_v2/south_africa.jpg"
+    },
+    {
+    "name": "Understanding Cryptocurrency Investigations: Key Insights",
+    "id": "understanding-cryptocurrency-investigations-key-insights/",
+    "img": "/img/blog_v2/understanding_crypto.jpg"
+    },
+    {
+    "name": "Essential Due Diligence Tips for Small Business Purchases",
+    "id": "essential-due-diligence-tips-for-small-business-purchases/",
+    "img": "/img/blog_v2/essential_duediligence.jpg"
+    },
+    {
+    "name": "Due Diligence Mastery: A Guide for Business Buyers",
+    "id": "due-diligence-mastery-a-guide-for-business-buyers/",
+    "img": "/img/blog_v2/mastery_duediligence.jpg",
+    },
+    {
+    "name": "How to Effectively Report Fraud in Germany",
+    "id": "how-to-effectively-report-fraud-in-germany/",
+    "img": "/img/blog_v2/germany.jpg"
+    },
+    {
+    "name": "Why Due Diligence Services Are Crucial for Business Success",
+    "id": "why-due-diligence-services-are-crucial-for-business-success/",
+    "img": "/img/blog_v2/why_duediligence.jpg"
+    },
+    {
+    "name": "Exploring AI, Blockchain, and Digital Surveillance in Depth",
+    "id": "exploring-ai-blockchain-and-digital-surveillance-in-depth/",
+    "img": "/img/blog_v2/exploring_ai_blockchain.jpg"
+    }
+]
 
 
 
@@ -302,12 +369,15 @@ function App(props: any) {
         setTimeout(()=>{
             setload(false)
             if(filteredRoutes.length === 0){
+                console.log('here',false)
                 settimer(false)
             }else{
                 settimer(true)
             }
         },1000)
     }
+
+    console.log('timer:', timer, 'load:', load, 'searchTerm:', searchTerm, 'routes:',routes.length, 'filteredRoutes:',filteredRoutes)
   return (
     <>
     <div className={styles.heading}>

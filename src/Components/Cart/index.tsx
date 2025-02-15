@@ -7,7 +7,7 @@ interface Modal{
     func2?: () => void | undefined,
 
 }
-const index: React.FC<Modal>= ({func, func2}) => {
+const index: React.FC<Modal>= () => {
     const [screenHeight, setScreenHeight] = useState(window.innerHeight);
     const [animate, setAnimate] = useState(true);
     const handleResize = () => {
@@ -41,7 +41,7 @@ const index: React.FC<Modal>= ({func, func2}) => {
         
         :
         <div className={styles.modal_wrapper}>
-          <div className={styles.cart_top}>
+          {/* <div className={styles.cart_top}>
             <span className={styles.title}>Your Cart</span>
             <span className={styles.exit} onClick={() => {setTimeout(() => {func?.(), func2?.()},500), setAnimate(false) }}>X</span>
           </div>
@@ -62,7 +62,7 @@ const index: React.FC<Modal>= ({func, func2}) => {
             <a className={styles.btn_shop} onClick={() => {setTimeout(() => {func?.(), func2?.()},500), setAnimate(false) }}>
               CONTINUE SHOPPING
             </a>
-          </div>
+          </div> */}
         </div>
       }
     </div>

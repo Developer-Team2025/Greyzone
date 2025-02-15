@@ -1,3 +1,16 @@
+@use 'sass:math';
+
+@function Clamp-all($half, $viewH, $full, $viewport: 1920) {
+    $scaled-value-px: math.div($half, 2);
+    $scaled-value-vw: math.div($viewH, $viewport) * 100;
+    @return clamp(
+        calc(#{$scaled-value-px}px), // Half value in px
+        calc(#{$scaled-value-vw}vw), // Viewport-based value in vw
+        #{$full} 
+    );
+}
+
+
 .banner_partner {
   overflow: hidden;
   max-width: 100%;
@@ -7,7 +20,7 @@
 
   .container {
     max-width: 1677px;
-    padding: 0 45px;
+    padding: 0 Clamp-all(60, 60, 50px );
     box-sizing: border-box;
     width: 100%;
     margin: 0 auto;
@@ -21,22 +34,23 @@
       display: flex;
       justify-content: center;
       .btn_prev{
-          width: 3%;
+          // width: 3%;
           position: absolute;
           top: 0;
-          left: -48px;
+          left: -15px;
           height: 100%;
       }
       .btn_next{
-          width: 3%;
+          // width: 3%;
           position: absolute;
           top: 0;
-          right: -48px;
+          right: -15px;
           height: 100%;
       }
       .slick_list {
         margin: 0 -20px;
         overflow-x: scroll;
+        width: 100%;
         &::-webkit-scrollbar {
               display: none;
           }
