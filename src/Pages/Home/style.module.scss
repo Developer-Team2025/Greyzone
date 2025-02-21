@@ -186,10 +186,11 @@
                 padding-top: 4rem;
                 @media only screen and (max-width: 765px) {
                     flex-direction: column;
+                    align-items: center;
                 }
                 .card{
                     position: relative;
-                    width: 30%;
+                    width: Clamp-all(556, 556, 464px );
                     .design{
                         position: absolute;
                         width: 20rem;

@@ -29,43 +29,43 @@ const index = () => {
                 {
                     "delay": "0.1s",
                     "href": "/solutions/cryptocurrency-investigations-and-regulatory-compliance/cryptocurrency-transaction-risk-analysis",
-                    "imgSrc": `${import.meta.env.VITE_REDIRECT}/img/Analysis_crypto.jpg`,
+                    "imgSrc": `${import.meta.env.VITE_REDIRECT}/img/Analysis_crypto.jpeg`,
                     "name": "Cryptocurrency Transaction Risk Analysis"
                 },
                 {
                     "delay": "0.2s",
                     "href": "/solutions/corporate-services/background-check-services-for-employees",
-                    "imgSrc": `${import.meta.env.VITE_REDIRECT}/img/background_check.jpg`,
+                    "imgSrc": `${import.meta.env.VITE_REDIRECT}/img/background_check.jpeg`,
                     "name": "Background Check Services for Employees"
                 },
                 {
                     "delay": "0.3s",
                     "href": "/solutions/corporate-services/corporate-background-verification-services",
-                    "imgSrc": `${import.meta.env.VITE_REDIRECT}/img/background_verification.jpg`,
+                    "imgSrc": `${import.meta.env.VITE_REDIRECT}/img/background_verification.jpeg`,
                     "name": "Corporate Background Verification Services"
                 },
                 {
                     "delay": "0.4s",
                     "href": "/solutions/corporate-services/corporate-fraud-investigation-solutions",
-                    "imgSrc": `${import.meta.env.VITE_REDIRECT}/img/fraud_investigate.jpg`,
+                    "imgSrc": `${import.meta.env.VITE_REDIRECT}/img/fraud_investigate.jpeg`,
                     "name": "Corporate Fraud Investigation Solutions"
                 },
                 {
                     "delay": "0.5s",
                     "href": "/solutions/corporate-services/business-valuation-and-assessment-services",
-                    "imgSrc": `${import.meta.env.VITE_REDIRECT}/img/business_valuation.jpg`,
+                    "imgSrc": `${import.meta.env.VITE_REDIRECT}/img/business_valuation.jpeg`,
                     "name": "Business Valuation and Assessment Services"
                 },
                 {
                     "delay": "0.6s",
                     "href": "/solutions/research-and-dispute-resolution/comprehensive-due-diligence-solutions",
-                    "imgSrc": `${import.meta.env.VITE_REDIRECT}/img/due_diligence.jpg`,
+                    "imgSrc": `${import.meta.env.VITE_REDIRECT}/img/due_diligence.jpeg`,
                     "name": "Comprehensive Due Diligence Solutions"
                 },
                 {
                     "delay": "0.7s",
                     "href": "/solutions/corporate-services/merchant-chargeback-assistance-process",
-                    "imgSrc": `${import.meta.env.VITE_REDIRECT}/img/merchant_chargeback.jpg`,
+                    "imgSrc": `${import.meta.env.VITE_REDIRECT}/img/merchant_chargeback.jpeg`,
                     "name": "Merchant Chargeback Assistance Process"
                 }
             ].map((item, idx) => (

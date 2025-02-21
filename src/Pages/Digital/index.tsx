@@ -9,6 +9,12 @@ const index = () => {
             .slick-track{
             gap: 1rem;
             }
+            .i-time-management{
+                mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/time-management.svg);
+                z-index: 3;
+                display: inline-block;
+                background: url(https://tandhconsult.com/wp-content/themes/th/img/icons/time-management.svg);
+            }
         `}
     </style>
         <section className="solutions" id="solutions">
@@ -29,7 +35,7 @@ const index = () => {
                     href="/solutions/digital-goods/10-indicators-of-a-love-scam-a-comprehensive-checklist"
                 >
                     <picture className="dispute__pic">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/indicators.jpg`} alt="indicators" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/indicators.jpeg`} alt="indicators" />
                     </picture>
                     <span className="dispute__name">10 Indicators Of A Love Scam: A Comprehensive Checklist</span>
                     <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
@@ -41,7 +47,7 @@ const index = () => {
                     href="/solutions/digital-goods/online-fraud-protection-a-practical-guide"
                 >
                     <picture className="dispute__pic">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/online_fraud.jpg`} alt="online_fraud" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/online_fraud.jpeg`} alt="online_fraud" />
                     </picture>
                     <span className="dispute__name">Online Fraud Protection: A Practical Guide</span>
                     <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
@@ -53,7 +59,7 @@ const index = () => {
                     href="/solutions/digital-goods/printable-fraud-awareness-workbook-with-exercises"
                 >
                     <picture className="dispute__pic">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/printable.jpg`} alt="printable" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/printable.jpeg`} alt="printable" />
                     </picture>
                     <span className="dispute__name">Printable Fraud Awareness Workbook with Exercises</span>
                     <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
@@ -65,7 +71,7 @@ const index = () => {
                     href="/solutions/digital-goods/fraud-awareness-masterclass-with-detailed-presentation"
                 >
                     <picture className="dispute__pic">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/masterclass.jpg`} alt="masterclass" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/masterclass.jpeg`} alt="masterclass" />
                     </picture>
                     <span className="dispute__name">Fraud Awareness Masterclass with Detailed Presentation</span>
                     <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
@@ -85,7 +91,7 @@ const index = () => {
                 <p>The biggest challenge for the majority of people is the understanding of the crypto world and its dynamics, just like any new major adaptation it will take its own time, and thereby organizations and individuals are pacing up to adapt and partake in the revolutionary transformation of cryptocurrencies in order to stay updated and meet current demands of the market.</p>
                 </div>
 
-                <div className="dispute__benef">
+                <div className="dispute__benef" >
                     <div className="dispute__benef-item wow animate__animated animate__fadeInUp" >
                         <i className="i i-time-management"></i>
                         <div className="dispute__benef-content">
@@ -95,7 +101,7 @@ const index = () => {
                     </div>
 
                     <div className="dispute__benef-item wow animate__animated animate__fadeInUp" >
-                        <i className="i i-time-management"></i>
+                        <i className="i i-time-management" style={{maskImage:'url(https://tandhconsult.com/wp-content/uploads/2021/05/help.svg)', background: "url(https://tandhconsult.com/wp-content/uploads/2021/05/help.svg)"}}></i>
                         <div className="dispute__benef-content">
                         <span className="dispute__benef-name">Establish Professional Credibility</span>
                         <span className="dispute__benef-pos">A relationship built on trust and honesty can strengthen any business.</span>
@@ -103,7 +109,7 @@ const index = () => {
                     </div>
 
                     <div className="dispute__benef-item wow animate__animated animate__fadeInUp" >
-                        <i className="i i-time-management"></i>
+                        <i className="i i-time-management" style={{maskImage:'url(https://tandhconsult.com/wp-content/uploads/2021/05/help.svg)', background: "url(https://tandhconsult.com/wp-content/uploads/2021/05/help.svg)"}}></i>
                         <div className="dispute__benef-content">
                         <span className="dispute__benef-name">Faster, Easier Implementation</span>
                         <span className="dispute__benef-pos">Faster, easier and more cost-effective than any other provider.</span>
@@ -111,7 +117,7 @@ const index = () => {
                     </div>
 
                     <div className="dispute__benef-item wow animate__animated animate__fadeInUp" >
-                        <i className="i i-time-management"></i>
+                        <i className="i i-time-management" style={{maskImage:'url(https://tandhconsult.com/wp-content/uploads/2021/05/shield.svg)', background: "url(https://tandhconsult.com/wp-content/uploads/2021/05/shield.svg)"}}></i>
                         <div className="dispute__benef-content">
                         <span className="dispute__benef-name">Build Trust</span>
                         <span className="dispute__benef-pos">We are here for you – because we are Built to Care.</span>

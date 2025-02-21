@@ -51,7 +51,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/we_can_help.jpg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/we_can_help.jpeg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
 
@@ -99,7 +99,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/ticket_scam.jpg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/ticket_scam.jpeg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -144,7 +144,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/business_identity_theft.jpg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/business_identity_theft.jpeg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -196,7 +196,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2025/01/large.jpg" alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2025/01/large.jpeg" alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags">
@@ -387,7 +387,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/report_scam_norway.jpg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/report_scam_norway.jpeg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -488,7 +488,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/report_scam_spain.jpg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/report_scam_spain.jpeg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -579,7 +579,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/fake_job_scam.jpg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/fake_job_scam.jpeg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -638,7 +638,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2024/03/66b85120-3b5f-46a4-a55d-0acc2ffe3f61.webp" alt="image"/>
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/navigating_scams.jpeg`} alt="image"/>
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -742,7 +742,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2023/09/stack-of-coins-money-with-new-zealand-flag-financ-2023-08-01-02-57-26-utc-scaled.jpg" alt="image"/>
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/newzealand.jpeg`} alt="image"/>
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -793,7 +793,7 @@ const index = () => {
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
                                     <img style={{ border: "solid 1px #fff"}}
-                                    src="https://tandhconsult.com/wp-content/uploads/2023/09/qatari-flag-flag-of-qatar-national-flag-doha-i-2022-11-11-08-53-33-utc-scaled.jpg"
+                                    src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/qatar.jpeg`}
                                     alt="image"
                                     />
                                 </picture>
@@ -875,78 +875,75 @@ const index = () => {
                     }
                     {
                         id === 'a-complete-guide-to-reporting-scams-in-france' &&
-                        <>
-                            <div className="article__short">
-                                <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2023/09/french-flag-hanging-outside-a-beautifully-ornate-b-2022-10-31-21-57-50-utc-scaled.jpg" alt="image" />
-                                </picture>
-                                <div className="article__content wow animate__animated animate__fadeInUp">
-                                    <div className="blogs__tags article__tags"></div>
-                                    <span className="article__date">September 10, 2023</span>
-                                    <h1 className="article__name">A Complete Guide to Reporting Scams in France</h1>
-                                    <p>In today’s interconnected world, scams are, unfortunately, an ever-present threat. Moreover, France, with its rich heritage and robust economy, faces these deceptive tactics just like other countries. Thus, for both residents and visitors, understanding how to report a scam becomes essential. This guide aims to provide you with detailed insights into how to report a scam in France – the resources and authorities in France designed to assist victims of scams.</p>
-                                    <h3 className="wp-block-heading">1. <strong>Nationwide: Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)</strong></h3>
-                                    <p>The Ministry of the Economy and Finance oversees the DGCCRF. This body plays a crucial role in ensuring the protection of consumers’ rights and the proper functioning of the market.</p>
-                                    <ul className="wp-block-list">
-                                    <li><strong>Website</strong>: <a href="https://www.economie.gouv.fr/dgccrf">DGCCRF</a></li>
-                                    <li><strong>Phone</strong>: +33 1 44 87 17 17</li>
-                                    <li><strong>Contact</strong>: <a href="https://www.economie.gouv.fr/dgccrf/Contactez-nous">DGCCRF Contact form</a></li>
-                                    </ul>
-                                    <h3 className="wp-block-heading">2. Report <strong>Online Frauds in France: Pharos</strong></h3>
-                                    <p>The French Ministry of the Interior established Pharos to combat internet-related crimes, which include scams, phishing, and hate content.</p>
-                                    <ul className="wp-block-list">
-                                    <li><strong>Website</strong>: <a href="https://www.internet-signalement.gouv.fr/">Pharos</a></li>
-                                    <li><strong>Reporting Procedure</strong>: Users can directly report on their platform, describing the nature of the scam, the scammer’s details, and any other relevant information.</li>
-                                    </ul>
-                                    <h3 className="wp-block-heading">3. <strong>Paris &amp; Île-de-France: Préfecture de Police</strong></h3>
-                                    <p>In the bustling capital and its surrounding regions, the Préfecture de Police often serves as the first point of contact for various complaints, including scams.</p>
-                                    <ul className="wp-block-list">
-                                    <li><strong>Website</strong>: <a href="https://www.prefecturedepolice.interieur.gouv.fr/">Préfecture de Police</a></li>
-                                    <li><strong>Phone</strong>: +33 1 53 73 53 73</li>
-                                    <li><strong>Email</strong>: <a href="mailto:pp@interieur.gouv.fr">pp@interieur.gouv.fr</a></li>
-                                    </ul>
-                                    <h3 className="wp-block-heading">4. <strong>Banking and Financial Scams: Autorité de contrôle prudentiel et de résolution (ACPR)</strong></h3>
-                                    <p>The ACPR, a regulatory body, closely monitors the banking and insurance sectors in France. Victims of financial scams or unlicensed financial activities should contact them.</p>
-                                    <ul className="wp-block-list">
-                                    <li><strong>Website</strong>: <a href="https://acpr.banque-france.fr/">ACPR</a></li>
-                                    <li><strong>Contact</strong>: Through the <a href="https://acpr.banque-france.fr/en/contact-us">ACPR Contact Page</a></li>
-                                    </ul>
-                                    <h3 className="wp-block-heading">5. <strong>Consumer Associations: UFC-Que Choisir</strong></h3>
-                                    <p>UFC-Que Choisir, a prominent consumer association in France, offers advice, conducts investigations, and at times, provides legal assistance.</p>
-                                    <ul className="wp-block-list">
-                                    <li><strong>Website</strong>: <a href="https://www.quechoisir.org/">UFC-Que Choisir</a></li>
-                                    <li><strong>Local Offices</strong>: You can locate their multiple local offices across France through their website.</li>
-                                    </ul>
-                                    <h3 className="wp-block-heading">6. <strong>Online Purchases: Fevad (Federation of e-commerce and distance selling)</strong></h3>
-                                    <p>Representing a range of online retailers in France, Fevad provides resources and guidance for victims of online purchase scams.</p>
-                                    <ul className="wp-block-list">
-                                    <li><strong>Website</strong>: <a href="https://www.fevad.com/">Fevad</a></li>
-                                    <li><strong>Contact</strong>: Through the <a href="https://www.fevad.com/contact/">Fevad Contact Page</a></li>
-                                    </ul>
-                                    <h3 className="wp-block-heading">7. <strong>Real Estate Scams: Fédération Nationale de l’Immobilier (FNAIM)</strong></h3>
-                                    <p>For those who encounter real estate scams, such as fake rental listings or fraudulent agents, FNAIM, the National Federation of Real Estate in France, offers resources and reporting channels.</p>
-                                    <ul className="wp-block-list">
-                                    <li><strong>Website</strong>: <a href="https://www.fnaim.fr/">FNAIM</a></li>
-                                    <li><strong>Contact</strong>: The website provides details depending on the nature of the scam.</li>
-                                    </ul>
-                                    <h3 className="wp-block-heading">8. <strong>Tourist Scams: Office du Tourisme et des Congrès</strong></h3>
-                                    <p>Tourist-heavy areas, unfortunately, often see scams targeting tourists. If you face such a scam, you can report it to the local tourist office.</p>
-                                    <ul className="wp-block-list">
-                                    <li><strong>Website</strong>: <a href="https://en.parisinfo.com/">Paris Tourist Office</a></li>
-                                    <li><strong>Contact</strong>: You can either use their website or approach them directly at tourist locations.</li>
-                                    </ul>
-                                    <h3 className="wp-block-heading">Deep Dive</h3>
-                                    <p>It’s unsettling to become a victim of a scam. However, by understanding the resources at hand and taking prompt actions, individuals can ensure they address the issue effectively. In France, the approach to combating these deceptive practices is multi-faceted, involving both governmental and non-governmental bodies. We all play a part in creating a safer environment, so always stay vigilant, stay informed, and don’t hesitate to report suspicious activities. Find more information about <a href="/blog/how-to-stay-safe-online/">how to spot online scams</a>.</p>
-                                </div>
+                        <div className="article__short">
+                            <picture className="article__pic wow animate__animated animate__fadeInLeft">
+                                <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/france.jpeg`} alt="image" />
+                            </picture>
+                            <div className="article__content wow animate__animated animate__fadeInUp">
+                                <div className="blogs__tags article__tags"></div>
+                                <span className="article__date">September 10, 2023</span>
+                                <h1 className="article__name">A Complete Guide to Reporting Scams in France</h1>
+                                <p>In today’s interconnected world, scams are, unfortunately, an ever-present threat. Moreover, France, with its rich heritage and robust economy, faces these deceptive tactics just like other countries. Thus, for both residents and visitors, understanding how to report a scam becomes essential. This guide aims to provide you with detailed insights into how to report a scam in France – the resources and authorities in France designed to assist victims of scams.</p>
+                                <h3 className="wp-block-heading">1. <strong>Nationwide: Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)</strong></h3>
+                                <p>The Ministry of the Economy and Finance oversees the DGCCRF. This body plays a crucial role in ensuring the protection of consumers’ rights and the proper functioning of the market.</p>
+                                <ul className="wp-block-list">
+                                <li><strong>Website</strong>: <a href="https://www.economie.gouv.fr/dgccrf">DGCCRF</a></li>
+                                <li><strong>Phone</strong>: +33 1 44 87 17 17</li>
+                                <li><strong>Contact</strong>: <a href="https://www.economie.gouv.fr/dgccrf/Contactez-nous">DGCCRF Contact form</a></li>
+                                </ul>
+                                <h3 className="wp-block-heading">2. Report <strong>Online Frauds in France: Pharos</strong></h3>
+                                <p>The French Ministry of the Interior established Pharos to combat internet-related crimes, which include scams, phishing, and hate content.</p>
+                                <ul className="wp-block-list">
+                                <li><strong>Website</strong>: <a href="https://www.internet-signalement.gouv.fr/">Pharos</a></li>
+                                <li><strong>Reporting Procedure</strong>: Users can directly report on their platform, describing the nature of the scam, the scammer’s details, and any other relevant information.</li>
+                                </ul>
+                                <h3 className="wp-block-heading">3. <strong>Paris &amp; Île-de-France: Préfecture de Police</strong></h3>
+                                <p>In the bustling capital and its surrounding regions, the Préfecture de Police often serves as the first point of contact for various complaints, including scams.</p>
+                                <ul className="wp-block-list">
+                                <li><strong>Website</strong>: <a href="https://www.prefecturedepolice.interieur.gouv.fr/">Préfecture de Police</a></li>
+                                <li><strong>Phone</strong>: +33 1 53 73 53 73</li>
+                                <li><strong>Email</strong>: <a href="mailto:pp@interieur.gouv.fr">pp@interieur.gouv.fr</a></li>
+                                </ul>
+                                <h3 className="wp-block-heading">4. <strong>Banking and Financial Scams: Autorité de contrôle prudentiel et de résolution (ACPR)</strong></h3>
+                                <p>The ACPR, a regulatory body, closely monitors the banking and insurance sectors in France. Victims of financial scams or unlicensed financial activities should contact them.</p>
+                                <ul className="wp-block-list">
+                                <li><strong>Website</strong>: <a href="https://acpr.banque-france.fr/">ACPR</a></li>
+                                <li><strong>Contact</strong>: Through the <a href="https://acpr.banque-france.fr/en/contact-us">ACPR Contact Page</a></li>
+                                </ul>
+                                <h3 className="wp-block-heading">5. <strong>Consumer Associations: UFC-Que Choisir</strong></h3>
+                                <p>UFC-Que Choisir, a prominent consumer association in France, offers advice, conducts investigations, and at times, provides legal assistance.</p>
+                                <ul className="wp-block-list">
+                                <li><strong>Website</strong>: <a href="https://www.quechoisir.org/">UFC-Que Choisir</a></li>
+                                <li><strong>Local Offices</strong>: You can locate their multiple local offices across France through their website.</li>
+                                </ul>
+                                <h3 className="wp-block-heading">6. <strong>Online Purchases: Fevad (Federation of e-commerce and distance selling)</strong></h3>
+                                <p>Representing a range of online retailers in France, Fevad provides resources and guidance for victims of online purchase scams.</p>
+                                <ul className="wp-block-list">
+                                <li><strong>Website</strong>: <a href="https://www.fevad.com/">Fevad</a></li>
+                                <li><strong>Contact</strong>: Through the <a href="https://www.fevad.com/contact/">Fevad Contact Page</a></li>
+                                </ul>
+                                <h3 className="wp-block-heading">7. <strong>Real Estate Scams: Fédération Nationale de l’Immobilier (FNAIM)</strong></h3>
+                                <p>For those who encounter real estate scams, such as fake rental listings or fraudulent agents, FNAIM, the National Federation of Real Estate in France, offers resources and reporting channels.</p>
+                                <ul className="wp-block-list">
+                                <li><strong>Website</strong>: <a href="https://www.fnaim.fr/">FNAIM</a></li>
+                                <li><strong>Contact</strong>: The website provides details depending on the nature of the scam.</li>
+                                </ul>
+                                <h3 className="wp-block-heading">8. <strong>Tourist Scams: Office du Tourisme et des Congrès</strong></h3>
+                                <p>Tourist-heavy areas, unfortunately, often see scams targeting tourists. If you face such a scam, you can report it to the local tourist office.</p>
+                                <ul className="wp-block-list">
+                                <li><strong>Website</strong>: <a href="https://en.parisinfo.com/">Paris Tourist Office</a></li>
+                                <li><strong>Contact</strong>: You can either use their website or approach them directly at tourist locations.</li>
+                                </ul>
+                                <h3 className="wp-block-heading">Deep Dive</h3>
+                                <p>It’s unsettling to become a victim of a scam. However, by understanding the resources at hand and taking prompt actions, individuals can ensure they address the issue effectively. In France, the approach to combating these deceptive practices is multi-faceted, involving both governmental and non-governmental bodies. We all play a part in creating a safer environment, so always stay vigilant, stay informed, and don’t hesitate to report suspicious activities. Find more information about <a href="/blog/how-to-stay-safe-online/">how to spot online scams</a>.</p>
                             </div>
-
-                        </>
+                        </div>
                     }
                     {
                         id === 'reporting-scams-in-canada-what-you-need-to-know' &&
                         <>
                             <div className="article__short">
-                                <picture className="article__pic wow animate__animated animate__fadeInLeft"><img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2023/09/canada-flag-with-canadian-rocky-mountain-at-the-ba-2022-10-31-23-50-00-utc-scaled.jpg" alt="image" className="wow animate__animated animate__fadeInLeft" /></picture>
+                                <picture className="article__pic wow animate__animated animate__fadeInLeft"><img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/canada.jpeg`} alt="image" className="wow animate__animated animate__fadeInLeft" /></picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags">
                                     </div>
@@ -1021,7 +1018,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft" >
-                                    <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2023/08/private-detective-sitting-at-desk-2023-08-04-18-43-13-utc-scaled.jpg" alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/exposing_crypto_fraud.jpeg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp" >
                                     <div className="blogs__tags article__tags"></div>
@@ -1068,7 +1065,6 @@ const index = () => {
                                     <p>The world of cryptocurrency fraud is vast and intricate. At Greyzone Consulting, our commitment to shedding light on these dark corners remains unwavering. If you ever suspect dubious crypto activities or require expert insight, <a href="/contact-us">contact us</a> without hesitation. Stay informed and safe by following our latest insights and cases on our social media platforms.</p>
                                 </div>
                             </div>
-
                         </>
                     }
                     {
@@ -1076,7 +1072,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft" >
-                                    <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2023/08/busy-middle-aged-male-entrepreneur-working-on-comp-2023-07-06-19-52-32-utc-scaled.jpg" alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/business_security.jpeg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp" >
                                     <div className="blogs__tags article__tags"></div>
@@ -1117,7 +1113,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft" >
-                                    <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2023/07/south-african-flag-on-flagpole-against-clear-blue-2022-11-16-15-04-13-utc-scaled.jpg" alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/south_africa.jpeg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp" >
                                     <div className="blogs__tags article__tags"></div>
@@ -1191,7 +1187,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2023/07/police-investigator-working-on-criminal-case-2023-04-28-17-11-17-utc-scaled.jpg" alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/understanding_crypto.jpeg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -1266,7 +1262,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2023/06/beautiful-asian-woman-celebrate-with-laptop-succe-2023-05-04-18-33-36-utc-scaled.jpg" alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/essential_duediligence.jpeg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -1311,7 +1307,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2023/06/krakenimages-376kn_isple-unsplash-scaled.jpg" alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/mastery_duediligence.jpeg`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -1348,7 +1344,7 @@ const index = () => {
                         id === 'how-to-effectively-report-fraud-in-germany' &&
                         <>
                             <div className="article__short">
-                                <picture className="article__pic wow animate__animated animate__fadeInLeft" ><img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2023/06/german-flag-waving-in-front-of-the-building-in-mun-2022-11-14-05-19-37-utc-scaled.jpg" alt="image"/></picture>
+                                <picture className="article__pic wow animate__animated animate__fadeInLeft" ><img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/germany.jpeg`} alt="image"/></picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp" >
                                     <div className="blogs__tags article__tags"></div>
                                     <span className="article__date">June 22, 2023</span>
@@ -1401,7 +1397,7 @@ const index = () => {
                         id === 'why-due-diligence-services-are-crucial-for-business-success' &&
                         <>
                             <div className="article__short">
-                                <picture className="article__pic wow animate__animated animate__fadeInLeft"><img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2023/06/professional-investor-standing-office-thinking-inv-2023-05-30-11-29-41-utc-scaled.jpg" alt="image"/></picture>
+                                <picture className="article__pic wow animate__animated animate__fadeInLeft"><img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/why_duediligence.jpeg`} alt="image"/></picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
                                     <span className="article__date">June 19, 2023</span>
@@ -1438,7 +1434,7 @@ const index = () => {
                         id === 'exploring-ai-blockchain-and-digital-surveillance-in-depth' &&
                         <>
                             <div className="article__short">
-                                <picture className="article__pic wow animate__animated animate__fadeInLeft"><img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2023/06/879972a0-f8ca-4757-9224-ac2db4baf74d.jpg" alt="image"/></picture>
+                                <picture className="article__pic wow animate__animated animate__fadeInLeft"><img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/exploring_ai_blockchain.jpeg`} alt="image"/></picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
                                     <span className="article__date">June 9, 2023</span>

@@ -1,142 +1,155 @@
 import { useCallback, useEffect, useRef, useState } from 'react'
 import styles from './style.module.scss'
-import 'animate.css';  // Import the Animate.css library
-import WOW from 'wow.js';  // Import the Wow.js library
+import 'animate.css';  
+import WOW from 'wow.js';  
 import classNames from 'classnames';
 import logo from '../../assets/images/photo_2025-01-20_15-12-38-removebg-preview.png'
 import { clearTimeout } from 'timers';
-import bg_banner from '../../assets/images/pexels-goumbik-577210.jpg'
+import bg_banner from '../../assets/images/pexels-goumbik-577210.jpeg'
 import ReactDOMServer from "react-dom/server";
-// const content =   [
-//     {"name":"10 Indicators of a Love Scam: A Comprehensive Checklist", "id":"10-indicators-of-a-love-scam-a-comprehensive-checklist", part:"Digital"},
-//     {"name":"Online Fraud Protection: A Practical Guide", "id":"online-fraud-protection-a-practical-guide", part:"Digital"},
-//     {"name":"Printable Fraud Awareness Workbook with Exercises", "id":"printable-fraud-awareness-workbook-with-exercises", part:"Digital"},
-//     {"name":"Fraud Awareness Masterclass with Detailed Presentation", "id":"fraud-awareness-masterclass-with-detailed-presentation", part:"Digital"},
-//     {"name":"Cryptocurrency Transaction Risk Analysis", "id":"cryptocurrency-transaction-risk-analysis", part:"cryptocurrency"},
-//     {"name":"Asset Location and Tracing Services", "id":"asset-location-and-tracing-services", part:"cryptocurrency"},
-//     {"name":"Expert Cryptocurrency Witness Services", "id":"expert-cryptocurrency-witness-services", part:"cryptocurrency"},
-//     {"name":"Business-Focused Cryptocurrency Intelligence Report", "id":"business-focused-cryptocurrency-intelligence-report", part:"cryptocurrency"},
-//     {"name":"In-Depth Cryptocurrency Investigation Services", "id":"in-depth-cryptocurrency-investigation-services", part:"cryptocurrency"},
-//     {"name":"General Cryptocurrency Intelligence Reports", "id":"general-cryptocurrency-intelligence-report", part:"cryptocurrency"},
-//     {"name":"Support for Cryptocurrency Data Collection", "id":"support-for-cryptocurrency-data-collection", part:"cryptocurrency"},
-//     {"name":"Due Diligence Services", "id":"due-diligence-services", part:"Disputes"},
-//     {"name":"Dispute Settlement “Premium Package”", "id":"dispute-settlement-premium-package", part:"Disputes"},
-//     {"name":"Dispute Settlement “Optimal Package”", "id":"dispute-settlement-optimal-package", part:"Disputes"},
-//     {"name":"Dispute Settlement “Special Package”", "id":"dispute-settlement-special-package", part:"Disputes"},
-//     {"name":"Dispute Settlement “Basic Package”", "id":"dispute-settlement-basic-package", part:"Disputes"},
-//     {"name":"Chargeback Consultation", "id":"chargeback-consultation", part:"Documental"},
-//     {"name":"Technical translation (non-certified)", "id":"technical-document-translation-non-certified", part:"Documental"},
-//     {"name":"Case Assessment & Compilation Services", "id":"case-evaluation-and-documentation-services", part:"Documental"},
-//     {"name":"Application Processing / Drafting", "id":"application-drafting-and-processing-support", part:"Documental"},
-//     {"name":"Evaluation and Initial Consultation", "id":"initial-consultation-and-assessment-services", part:"Documental"},
-//     {"name":"Employee Background Check Services", "id":"background-check-services-for-employees", part:"Business"},
-//     {"name":"Corporate Background Check", "id":"corporate-background-verification-services", part:"Business"},
-//     {"name":"Corporate Fraud Investigation", "id":"corporate-fraud-investigation-solutions", part:"Business"},
-//     {"name": "Company Valuation", "id":"business-valuation-and-assessment-services", part:"Business"},
-//     {"name": "Chargeback Process for Merchants", "id":"merchant-chargeback-assistance-process", part:"Business"}
-//   ]
+
 const content = [
-    {"name":"10 Indicators of a Love Scam: A Comprehensive Checklist", "id":"10-indicators-of-a-love-scam-a-comprehensive-checklist" ,img: `${import.meta.env.VITE_REDIRECT}/img/indicators.jpg`, part:"Digital Products"},
-    {"name":"Online Fraud Protection: A Practical Guide", "id":"online-fraud-protection-a-practical-guide", img: `${import.meta.env.VITE_REDIRECT}/img/indicators.jpg`, part:"Digital Products"},
-    {"name":"Printable Fraud Awareness Workbook with Exercises", "img": `${import.meta.env.VITE_REDIRECT}/img/printable.jpg`,"id":"printable-fraud-awareness-workbook-with-exercises", part:"Digital Products"},
-    {"name":"Fraud Awareness Masterclass with Detailed Presentation", "img": `${import.meta.env.VITE_REDIRECT}/img/masterclass.jpg`,"id":"fraud-awareness-masterclass-with-detailed-presentation", part:"Digital Products"},
-    {"name":"Merchant Chargeback Assistance Process", "img": `${import.meta.env.VITE_REDIRECT}/img/chargeback.jpg`,"id":"merchant-chargeback-assistance-process", part:"Digital Products"},
-
-    {"name":"Comprehensive Due Diligence Solutions", "img": `${import.meta.env.VITE_REDIRECT}/img/due_diligence.jpg`,"id":"comprehensive-due-diligence-solutions", part:"Investigation and Disputes"},
-    {"name":"Premium Dispute Settlement Package", "img": `${import.meta.env.VITE_REDIRECT}/img/premium_dispute.jpg`,"id":"premium-dispute-settlement-package", part:"Investigation and Disputes"},
-    {"name":"Optimal Dispute Settlement Package", "img": `${import.meta.env.VITE_REDIRECT}/img/optimal_dispute.jpg`,"id":"optimal-dispute-settlement-package", part:"Investigation and Disputes"},
-    {"name":"Special Dispute Settlement Package", "img": `${import.meta.env.VITE_REDIRECT}/img/special_dispute.jpg`,"id":"special-dispute-settlement-package", part:"Investigation and Disputes"},
-    {"name":"Basic Dispute Settlement Package", "img": `${import.meta.env.VITE_REDIRECT}/img/basic_dispute.jpg`,"id":"basic-dispute-settlement-package", part:"Investigation and Disputes"},
-
-    {"name":"Technical Document Translation (Non-Certified)", "img": `${import.meta.env.VITE_REDIRECT}/img/technical_document.jpg`,"id":"technical-document-translation-non-certified", part:"Consulting and Documental Support"},
-    {"name":"Case Evaluation and Documentation Services", "img": `${import.meta.env.VITE_REDIRECT}/img/case_evaluation.jpg`,"id":"case-evaluation-and-documentation-services", part:"Consulting and Documental Support"},
-    {"name":"Application Drafting and Processing Support", "img": `${import.meta.env.VITE_REDIRECT}/img/Application_Drafting.jpg`,"id":"application-drafting-and-processing-support", part:"Consulting and Documental Support"},
-    {"name":"Initial Consultation and Assessment Services", "img": `${import.meta.env.VITE_REDIRECT}/img/initial_consult_assess.jpg` ,"id":"initial-consultation-and-assessment-services", part:"Consulting and Documental Support"},
-    {"name":"Chargeback Consultation", img: `${import.meta.env.VITE_REDIRECT}/img/chargeback.jpg`,"id":"chargeback-consultation", part:"Consulting and Documental Support"},
-
-    {"name":"Cryptocurrency Transaction Risk Analysis", img: `${import.meta.env.VITE_REDIRECT}/img/Analysis_crypto.jpg`,"id":"cryptocurrency-transaction-risk-analysis", part:"Cryptocurrency Investigation and Compliance"},
-    {"name":"Asset Location and Tracing Services", img: `${import.meta.env.VITE_REDIRECT}/img/asset_location.jpg`,"id":"asset-location-and-tracing-services", part:"Cryptocurrency Investigation and Compliance"},
-    {"name":"Expert Cryptocurrency Witness Services", img: `${import.meta.env.VITE_REDIRECT}/img/expert_crypto.jpg`,"id":"expert-cryptocurrency-witness-services", part:"Cryptocurrency Investigation and Compliance"},
-    {"name":"Business-Focused Cryptocurrency Intelligence Report", img: `${import.meta.env.VITE_REDIRECT}/img/business_focused.jpg`,"id":"business-focused-cryptocurrency-intelligence-report", part:"Cryptocurrency Investigation and Compliance"},
-    {"name":"In-Depth Cryptocurrency Investigation Services", "img": `${import.meta.env.VITE_REDIRECT}/img/In_depthCrypto.jpg`,"id":"in-depth-cryptocurrency-investigation-services", part:"Cryptocurrency Investigation and Compliance"},
-    {"name":"General Cryptocurrency Intelligence Reports", img: `${import.meta.env.VITE_REDIRECT}/img/Intelligence_report.jpg`,"id":"general-cryptocurrency-intelligence-report", part:"Cryptocurrency Investigation and Compliance"},
-    {"name":"Support for Cryptocurrency Data Collection", img: `${import.meta.env.VITE_REDIRECT}/img/Data_Collection.jpg` ,"id":"support-for-cryptocurrency-data-collection", part:"Cryptocurrency Investigation and Compliance"},
-
-    {"name":"Background Check Services for Employees", img: `${import.meta.env.VITE_REDIRECT}/img/background_check.jpg`,"id":"background-check-services-for-employees", part:"Business Services"},
-    {"name":"Corporate Background Verification Services", img: `${import.meta.env.VITE_REDIRECT}/img/background_verification.jpg`,"id":"corporate-background-verification-services", part:"Business Services"},
-    {"name":"Corporate Fraud Investigation Solutions", img: `${import.meta.env.VITE_REDIRECT}/img/fraud_investigate.jpg` , "id":"corporate-fraud-investigation-solutions", part:"Business Services"},
-    {"name":"Business Valuation and Assessment Services", img: `${import.meta.env.VITE_REDIRECT}/img/business_valuation.jpg` ,"id":"business-valuation-and-assessment-services", part:"Business Services"}
+    {"name":"10 Indicators of a Love Scam: A Comprehensive Checklist", "id":"10-indicators-of-a-love-scam-a-comprehensive-checklist" ,img: `${import.meta.env.VITE_REDIRECT}/img/indicators.jpeg`, part:"Digital Products"},
+    {"name":"Online Fraud Protection: A Practical Guide", "id":"online-fraud-protection-a-practical-guide", img: `${import.meta.env.VITE_REDIRECT}/img/indicators.jpeg`, part:"Digital Products"},
+    {"name":"Printable Fraud Awareness Workbook with Exercises", "img": `${import.meta.env.VITE_REDIRECT}/img/printable.jpeg`,"id":"printable-fraud-awareness-workbook-with-exercises", part:"Digital Products"},
+    {"name":"Fraud Awareness Masterclass with Detailed Presentation", "img": `${import.meta.env.VITE_REDIRECT}/img/masterclass.jpeg`,"id":"fraud-awareness-masterclass-with-detailed-presentation", part:"Digital Products"},
+    {"name":"Merchant Chargeback Assistance Process", "img": `${import.meta.env.VITE_REDIRECT}/img/chargeback.jpeg`,"id":"merchant-chargeback-assistance-process", part:"Digital Products"},
+    {"name":"Comprehensive Due Diligence Solutions", "img": `${import.meta.env.VITE_REDIRECT}/img/due_diligence.jpeg`,"id":"comprehensive-due-diligence-solutions", part:"Investigation and Disputes"},
+    {"name":"Premium Dispute Settlement Package", "img": `${import.meta.env.VITE_REDIRECT}/img/premium_dispute.jpeg`,"id":"premium-dispute-settlement-package", part:"Investigation and Disputes"},
+    {"name":"Optimal Dispute Settlement Package", "img": `${import.meta.env.VITE_REDIRECT}/img/optimal_dispute.jpeg`,"id":"optimal-dispute-settlement-package", part:"Investigation and Disputes"},
+    {"name":"Special Dispute Settlement Package", "img": `${import.meta.env.VITE_REDIRECT}/img/special_dispute.jpeg`,"id":"special-dispute-settlement-package", part:"Investigation and Disputes"},
+    {"name":"Basic Dispute Settlement Package", "img": `${import.meta.env.VITE_REDIRECT}/img/basic_dispute.jpeg`,"id":"basic-dispute-settlement-package", part:"Investigation and Disputes"},
+    {"name":"Technical Document Translation (Non-Certified)", "img": `${import.meta.env.VITE_REDIRECT}/img/technical_document.jpeg`,"id":"technical-document-translation-non-certified", part:"Consulting and Documental Support"},
+    {"name":"Case Evaluation and Documentation Services", "img": `${import.meta.env.VITE_REDIRECT}/img/case_evaluation.jpeg`,"id":"case-evaluation-and-documentation-services", part:"Consulting and Documental Support"},
+    {"name":"Application Drafting and Processing Support", "img": `${import.meta.env.VITE_REDIRECT}/img/Application_Drafting.jpeg`,"id":"application-drafting-and-processing-support", part:"Consulting and Documental Support"},
+    {"name":"Initial Consultation and Assessment Services", "img": `${import.meta.env.VITE_REDIRECT}/img/initial_consult_assess.jpeg` ,"id":"initial-consultation-and-assessment-services", part:"Consulting and Documental Support"},
+    {"name":"Chargeback Consultation", img: `${import.meta.env.VITE_REDIRECT}/img/chargeback.jpeg`,"id":"chargeback-consultation", part:"Consulting and Documental Support"},
+    {"name":"Cryptocurrency Transaction Risk Analysis", img: `${import.meta.env.VITE_REDIRECT}/img/Analysis_crypto.jpeg`,"id":"cryptocurrency-transaction-risk-analysis", part:"Cryptocurrency Investigation and Compliance"},
+    {"name":"Asset Location and Tracing Services", img: `${import.meta.env.VITE_REDIRECT}/img/asset_location.jpeg`,"id":"asset-location-and-tracing-services", part:"Cryptocurrency Investigation and Compliance"},
+    {"name":"Expert Cryptocurrency Witness Services", img: `${import.meta.env.VITE_REDIRECT}/img/expert_crypto.jpeg`,"id":"expert-cryptocurrency-witness-services", part:"Cryptocurrency Investigation and Compliance"},
+    {"name":"Business-Focused Cryptocurrency Intelligence Report", img: `${import.meta.env.VITE_REDIRECT}/img/business_focused.jpeg`,"id":"business-focused-cryptocurrency-intelligence-report", part:"Cryptocurrency Investigation and Compliance"},
+    {"name":"In-Depth Cryptocurrency Investigation Services", "img": `${import.meta.env.VITE_REDIRECT}/img/In_depthCrypto.jpeg`,"id":"in-depth-cryptocurrency-investigation-services", part:"Cryptocurrency Investigation and Compliance"},
+    {"name":"General Cryptocurrency Intelligence Reports", img: `${import.meta.env.VITE_REDIRECT}/img/Intelligence_report.jpeg`,"id":"general-cryptocurrency-intelligence-report", part:"Cryptocurrency Investigation and Compliance"},
+    {"name":"Support for Cryptocurrency Data Collection", img: `${import.meta.env.VITE_REDIRECT}/img/Data_Collection.jpeg` ,"id":"support-for-cryptocurrency-data-collection", part:"Cryptocurrency Investigation and Compliance"},
+    {"name":"Background Check Services for Employees", img: `${import.meta.env.VITE_REDIRECT}/img/background_check.jpeg`,"id":"background-check-services-for-employees", part:"Business Services"},
+    {"name":"Corporate Background Verification Services", img: `${import.meta.env.VITE_REDIRECT}/img/background_verification.jpeg`,"id":"corporate-background-verification-services", part:"Business Services"},
+    {"name":"Corporate Fraud Investigation Solutions", img: `${import.meta.env.VITE_REDIRECT}/img/fraud_investigate.jpeg` , "id":"corporate-fraud-investigation-solutions", part:"Business Services"},
+    {"name":"Business Valuation and Assessment Services", img: `${import.meta.env.VITE_REDIRECT}/img/business_valuation.jpeg` ,"id":"business-valuation-and-assessment-services", part:"Business Services"}
 ];
-//   const category = [
-//     {"id": "why-you-shouldnt-face-banks-alone-the-importance-of-professional-help-in-scam-cases", "name": "Why You Shouldn’t Face Banks Alone: The Importance of Professional Help in Scams"},
-//     {"id": "common-ticket-scams", "name": "Common Ticket Scams – What You Need to Know and How to Protect Yourself"},
-//     {"id": "business-identity-theft", "name": "Business Identity Theft – How to Identify and Respond to it"},
-//     {"id": "how-to-report-a-scam-in-portugal", "name": "Report a Scam in Portugal"},
-//     {"id": "how-to-report-a-scam-in-norway", "name": "How to report a scam in Norway?"},
-//     {"id": "how-to-report-a-scam-in-spain", "name": "How to report a Scam in Spain?"},
-//     {"id": "estafas-de-empleo-falso", "name": "Cuidado con las Estafas de Completar Tareas y Empleo Falso: Protégete del Fraude en Línea"}, 
-//     {"id": "fake-employment-scams", "name": "Cuidado con las Estafas de Completar Tareas y Empleo Falso: Protégete del Fraude en Línea"},
-//     {"id": "facebook-marketplace-scams", "name": "Navigating Scams on Facebook Marketplace"},
-//     {"id": "report-scam-in-new-zealand", "name": "How to Report a Scam in New Zealand"},
-//     {"id": "report-scam-in-qatar", "name": "How to Report a Scam in Qatar?"},
-//     {"id": "report-scam-in-france", "name": "How to Report a Scam in France"},
-//     {"id": "report-scam-in-canada", "name": "How to Report a Scam in Canada"},
-//     {"id": "cryptocurrency-fraud","name": "Unmasking Cryptocurrency Fraud: Recent Case Breakdowns by Greyzone Consulting" },
-//     {"id": "background-checks-checklist", "name": "A-Z of Business Security – Your Background Checks Checklist"},
-//     {"id": "report-fraud-in-south-africa", "name": "How to Report Fraud in South Africa"},
-//     {"id": "cryptocurrency-investigations", "name": "What is a Cryptocurrency Investigation?"},
-//     {"id": "due-diligence-buying-a-small-business", "name": "Due Diligence When Buying a Small Business"},
-//     {"id": "due-diligence-when-buying-a-business", "name": "Mastering Due Diligence When Buying a Business"},
-//     {"id": "how-to-report-fraud-in-germany", "name": "Guide: How to Report Fraud in Germany"},
-//     {"id": "due-diligence-services-importance", "name": "The Indispensable Role of Due Diligence Services in Business"},
-//     {"id": "ai-blockchain-digital-surveillance", "name": "AI, Blockchain and Digital Surveillance: A Comprehensive Exploration"},                                       
-//   ]
-// const category = [
-//     {"id": "the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases", "name": "The Crucial Role of Expert Support When Dealing with Banks in Fraud Cases"},
-//     {"id": "understanding-common-ticket-scams-essential-tips-for-protection", "name": "Understanding Common Ticket Scams Essential Tips for Protection"},
-//     {"id": "identifying-and-handling-business-identity-theft-what-you-should-know", "name": "Identifying and Handling Business Identity Theft What You Should Know"},
-//     {"id": "a-guide-to-reporting-scams-in-portugal", "name": "A Guide to Reporting Scams in Portugal"},
-//     {"id": "a-guide-to-reporting-scams-in-norway", "name": "A Guide to Reporting Scams in Norway"},
-//     {"id": "a-guide-to-reporting-scams-in-spain", "name": "A Guide to Reporting Scams in Spain"},
-//     {"id": "beware-of-task-completion-and-fake-job-scams-protect-yourself-from-online-fraud", "name": "Beware of Task Completion and Fake Job Scams: Protect Yourself from Online Fraud"},
-//     {"id": "navigating-scams-on-facebook-marketplace", "name": "Navigating Scams on Facebook Marketplace"},
-//     {"id": "step-by-step-guide-to-reporting-a-scam-in-new-zealand", "name": "Step-by-Step Guide to Reporting a Scam in New Zealand"},
-//     {"id": "how-to-file-a-scam-report-in-qatar", "name": "How to File a Scam Report in Qatar"},
-//     {"id": "a-complete-guide-to-reporting-scams-in-france", "name": "A Complete Guide to Reporting Scams in France"},
-//     {"id": "reporting-scams-in-canada-what-you-need-to-know", "name": "Reporting Scams in Canada: What You Need to Know"},
-//     {"id": "exposing-cryptocurrency-fraud-case-studies-by-th-consulting", "name": "Exposing Cryptocurrency Fraud: Case Studies by T&H Consulting"},
-//     {"id": "comprehensive-business-security-your-background-check-guide", "name": "Comprehensive Business Security: Your Background Check Guide"},
-//     {"id": "fraud-reporting-in-south-africa-a-how-to-guide", "name": "Fraud Reporting in South Africa: A How-To Guide"},
-//     {"id": "understanding-cryptocurrency-investigations-key-insights", "name": "Understanding Cryptocurrency Investigations: Key Insights"},
-//     {"id": "essential-due-diligence-tips-for-small-business-purchases", "name": "Essential Due Diligence Tips for Small Business Purchases"},
-//     {"id": "due-diligence-mastery-a-guide-for-business-buyers", "name": "Due Diligence Mastery: A Guide for Business Buyers"},
-//     {"id": "how-to-effectively-report-fraud-in-germany", "name": "How to Effectively Report Fraud in Germany"},
-//     {"id": "why-due-diligence-services-are-crucial-for-business-success", "name": "Why Due Diligence Services Are Crucial for Business Success"},
-//     {"id": "exploring-ai-blockchain-and-digital-surveillance-in-depth", "name": "Exploring AI, Blockchain, and Digital Surveillance in Depth"}
-// ];
+
+
 const category = [
-    {"id": "the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases", "name": "The Crucial Role of Expert Support When Dealing with Banks in Fraud Cases", "img": `${import.meta.env.VITE_REDIRECT}/img/we_can_help.jpg`},
-    {"id": "understanding-common-ticket-scams-essential-tips-for-protection", "name": "Understanding Common Ticket Scams Essential Tips for Protection", "img": `${import.meta.env.VITE_REDIRECT}/img/ticket_scam.jpg`},
-    {"id": "identifying-and-handling-business-identity-theft-what-you-should-know", "name": "Identifying and Handling Business Identity Theft What You Should Know", "img": `${import.meta.env.VITE_REDIRECT}/img/business_identity_theft.jpg`},
-    {"id": "a-guide-to-reporting-scams-in-portugal", "name": "A Guide to Reporting Scams in Portugal", "img": "https://tandhconsult.com/wp-content/uploads/2025/01/large.jpg"},
-    {"id": "a-guide-to-reporting-scams-in-norway", "name": "A Guide to Reporting Scams in Norway", "img": `${import.meta.env.VITE_REDIRECT}/img/report_scam_norway.jpg`},
-    {"id": "a-guide-to-reporting-scams-in-spain", "name": "A Guide to Reporting Scams in Spain", "img": `${import.meta.env.VITE_REDIRECT}/img/report_scam_spain.jpg`},
-    {"id": "beware-of-task-completion-and-fake-job-scams-protect-yourself-from-online-fraud", "name": "Beware of Task Completion and Fake Job Scams: Protect Yourself from Online Fraud", "img": `${import.meta.env.VITE_REDIRECT}/img/fake_job_scam.jpg`},
-    {"id": "navigating-scams-on-facebook-marketplace", "name": "Navigating Scams on Facebook Marketplace", "img": "https://tandhconsult.com/wp-content/uploads/2024/03/66b85120-3b5f-46a4-a55d-0acc2ffe3f61.webp"},
-    {"id": "step-by-step-guide-to-reporting-a-scam-in-new-zealand", "name": "Step-by-Step Guide to Reporting a Scam in New Zealand", "img": "https://tandhconsult.com/wp-content/uploads/2023/09/stack-of-coins-money-with-new-zealand-flag-financ-2023-08-01-02-57-26-utc-scaled.jpg"},
-    {"id": "how-to-file-a-scam-report-in-qatar", "name": "How to File a Scam Report in Qatar", "img": "https://tandhconsult.com/wp-content/uploads/2023/09/qatari-flag-flag-of-qatar-national-flag-doha-i-2022-11-11-08-53-33-utc-scaled.jpg"},
-    {"id": "a-complete-guide-to-reporting-scams-in-france", "name": "A Complete Guide to Reporting Scams in France", "img": "https://tandhconsult.com/wp-content/uploads/2023/09/french-flag-hanging-outside-a-beautifully-ornate-b-2022-10-31-21-57-50-utc-scaled.jpg"},
-    {"id": "reporting-scams-in-canada-what-you-need-to-know", "name": "Reporting Scams in Canada: What You Need to Know", "img": "https://tandhconsult.com/wp-content/uploads/2023/09/canada-flag-with-canadian-rocky-mountain-at-the-ba-2022-10-31-23-50-00-utc-scaled.jpg"},
-    {"id": "exposing-cryptocurrency-fraud-case-studies-by-greyzone-consulting", "name": "Exposing Cryptocurrency Fraud: Case Studies by T&H Consulting", "img": "https://tandhconsult.com/wp-content/uploads/2023/08/private-detective-sitting-at-desk-2023-08-04-18-43-13-utc-scaled.jpg"},
-    {"id": "comprehensive-business-security-your-background-check-guide", "name": "Comprehensive Business Security: Your Background Check Guide", "img": "https://tandhconsult.com/wp-content/uploads/2023/08/busy-middle-aged-male-entrepreneur-working-on-comp-2023-07-06-19-52-32-utc-scaled.jpg"},
-    {"id": "fraud-reporting-in-south-africa-a-how-to-guide", "name": "Fraud Reporting in South Africa: A How-To Guide", "img": "https://tandhconsult.com/wp-content/uploads/2023/07/south-african-flag-on-flagpole-against-clear-blue-2022-11-16-15-04-13-utc-scaled.jpg"},
-    {"id": "understanding-cryptocurrency-investigations-key-insights", "name": "Understanding Cryptocurrency Investigations: Key Insights", "img": "https://tandhconsult.com/wp-content/uploads/2023/07/police-investigator-working-on-criminal-case-2023-04-28-17-11-17-utc-scaled.jpg"},
-    {"id": "essential-due-diligence-tips-for-small-business-purchases", "name": "Essential Due Diligence Tips for Small Business Purchases", "img": "https://tandhconsult.com/wp-content/uploads/2023/06/beautiful-asian-woman-celebrate-with-laptop-succe-2023-05-04-18-33-36-utc-scaled.jpg"},
-    {"id": "due-diligence-mastery-a-guide-for-business-buyers", "name": "Due Diligence Mastery: A Guide for Business Buyers", "img": "https://tandhconsult.com/wp-content/uploads/2023/06/krakenimages-376kn_isple-unsplash-scaled.jpg"},
-    {"id": "how-to-effectively-report-fraud-in-germany", "name": "How to Effectively Report Fraud in Germany", "img": "https://tandhconsult.com/wp-content/uploads/2023/06/german-flag-waving-in-front-of-the-building-in-mun-2022-11-14-05-19-37-utc-scaled.jpg"},
-    {"id": "why-due-diligence-services-are-crucial-for-business-success", "name": "Why Due Diligence Services Are Crucial for Business Success", "img": "https://tandhconsult.com/wp-content/uploads/2023/06/professional-investor-standing-office-thinking-inv-2023-05-30-11-29-41-utc-scaled.jpg"},
-    {"id": "exploring-ai-blockchain-and-digital-surveillance-in-depth", "name": "Exploring AI, Blockchain, and Digital Surveillance in Depth", "img": "https://tandhconsult.com/wp-content/uploads/2023/06/879972a0-f8ca-4757-9224-ac2db4baf74d.jpg"}
-];
+    {
+    "name": "The Crucial Role of Expert Support When Dealing with Banks in Fraud Cases",
+    "id": "the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases/",
+    "img": "/img/we_can_help.jpeg",
+    },
+    {
+    "id": "understanding-common-ticket-scams-essential-tips-for-protection/",
+    "img": "/img/ticket_scam.jpeg",
+    "name": "Understanding Common Ticket Scams: Essential Tips for Protection",
+    },
+    {
+    "id": "identifying-and-handling-business-identity-theft-what-you-should-know/",
+    "img": "/img/business_identity_theft.jpeg",
+    "name": "Identifying and Handling Business Identity Theft: What You Should Know",
+    },
+    {
+    "id": "a-guide-to-reporting-scams-in-norway/",
+    "img": "/img/report_scam_norway.jpeg",
+    "name": "A Guide to Reporting Scams in Norway",
+    },
+    {
+    "id": "a-guide-to-reporting-scams-in-spain/",
+    "img": "/img/report_scam_spain.jpeg",
+    "name": "A Guide to Reporting Scams in Spain",
+    },
+    {
+    "id": "beware-of-task-completion-and-fake-job-scams-how-to-protect-yourself-from-online-fraud/",
+    "img": "/img/fake_job_scam.jpeg",
+    "name": "Beware of Task Completion and Fake Job Scams: How to Protect Yourself from Online Fraud",
+    },
+    {
+    "id": "fake-employment-scams/",
+    "img": "https://tandhconsult.com/wp-content/uploads/2024/04/dall·e-2024-04-12-15.05.47-an-image-of-a-person-seen-from-behind-working-at-a-very-small-and-humble-desk-in-a-cozy-dimly-lit-room.-the-computer-screen-displays-sad-emoticons-a.webp",
+    "name": "Beware of Task Completion and Fake Employment Scams: Protect Yourself from Online Fraud",
+    },
+    {
+    "name": "Navigating Scams on Facebook Marketplace",
+    "id": "navigating-scams-on-facebook-marketplace",
+    "img": "/img/blog_v2/navigating_scams.jpeg",
+    },
+    {
+    "id": "step-by-step-guide-to-reporting-a-scam-in-new-zealand/",
+    "img": "/img/blog_v2/newzealand.jpeg",
+    "name": "Step-by-Step Guide to Reporting a Scam in New Zealand",
+    },
+    {
+    "id": "how-to-file-a-scam-report-in-qatar/",
+    "img": "/img/blog_v2/qatar.jpeg",
+    "name": "How to File a Scam Report in Qatar",
+    },
+    {
+    "id": "a-complete-guide-to-reporting-scams-in-france/",
+    "img": "/img/blog_v2/france.jpeg",
+    "name": "A Complete Guide to Reporting Scams in France",
+    },
+    {
+    "name": "A Complete Guide to Reporting Scams in France",
+    "id": "a-complete-guide-to-reporting-scams-in-france/",
+    "img": "/img/blog_v2/france.jpeg",
+    },
+    {
+    "name": "Reporting Scams in Canada: What You Need to Know",
+    "id": "reporting-scams-in-canada-what-you-need-to-know/",
+    "img": "/img/blog_v2/canada.jpeg"
+    },
+    {
+    "name": "Exposing Cryptocurrency Fraud: Case Studies by Greyzone Consulting",
+    "id": "exposing-cryptocurrency-fraud-case-studies-by-greyzone-consulting/",
+    "img": "/img/blog_v2/exposing_crypto_fraud.jpeg"
+    },
+    {
+    "name": "Comprehensive Business Security: Your Background Check Guide",
+    "id": "comprehensive-business-security-your-background-check-guide/",
+    "img": "/img/blog_v2/business_security.jpeg"
+    },
+    {
+    "name": "Fraud Reporting in South Africa: A How-To Guid",
+    "id": "fraud-reporting-in-south-africa-a-how-to-guide/",
+    "img": "/img/blog_v2/south_africa.jpeg"
+    },
+    {
+    "name": "Understanding Cryptocurrency Investigations: Key Insights",
+    "id": "understanding-cryptocurrency-investigations-key-insights/",
+    "img": "/img/blog_v2/understanding_crypto.jpeg"
+    },
+    {
+    "name": "Essential Due Diligence Tips for Small Business Purchases",
+    "id": "essential-due-diligence-tips-for-small-business-purchases/",
+    "img": "/img/blog_v2/essential_duediligence.jpeg"
+    },
+    {
+    "name": "Due Diligence Mastery: A Guide for Business Buyers",
+    "id": "due-diligence-mastery-a-guide-for-business-buyers/",
+    "img": "/img/blog_v2/mastery_duediligence.jpeg",
+    },
+    {
+    "name": "How to Effectively Report Fraud in Germany",
+    "id": "how-to-effectively-report-fraud-in-germany/",
+    "img": "/img/blog_v2/germany.jpeg"
+    },
+    {
+    "name": "Why Due Diligence Services Are Crucial for Business Success",
+    "id": "why-due-diligence-services-are-crucial-for-business-success/",
+    "img": "/img/blog_v2/why_duediligence.jpeg"
+    },
+    {
+    "name": "Exploring AI, Blockchain, and Digital Surveillance in Depth",
+    "id": "exploring-ai-blockchain-and-digital-surveillance-in-depth/",
+    "img": "/img/blog_v2/exploring_ai_blockchain.jpeg"
+    }
+]
 
 
 
@@ -150,7 +163,7 @@ const category = [
   })
     const routes = [
     { path: "/", name: "Home", img: `${bg_banner}` },
-    { path: "/about-us" ,name: "About Us", img: `${import.meta.env.VITE_REDIRECT}/img/about-us.jpg`  },
+    { path: "/about-us" ,name: "About Us", img: `${import.meta.env.VITE_REDIRECT}/img/about-us.jpeg`  },
     { path: "/terms-and-conditions" ,name: "Terms and Conditions"  },
     { path: "/privacy-policy" ,name: "Privacy Policy"  },
     { path: "/blog" ,name: "Blog" },
@@ -302,12 +315,15 @@ function App(props: any) {
         setTimeout(()=>{
             setload(false)
             if(filteredRoutes.length === 0){
+                console.log('here',false)
                 settimer(false)
             }else{
                 settimer(true)
             }
         },1000)
     }
+
+    console.log('timer:', timer, 'load:', load, 'searchTerm:', searchTerm, 'routes:',routes.length, 'filteredRoutes:',filteredRoutes)
   return (
     <>
     <div className={styles.heading}>

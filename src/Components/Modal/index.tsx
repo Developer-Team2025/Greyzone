@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import styles from './style.module.scss'
 import Form from '../Reusable/Form/Contact'
 import classNames from 'classnames';
-import logo from '../../assets/images/logo_v2.png'
+import logo from '../../assets/images/logo_v2.jpeg'
 interface Modal{
     func?: () => void | undefined,
     func2?: () => void | undefined,

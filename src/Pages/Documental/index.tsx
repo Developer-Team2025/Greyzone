@@ -53,35 +53,35 @@ const index = () => {
                     delay: "0.1s",
                     href: "/solutions/advisory-and-documentation-assistance/chargeback-consultation/",
                     imgSrc:
-                    `${import.meta.env.VITE_REDIRECT}/img/chargeback.jpg`,
+                    `${import.meta.env.VITE_REDIRECT}/img/chargeback.jpeg`,
                     name: "Chargeback Consultations",
                 },
                 {
                     delay: "0.2s",
                     href: "/solutions/advisory-and-documentation-assistance/technical-document-translation-non-certified/",
                     imgSrc:
-                   `${import.meta.env.VITE_REDIRECT}/img/technical_document.jpg`,
+                   `${import.meta.env.VITE_REDIRECT}/img/technical_document.jpeg`,
                     name: "Technical Document Translation (Non-Certified)",
                 },
                 {
                     delay: "0.3s",
                     href: "/solutions/advisory-and-documentation-assistance/case-evaluation-and-documentation-services/",
                     imgSrc:
-                   `${import.meta.env.VITE_REDIRECT}/img/case_evaluation.jpg`,
+                   `${import.meta.env.VITE_REDIRECT}/img/case_evaluation.jpeg`,
                     name: "Case Evaluation and Documentation Services",
                 },
                 {
                     delay: "0.4s",
                     href: "/solutions/advisory-and-documentation-assistance/application-drafting-and-processing-support/",
                     imgSrc:
-                   `${import.meta.env.VITE_REDIRECT}/img/Application_Drafting.jpg`,
+                   `${import.meta.env.VITE_REDIRECT}/img/Application_Drafting.jpeg`,
                     name: "Application Drafting and Processing Support",
                 },
                 {
                     delay: "0.5s",
                     href: "/solutions/advisory-and-documentation-assistance/initial-consultation-and-assessment-services/",
                     imgSrc:
-                   `${import.meta.env.VITE_REDIRECT}/img/initial_consult_assess.jpg`,
+                   `${import.meta.env.VITE_REDIRECT}/img/initial_consult_assess.jpeg`,
                     name: "Initial Consultation and Assessment Services",
                 },
                 ].map((item, idx) => (

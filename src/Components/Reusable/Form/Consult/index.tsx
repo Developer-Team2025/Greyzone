@@ -105,7 +105,7 @@ const index = () => {
                                 <div className='flex gap-4'>
                                 <span>Give feedback</span><i className={styles.plus_icon}></i>
                                 </div>
-                                <div className='p-2 border-white border-2' onClick={UseCallback}>
+                                <div className='p-2 border-white border-2'>
                                     <span>TRUSTPILOT</span> <i className={styles.arrow_right_icon}></i>
                                 </div>
                             </div>

@@ -84,7 +84,7 @@ const index = () => {
                 </h1>
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/indicators.jpg`} alt="indicator" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/indicators.jpeg`} alt="indicator" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <p>
@@ -182,7 +182,7 @@ const index = () => {
                 </h1>
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/online_fraud.jpg`} alt="online_fraud" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/online_fraud.jpeg`} alt="online_fraud" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <p>
@@ -286,7 +286,7 @@ const index = () => {
                 </h1>
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/printable.jpg`} alt="printable" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/printable.jpeg`} alt="printable" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <p>
@@ -483,7 +483,7 @@ const index = () => {
                     "animate__fadeInUp"
                   )}
                 >
-                  <img src={`${import.meta.env.VITE_REDIRECT}/img/masterclass.jpg`} alt="masterclass" />
+                  <img src={`${import.meta.env.VITE_REDIRECT}/img/masterclass.jpeg`} alt="masterclass" />
                 </picture>
                 <div
                   className={classNames(
@@ -621,7 +621,7 @@ const index = () => {
                 </h1>
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/Analysis_crypto.jpg`} alt="Analysis_crypto" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/Analysis_crypto.jpeg`} alt="Analysis_crypto" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <p>
@@ -809,7 +809,7 @@ const index = () => {
                 </h1>
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/asset_location.jpg`} alt="asset_location" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/asset_location.jpeg`} alt="asset_location" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <p>
@@ -946,7 +946,7 @@ const index = () => {
                 </h1>
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/expert_crypto.jpg`} alt="expert_crypto" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/expert_crypto.jpeg`} alt="expert_crypto" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <h2>
@@ -1110,7 +1110,7 @@ const index = () => {
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
                     <img
-                      src={`${import.meta.env.VITE_REDIRECT}/img/business_focused.jpg`}
+                      src={`${import.meta.env.VITE_REDIRECT}/img/business_focused.jpeg`}
                       alt="business_focused"
                     />
                   </picture>
@@ -1273,7 +1273,7 @@ const index = () => {
                 </h1>
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/In_depthCrypto.jpg`} alt="In_depthCrypto" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/In_depthCrypto.jpeg`} alt="In_depthCrypto" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <h2>
@@ -1448,7 +1448,7 @@ const index = () => {
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
                     <img
-                      src={`${import.meta.env.VITE_REDIRECT}/img/Intelligence_report.jpg`}
+                      src={`${import.meta.env.VITE_REDIRECT}/img/Intelligence_report.jpeg`}
                       alt="Intelligence_report"
                     />
                   </picture>
@@ -1585,7 +1585,7 @@ const index = () => {
                 </h1>
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/Data_Collection.jpg`} alt="Data_Collection" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/Data_Collection.jpeg`} alt="Data_Collection" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <p>&nbsp;</p>
@@ -1682,7 +1682,7 @@ const index = () => {
                 </h1>
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/due_diligence.jpg`} alt="due_diligence" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/due_diligence.jpeg`} alt="due_diligence" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <h3>
@@ -1808,7 +1808,7 @@ const index = () => {
                 </h1>
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/premium_dispute.jpg`} alt="premium_dispute" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/premium_dispute.jpeg`} alt="premium_dispute" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <h2>Salient features</h2>
@@ -2014,7 +2014,7 @@ const index = () => {
                 </h1>
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/optimal_dispute.jpg`} alt="optimal_dispute" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/optimal_dispute.jpeg`} alt="optimal_dispute" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <h2>
@@ -2182,7 +2182,7 @@ const index = () => {
                 </h1>
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/special_dispute.jpg`} alt="special_dispute" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/special_dispute.jpeg`} alt="special_dispute" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <h2>
@@ -2290,7 +2290,7 @@ const index = () => {
                 </h1>
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/basic_dispute.jpg`} alt="basic_dispute" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/basic_dispute.jpeg`} alt="basic_dispute" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <h2>Salient features</h2>
@@ -2416,7 +2416,7 @@ const index = () => {
                 </h1>
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/chargeback.jpg`} alt="chargeback" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/chargeback.jpeg`} alt="chargeback" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <p>
@@ -2582,7 +2582,7 @@ const index = () => {
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
                     <img
-                      src={`${import.meta.env.VITE_REDIRECT}/img/technical_document.jpg`}
+                      src={`${import.meta.env.VITE_REDIRECT}/img/technical_document.jpeg`}
                       alt="technical_document"
                     />
                   </picture>
@@ -2690,7 +2690,7 @@ const index = () => {
                 </h1>
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/case_evaluation.jpg`} alt="case_evaluation" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/case_evaluation.jpeg`} alt="case_evaluation" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <h2>
@@ -2900,7 +2900,7 @@ const index = () => {
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
                     <img
-                      src={`${import.meta.env.VITE_REDIRECT}/img/Application_Drafting.jpg`}
+                      src={`${import.meta.env.VITE_REDIRECT}/img/Application_Drafting.jpeg`}
                       alt="Application_Drafting"
                     />
                   </picture>
@@ -2994,7 +2994,7 @@ const index = () => {
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
                     <img
-                      src={`${import.meta.env.VITE_REDIRECT}/img/initial_consult_assess.jpg`}
+                      src={`${import.meta.env.VITE_REDIRECT}/img/initial_consult_assess.jpeg`}
                       alt="initial_consult_assess"
                     />
                   </picture>
@@ -3144,7 +3144,7 @@ const index = () => {
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
                     <img
-                      src={`${import.meta.env.VITE_REDIRECT}/img/background_check.jpg`}
+                      src={`${import.meta.env.VITE_REDIRECT}/img/background_check.jpeg`}
                       alt="background_check"
                     />
                   </picture>
@@ -3335,7 +3335,7 @@ const index = () => {
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
                     <img
-                      src={`${import.meta.env.VITE_REDIRECT}/img/background_verification.jpg`}
+                      src={`${import.meta.env.VITE_REDIRECT}/img/background_verification.jpeg`}
                       alt="background_verification"
                     />
                   </picture>
@@ -3431,7 +3431,7 @@ const index = () => {
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
                     <img
-                      src={`${import.meta.env.VITE_REDIRECT}/img/fraud_investigate.jpg`}
+                      src={`${import.meta.env.VITE_REDIRECT}/img/fraud_investigate.jpeg`}
                       alt="fraud_investigate"
                     />
                   </picture>
@@ -3596,7 +3596,7 @@ const index = () => {
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
                     <img
-                      src={`${import.meta.env.VITE_REDIRECT}/img/business_valuation.jpg`}
+                      src={`${import.meta.env.VITE_REDIRECT}/img/business_valuation.jpeg`}
                       alt="business_valuation"
                     />
                   </picture>
@@ -3714,7 +3714,7 @@ const index = () => {
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
                     <img
-                      src={`${import.meta.env.VITE_REDIRECT}/img/merchant_chargeback.jpg`}
+                      src={`${import.meta.env.VITE_REDIRECT}/img/merchant_chargeback.jpeg`}
                       alt="merchant_chargeback"
                     />
                   </picture>
@@ -3839,7 +3839,7 @@ const index = () => {
               >
                 <picture className="dispute__pic">
                   <img
-                    src={`${import.meta.env.VITE_REDIRECT}/img/Application_Drafting.jpg`}
+                    src={`${import.meta.env.VITE_REDIRECT}/img/Application_Drafting.jpeg`}
                     alt="Application_Drafting"
                   />
                 </picture>
@@ -3855,7 +3855,7 @@ const index = () => {
                 href="/solutions/advisory-and-documentation-assistance/case-evaluation-and-documentation-services/"
               >
                 <picture className="dispute__pic">
-                  <img src={`${import.meta.env.VITE_REDIRECT}/img/case_evaluation.jpg`} alt="case_evaluation" />
+                  <img src={`${import.meta.env.VITE_REDIRECT}/img/case_evaluation.jpeg`} alt="case_evaluation" />
                 </picture>
                 <span className="dispute__name">
                   Case Evaluation &amp; And Documentation Services
@@ -3870,7 +3870,7 @@ const index = () => {
               >
                 <picture className="dispute__pic">
                   <img
-                    src={`${import.meta.env.VITE_REDIRECT}/img/technical_document.jpg`}
+                    src={`${import.meta.env.VITE_REDIRECT}/img/technical_document.jpeg`}
                     alt="technical_document"
                   />
                 </picture>
@@ -3886,7 +3886,7 @@ const index = () => {
                 href="/solutions/research-and-dispute-resolution/basic-dispute-settlement-package/"
               >
                 <picture className="dispute__pic">
-                  <img src={`${import.meta.env.VITE_REDIRECT}/img/basic_dispute.jpg`} alt="basic_dispute" />
+                  <img src={`${import.meta.env.VITE_REDIRECT}/img/basic_dispute.jpeg`} alt="basic_dispute" />
                 </picture>
                 <span className="dispute__name">
                   Basic Dispute Settlement Package
@@ -3900,7 +3900,7 @@ const index = () => {
                 href="/solutions/research-and-dispute-resolution/special-dispute-settlement-package/"
               >
                 <picture className="dispute__pic">
-                  <img src={`${import.meta.env.VITE_REDIRECT}/img/special_dispute.jpg`} alt="special_dispute" />
+                  <img src={`${import.meta.env.VITE_REDIRECT}/img/special_dispute.jpeg`} alt="special_dispute" />
                 </picture>
                 <span className="dispute__name">
                   Special Dispute Settlement Package
@@ -3914,7 +3914,7 @@ const index = () => {
                 href="/solutions/research-and-dispute-resolution/optimal-dispute-settlement-package/"
               >
                 <picture className="dispute__pic">
-                  <img src={`${import.meta.env.VITE_REDIRECT}/img/optimal_dispute.jpg`} alt="optimal_dispute" />
+                  <img src={`${import.meta.env.VITE_REDIRECT}/img/optimal_dispute.jpeg`} alt="optimal_dispute" />
                 </picture>
                 <span className="dispute__name">
                   Optimal Dispute Settlement Package
@@ -3928,7 +3928,7 @@ const index = () => {
                 href="/solutions/research-and-dispute-resolution/premium-dispute-settlement-package/"
               >
                 <picture className="dispute__pic">
-                  <img src={`${import.meta.env.VITE_REDIRECT}/img/premium_dispute.jpg`} alt="" />
+                  <img src={`${import.meta.env.VITE_REDIRECT}/img/premium_dispute.jpeg`} alt="" />
                 </picture>
                 <span className="dispute__name">
                   Premium Dispute Settlement Package

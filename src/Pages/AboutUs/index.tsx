@@ -9,7 +9,7 @@ const index = () => {
     <>
         <section className={styles.overlay}>
             <picture className={classNames(`${styles.overlay_bg} wow animate__animated animate__fadeIn`)}>
-                <img src={`${import.meta.env.VITE_REDIRECT}/img/about-us.jpg`} alt="overlay" />
+                <img src={`${import.meta.env.VITE_REDIRECT}/img/about_us.jpeg`} alt="overlay" />
             </picture>
             <div className={styles.container}>
                 <h1 className={classNames(`${styles.overlay_title} wow animate__animated animate__fadeInUp`)}>About Us</h1>

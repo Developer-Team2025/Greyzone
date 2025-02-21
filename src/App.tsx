@@ -184,6 +184,7 @@ function App() {
             <Route path="/solutions/cryptocurrency-investigations-and-regulatory-compliance" element={<Cryptocurrency />} />
             <Route path="/solutions/cryptocurrency-investigations-and-regulatory-compliance/:id" element={<Digital />} />
             <Route path="/solutions/digital-goods" element={<DigitalProduct />} />
+            <Route path="/solutions/digital-goods/:id" element={<Digital />} />
             <Route path="/solutions/corporate-services" element={<Business />} />
             <Route path="/solutions/corporate-services/:id" element={<Digital />} />
             <Route path="/contact-us" element={<Contact />} />
@@ -192,7 +193,7 @@ function App() {
             <Route path="/my-account" element={<Login />} />
             <Route path="/my-account/lost-password" element={<Lost />} />
             <Route path="/my-account/lost-password/reset_link_true" element={<Reset />} />
-            <Route path="/solutions/digital-goods/:id" element={<Digital />} />
+
           </Routes>
         </Router>
         <Footer/>

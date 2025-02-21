@@ -29,43 +29,43 @@ const index = () => {
     {
         delay: "0.6s",
         href: "/solutions/cryptocurrency-investigations-and-regulatory-compliance/asset-location-and-tracing-services",
-        imgSrc: `${import.meta.env.VITE_REDIRECT}/img/asset_location.jpg`,
+        imgSrc: `${import.meta.env.VITE_REDIRECT}/img/asset_location.jpeg`,
         name: "Asset Location and Tracing Services",
     },
     {
         delay: "0.7s",
         href: "/solutions/cryptocurrency-investigations-and-regulatory-compliance/cryptocurrency-transaction-risk-analysis",
-        imgSrc: `${import.meta.env.VITE_REDIRECT}/img/Analysis_crypto.jpg`,
+        imgSrc: `${import.meta.env.VITE_REDIRECT}/img/Analysis_crypto.jpeg`,
         name: "Cryptocurrency Transaction Risk Analysis",
     },
     {
         delay: "0.8s",
         href: "/solutions/cryptocurrency-investigations-and-regulatory-compliance/expert-cryptocurrency-witness-services",
-        imgSrc: `${import.meta.env.VITE_REDIRECT}/img/expert_crypto.jpg`,
+        imgSrc: `${import.meta.env.VITE_REDIRECT}/img/expert_crypto.jpeg`,
         name: "Expert Cryptocurrency Witness Services",
     },
     {
         delay: "0.9s",
         href: "/solutions/cryptocurrency-investigations-and-regulatory-compliance/business-focused-cryptocurrency-intelligence-report",
-        imgSrc: `${import.meta.env.VITE_REDIRECT}/img/business_focused.jpg`,
+        imgSrc: `${import.meta.env.VITE_REDIRECT}/img/business_focused.jpeg`,
         name: "Business-Focused Cryptocurrency Intelligence Report",
     },
     {
         delay: "1.0s",
         href: "/solutions/cryptocurrency-investigations-and-regulatory-compliance/in-depth-cryptocurrency-investigation-services",
-        imgSrc: `${import.meta.env.VITE_REDIRECT}/img/In_depthCrypto.jpg`,
+        imgSrc: `${import.meta.env.VITE_REDIRECT}/img/In_depthCrypto.jpeg`,
         name: "In-Depth Cryptocurrency Investigation Services",
     },
     {
         delay: "1.1s",
         href: "/solutions/cryptocurrency-investigations-and-regulatory-compliance/general-cryptocurrency-intelligence-reports",
-        imgSrc: `${import.meta.env.VITE_REDIRECT}/img/Intelligence_report.jpg`,
+        imgSrc: `${import.meta.env.VITE_REDIRECT}/img/Intelligence_report.jpeg`,
         name: "General Cryptocurrency Intelligence Reports",
     },
     {
         delay: "1.2s",
         href: "/solutions/cryptocurrency-investigations-and-regulatory-compliance/support-for-cryptocurrency-data-collection",
-        imgSrc: `${import.meta.env.VITE_REDIRECT}/img/Data_Collection.jpg`,
+        imgSrc: `${import.meta.env.VITE_REDIRECT}/img/Data_Collection.jpeg`,
         name: "Support for Cryptocurrency Data Collection",
     }
     ]

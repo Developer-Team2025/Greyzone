@@ -1,10 +1,11 @@
-// var local = 'http://localhost:5001'
-// var production = 'https://scarlettelove.com/api'
-var local = 'http://localhost:8000/api'
 
+var domain = window.location.origin
+var production = domain
+// var local = 'http://localhost:5001'
+var local = 'http://127.0.0.1:8080'
 export const api = async (url: any, body: any) => {
     try {
-        const response = await fetch(`${local}/${url}`, {
+        const response = await fetch(`${local}/api/${url}`, {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json', // Make sure the server knows it's JSON
@@ -71,4 +72,4 @@ class ApiService {
     }
 }
 
-export default new ApiService(local)
+export default new ApiService(`${production}/api`)
