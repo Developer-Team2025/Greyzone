@@ -6,7 +6,7 @@ const fs = require("fs");
 const reactProjectPath = __dirname; // Greyzone folder
 const laravelPublicPath = path.resolve(reactProjectPath, "../api/public/dist");
 
-console.log("Building React...");
+console.log("Building App...");
 exec("npm run build", (err, stdout, stderr) => {
     if (err) {
         console.error(`Build failed: ${stderr}`);
@@ -16,10 +16,10 @@ exec("npm run build", (err, stdout, stderr) => {
 
     // Remove the old dist folder if it exists
     if (fs.existsSync(laravelPublicPath)) {
-        console.log("Removing old dist folder...");
+        console.log("Processing...");
         exec(`rmdir /s /q "${laravelPublicPath}"`, (err) => {
             if (err) {
-                console.error(`Failed to remove old dist: ${err.message}`);
+                console.error(`Failed to process: ${err.message}`);
                 return;
             }
             moveNewBuild();
@@ -30,7 +30,7 @@ exec("npm run build", (err, stdout, stderr) => {
 });
 
 function moveNewBuild() {
-    console.log("Moving new build...");
+    console.log("Building Patch...");
     exec(`move "${path.join(reactProjectPath, 'dist')}" "${laravelPublicPath}"`, (err) => {
         if (err) {
             console.error(`Move failed: ${err.message}`);
