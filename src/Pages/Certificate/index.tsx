@@ -10,7 +10,7 @@ import { formApi } from '../../Components/api/getValue';
 //     "caption": ""
 //   },
 //   {
-//     "src": `${import.meta.env.VITE_REDIRECT}/img/certificate/benjamin_acad.jpeg`,
+//     "src": `${import.meta.env.VITE_REDIRECT}/img/certificate/benjamin_acad.jpg`,
 //     "alt": "benjamin_acad",
 //     "caption": ""
 //   },

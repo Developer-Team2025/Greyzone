@@ -37,7 +37,6 @@ const content = [
     {"name":"Business Valuation and Assessment Services", img: `${import.meta.env.VITE_REDIRECT}/img/business_valuation.jpeg` ,"id":"business-valuation-and-assessment-services", part:"Business Services"}
 ];
 
-
 const category = [
     {
     "name": "The Crucial Role of Expert Support When Dealing with Banks in Fraud Cases",
@@ -77,11 +76,11 @@ const category = [
     {
     "name": "Navigating Scams on Facebook Marketplace",
     "id": "navigating-scams-on-facebook-marketplace",
-    "img": "/img/blog_v2/navigating_scams.jpeg",
+    "img": "/img/blog_v2/navigating_scams.jpg",
     },
     {
     "id": "step-by-step-guide-to-reporting-a-scam-in-new-zealand/",
-    "img": "/img/blog_v2/newzealand.jpeg",
+    "img": "/img/blog_v2/newzealand.jpg",
     "name": "Step-by-Step Guide to Reporting a Scam in New Zealand",
     },
     {

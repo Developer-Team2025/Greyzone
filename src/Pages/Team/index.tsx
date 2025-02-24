@@ -1,7 +1,9 @@
 
 //import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import styles from './style.module.scss'
 import classNames from 'classnames'
+import HttpService from '../../Components/api/HttpService';
 // import HttpService from '../../Components/api/getValue';
 // import { useEffect, useState } from 'react';
 const teamMembers = [
@@ -95,28 +97,28 @@ const teamMembers = [
 
 const TeamSection = () => {
 
-  // const api = HttpService
+  const api = HttpService
 
-  // interface OurTeamMembers {
-  //   fullname: string;
-  //   job_position: string;
-  //   profile_img: {
-  //     file_name: string;
-  //     file_location: string;
-  //     full_path_location: string;
-  //   };
-  // }
+  interface OurTeamMembers {
+    fullname: string;
+    job_position: string;
+    profile_img: {
+      file_name: string;
+      file_location: string;
+      full_path_location: string;
+    };
+  }
 
-  // const [ourTeams, setOurTeams] = useState<OurTeamMembers[]>([]);
+  const [ourTeams, setOurTeams] = useState<OurTeamMembers[]>([]);
 
-  // useEffect(() => {
-  //   api.get('/our-teams')
-  //     .then((data: { our_teams: OurTeamMembers[] }) => {
-  //       setOurTeams(data.our_teams)
-  //       console.log(data.our_teams)
-  //     })
-  //     .catch((error) => console.error("Error fetching data:", error))
-  // }, [])
+  useEffect(() => {
+    api.get('our-teams')
+      .then((data: { our_teams: OurTeamMembers[] }) => {
+        setOurTeams(data.our_teams)
+        console.log(data.our_teams)
+      })
+      .catch((error) => console.error("Error fetching data:", error))
+  }, [])
 
   return (
     <section className={styles.partner} id="partners">
