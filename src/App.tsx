@@ -29,6 +29,7 @@ import Digital from './Components/Reusable/Content/index'
 import DigitalProduct from './Pages/Digital/index'
 import Category from './Components/Reusable/Category/index'
 import {edit} from './Components/Reusable/Addition/index'
+import NotFound from './Pages/404/index'
 // import FingerprintJS from "@fingerprintjs/fingerprintjs";
 // import axios from 'axios';
 
@@ -137,7 +138,7 @@ function App() {
       </Helmet>
       <ThemeContext.Provider value={{theme, toggleTheme, Animate}}>
       <div className='warning'>
-        <span>BEWARE IMPERSONATION SCAMS! Ensure you're communicating with official Greyzone Consulting via @greyzone.com emails. 
+        <span>BEWARE IMPERSONATION SCAMS! Ensure you're communicating with official Greyzone Consulting via info@greyzoneconsulting.com emails. 
         <a href="/fraud-awareness" style={{color: "red"}}>Learn more &gt;&gt;&gt;</a></span>
       </div>
       <div className='main_homepage'>
@@ -193,7 +194,7 @@ function App() {
             <Route path="/my-account" element={<Login />} />
             <Route path="/my-account/lost-password" element={<Lost />} />
             <Route path="/my-account/lost-password/reset_link_true" element={<Reset />} />
-
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </Router>
         <Footer/>

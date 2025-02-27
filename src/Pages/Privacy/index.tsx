@@ -74,7 +74,7 @@ const index = () => {
             <p>We implement appropriate technical and organizational measures to ensure the security and confidentiality of your personal information.</p>
             <h3 className={styles.wp_block_heading}>Contact Us</h3>
             <p>
-              If you have any questions or concerns regarding this Privacy Policy or the handling of your personal information, please contact us at <a href="mailto:privacy@greyzone.com">privacy@greyzone.com</a>.
+              If you have any questions or concerns regarding this Privacy Policy or the handling of your personal information, please contact us at <a href="mailto:support@greyzoneconsulting.com">support@greyzoneconsulting.com</a>.
             </p>
             <h3 className={styles.wp_block_heading}>Changes to this Policy</h3>
             <p>

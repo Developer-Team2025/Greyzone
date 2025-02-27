@@ -95,6 +95,7 @@ const teamMembers = [
 ];
 
 
+
 const TeamSection = () => {
 
   const api = HttpService
@@ -115,11 +116,14 @@ const TeamSection = () => {
     api.get('our-teams')
       .then((data: { our_teams: OurTeamMembers[] }) => {
         setOurTeams(data.our_teams)
-        console.log(data.our_teams)
+        console.log(ourTeams)
       })
       .catch((error) => console.error("Error fetching data:", error))
   }, [])
 
+
+
+  
   return (
     <section className={styles.partner} id="partners">
       <div className={styles.container}>

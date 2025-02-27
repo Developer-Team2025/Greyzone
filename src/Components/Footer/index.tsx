@@ -1,6 +1,6 @@
 import styles from './style.module.scss'
 import classNames from 'classnames'
-import logo from '../../assets/images/logo_v2.jpeg'
+import logo from '../../assets/images/logo_v2.png'
 const index = () => {
 
   return (
@@ -80,7 +80,7 @@ const index = () => {
                     <span className={styles.footer_title}>Contact Us</span>
                     <div>
                         {/* <div className={classNames(`${styles.list_Footer} ${styles.footer_contact_line}`)}><div className={styles.sizeIcon}><i className={styles.phone_Icon}></i></div><p className={styles.style_content_phone}><a href="" className={styles.contact_line}>+3619010272</a></p></div> */}
-                        <div className={classNames(`${styles.list_Footer} ${styles.footer_contact_line}`)}><div className={styles.sizeIcon}><i className={styles.email_Icon}></i></div><p className={styles.style_content_phone}><a href="" className={styles.contact_line}>info@greyzone.com</a></p></div>
+                        <div className={classNames(`${styles.list_Footer} ${styles.footer_contact_line}`)}><div className={styles.sizeIcon}><i className={styles.email_Icon}></i></div><p className={styles.style_content_phone}><a href="" className={styles.contact_line}>info@greyzoneconsulting.com</a></p></div>
                         <div className={classNames(`${styles.list_Footer} ${styles.footer_contact_line}`)}><div className={styles.sizeIcon}><i className={styles.pin_Icon}></i></div><p className={styles.style_content_phone}><a href="" className={styles.contact_line}>Headquarters: 1052, Vármegye u. 3-5, 2nd floor, Budapest</a></p></div>
                     </div>
                 </div>

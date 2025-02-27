@@ -20,13 +20,13 @@ const Index = () => {
               <h3 className={styles.wp_block_heading}>
                 <strong>The following are the Terms and Conditions of Greyzone Consulting.</strong>
               </h3>
-              <p>Greyzone Consulting (www.greyzone.com) is the brand name of Greyzone Consulting International KFT, registration number 01-09-350838 VAT HU27125508.</p>
+              <p>Greyzone Consulting (www.greyzoneconsulting.com) is the brand name of Greyzone Consulting International KFT, registration number 01-09-350838 VAT HU27125508.</p>
             </div>
           </article>
 
           <article className={classNames(`${styles.condition_block} wow animate__animated animate__fadeInUp`)} >
             <h3>Introduction</h3>
-            <p>By engaging with Greyzone Consulting on our official website, <a href="http://www.greyzone.com/" target="_new">www.greyzone.com</a>, you (“Client”, “You”, “Your”) are accepting our Terms and Conditions. These Terms and Conditions define your rights and responsibilities when using our site and services. The terms “The Company”, “Greyzone Consulting”, “Ourselves”, “We”, “Our”, and “Us” denote our Company.</p>
+            <p>By engaging with Greyzone Consulting on our official website, <a href="https://www.greyzoneconsulting.com/" target="_new">www.greyzoneconsulting.com</a>, you (“Client”, “You”, “Your”) are accepting our Terms and Conditions. These Terms and Conditions define your rights and responsibilities when using our site and services. The terms “The Company”, “Greyzone Consulting”, “Ourselves”, “We”, “Our”, and “Us” denote our Company.</p>
             <p>We reserve the right to amend these Terms and Conditions at any time. Any changes will be marked by a revised “last updated” date at the bottom of this page. It is your responsibility to review these Terms and Conditions regularly. Your continued use of our site after any changes signifies your acceptance of the updated terms.</p>
             <p>Please note that our services are intended for individuals who are 18 years of age or older. Individuals under the age of 18 are not permitted to use this website.</p>
 
@@ -47,15 +47,15 @@ const Index = () => {
             </ol>
 
             <h3>Hyperlinking and Iframes</h3>
-            <p>Organizations may be permitted to link to our website under specific conditions, such as not falsely suggesting sponsorship, endorsement, or association. Any organization wishing to link to our website must notify us at <a href="mailto:marketing@greyzone.com" target="_new">marketing@greyzone.com</a>.</p>
+            <p>Organizations may be permitted to link to our website under specific conditions, such as not falsely suggesting sponsorship, endorsement, or association. Any organization wishing to link to our website must notify us at <a href="mailto:info@greyzoneconsulting.com" target="_new">info@greyzoneconsulting.com</a>.</p>
             <p>Without our express written permission, no organization may create frames around our web pages or use other techniques that alter the visual presentation or appearance of our site.</p>
 
             <h3>Services</h3>
             <p>Greyzone Consulting provides a range of consulting and investigation services. By engaging with our services, you accept these terms and conditions and are bound by them. Some services may require you to register or sign up. Specific terms may apply for different services, and you will be informed of these as necessary.</p>
 
             <h3>Making a Payment</h3>
-            <p>Upon selecting a service on our website, you will be prompted to enter personal data and choose a payment method. After payment, a confirmation email will be sent, and you must verify the accuracy of the payment details. For any discrepancies, promptly contact Greyzone Consulting at <a href="mailto:support@greyzone.com" target="_new">support@greyzone.com</a>.</p>
-            <p>Your payment is considered confirmed upon receipt of the deposit and confirmation email. Adherence to these Terms and Conditions, and any additional conditions that apply to the service, is expected. Payments are accepted in GB Pounds (GBP), with exchange rates set by the issuing bank or payment system. Clients are responsible for all transaction fees and must keep us informed of any changes to personal contact details. For payment queries, contact Greyzone Consulting through the website, live chat, phone call, or email at <a href="mailto:info@greyzone.com" target="_new">info@greyzone.com</a>.</p>
+            <p>Upon selecting a service on our website, you will be prompted to enter personal data and choose a payment method. After payment, a confirmation email will be sent, and you must verify the accuracy of the payment details. For any discrepancies, promptly contact Greyzone Consulting at <a href="mailto:support@greyzoneconsulting.com" target="_new">support@greyzoneconsulting.com</a>.</p>
+            <p>Your payment is considered confirmed upon receipt of the deposit and confirmation email. Adherence to these Terms and Conditions, and any additional conditions that apply to the service, is expected. Payments are accepted in GB Pounds (GBP), with exchange rates set by the issuing bank or payment system. Clients are responsible for all transaction fees and must keep us informed of any changes to personal contact details. For payment queries, contact Greyzone Consulting through the website, live chat, phone call, or email at <a href="mailto:info@greyzoneconsulting.com" target="_new">info@greyzoneconsulting.com</a>.</p>
 
             <h3>Refund & Cancellation Policy</h3>
             <h4>Changes to Services</h4>
@@ -95,7 +95,7 @@ const Index = () => {
             <p>Our website may contain links to third-party websites or services that are not owned or controlled by Greyzone Consulting. We assume no responsibility for the content, privacy policies, or practices of these external websites and services. You acknowledge and agree that Greyzone Consulting shall not be liable for any damage or loss caused by or in connection with the use of any such external websites or services.</p>
 
             <h3><strong>Your Consent and Use of Personal Information</strong></h3>
-            <p>By providing your contact details and other personal information on Greyzone Consulting’s website or any of its subdomains (greyzone.com), you hereby give your explicit consent to be contacted by our company’s employees or authorized representatives. This may involve communication via email, phone, or any other contact methods you have provided.</p>
+            <p>By providing your contact details and other personal information on Greyzone Consulting’s website or any of its subdomains (greyzoneconsulting.com.com), you hereby give your explicit consent to be contacted by our company’s employees or authorized representatives. This may involve communication via email, phone, or any other contact methods you have provided.</p>
             <p>In addition, by using our site and its subdomains and submitting your information, you agree to the collection, storage, use, and disclosure of your personal data as described in our Privacy Policy.</p>
             <p>We retain your personal data for as long as necessary to fulfill the purposes for which we collected it, including for the purposes of satisfying any legal, accounting, or reporting requirements. To determine the appropriate retention period for personal data, we consider the amount, nature, and sensitivity of the personal data, the potential risk of harm from unauthorized use or disclosure of your personal data, the purposes for which we process your personal data and whether we can achieve those purposes through other means, and the applicable legal requirements.</p>
             <p>We assure you that Greyzone Consulting adheres to the highest standards of data privacy and security. Your personal information is kept confidential and is only used for the purposes outlined in our Privacy Policy.</p>

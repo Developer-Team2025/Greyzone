@@ -3,6 +3,7 @@ import styles from "./style.module.scss";
 import { useParams } from "react-router-dom";
 import ShadowDOM from "react-shadow";
 import Slider from "react-slick";
+import { Link } from "react-router-dom";
 interface ArrowProps {
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
@@ -594,9 +595,9 @@ const index = () => {
                 <p>
                   Equip yourself with the tools and knowledge to stay one step
                   ahead of{" "}
-                  <a href="/blog/what-to-do-if-you-suspect-fraud/">
+                  <Link to="/blog/what-to-do-if-you-suspect-fraud/">
                     fraudsters
-                  </a>
+                  </Link>{" "}
                   . Purchase the Fraud Awareness Bundle today and start your
                   journey to becoming a fraud prevention champion.
                 </p>
@@ -639,8 +640,8 @@ const index = () => {
                       your transactions are above board.
                     </p>
                     <div className="card__ctrl">
-                      <a
-                        href="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-transaction-risk-analysis/"
+                      <Link
+                        to="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-transaction-risk-analysis/"
                         aria-describedby="woocommerce_loop_add_to_cart_link_describedby_33046"
                         data-quantity="1"
                         className="button product_type_simple"
@@ -650,7 +651,7 @@ const index = () => {
                         rel="nofollow"
                       >
                         Read more
-                      </a>
+                      </Link>
                       <span
                         id="woocommerce_loop_add_to_cart_link_describedby_33046"
                         className="screen-reader-text"
@@ -819,7 +820,7 @@ const index = () => {
                       strong focus on{" "}
                       <strong>digital assets and cryptocurrencies</strong>. Our
                       experienced team employs{" "}
-                      <a href="https://crystalintelligence.com">
+                      <a >
                         cutting-edge technology
                       </a>{" "}
                       and{" "}
@@ -830,8 +831,8 @@ const index = () => {
                       effective process for our clients.
                     </p>
                     <div className="card__ctrl">
-                      <a
-                        href="/solutions/cryptocurrency-investigation-compliance/asset-location-and-tracing-services/"
+                      <Link
+                        to="/solutions/cryptocurrency-investigation-compliance/asset-location-and-tracing-services/"
                         aria-describedby="woocommerce_loop_add_to_cart_link_describedby_33273"
                         data-quantity="1"
                         className="button product_type_simple"
@@ -841,7 +842,7 @@ const index = () => {
                         rel="nofollow"
                       >
                         Read more
-                      </a>
+                      </Link>
                       <span
                         id="woocommerce_loop_add_to_cart_link_describedby_33273"
                         className="screen-reader-text"
@@ -983,9 +984,9 @@ const index = () => {
                     </h3>
                     <p>
                       Our team at Greyzone Consulting conducts thorough{" "}
-                      <a href="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/">
+                      <Link to="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/">
                         cryptocurrency analysis and investigations
-                      </a>{" "}
+                      </Link>{" "}
                       to deliver customized reports and case responses for our
                       clients. We comprehend the complexities and unique aspects
                       of cryptocurrency and blockchain technology. Utilizing our
@@ -1022,13 +1023,13 @@ const index = () => {
                       gain a clear understanding of the subject matter. Benefit
                       from our extensive international experience and the
                       utilization of advanced tools and methodologies.{" "}
-                      <a href="contact-us">Contact Greyzone Consulting</a> today
+                      <Link to="/contact-us">Contact Greyzone Consulting</Link> today
                       to secure successful outcomes in your
                       cryptocurrency-related legal cases.
                     </p>
                     <div className="card__ctrl">
-                      <a
-                        href="/solutions/cryptocurrency-investigation-compliance/expert-cryptocurrency-witness-services/"
+                      <Link
+                        to="/solutions/cryptocurrency-investigation-compliance/expert-cryptocurrency-witness-services/"
                         aria-describedby="woocommerce_loop_add_to_cart_link_describedby_605"
                         data-quantity="1"
                         className="button product_type_simple"
@@ -1038,7 +1039,7 @@ const index = () => {
                         rel="nofollow"
                       >
                         Read more
-                      </a>
+                      </Link>
                       <span
                         id="woocommerce_loop_add_to_cart_link_describedby_605"
                         className="screen-reader-text"
@@ -1149,9 +1150,9 @@ const index = () => {
                     </h3>
                     <p>
                       Our team at Greyzone Consulting conducts thorough{" "}
-                      <a href="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/">
+                      <Link to="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/">
                         cryptocurrency analysis and investigations
-                      </a>{" "}
+                      </Link>{" "}
                       to deliver customized reports and case responses for our
                       clients. We comprehend the complexities and unique aspects
                       of cryptocurrency and blockchain technology. Utilizing our
@@ -1188,13 +1189,13 @@ const index = () => {
                       gain a clear understanding of the subject matter. Benefit
                       from our extensive international experience and the
                       utilization of advanced tools and methodologies.{" "}
-                      <a href="contact-us">Contact Greyzone Consulting</a> today
+                      <Link to="/contact-us">Contact Greyzone Consulting</Link> today
                       to secure successful outcomes in your
                       cryptocurrency-related legal cases.
                     </p>
                     <div className="card__ctrl">
-                      <a
-                        href="/solutions/cryptocurrency-investigation-compliance/expert-cryptocurrency-witness-services/"
+                      <Link
+                        to="/solutions/cryptocurrency-investigation-compliance/expert-cryptocurrency-witness-services/"
                         aria-describedby="woocommerce_loop_add_to_cart_link_describedby_605"
                         data-quantity="1"
                         className="button product_type_simple"
@@ -1204,7 +1205,7 @@ const index = () => {
                         rel="nofollow"
                       >
                         Read more
-                      </a>
+                      </Link>
                       <span
                         id="woocommerce_loop_add_to_cart_link_describedby_605"
                         className="screen-reader-text"
@@ -1298,8 +1299,8 @@ const index = () => {
                       security and transparency of your crypto ventures.
                     </p>
                     <div className="card__ctrl">
-                      <a
-                        href="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/"
+                      <Link
+                        to="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/"
                         aria-describedby="woocommerce_loop_add_to_cart_link_describedby_599"
                         data-quantity="1"
                         className="button product_type_simple"
@@ -1309,7 +1310,7 @@ const index = () => {
                         rel="nofollow"
                       >
                         Read more
-                      </a>
+                      </Link>
                       <span
                         id="woocommerce_loop_add_to_cart_link_describedby_599"
                         className="screen-reader-text"
@@ -1463,8 +1464,8 @@ const index = () => {
                       within 20 working days.
                     </p>
                     <div className="card__ctrl">
-                      <a
-                        href="/solutions/cryptocurrency-investigation-compliance/general-cryptocurrency-intelligence-reports/"
+                      <Link
+                        to="/solutions/cryptocurrency-investigation-compliance/general-cryptocurrency-intelligence-reports/"
                         aria-describedby="woocommerce_loop_add_to_cart_link_describedby_597"
                         data-quantity="1"
                         className="button product_type_simple"
@@ -1474,7 +1475,7 @@ const index = () => {
                         rel="nofollow"
                       >
                         Read more
-                      </a>
+                      </Link>
                       <span
                         id="woocommerce_loop_add_to_cart_link_describedby_597"
                         className="screen-reader-text"
@@ -1591,8 +1592,8 @@ const index = () => {
                     <p>&nbsp;</p>
                     <p>&nbsp;</p>
                     <div className="card__ctrl">
-                      <a
-                        href="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-information-gathering-support/"
+                      <Link
+                        to="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-information-gathering-support/"
                         aria-describedby="woocommerce_loop_add_to_cart_link_describedby_589"
                         data-quantity="1"
                         className="button product_type_simple"
@@ -1602,7 +1603,7 @@ const index = () => {
                         rel="nofollow"
                       >
                         Read more
-                      </a>
+                      </Link>
                       <span
                         id="woocommerce_loop_add_to_cart_link_describedby_589"
                         className="screen-reader-text"
@@ -1711,8 +1712,8 @@ const index = () => {
                       that might be overlooked by automated systems.
                     </p>
                     <div className="card__ctrl">
-                      <a
-                        href="/solutions/research-and-dispute-resolution/comprehensive-due-diligence-solutions/"
+                      <Link
+                        to="/solutions/research-and-dispute-resolution/comprehensive-due-diligence-solutions/"
                         aria-describedby="woocommerce_loop_add_to_cart_link_describedby_28523"
                         data-quantity="1"
                         className="button product_type_simple"
@@ -1722,7 +1723,7 @@ const index = () => {
                         rel="nofollow"
                       >
                         Read more
-                      </a>
+                      </Link>
                       <span
                         id="woocommerce_loop_add_to_cart_link_describedby_28523"
                         className="screen-reader-text"
@@ -1782,7 +1783,7 @@ const index = () => {
                     with confidence and ease. Our tailored reports and top-tier
                     industry tools ensure that you receive a service that is
                     truly suited to your requirements.{" "}
-                    <a href="contact-us">Get in touch with our team</a> of
+                    <Link to="/contact-us">Get in touch with our team</Link> of
                     experts today and experience the difference of
                     comprehensive, personalized due diligence services.
                   </p>
@@ -2216,14 +2217,14 @@ const index = () => {
                       </li>
                     </ul>
                     <div className="card__ctrl">
-                      <a
-                        href="/solutions/research-and-dispute-resolution/special-dispute-settlement-package/"
+                      <Link
+                        to="/solutions/research-and-dispute-resolution/special-dispute-settlement-package/"
                         className="button product_type_simple"
                         aria-label="Read more about “Dispute Settlement 'Special Package'”"
                         rel="nofollow"
                       >
                         Read more
-                      </a>
+                      </Link>
                       <span className="card__price"></span>
                     </div>
                   </div>
@@ -2767,7 +2768,7 @@ const index = () => {
                       precision, and confidentiality. Whether you need a
                       detailed case report or a document package for law
                       enforcement or state authorities,{" "}
-                      <a href="/contact-us">we are here to assist</a>.
+                      <Link to="/contact-us">we are here to assist</Link>.
                     </p>
                     <p>
                       Experience the difference with our Case Assessment &
@@ -3155,14 +3156,14 @@ const index = () => {
                       accuracy, and compliance in your hiring process.
                     </p>
                     <div className="card__ctrl">
-                      <a
-                        href="/solutions/corporate-services/background-check-services-for-employees/"
+                      <Link
+                        to="/solutions/corporate-services/background-check-services-for-employees/"
                         className="button product_type_simple"
                         aria-label="Read more about “Employee Background Check Services”"
                         rel="nofollow"
                       >
                         Read more
-                      </a>
+                      </Link>
                       <span className="card__price"></span>
                     </div>
                   </div>
@@ -3279,7 +3280,7 @@ const index = () => {
                       <strong>Uncompromised Data Protection:</strong> In an era
                       where data breaches are rampant, we emerge as guardians.
                       Guided by GDPR and{" "}
-                      <a href="https://www.pdpc.gov.sg/Overview-of-PDPA/The-Legislation/Personal-Data-Protection-Act">
+                      <a >
                         PDPA
                       </a>
                       , we protect data zealously.
@@ -3300,13 +3301,13 @@ const index = () => {
                     landscape of business partnerships is just as critical as
                     individual hiring. For this reason, we extend our expertise
                     to{" "}
-                    <a href="/solutions/research-and-dispute-resolution/comprehensive-due-diligence-solutions/">
+                    <Link to="/solutions/research-and-dispute-resolution/comprehensive-due-diligence-solutions/">
                       Due Diligence services
-                    </a>{" "}
+                    </Link>{" "}
                     and{" "}
-                    <a href="/solutions/corporate-services/corporate-background-verification-services/">
+                    <Link to="/solutions/corporate-services/corporate-background-verification-services/">
                       Company Background checks
-                    </a>
+                    </Link>
                     . Whether you’re entering a new business partnership,
                     considering a merger, or merely seeking insights into a
                     competitor, our meticulous evaluations provide a holistic
@@ -3351,14 +3352,14 @@ const index = () => {
                       decision-making.
                     </p>
                     <div className="card__ctrl">
-                      <a
-                        href="/solutions/corporate-services/corporate-background-verification-services/"
+                      <Link
+                        to="/solutions/corporate-services/corporate-background-verification-services/"
                         className="button product_type_simple"
                         aria-label="Read more about “Corporate Background Check”"
                         rel="nofollow"
                       >
                         Read more
-                      </a>
+                      </Link>
                       <span className="card__price"></span>
                     </div>
                   </div>
@@ -3404,7 +3405,7 @@ const index = () => {
                     for an unobstructed view into the corporate world. Equipped
                     with our insights, our clients can make informed decisions,
                     mitigate latent risks, and cultivate trust in their business
-                    engagements. <a href="contact-us">We are here</a> to empower
+                    engagements. <Link to="/contact-us">We are here</Link> to empower
                     you to navigate the labyrinth of corporate intricacies with
                     confidence.
                   </p>
@@ -3459,14 +3460,14 @@ const index = () => {
                       comprehensive solution.
                     </p>
                     <div className="card__ctrl">
-                      <a
-                        href="/solutions/corporate-services/corporate-fraud-investigation-solutions/"
+                      <Link
+                        to="/solutions/corporate-services/corporate-fraud-investigation-solutions/"
                         className="button product_type_simple"
                         aria-label="Read more about “Corporate Fraud Investigation”"
                         rel="nofollow"
                       >
                         Read more
-                      </a>
+                      </Link>
                       <span className="card__price"></span>
                     </div>
                   </div>
@@ -3570,9 +3571,9 @@ const index = () => {
                     </li>
                   </ul>
                   <p>
-                    <a href="contact-us">
+                    <Link to="/contact-us">
                       Contact our team for more information.
-                    </a>
+                    </Link>
                   </p>
                 </div>
               </div>
@@ -3612,14 +3613,14 @@ const index = () => {
                       economic factors and industry trends.
                     </p>
                     <div className="card__ctrl">
-                      <a
-                        href="/solutions/corporate-services/business-valuation-and-assessment-services/"
+                      <Link
+                        to="/solutions/corporate-services/business-valuation-and-assessment-services/"
                         className="button product_type_simple"
                         aria-label="Read more about “Company Valuation”"
                         rel="nofollow"
                       >
                         Read more
-                      </a>
+                      </Link>
                       <span className="card__price"></span>
                     </div>
                   </div>
@@ -3735,14 +3736,14 @@ const index = () => {
                       <li>Work with dispute</li>
                     </ul>
                     <div className="card__ctrl">
-                      <a
-                        href="/solutions/corporate-services/merchant-chargeback-assistance-process/"
+                      <Link
+                        to="/solutions/corporate-services/merchant-chargeback-assistance-process/"
                         className="button product_type_simple"
                         aria-label="Read more about “Chargeback Process for Merchants”"
                         rel="nofollow"
                       >
                         Read more
-                      </a>
+                      </Link>
                       <span className="card__price"></span>
                     </div>
                   </div>
@@ -3833,9 +3834,9 @@ const index = () => {
               <span>Related products</span>
             </h2>
             <Slider {...settings} className="related__slider">
-              <a
+              <Link
                 className="dispute__link related__link slick-slide"
-                href="/solutions/advisory-and-documentation-assistance/application-drafting-and-processing-support/"
+                to="/solutions/advisory-and-documentation-assistance/application-drafting-and-processing-support/"
               >
                 <picture className="dispute__pic">
                   <img
@@ -3849,10 +3850,10 @@ const index = () => {
                 <span className="dispute__more">
                   See more<i className="i i-arrow-right"></i>
                 </span>
-              </a>
-              <a
+              </Link>
+              <Link
                 className="dispute__link related__link slick-slide"
-                href="/solutions/advisory-and-documentation-assistance/case-evaluation-and-documentation-services/"
+                to="/solutions/advisory-and-documentation-assistance/case-evaluation-and-documentation-services/"
               >
                 <picture className="dispute__pic">
                   <img src={`${import.meta.env.VITE_REDIRECT}/img/case_evaluation.jpeg`} alt="case_evaluation" />
@@ -3863,10 +3864,10 @@ const index = () => {
                 <span className="dispute__more">
                   See more<i className="i i-arrow-right"></i>
                 </span>
-              </a>
-              <a
+              </Link>
+              <Link
                 className="dispute__link related__link slick-slide"
-                href="/solutions/advisory-and-documentation-assistance/technical-document-translation-non-certified/"
+                to="/solutions/advisory-and-documentation-assistance/technical-document-translation-non-certified/"
               >
                 <picture className="dispute__pic">
                   <img
@@ -3880,10 +3881,10 @@ const index = () => {
                 <span className="dispute__more">
                   See more<i className="i i-arrow-right"></i>
                 </span>
-              </a>
-              <a
+              </Link>
+              <Link
                 className="dispute__link related__link slick-slide"
-                href="/solutions/research-and-dispute-resolution/basic-dispute-settlement-package/"
+                to="/solutions/research-and-dispute-resolution/basic-dispute-settlement-package/"
               >
                 <picture className="dispute__pic">
                   <img src={`${import.meta.env.VITE_REDIRECT}/img/basic_dispute.jpeg`} alt="basic_dispute" />
@@ -3894,10 +3895,10 @@ const index = () => {
                 <span className="dispute__more">
                   See more<i className="i i-arrow-right"></i>
                 </span>
-              </a>
-              <a
+              </Link>
+              <Link
                 className="dispute__link related__link slick-slide"
-                href="/solutions/research-and-dispute-resolution/special-dispute-settlement-package/"
+                to="/solutions/research-and-dispute-resolution/special-dispute-settlement-package/"
               >
                 <picture className="dispute__pic">
                   <img src={`${import.meta.env.VITE_REDIRECT}/img/special_dispute.jpeg`} alt="special_dispute" />
@@ -3908,10 +3909,10 @@ const index = () => {
                 <span className="dispute__more">
                   See more<i className="i i-arrow-right"></i>
                 </span>
-              </a>
-              <a
+              </Link>
+              <Link
                 className="dispute__link related__link slick-slide"
-                href="/solutions/research-and-dispute-resolution/optimal-dispute-settlement-package/"
+                to="/solutions/research-and-dispute-resolution/optimal-dispute-settlement-package/"
               >
                 <picture className="dispute__pic">
                   <img src={`${import.meta.env.VITE_REDIRECT}/img/optimal_dispute.jpeg`} alt="optimal_dispute" />
@@ -3922,10 +3923,10 @@ const index = () => {
                 <span className="dispute__more">
                   See more<i className="i i-arrow-right"></i>
                 </span>
-              </a>
-              <a
+              </Link>
+              <Link
                 className="dispute__link related__link slick-slide "
-                href="/solutions/research-and-dispute-resolution/premium-dispute-settlement-package/"
+                to="/solutions/research-and-dispute-resolution/premium-dispute-settlement-package/"
               >
                 <picture className="dispute__pic">
                   <img src={`${import.meta.env.VITE_REDIRECT}/img/premium_dispute.jpeg`} alt="" />
@@ -3936,7 +3937,7 @@ const index = () => {
                 <span className="dispute__more">
                   See more<i className="i i-arrow-right"></i>
                 </span>
-              </a>
+              </Link>
             </Slider>
           </div>
         </section>
