@@ -1,0 +1,220 @@
+.footer_part{
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 86px 0 0px;
+    // background: linear-gradient(90deg, #dcdcda 8%, #838db1 100%);
+    .footer_container{
+        max-width: 1615px;
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+        .inner_footer{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            @media only screen and (max-width: 1130px) {
+                justify-content: space-around;
+            }
+            @media only screen and (max-width: 765px) {
+                flex-direction: column;
+            }
+            .footer_text {
+                font-size: 12px;
+                font-weight: normal;
+                line-height: 1.83;
+                max-width: 310px;
+                margin-bottom: 20px;
+                opacity: .8;
+                color: #fff
+                // #060606;
+            }
+            .add_foot{
+                display: block;
+                @media only screen and (max-width: 1130px) {
+                    display: none;
+                }
+            }
+            .footer_title{
+                font-size: 18px;
+                font-weight: bold;
+                line-height: normal;
+                display: block;
+                margin-bottom: 21px;
+                background: #fff;
+                // linear-gradient(to right, #012555, #55719F, #012555);
+                // linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .footer_contact_line{
+                display: flex ;
+                margin-bottom: 13px;
+                align-items: flex-start;
+                justify-content: space-between;
+            }
+            .list_Footer{
+                margin-bottom: 8px;
+                padding-left: 0;
+                a{
+                    font-size: 16px;
+                    font-weight: normal;
+                    line-height: 2;
+                    position: relative;
+                    color: #fff;
+                }
+                .contact_line{
+                    font-size: 13px;
+                    font-weight: normal;
+                    line-height: 16px;
+                    text-decoration: none !important;
+                    position: relative;
+                    color: #fff;
+                }
+                p{
+                    font-size: 13px;
+                    font-weight: normal;
+                    line-height: 16px;
+                    margin-bottom: 15px !important;
+                    color: #fff;
+                    // margin: -7px 0 0;
+                }
+                .sizeIcon{
+                    display: flex;
+                    width: 14px;
+                    margin-right: 8px;
+                    justify-content: center;
+                    flex-grow: 0;
+                    flex-shrink: 0;
+                }
+                .style_content_phone{
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    align-items: flex-start;
+                    // margin: -7px 0 0;
+                }
+            }
+            .footer_socItem{
+                display: inline-flex;
+                margin-right: 5px;
+            }
+            .footer__col__contacts {
+                width: 100%;
+                /* max-width: 274px; */
+                max-width: 230px;
+                @media only screen and (max-width: 765px) {
+                    max-width: 100%;
+                }
+            }
+        }
+    }
+    .footer_bottom{
+        margin-top: 20px;
+        padding: 20px 0;
+        background: linear-gradient(to right, #012555, #55719F, #012555);
+        // linear-gradient(90deg, #32509d 0%, #6faadb 100%);
+        .footer_container{
+            box-sizing: border-box;
+            width: 100%;
+            max-width: 1598px;
+            margin: 0 auto;
+            padding: 0 15px;
+            .copyr{
+                color: white;
+                font-size: 12px;
+                text-align: center;
+                h4{
+                    margin-top: 0;
+                    margin-bottom: .5rem;
+                }
+            }
+        }
+    }
+}
+
+.footer_logo {
+    display: block;
+    max-width: 185px;
+    width: 100%;
+    /* max-width: 376px; */
+    margin-bottom: 21px;
+    opacity: 1;
+}
+
+
+.linkedIn_Icon{
+                
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    mask-image: url(https://tandhconsult.com/wp-content/uploads/2021/05/ldin.svg);
+    background: url(https://tandhconsult.com/wp-content/uploads/2021/05/ldin.svg);
+    background-size: contain;
+}
+.insta_Icon{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: contain;
+    mask-image: url(https://tandhconsult.com/wp-content/uploads/2021/05/insta.svg);
+    background: url(https://tandhconsult.com/wp-content/uploads/2021/05/insta.svg);
+}
+.facebook_Icon{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: contain;
+    mask-image: url( https://tandhconsult.com/wp-content/uploads/2021/05/fb.svg);
+    background: url(https://tandhconsult.com/wp-content/uploads/2021/05/fb.svg);
+}
+.telegram_Icon{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: contain;
+    mask-image: url(https://tandhconsult.com/wp-content/uploads/2021/07/ee.svg);
+    background: url(https://tandhconsult.com/wp-content/uploads/2021/07/ee.svg);
+}
+.viber_Icon{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-size: contain;
+    mask-image: url(https://tandhconsult.com/wp-content/uploads/2021/08/whatsapp.svg);
+    background: url(https://tandhconsult.com/wp-content/uploads/2021/08/whatsapp.svg);
+}
+
+.phone_Icon{
+    display: inline-block;
+    background-size: contain;
+    width: 14px;
+    height: 14px;
+    background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+    mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/phone-call.svg);
+    background: url(https://tandhconsult.com/wp-content/themes/th/img/icons/phone-call.svg);
+}
+.email_Icon{
+    display: inline-block;
+    background-size: contain;
+    width: 13px;
+    height: 13px;
+    background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+    mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/email.svg);
+    background: url(https://tandhconsult.com/wp-content/themes/th/img/icons/email.svg);
+}
+.pin_Icon{
+    display: inline-block;
+    background-size: contain;
+    width: 13px;
+    height: 13px;
+    background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+    mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/pin.svg);
+    background: url(https://tandhconsult.com/wp-content/themes/th/img/icons/pin.svg);
+}
+
+
+
+
+
