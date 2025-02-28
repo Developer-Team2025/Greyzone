@@ -1,0 +1,107 @@
+@use 'sass:math';
+
+@function Clamp-all($half, $viewH, $full, $viewport: 1920) {
+    $scaled-value-px: math.div($half, 2);
+    $scaled-value-vw: math.div($viewH, $viewport) * 100;
+    @return clamp(
+        calc(#{$scaled-value-px}px), // Half value in px
+        calc(#{$scaled-value-vw}vw), // Viewport-based value in vw
+        #{$full} 
+    );
+}
+
+
+
+.banner_solution{
+    overflow: hidden;
+    max-width: 100%;
+    padding: Clamp-all(82, 82, 82px ) 0 Clamp-all(115, 115, 115px );
+    // background: rgba(205, 209, 228);
+    // linear-gradient(363deg, #C7CAC0 -71%, #C8D9EC 75%);
+    // background: linear-gradient(90deg, #dcdcda 8%, #838db1 100%);
+    .container{
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 1598px;
+        margin: 0 auto;
+        padding: 0 15px;
+        .title_solution{
+            font-size: Clamp-all(58, 42, 42px );
+            font-weight: bold;
+            line-height: 1.354;
+            margin-bottom: 40px;
+            span{
+                // background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                // font-family: monospace;
+                // text-transform: uppercase;
+                letter-spacing: 0.1rem;
+                font-weight: bolder;
+            }
+        }
+        .solution_wrapper{
+            display: flex;
+            width: 100%;
+            margin-bottom: 1px;
+            justify-content: center;
+            flex-flow: row wrap;
+            gap: 2rem 4.5rem;
+            padding-top: 4rem;
+            @media only screen and (max-width: 765px) {
+                flex-direction: column;
+                align-items: center;
+            }
+            .card{
+                position: relative;
+                width: Clamp-all(556, 556, 464px );
+                .design{
+                    position: absolute;
+                    width: 20rem;
+                    height: 10rem;
+                    background-color: #446693;
+                    top: -3rem;
+                    left: -3rem;
+                    border-bottom-left-radius: 5rem;
+                    border-top-right-radius: 5rem;
+                
+                }
+            }
+        }
+    }
+    .more_details{
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 1598px;
+        margin: 0 auto;
+        padding: 0 15px;
+        display: flex;
+        justify-content: flex-end;
+        .moreLink{
+            font-size: 18px;
+            font-weight: 600;
+            line-height: normal;
+            display: inline-flex;
+            color: #012555;
+            align-items: center;
+            gap: .5rem;
+            .arrow_right{
+                // width: 32px;
+                // height: 14px;
+                // display: inline-block;
+                // background-size: contain;
+                // background: url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg);
+                // mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg);
+
+                // width: 32px;
+                // height: 14px;
+                // background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                // -webkit-mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg);
+                // mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg);
+                // z-index: 1;
+                
+            }
+        }
+    }
+}

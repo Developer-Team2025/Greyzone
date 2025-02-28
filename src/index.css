@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root{
+    /* background-color: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1598px;
+    margin: 0 auto;
+    padding: 0 15px; */
+    background: linear-gradient(90deg, #dcdcda 8%, #838db1 100%);
+}
