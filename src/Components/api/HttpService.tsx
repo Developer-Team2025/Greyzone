@@ -47,7 +47,7 @@ class HostService {
     }
 }
 
-const domain = window.location.origin
+const domain = 'https://www.scarlettelove.com'
 const HttpService = new HostService(domain)
 
 export default HttpService
