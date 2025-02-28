@@ -33,7 +33,7 @@ const index = () => {
                   <div className={styles.contacts__item}>
                     <div className={styles.contacts__item__icon}><i className={styles.i_email}></i></div>
                     <div className={styles.contacts__item__content}>
-                      <p><em>Email: </em><a href="mailto:info@greyzone.com">info@greyzone.com</a></p>
+                      <p><em>Email: </em><a href="mailto:info@greyzoneconsulting.com">info@greyzoneconsulting.com</a></p>
                     </div>
                   </div>
                 </div>
@@ -65,10 +65,10 @@ const index = () => {
               </div> */}
               <div className={styles.contacts__from}>
                 <div className={styles.contacts__from_item}>
-                  <p>For technical support, and other questions: support@greyzone.com</p>
+                  <p>For technical support, and other questions: support@greyzoneconsulting.com</p>
                 </div>
                 <div className={styles.contacts__from_item}>
-                  <p>For business inquiries, you can contact us: partners@greyzone.com</p>
+                  <p>For business inquiries, you can contact us: info@greyzoneconsulting.com</p>
                 </div>
               </div>
 
