@@ -1,6 +1,6 @@
 import styles from './style.module.scss'
 import classNames from 'classnames'
-import logo from '../../assets/images/logo_v2.jpeg'
+import logo from '../../assets/images/logo_v2.png'
 const index = () => {
 
   return (
