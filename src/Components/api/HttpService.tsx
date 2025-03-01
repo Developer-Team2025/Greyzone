@@ -48,6 +48,7 @@ class HostService {
 }
 
 const domain = 'https://www.scarlettelove.com'
+
 const HttpService = new HostService(domain)
 
 export default HttpService
