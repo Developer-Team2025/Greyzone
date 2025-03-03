@@ -5,39 +5,39 @@
             "desc": "Senior Consultant Cristian Sepulveda, part of the team at Greyzone Consulting, offers valuable guidance on Why You Shouldn't Face Banks Alone and The Importance of Professional...",
             "date": "October 3, 2024",
             "href": "/blog/the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases/",
-            "img": "/img/we_can_help.jpeg",
+            "img": "dist/img/we_can_help.jpeg",
             "content":[
                 {
                     "href": "/blog/understanding-common-ticket-scams-essential-tips-for-protection/",
-                    "img": "/img/ticket_scam.jpeg",
+                    "img": "dist/img/ticket_scam.jpeg",
                     "name": "Understanding Common Ticket Scams: Essential Tips for Protection",
                     "desc": "Senior Consultant Hasan Muhandes, part of the team at Greyzone Consulting, provides professional insight on identifying and avoiding Common Ticket Scams Why Are Ticket Scams Increasing?...",
                     "date": "September 27, 2024"
                 },
                 {
                     "href": "/blog/identifying-and-handling-business-identity-theft-what-you-should-know/",
-                    "img": "/img/business_identity_theft.jpeg",
+                    "img": "dist/img/business_identity_theft.jpeg",
                     "name": "Identifying and Handling Business Identity Theft: What You Should Know",
                     "desc": "Consultant Safoora Savio, part of the team at Greyzone Consulting, shares specialized insights on identifying and avoiding Business Identity Theft Cases Business identity theft is a...",
                     "date": "October 2, 2024"
                 },
                 {
                     "href": "/blog/a-guide-to-reporting-scams-in-norway/",
-                    "img": "/img/report_scam_norway.jpeg",
+                    "img": "dist/img/report_scam_norway.jpeg",
                     "name": "A Guide to Reporting Scams in Norway",
                     "desc": "The Importance of Reporting Scams in Norway Before diving into the specifics, let's set the stage for the importance of knowing how to report a...",
                     "date": "April 22, 2024"
                 },
                 {
                     "href": "/blog/a-guide-to-reporting-scams-in-spain/",
-                    "img": "/img/report_scam_spain.jpeg",
+                    "img": "dist/img/report_scam_spain.jpeg",
                     "name": "A Guide to Reporting Scams in Spain",
                     "desc": "Understanding how to report a scam in Spain is crucial in the digital era where fraud and deception are rampant. This guide will explore the...",
                     "date": ""
                 },
                 {
                     "href": "/blog/beware-of-task-completion-and-fake-job-scams-how-to-protect-yourself-from-online-fraud/",
-                    "img": "/img/fake_job_scam.jpeg",
+                    "img": "dist/img/fake_job_scam.jpeg",
                     "name": "Beware of Task Completion and Fake Job Scams: How to Protect Yourself from Online Fraud",
                     "desc": "La consultora Jennifer Serrano, parte del equipo de Greyzone Consulting, comparte consejos expertos sobre cómo identificar y evitar estafas de empleo falsas. Oportunidades y Peligros...",
                     "date": "April 12, 2024"
@@ -56,25 +56,25 @@
             "desc": "A Guide to Avoiding Facebook Marketplace Scams What is Facebook Marketplace? Facebook Marketplace, a dynamic online platform by Facebook, revolutionizes how we engage in buying,... ",
             "date": "March 7, 2024",
             "href": "/blog/navigating-scams-on-facebook-marketplace",
-            "img": "/img/blog_v2/navigating_scams.jpeg",
+            "img": "dist/img/blog_v2/navigating_scams.jpeg",
             "content":[
                 {
                   "href": "/blog/step-by-step-guide-to-reporting-a-scam-in-new-zealand/",
-                  "img": "/img/blog_v2/newzealand.jpeg",
+                  "img": "dist/img/blog_v2/newzealand.jpeg",
                   "name": "Step-by-Step Guide to Reporting a Scam in New Zealand",
                   "desc": "In New Zealand, a country celebrated for its breathtaking landscapes and welcoming communities, the well-being of its inhabitants is a top priority. As the digital...",
                   "date": "August 14, 2023"
                 },
                 {
                   "href": "/blog/how-to-file-a-scam-report-in-qatar/",
-                  "img": "/img/blog_v2/qatar.jpeg",
+                  "img": "dist/img/blog_v2/qatar.jpeg",
                   "name": "How to File a Scam Report in Qatar",
                   "desc": "In Qatar, a nation known for its futuristic skyline and rich cultural heritage, the safety and security of its residents and visitors are paramount. Yet,...",
                   "date": "April 12, 2023"
                 },
                 {
                   "href": "/blog/a-complete-guide-to-reporting-scams-in-france/",
-                  "img": "/img/blog_v2/france.jpeg",
+                  "img": "dist/img/blog_v2/france.jpeg",
                   "name": "A Complete Guide to Reporting Scams in France",
                   "desc": "In today's interconnected world, scams are, unfortunately, an ever-present threat. Moreover, France, with its rich heritage and robust economy, faces these deceptive tactics just like...",
                   "date": "September 10, 2023"
@@ -88,49 +88,49 @@
             "desc": "In today's interconnected world, scams are, unfortunately, an ever-present threat. Moreover, France, with its rich heritage and robust economy, faces these deceptive tactics just like...",
             "date": "September 10, 2023",
             "href": "/blog/a-complete-guide-to-reporting-scams-in-france/",
-            "img": "/img/blog_v2/france.jpeg",
+            "img": "dist/img/blog_v2/france.jpeg",
             "content":[
                 {
                     "name": "Reporting Scams in Canada: What You Need to Know",
                     "desc": "In today's digital era, scams have become increasingly rampant. Whether you're in Ontario or British Columbia, it's crucial to know how to effectively report a...",
                     "date": "",
                     "href": "/blog/reporting-scams-in-canada-what-you-need-to-know/",
-                    "img": "/img/blog_v2/canada.jpeg"
+                    "img": "dist/img/blog_v2/canada.jpeg"
                 },
                 {
                     "name": "Exposing Cryptocurrency Fraud: Case Studies by Greyzone Consulting",
                     "desc": "Cryptocurrencies have gained significant traction worldwide, and their impact on the market is undeniable. The global cryptocurrency market size reached an impressive USD 4.67 billion...",
                     "date": "August 6, 2023",
                     "href": "/blog/exposing-cryptocurrency-fraud-case-studies-by-greyzone-consulting/",
-                    "img": "/img/blog_v2/exposing_crypto_fraud.jpeg"
+                    "img": "dist/img/blog_v2/exposing_crypto_fraud.jpeg"
                 },
                 {
                     "name": "Comprehensive Business Security: Your Background Check Guide",
                     "desc": "Introduction At Greyzone Consulting, we firmly believe in the power of meticulous background checks as the bedrock of your company’s success and security. A comprehensive...",
                     "date": "August 3, 2023",
                     "href": "/blog/comprehensive-business-security-your-background-check-guide/",
-                    "img": "/img/blog_v2/business_security.jpeg"
+                    "img": "dist/img/blog_v2/business_security.jpeg"
                 },
                 {
                     "name": "Fraud Reporting in South Africa: A How-To Guid",
                     "desc": "Fraud is a serious crime that can have a significant impact on individuals and society as a whole. South Africa, like many other countries, has...",
                     "date": "July 7, 2023",
                     "href": "/blog/fraud-reporting-in-south-africa-a-how-to-guide/",
-                    "img": "/img/blog_v2/south_africa.jpeg"
+                    "img": "dist/img/blog_v2/south_africa.jpeg"
                 },
                 {
                     "name": "Understanding Cryptocurrency Investigations: Key Insights",
                     "desc": "Cryptocurrencies have revolutionized the financial landscape, offering secure and decentralized digital transactions. However, their anonymity and decentralized nature have also made them attractive to cybercriminals....",
                     "date": "July 6, 2023",
                     "href": "/blog/understanding-cryptocurrency-investigations-key-insights/",
-                    "img": "/img/blog_v2/understanding_crypto.jpeg"
+                    "img": "dist/img/blog_v2/understanding_crypto.jpeg"
                 },
                 {
                     "name": "Essential Due Diligence Tips for Small Business Purchases",
                     "desc": "Introduction Acquiring a small business can be a rewarding but challenging process. As with any significant financial decision, due diligence is the key to ensuring...",
                     "date": "June 27, 2023",
                     "href": "/blog/essential-due-diligence-tips-for-small-business-purchases/",
-                    "img": "/img/blog_v2/essential_duediligence.jpeg"
+                    "img": "dist/img/blog_v2/essential_duediligence.jpeg"
                 }
             ]
         },
@@ -140,28 +140,28 @@
             "desc": "Introduction Buying a business is a significant decision, one that requires meticulous planning and due diligence. But what does due diligence entail in the context...",
             "date": "",
             "href": "/blog/due-diligence-mastery-a-guide-for-business-buyers/",
-            "img": "/img/blog_v2/mastery_duediligence.jpeg",
+            "img": "dist/img/blog_v2/mastery_duediligence.jpeg",
             "content":[
                 {
                     "name": "How to Effectively Report Fraud in Germany",
                     "desc": "Introduction In today's fast-paced digital world, fraud can take many shapes and forms, making it increasingly crucial to stay informed and prepared. This comprehensive guide...",
                     "date": "June 22, 2023",
                     "href": "/blog/how-to-effectively-report-fraud-in-germany/",
-                    "img": "/img/blog_v2/germany.jpeg"
+                    "img": "dist/img/blog_v2/germany.jpeg"
                 },
                 {
                     "name": "Why Due Diligence Services Are Crucial for Business Success",
                     "desc": "In an ever-evolving business environment, due diligence services play a pivotal role. This in-depth discussion will elucidate the importance of due diligence, the function it...",
                     "date": "June 19, 2023",
                     "href": "/blog/why-due-diligence-services-are-crucial-for-business-success/",
-                    "img": "/img/blog_v2/why_duediligence.jpeg"
+                    "img": "dist/img/blog_v2/why_duediligence.jpeg"
                 },
                 {
                     "name": "Exploring AI, Blockchain, and Digital Surveillance in Depth",
                     "desc": "In the rapidly evolving digital age, advanced technologies such as Artificial Intelligence (AI) and blockchain are transforming various industries, not least among them the realm...",
                     "date": "June 9, 2023",
                     "href": "/blog/exploring-ai-blockchain-and-digital-surveillance-in-depth/",
-                    "img": "/img/blog_v2/exploring_ai_blockchain.jpeg"
+                    "img": "dist/img/blog_v2/exploring_ai_blockchain.jpeg"
                 }
             ]  
         }
