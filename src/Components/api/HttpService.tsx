@@ -47,7 +47,7 @@ class HostService {
     }
 }
 
-const domain = 'https://www.scarlettelove.com'
+const domain = 'http://localhost:8000'
 
 const HttpService = new HostService(domain)
 

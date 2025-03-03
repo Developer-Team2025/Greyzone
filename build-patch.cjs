@@ -3,7 +3,7 @@ const path = require("path");
 const fs = require("fs");
 
 // Get the React project path dynamically
-const reactProjectPath = __dirname; // Greyzone folder
+const reactProjectPath = __dirname;
 const laravelPublicPath = path.resolve(reactProjectPath, "../api/public/dist");
 
 console.log("Building App...");
