@@ -4,11 +4,6 @@ import classNames from "classnames";
 // import HttpService from "../../Components/api/HttpService";
 // import { Certificates } from "../../Components/Reusable/Addition/Types";
 const index = () => {
-
-  interface Certificates {
-    src: any;
-    alt: any;
-  }
   
   // const api = HttpService;
 
