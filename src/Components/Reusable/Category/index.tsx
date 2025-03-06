@@ -291,7 +291,7 @@ const index = () => {
                                         <ul className="wp-block-list">
                                         <li>Specializes in criminal investigations, including fraud and cybercrimes.</li>
                                         <li><strong>Website</strong>: <a >www.policiajudiciaria.pt</a></li>
-                                        <li><strong>Phone</strong>: (+351) 21 358 0000</li>
+                                        {/* <li><strong>Phone</strong>: (+351) 21 358 0000</li> */}
                                         <li><strong>Address</strong>: Rua Gomes Freire, 1169-007 Lisboa, Portugal</li>
                                         </ul>
                                     </li>
@@ -759,7 +759,7 @@ const index = () => {
                                     <p>For any immediate threats or if you’ve been a victim of a scam in New Zealand, contacting the New Zealand Police is crucial.</p>
                                     <ul className="wp-block-list">
                                         <li><strong>Website</strong>: <a >New Zealand Police</a></li>
-                                        <li><strong>Phone</strong>: 105 (non-emergencies)</li>
+                                        {/* <li><strong>Phone</strong>: 105 (non-emergencies)</li> */}
                                     </ul>
                                     <h3 className="wp-block-heading">2. <strong>Cybercrimes: CERT NZ (Computer Emergency Response Team New Zealand)</strong></h3>
                                     <p>If you’re looking to report a cyber-related scam in New Zealand, CERT NZ is your primary agency. They handle everything from phishing attempts to ransomware attacks.</p>
@@ -771,7 +771,7 @@ const index = () => {
                                     <p>For scams related to goods, services, or consumer rights, this entity provides resources and avenues to report such deceptive practices.</p>
                                     <ul className="wp-block-list">
                                         <li><strong>Website</strong>: <a >Consumer Protection New Zealand</a></li>
-                                        <li><strong>Phone</strong>: 0508 426 678</li>
+                                        {/* <li><strong>Phone</strong>: 0508 426 678</li> */}
                                     </ul>
                                     <h3 className="wp-block-heading">4. <strong>Financial Scams: Financial Markets Authority (FMA)</strong></h3>
                                     <p>Addressing scams related to investments, securities, or other financial activities in New Zealand, the FMA offers guidance and reporting mechanisms.</p>
@@ -822,7 +822,7 @@ const index = () => {
                                     <li>
                                         <strong>Website</strong>: <a >Ministry of Interior, Qatar</a>
                                     </li>
-                                    <li><strong>Phone</strong>: +974 4433 0000</li>
+                                    {/* <li><strong>Phone</strong>: +974 4433 0000</li> */}
                                     </ul>
                                     <h3>2. <strong>Cybercrimes: Qatar Computer Emergency Response Team (Q-CERT)</strong></h3>
                                     <p>
@@ -843,7 +843,7 @@ const index = () => {
                                         <strong>Website</strong>: 
                                         <a >Consumer Protection Department</a>
                                     </li>
-                                    <li><strong>Phone</strong>: +974 4456 7896</li>
+                                    {/* <li><strong>Phone</strong>: +974 4456 7896</li> */}
                                     </ul>
                                     <h3>4. <strong>Financial Scams: Qatar Central Bank</strong></h3>
                                     <p>
@@ -894,7 +894,7 @@ const index = () => {
                                 <p>The Ministry of the Economy and Finance oversees the DGCCRF. This body plays a crucial role in ensuring the protection of consumers’ rights and the proper functioning of the market.</p>
                                 <ul className="wp-block-list">
                                 <li><strong>Website</strong>: <a >DGCCRF</a></li>
-                                <li><strong>Phone</strong>: +33 1 44 87 17 17</li>
+                                {/* <li><strong>Phone</strong>: +33 1 44 87 17 17</li> */}
                                 <li><strong>Contact</strong>: <a >DGCCRF Contact form</a></li>
                                 </ul>
                                 <h3 className="wp-block-heading">2. Report <strong>Online Frauds in France: Pharos</strong></h3>
@@ -907,7 +907,7 @@ const index = () => {
                                 <p>In the bustling capital and its surrounding regions, the Préfecture de Police often serves as the first point of contact for various complaints, including scams.</p>
                                 <ul className="wp-block-list">
                                 <li><strong>Website</strong>: <a >Préfecture de Police</a></li>
-                                <li><strong>Phone</strong>: +33 1 53 73 53 73</li>
+                                {/* <li><strong>Phone</strong>: +33 1 53 73 53 73</li> */}
                                 <li><strong>Email</strong>: <a >pp@interieur.gouv.fr</a></li>
                                 </ul>
                                 <h3 className="wp-block-heading">4. <strong>Banking and Financial Scams: Autorité de contrôle prudentiel et de résolution (ACPR)</strong></h3>
@@ -960,56 +960,56 @@ const index = () => {
                                     <p>The CAFC is the main hub for Canadians to <strong>report scams</strong>. It collects data on mass marketing fraud, advance fee fraud, internet fraud, and more.</p>
                                     <ul className="wp-block-list">
                                     <li><strong>Website</strong>: <a >Canadian Anti-Fraud Centre</a></li>
-                                    <li><strong>Phone</strong>: 1-888-495-8501</li>
+                                    {/* <li><strong>Phone</strong>: 1-888-495-8501</li> */}
                                     <li><strong>Email</strong>: <a >info@antifraudcentre.ca</a></li>
                                     </ul>
                                     <h3 className="wp-block-heading">2. <strong>Ontario: Consumer Protection Ontario</strong></h3>
                                     <p>Ontario residents looking to <strong>report scams</strong> can turn to Consumer Protection Ontario. It ensures businesses follow strict marketplace guidelines.</p>
                                     <ul className="wp-block-list">
                                     <li><strong>Website</strong>: <a >Consumer Protection Ontario</a></li>
-                                    <li><strong>Phone</strong>: 1-800-889-9768</li>
+                                    {/* <li><strong>Phone</strong>: 1-800-889-9768</li> */}
                                     <li><strong>Email</strong>: <a >consumer@ontario.ca</a></li>
                                     </ul>
                                     <h3 className="wp-block-heading">3. <strong>Quebec: Office de la protection du consommateur</strong></h3>
                                     <p>The Office de la protection du consommateur is Quebec’s frontline defense against scams. They are dedicated to upholding consumer rights.</p>
                                     <ul className="wp-block-list">
                                     <li><strong>Website</strong>: <a >Office de la protection du consommateur</a></li>
-                                    <li><strong>Phone</strong>: 1-888-672-2556</li>
+                                    {/* <li><strong>Phone</strong>: 1-888-672-2556</li> */}
                                     <li><strong>Email</strong>: <a >information@opc.gouv.qc.ca</a></li>
                                     </ul>
                                     <h3 className="wp-block-heading">4. <strong>British Columbia: Consumer Protection BC</strong></h3>
                                     <p>To <strong>report a scam in Canada</strong>, specifically in British Columbia, Consumer Protection BC is the go-to resource.</p>
                                     <ul className="wp-block-list">
                                     <li><strong>Website</strong>: <a >Consumer Protection BC</a></li>
-                                    <li><strong>Phone</strong>: 1-888-564-9963</li>
+                                    {/* <li><strong>Phone</strong>: 1-888-564-9963</li> */}
                                     <li><strong>Email</strong>: <a >info@consumerprotectionbc.ca</a></li>
                                     </ul>
                                     <h3 className="wp-block-heading">5. <strong>Alberta: Service Alberta</strong></h3>
                                     <p>Service Alberta is known for its commitment to consumer protection in the Alberta region.</p>
                                     <ul className="wp-block-list">
                                     <li><strong>Website</strong>: <a >Service Alberta</a></li>
-                                    <li><strong>Phone</strong>: 780-427-4088 (Edmonton area) or 1-877-427-4088 (toll-free)</li>
+                                    {/* <li><strong>Phone</strong>: 780-427-4088 (Edmonton area) or 1-877-427-4088 (toll-free)</li> */}
                                     <li><strong>Email</strong>: <a >service.alberta@gov.ab.ca</a></li>
                                     </ul>
                                     <h3 className="wp-block-heading">6. <strong>Manitoba: Manitoba Consumer Protection Office</strong></h3>
                                     <p>Manitobans can rely on the Consumer Protection Office to address scams and ensure fair practices.</p>
                                     <ul className="wp-block-list">
                                     <li><strong>Website</strong>: <a >Manitoba Consumer Protection Office</a></li>
-                                    <li><strong>Phone</strong>: 204-945-3800 or 1-800-782-0067 (toll-free in Manitoba)</li>
+                                    {/* <li><strong>Phone</strong>: 204-945-3800 or 1-800-782-0067 (toll-free in Manitoba)</li> */}
                                     <li><strong>Email</strong>: <a >consumers@gov.mb.ca</a></li>
                                     </ul>
                                     <h3 className="wp-block-heading">7. <strong>Nova Scotia: Access Nova Scotia</strong></h3>
                                     <p>For those in Nova Scotia wanting to <strong>report scams</strong>, Access Nova Scotia offers a range of consumer protection services.</p>
                                     <ul className="wp-block-list">
                                     <li><strong>Website</strong>: <a >Access Nova Scotia</a></li>
-                                    <li><strong>Phone</strong>: 1-800-670-4357</li>
+                                    {/* <li><strong>Phone</strong>: 1-800-670-4357</li> */}
                                     <li><strong>Email</strong>: <a >askus@novascotia.ca</a></li>
                                     </ul>
                                     <h3 className="wp-block-heading">8. <strong>Saskatchewan: Financial and Consumer Affairs Authority (FCAA)</strong></h3>
                                     <p>The FCAA is dedicated to protecting consumer and investor interests in Saskatchewan.</p>
                                     <ul className="wp-block-list">
                                     <li><strong>Website</strong>: <a >Financial and Consumer Affairs Authority</a></li>
-                                    <li><strong>Phone</strong>: 1-877-880-5550</li>
+                                    {/* <li><strong>Phone</strong>: 1-877-880-5550</li> */}
                                     <li><strong>Email</strong>: <a >consumerprotection@gov.sk.ca</a></li>
                                     </ul>
                                     <h3 className="wp-block-heading">Wrapping It Up</h3>

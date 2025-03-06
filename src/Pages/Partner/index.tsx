@@ -185,7 +185,6 @@ const index = () => {
             </div>
           </div>
         </article>
-        
       </div>
     </section>
     <section className={classNames(`${styles.banner_partner} wow  animate__fadeIn animate__animated`)}>
@@ -201,11 +200,11 @@ const index = () => {
               <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2023/08/learnvent_colour.png" alt="6" /></picture>
               <picture className={styles.partner_pic}><img src="https://tandhconsult.com/wp-content/uploads/2023/08/navy-1.png" alt="7" /></picture>
             </div>
-          </div>
+          </div> 
         </div>
       </div>
     </section>
-    {/* <section className={styles.call} id="call">
+{/* <section className={styles.call} id="call">
       <div className={styles.container}>
         <div className={classNames(styles.callRow, 'wow', 'animate__fadeIn')}>
           <div className={classNames(styles.callCol, styles.callColTitle)}>
