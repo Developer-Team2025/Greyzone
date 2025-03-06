@@ -6,8 +6,6 @@ import HttpService from "../../Components/api/HttpService";
 const TeamSection = () => {
   const api = HttpService;
 
-  console.log(api)
-
   interface OurTeamMembers {
     fullname: string;
     job_position: string;
@@ -25,7 +23,6 @@ const TeamSection = () => {
       .get("our-teams")
       .then((data: { our_teams: OurTeamMembers[] }) => {
         setOurTeams(data.our_teams);
-        console.log(data.our_teams);
       })
       .catch((error) => console.error("Error fetching data:", error));
   }, []);

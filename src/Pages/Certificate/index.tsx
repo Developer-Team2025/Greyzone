@@ -1,32 +1,102 @@
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import styles from "./style.module.scss";
 import classNames from "classnames";
-import HttpService from "../../Components/api/HttpService";
-import { Certificates } from "../../Components/Reusable/Addition/Types";
+// import HttpService from "../../Components/api/HttpService";
+// import { Certificates } from "../../Components/Reusable/Addition/Types";
 const index = () => {
-  const api = HttpService;
 
+  interface Certificates {
+    src: any;
+    alt: any;
+  }
+  
+  // const api = HttpService;
 
-  const [certificates, setCertificates] = useState<Certificates[]>([]);
+  // const [certificates, setCertificates] = useState<Certificates[]>([]);
 
-  useEffect(() => {
-    api
-      .get("certificates")
-      .then((data) => {
-        if (data && Array.isArray(data)) {
-          const formattedData = data.map((certificate: any) => ({
-            src: certificate.src,
-            alt: certificate.alt,
-          }));
-          setCertificates(formattedData);
-        } else {
-          console.log("No certificates found or wrong data format");
-        }
-      })
-      .catch((error) => {
-        console.error("Error fetching data:", error);
-      });
-  }, []);
+  // useEffect(() => {
+  //   api
+  //     .get("certificates")
+  //     .then((data) => {
+  //       if (data && Array.isArray(data)) {
+  //         const formattedData = data.map((certificate: any) => ({
+  //           src: certificate.src,
+  //           alt: certificate.alt,
+  //         }));
+  //         setCertificates(formattedData);
+  //       } else {
+  //         console.log("No certificates found or wrong data format");
+  //       }
+  //     })
+  //     .catch((error) => {
+  //       console.error("Error fetching data:", error);
+  //     });
+  // }, []);
+
+  const certificates = [
+    {
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/benjamin.jpeg`,
+      alt: "benjamin",
+      caption: "",
+    },
+    {
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/benjamin_acad.jpeg`,
+      alt: "benjamin_acad",
+      caption: "",
+    },
+    {
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Amanda_acad.jpeg`,
+      alt: "Amanda",
+      caption: "",
+    },
+    {
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Amanda_inves.jpeg`,
+      alt: "Amanda_inves",
+      caption: "",
+    },
+    {
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Gabriella.jpeg`,
+      alt: "Gabriella",
+      caption: "",
+    },
+    {
+      src: `${
+        import.meta.env.VITE_REDIRECT
+      }/img/certificate/jasmine_valentine.jpeg`,
+      alt: "Jasmine",
+      caption: "",
+    },
+    {
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Jessica.jpeg`,
+      alt: "Jessica",
+      caption: "",
+    },
+    {
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/John.jpeg`,
+      alt: "John",
+      caption: "",
+    },
+    {
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Jon.jpeg`,
+      alt: "jon",
+      caption: "",
+    },
+    {
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Joseph.jpeg`,
+      alt: "Joseph",
+      caption: "",
+    },
+    {
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Phoebe.jpeg`,
+      alt: "Phoebe",
+      caption: "",
+    },
+    {
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Richard.jpeg`,
+      alt: "Richard",
+      caption: "",
+    },
+  ];
 
   return (
     <main>
