@@ -130,7 +130,7 @@ function App() {
     const [animate, setAnimate] = useState(Boolean);
     const toggleTheme = (e: string) => {setTheme(e)};
     const Animate = (e: boolean) => {setAnimate(e)};
-
+    console.log('hello world')
   return (
     <>   
       <Helmet>
