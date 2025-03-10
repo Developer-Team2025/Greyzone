@@ -7,7 +7,7 @@ export default defineConfig({
   // base: '/dist/', // include this for production
 
   build: {
-    outDir: "build", // Optional: Define build output directory
+    outDir: "dist", // Optional: Define build output directory
     assetsDir: "assets", // Optional: Directory for static assets
   },
   plugins: [react()],

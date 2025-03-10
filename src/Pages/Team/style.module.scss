@@ -1,3 +1,17 @@
+@use 'sass:math';
+
+@function Clamp-all($half, $viewH, $full, $viewport: 1920) {
+    $scaled-value-px: math.div($half, 2);
+    $scaled-value-vw: math.div($viewH, $viewport) * 100;
+    @return clamp(
+        calc(#{$scaled-value-px}px), // Half value in px
+        calc(#{$scaled-value-vw}vw), // Viewport-based value in vw
+        #{$full} 
+    );
+}
+
+
+
 .partner {
     overflow: hidden;
     max-width: 100%;
@@ -14,6 +28,19 @@
     .container {
       max-width: 1622px;
       padding: 0px 45px;
+      .single_team{
+        padding: 0 20px;
+        margin-bottom: 3rem;
+        .frame_team{
+          width: 100%;
+          height: Clamp-all(680 ,680 ,496px );
+          overflow: hidden;
+          display: flex;
+          img{
+            width: 100%;
+          }
+        }
+      }
     }
   
     &__slider {

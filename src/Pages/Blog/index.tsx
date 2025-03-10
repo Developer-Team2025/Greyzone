@@ -36,7 +36,7 @@ const Index = () => {
                     <picture className={styles.blogs__pic}>
                       <a >
                         <img
-                          src={`${data.img}`}
+                          src={`${import.meta.env.VITE_REDIRECT}${data.img}`}
                           alt="data"
                         />
                       </a>
@@ -58,7 +58,7 @@ const Index = () => {
                           <picture className={styles.blogs__pic}>
                             <a>
                               <img
-                                src={val.img}
+                                src={`${import.meta.env.VITE_REDIRECT}${val.img}`}
                                 alt={idx.toString()}
                               />
                             </a>
