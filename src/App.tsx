@@ -30,6 +30,7 @@ import DigitalProduct from "./Pages/Digital/index";
 import Category from "./Components/Reusable/Category/index";
 import { edit } from "./Components/Reusable/Addition/index";
 import NotFound from "./Pages/404/index";
+import TidioChat from './Components/Tidio/index'
 // import FingerprintJS from "@fingerprintjs/fingerprintjs";
 // import axios from 'axios';
 
@@ -144,6 +145,7 @@ function App() {
 
   return (
     <>
+    <TidioChat/>
       <Helmet>
         <title>{Add.length === 0 ? "Home" : Add[Add.length - 1]}</title>
       </Helmet>
