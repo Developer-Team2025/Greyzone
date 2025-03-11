@@ -142,10 +142,13 @@ function App() {
   const Animate = (e: boolean) => {
     setAnimate(e);
   };
-
+  const domain = 'https://greyzone-fpv7.vercel.app/'
+  const url = window.location.origin
   return (
     <>
-    <TidioChat/>
+    {
+      domain === url &&     <TidioChat/>
+    }
       <Helmet>
         <title>{Add.length === 0 ? "Home" : Add[Add.length - 1]}</title>
       </Helmet>
