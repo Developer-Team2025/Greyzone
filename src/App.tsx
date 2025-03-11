@@ -20,7 +20,7 @@ import Contact from "./Pages/Contact/index";
 import Blog from "./Pages/Blog/index";
 import Login from "./Pages/Login/index";
 import { Helmet } from "react-helmet";
-import { createContext, useCallback, useState } from "react";
+import { createContext, useCallback, useEffect, useState } from "react";
 import Modal from "./Components/Modal/index";
 import Cart from "./Components/Cart/index";
 import Lost from "./Pages/Lost_Password/index";
@@ -30,7 +30,7 @@ import DigitalProduct from "./Pages/Digital/index";
 import Category from "./Components/Reusable/Category/index";
 import { edit } from "./Components/Reusable/Addition/index";
 import NotFound from "./Pages/404/index";
-import TidioChat from './Components/Tidio/index'
+// import TidioChat from './Components/Tidio/index'
 // import FingerprintJS from "@fingerprintjs/fingerprintjs";
 // import axios from 'axios';
 
@@ -142,26 +142,29 @@ function App() {
   const Animate = (e: boolean) => {
     setAnimate(e);
   };
-  const domain = 'https://greyzone-fpv7.vercel.app/'
-  const url = window.location.origin
+
+  useEffect(()=>{
+    localStorage.setItem('warning','true')
+  },[])
   return (
     <>
-    {
-      domain === url &&     <TidioChat/>
-    }
       <Helmet>
         <title>{Add.length === 0 ? "Home" : Add[Add.length - 1]}</title>
       </Helmet>
+
       <ThemeContext.Provider value={{ theme, toggleTheme, Animate }}>
-        <div className="warning">
-          <span>
-            BEWARE IMPERSONATION SCAMS! Ensure you're communicating with
-            official Greyzone Consulting via info@greyzoneconsulting.com emails.
-            <a href="/fraud-awareness" style={{ color: "red" }}>
-              Learn more &gt;&gt;&gt;
-            </a>
-          </span>
-        </div>
+        {
+          !localStorage.getItem('warning') && 
+          <div className="warning">
+            <span>
+              BEWARE IMPERSONATION SCAMS! Ensure you're communicating with
+              official Greyzone Consulting via info@greyzoneconsulting.com emails.
+              <a href="/fraud-awareness" style={{ color: "red" }}>
+                Learn more &gt;&gt;&gt;
+              </a>
+            </span>
+          </div>
+        }
         <div className="main_homepage">
           <Header
             pathname={path.replace("/", "")}
@@ -173,8 +176,8 @@ function App() {
           {Add.length !== 0 && (
             <div className="pt-[10rem]">
               <div className="wow animate__animated animate__fadeInUp bread ">
-                <div className="separator_container">
-                  <div className="flex items-center ">
+                <div className="separator_container" style={{overflowX: 'scroll'}}>
+                  <div className="flex items-center " style={{width: "max-content"}}>
                     <div
                       className="bread__link"
                       onClick={() => (window.location.pathname = "/")}

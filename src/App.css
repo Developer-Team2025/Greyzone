@@ -65,6 +65,10 @@ body{
   padding: 6px 15px;
 }
 
+.separator_container::-webkit-scrollbar{
+  display: none;
+}
+
 .bread__link{
   font-size: 14px;
   font-weight: normal;

@@ -33,7 +33,7 @@ const index = () => {
                   <div className={styles.contacts__item}>
                     <div className={styles.contacts__item__icon}><i className={styles.i_email}></i></div>
                     <div className={styles.contacts__item__content}>
-                      <p><em>Email: </em><a href="mailto:info@greyzoneconsulting.com">info@greyzoneconsulting.com</a></p>
+                      <div><em>Email: </em><a href="mailto:info@greyzoneconsulting.com">info@greyzoneconsulting.com</a></div>
                     </div>
                   </div>
                 </div>
