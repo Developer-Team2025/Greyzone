@@ -9,12 +9,12 @@ const index = () => {
             .slick-track{
             gap: 1rem;
             }
-            .i-time-management{
-                mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/time-management.svg);
-                z-index: 3;
-                display: inline-block;
-                background: url(https://tandhconsult.com/wp-content/themes/th/img/icons/time-management.svg);
-            }
+            // .i-time-management{
+            //     // mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/time-management.svg);
+            //     z-index: 3;
+            //     display: inline-block;
+            //     background: url(https://tandhconsult.com/wp-content/themes/th/img/icons/time-management.svg);
+            // }
         `}
     </style>
         <section className="solutions" id="solutions">
@@ -59,7 +59,7 @@ const index = () => {
                     href="/solutions/digital-goods/printable-fraud-awareness-workbook-with-exercises"
                 >
                     <picture className="dispute__pic">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/printable.jpeg`} alt="printable" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/printable.jpg`} alt="printable" />
                     </picture>
                     <span className="dispute__name">Printable Fraud Awareness Workbook with Exercises</span>
                     <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
@@ -93,7 +93,7 @@ const index = () => {
 
                 <div className="dispute__benef" >
                     <div className="dispute__benef-item wow animate__animated animate__fadeInUp" >
-                        <i className="i i-time-management"></i>
+                        <i className="i i-time-management" style={{maskImage:'none', WebkitMaskImage: 'none', background: 'url(https://tandhconsult.com/wp-content/themes/th/img/icons/time-management.svg)'}}></i>
                         <div className="dispute__benef-content">
                         <span className="dispute__benef-name">Expert Help</span>
                         <span className="dispute__benef-pos">You can now get expert help across a wide range of areas – and help is at hand as soon as you need it.</span>
@@ -101,7 +101,7 @@ const index = () => {
                     </div>
 
                     <div className="dispute__benef-item wow animate__animated animate__fadeInUp" >
-                        <i className="i i-time-management" style={{maskImage:'url(https://tandhconsult.com/wp-content/uploads/2021/05/help.svg)', background: "url(https://tandhconsult.com/wp-content/uploads/2021/05/help.svg)"}}></i>
+                        <i className="i i-time-management" style={{maskImage:'none', WebkitMaskImage: 'none', background: "url(https://tandhconsult.com/wp-content/uploads/2021/05/help.svg)"}}></i>
                         <div className="dispute__benef-content">
                         <span className="dispute__benef-name">Establish Professional Credibility</span>
                         <span className="dispute__benef-pos">A relationship built on trust and honesty can strengthen any business.</span>
@@ -109,7 +109,7 @@ const index = () => {
                     </div>
 
                     <div className="dispute__benef-item wow animate__animated animate__fadeInUp" >
-                        <i className="i i-time-management" style={{maskImage:'url(https://tandhconsult.com/wp-content/uploads/2021/05/help.svg)', background: "url(https://tandhconsult.com/wp-content/uploads/2021/05/help.svg)"}}></i>
+                        <i className="i i-time-management" style={{maskImage:'none', WebkitMaskImage: 'none', background: "url(https://tandhconsult.com/wp-content/uploads/2021/05/help.svg)"}}></i>
                         <div className="dispute__benef-content">
                         <span className="dispute__benef-name">Faster, Easier Implementation</span>
                         <span className="dispute__benef-pos">Faster, easier and more cost-effective than any other provider.</span>
@@ -117,7 +117,7 @@ const index = () => {
                     </div>
 
                     <div className="dispute__benef-item wow animate__animated animate__fadeInUp" >
-                        <i className="i i-time-management" style={{maskImage:'url(https://tandhconsult.com/wp-content/uploads/2021/05/shield.svg)', background: "url(https://tandhconsult.com/wp-content/uploads/2021/05/shield.svg)"}}></i>
+                        <i className="i i-time-management" style={{maskImage:'none', WebkitMaskImage: 'none', background: "url(https://tandhconsult.com/wp-content/uploads/2021/05/shield.svg)"}}></i>
                         <div className="dispute__benef-content">
                         <span className="dispute__benef-name">Build Trust</span>
                         <span className="dispute__benef-pos">We are here for you – because we are Built to Care.</span>

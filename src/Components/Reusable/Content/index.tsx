@@ -24,8 +24,8 @@ export const PrevArrow: React.FC<ArrowProps> = ({ onClick }) => {
           filter: "brightness(0) invert(1)",
           background:
             " url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg)",
-          maskImage:
-            "url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg)",
+          // maskImage:
+          //   "url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg)",
           rotate: "180deg",
         }}
       ></i>
@@ -48,8 +48,8 @@ export const NextArrow: React.FC<ArrowProps> = ({ onClick }) => {
           filter: "brightness(0) invert(1)",
           background:
             " url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg)",
-          maskImage:
-            "url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg)",
+          // maskImage:
+          //   "url(https://tandhconsult.com/wp-content/themes/th/img/icons/arrow-right.svg)",
         }}
       ></i>
     </button>
@@ -287,7 +287,7 @@ const index = () => {
                 </h1>
                 <div className="card__row">
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/printable.jpeg`} alt="printable" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/printable.jpg`} alt="printable" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <p>

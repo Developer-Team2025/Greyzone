@@ -41,27 +41,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100%;
     &_wrapper{
         position: relative;
         width: 35rem;
+        height: 96%;
         // width: Clamp-all(560, 560, 560px);
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
         background-color: #fff;
-        height: auto;
-        flex-direction: column;
+        // height: auto;
+        // flex-direction: column;
         padding: 2rem;
         gap: 2rem;
         border-radius: 1rem;
-        .form{
-            width: 100%;
-        }
         .exit{
             position: absolute;
             z-index: 76;
             color: #fff;
             top: -9px;
+            // top: 0rem;
             right: -9px;
             background: rgba(0, 0, 0, 0.56);
             border-radius: 5rem;
@@ -70,13 +70,28 @@
             font-family: cursive;
             cursor: pointer;
         }
-        .logo{
-            width: 44%;
-            display: inline-block;
-            img{
-                max-width: 100%;
+        .inside_form{
+            overflow-y: scroll;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 3rem;
+            height: 100%;
+            .form{
                 width: 100%;
-                height: auto;
+            }
+            .logo{
+                width: 44%;
+                display: inline-block;
+                img{
+                    max-width: 100%;
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            &::-webkit-scrollbar{
+                display: none;
             }
         }
     }

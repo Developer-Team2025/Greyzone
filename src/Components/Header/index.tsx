@@ -332,7 +332,7 @@ function App(props: any) {
                     screenWidth < 1034 &&
                     Modal && 
                     <article className={classNames(styles.Modal, designs ? styles.openModal : styles.closeModal)} >
-                        <ul className={styles.wrapperModal}>
+                        <ul className={styles.wrapperModal_v2}>
                             <li> <a href="/" style={{color: filter === 'home' ? '#012555' : ''}}>Home</a> </li>
                             <li className={styles.arrow_down} onClick={()=> setAbout(!About)}>
                                 <a href="/about-us" style={{color: filter === 'about us' ? '#012555' : ''}} >About us</a> 

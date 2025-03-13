@@ -27,6 +27,13 @@
     //     0%   {    transform: translateY(0);}
     //     100% {    transform: translateY(-110%);}
     // }
+    .wrapperModal_v2{
+        overflow-y: scroll;
+        height: 90%;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+    }
     ul{
         display: block;
         position: relative;

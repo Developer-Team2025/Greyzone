@@ -23,14 +23,16 @@ const index: React.FC<Modal>= ({func, func2}) => {
   return (
     <>
     
-    <div className={classNames(styles.modal, animate ? styles.openModal : styles.closeModal) } style={{height: `${screenHeight + 10}px`}}>
+    <div className={classNames(styles.modal, animate ? styles.openModal : styles.closeModal) } >
       <div className={styles.modal_wrapper}>
         <span className={styles.exit} onClick={() => {setTimeout(() => {func?.(), func2?.()},500), setAnimate(false)}}>X</span>
-        <div className={styles.logo}>
-            <img src={logo} alt="logo"  />
-        </div>
-        <div className={styles.form}>
-            <Form/>            
+        <div className={styles.inside_form} >
+          <div className={styles.logo}>
+              <img src={logo} alt="logo"  />
+          </div>
+          <div className={styles.form}>
+              <Form/>            
+          </div>
         </div>
       </div>
     </div>
