@@ -15,7 +15,18 @@ const index = () => {
             //     display: inline-block;
             //     background: url(https://tandhconsult.com/wp-content/themes/th/img/icons/time-management.svg);
             // }
+            @media only screen and (max-width: 700px){
+                .dispute__info{
+                    color: #181a18;
+                    font-weight: bolder;
+                }
+                .dispute__subinfo{
+                    color: #181a18;
+                    font-weight: bolder;
+                }
+            }
         `}
+        
     </style>
         <section className="solutions" id="solutions">
             <div className="container">

@@ -147,7 +147,7 @@ const index = () => {
                         // background: 'linear-gradient(to right, #32509d 0%, #70abdc 100%)',
                         display: 'inline-block',
                         zIndex: "3",
-                        maskImage: `url(${item.icon})`,
+                        // maskImage: `url(${item.icon})`,
                         background: `url(${item.icon})`,
                     }}
                     ></i>

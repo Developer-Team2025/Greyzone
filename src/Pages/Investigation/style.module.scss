@@ -41,6 +41,11 @@
         max-width: 1369px;
         margin-bottom: 40px;
         color: #656565;
+        @media only screen and (max-width: 700px){
+            color: #181a18;
+            font-weight: bolder;
+        }
+        
     }
     .disputeWrapper {
         display: grid;
@@ -65,6 +70,10 @@
         max-width: 1350px;
         margin-bottom: 50px;
         color: #656565;
+        @media only screen and (max-width: 700px){
+            color: #181a18;
+            font-weight: bolder;
+        }
         p {
             margin-bottom: 28px;
         }
