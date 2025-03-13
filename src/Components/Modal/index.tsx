@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import styles from './style.module.scss'
 import Form from '../Reusable/Form/Contact'
 import classNames from 'classnames';
@@ -9,17 +9,17 @@ interface Modal{
 
 }
 const index: React.FC<Modal>= ({func, func2}) => {
-    const [screenHeight, setScreenHeight] = useState(window.innerHeight);
+    // const [screenHeight, setScreenHeight] = useState(window.innerHeight);
         const [animate, setAnimate] = useState(true);
-    const handleResize = () => {
-        setScreenHeight(window.innerHeight);
-    };
-    useEffect(() => {
-        window.addEventListener('resize', handleResize);
-        return () => {
-        window.removeEventListener('resize', handleResize);
-        };
-    }, []);
+    // const handleResize = () => {
+    //     setScreenHeight(window.innerHeight);
+    // };
+    // useEffect(() => {
+    //     window.addEventListener('resize', handleResize);
+    //     return () => {
+    //     window.removeEventListener('resize', handleResize);
+    //     };
+    // }, []);
   return (
     <>
     
