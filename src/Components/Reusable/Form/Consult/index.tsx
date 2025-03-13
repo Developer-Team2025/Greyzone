@@ -213,22 +213,38 @@ const index = () => {
               <div className="text-white border-b-2 border-white leading-9">
                 <p>Alexandra</p>
                 <p>
-                  {today.toLocaleString("en-US", {
+                  {/* {today.toLocaleString("en-US", {
                     month: "short",
                     day: "2-digit",
                     year: "numeric",
-                  })}
+                  })} */}
+                  November 10, 2024
                 </p>
                 <p className="pb-6">Excellent!!!</p>
               </div>
               <div className="text-white border-b-2 border-white leading-9 pt-4">
                 <p>Ahmed</p>
                 <p>
-                  {today.toLocaleString("en-US", {
+                  {/* {today.toLocaleString("en-US", {
                     month: "short",
                     day: "2-digit",
                     year: "numeric",
-                  })}
+                  })} */}
+                  August 10, 2024
+                </p>
+                <p className="pb-6">
+                  Thank you Jennifer for your help, it was really helpful
+                </p>
+              </div>
+              <div className="text-white border-b-2 border-white leading-9 pt-4">
+                <p>Carlos</p>
+                <p>
+                  {/* {today.toLocaleString("en-US", {
+                    month: "short",
+                    day: "2-digit",
+                    year: "numeric",
+                  })} */}
+                  March 16, 2024
                 </p>
                 <p className="pb-6">
                   Thank you Jennifer for your help, it was really helpful
