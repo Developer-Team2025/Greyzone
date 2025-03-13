@@ -19,10 +19,16 @@ const index = () => {
                 .dispute__info{
                     color: #181a18;
                     font-weight: bolder;
+                    p{
+                        color: #181a18;
+                    }
                 }
                 .dispute__subinfo{
                     color: #181a18;
                     font-weight: bolder;
+                    p{
+                        color: #181a18;
+                    }
                 }
             }
         `}

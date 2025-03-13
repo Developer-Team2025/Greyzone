@@ -33,6 +33,7 @@ const Index: React.FC<ButtonProps> = ({
           className={classNames(
             `${styles.banner_btn} wow  animate__fadeInUp animate__animated`
           )}
+          style={{visibility: 'initial'}}
           type="submit"
           value={text}
         />
