@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import ShadowDOM from "react-shadow";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
+import { useEffect, useState } from "react";
 interface ArrowProps {
   onClick?: React.MouseEventHandler<HTMLButtonElement>;
 }
@@ -58,12 +59,27 @@ export const NextArrow: React.FC<ArrowProps> = ({ onClick }) => {
 
 const index = () => {
   const { id } = useParams();
+    const [screenWidth, setScreenWidth] = useState<number>(window.innerWidth);
+    // const [screenHeight, setScreenHeight] = useState(window.innerHeight);
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+      // setScreenHeight(window.innerHeight)
+    };
+    useEffect(() => {
+      window.addEventListener('resize', handleResize);
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
+  const slide_show = screenWidth < 700 ? 1 : 3
   const settings = {
     infinite: true,
-    slidesToShow: 3,
+    slidesToShow: slide_show,
     slidesToScroll: 1,
     prevArrow: <PrevArrow />,
     nextArrow: <NextArrow />,
+    centerMode: true, // Optional: Adds centering effect
+    // centerPadding: "12px", // Optional: Adjust padding
   };
   return (
     <>

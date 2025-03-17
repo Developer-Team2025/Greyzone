@@ -17,7 +17,7 @@ import { ThemeContext } from "../../../../App";
 const index = () => {
   const api = HttpService;
 
-  const today = new Date();
+  // const today = new Date();
 
   // const reF = useRef<HTMLInputElement | null>(null)
 
@@ -218,7 +218,7 @@ const index = () => {
                     day: "2-digit",
                     year: "numeric",
                   })} */}
-                  November 10, 2024
+                  No 10, 2024
                 </p>
                 <p className="pb-6">Excellent!!!</p>
               </div>

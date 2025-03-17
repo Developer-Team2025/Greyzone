@@ -47,9 +47,9 @@ class HostService {
     }
 }
 
-const domain = 'http://localhost:8000'
+// const domain = 'http://localhost:8000'
 
-// const domain = 'https://scarlettelove.com'
+const domain = window.location.origin
 
 const HttpService = new HostService(domain)
 
