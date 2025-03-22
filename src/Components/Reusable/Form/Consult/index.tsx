@@ -211,19 +211,19 @@ const index = () => {
               <span className={styles.consult__subtitle}>REVIEWS</span>
               <h2 className={styles.consult__title}>We are recommended</h2>
               <div className="text-white border-b-2 border-white leading-9">
-                <p>Alexandra</p>
+                <p>Zanele Khumalo</p>
                 <p>
                   {/* {today.toLocaleString("en-US", {
                     month: "short",
                     day: "2-digit",
                     year: "numeric",
                   })} */}
-                  No 10, 2024
+                  Nov 10, 2024
                 </p>
                 <p className="pb-6">Excellent!!!</p>
               </div>
               <div className="text-white border-b-2 border-white leading-9 pt-4">
-                <p>Ahmed</p>
+                <p>Lindiwe Tshabalala</p>
                 <p>
                   {/* {today.toLocaleString("en-US", {
                     month: "short",
@@ -237,7 +237,7 @@ const index = () => {
                 </p>
               </div>
               <div className="text-white border-b-2 border-white leading-9 pt-4">
-                <p>Carlos</p>
+                <p>Johan van der Merwe</p>
                 <p>
                   {/* {today.toLocaleString("en-US", {
                     month: "short",

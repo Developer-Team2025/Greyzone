@@ -208,44 +208,7 @@ const index = () => {
                       for enhancing your scam awareness and online security.
                     </p>
                     <div className="card__ctrl">
-                      {/* <a
-                                        aria-describedby="woocommerce_loop_add_to_cart_link_describedby_29407"
-                                        data-quantity="1"
-                                        className="button product_type_simple add_to_cart_button ajax_add_to_cart"
-                                        data-product_id="29407"
-                                        data-product_sku=""
-                                        aria-label="Add to cart: “How Not to Get Scammed: A Guide to Protecting Yourself Online”"
-                                        rel="nofollow"
-                                        data-success_message="“How Not to Get Scammed: A Guide to Protecting Yourself Online” has been added to your cart"
-                                    >
-                                        Add to cart
-                                    </a>
-                                    <span
-                                        id="woocommerce_loop_add_to_cart_link_describedby_29407"
-                                        className="screen-reader-text"
-                                    ></span>
-                                    <span className="card__price">
-                                        <span className="price">
-                                        <del aria-hidden="true">
-                                            <span className="woocommerce-Price-amount amount">
-                                            <bdi>
-                                                <span className="woocommerce-Price-currencySymbol">£</span>
-                                                19.00
-                                            </bdi>
-                                            </span>
-                                        </del>
-                                        <span className="screen-reader-text">Original price was: £19.00.</span>
-                                        <ins aria-hidden="true">
-                                            <span className="woocommerce-Price-amount amount">
-                                            <bdi>
-                                                <span className="woocommerce-Price-currencySymbol">£</span>
-                                                8.99
-                                            </bdi>
-                                            </span>
-                                        </ins>
-                                        <span className="screen-reader-text">Current price is: £8.99.</span>
-                                        </span>
-                                    </span> */}
+                      {}
                     </div>
                   </div>
                 </div>
@@ -315,45 +278,7 @@ const index = () => {
                       and staying vigilant against fraud.
                     </p>
                     <div className="card__ctrl">
-                      {/* <a
-                                            // 2"
-                                            aria-describedby="woocommerce_loop_add_to_cart_link_describedby_29402"
-                                            data-quantity="1"
-                                            className="button product_type_simple add_to_cart_button ajax_add_to_cart"
-                                            data-product_id="29402"
-                                            data-product_sku=""
-                                            aria-label="Add to cart: “Printable Workbook with Exercises - Fraud Awareness”"
-                                            rel="nofollow"
-                                            data-success_message="“Printable Workbook with Exercises - Fraud Awareness” has been added to your cart"
-                                        >
-                                            Add to cart
-                                        </a>
-                                        <span
-                                            id="woocommerce_loop_add_to_cart_link_describedby_29402"
-                                            className="screen-reader-text"
-                                        ></span>
-                                        <span className="card__price">
-                                            <span className="price">
-                                            <del aria-hidden="true">
-                                                <span className="woocommerce-Price-amount amount">
-                                                <bdi>
-                                                    <span className="woocommerce-Price-currencySymbol">£</span>
-                                                    97.00
-                                                </bdi>
-                                                </span>
-                                            </del>
-                                            <span className="screen-reader-text">Original price was: £97.00.</span>
-                                            <ins aria-hidden="true">
-                                                <span className="woocommerce-Price-amount amount">
-                                                <bdi>
-                                                    <span className="woocommerce-Price-currencySymbol">£</span>
-                                                    49.10
-                                                </bdi>
-                                                </span>
-                                            </ins>
-                                            <span className="screen-reader-text">Current price is: £49.10.</span>
-                                            </span>
-                                        </span> */}
+                      {}
                     </div>
                   </div>
                 </div>

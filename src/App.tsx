@@ -71,69 +71,7 @@ function App() {
       body.style.overflowY = "scroll";
     }
   }, []);
-  // const [machineId, setMachineId] = useState("");
-
-  // useEffect(() => {
-
-  //   // const sheetId = "1P-CjNuqB_JJ9kWjCy3qWq9JVjGayoybMw_M0dai2lE4"; // Your Sheet ID
-  //   // const apiKey = "0da80e5f95fbde61a391f5df2897f87018ecc132"; // Get this from Google Cloud Console
-  //   // const sheetName = "Number of visited"; // Change if your sheet has a different name
-
-  //   // const url = `https://sheets.googleapis.com/v4/spreadsheets/${sheetId}/values/${sheetName}?key=${apiKey}`;
-
-  //   // fetch(url)
-  //   //   .then(response => response.json())
-  //   //   .then(data => {
-  //   //     console.log(data.values); // This will log the sheet data
-  //   //   })
-  //   //   .catch(error => console.error("Error fetching data:", error));
-  //   const API_URL = "https://script.google.com/macros/s/AKfycbyeE1pKoXSIM6qjxHD2V0AojbnXASLaKi1YXYZg9yl_rthjxZf3deXfm-QrdcvkVdXb/exec"
-  //   const sendData = async () => {
-  //     try {
-  //       const response = await axios.post(
-  //         API_URL,
-  //         {
-  //           name: "John Doe",
-  //           email: "johndoe@example.com",
-  //           message: "Hello from frontend!"
-  //         },
-  //         {
-  //           headers: {
-  //             "Content-Type": "application/json"
-  //           }
-  //         }
-  //       );
-
-  //       console.log("Success:", response.data);
-  //     } catch (error) {
-  //       console.error("Error:", error);
-  //     }
-  //   };
-
-  //   // Call the function
-  //   sendData();
-
-  //   fetch('https://script.google.com/macros/s/AKfycbyeE1pKoXSIM6qjxHD2V0AojbnXASLaKi1YXYZg9yl_rthjxZf3deXfm-QrdcvkVdXb/exec', {
-  //     method: 'POST',
-  //     headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-  //     body: new URLSearchParams({ test: "hello" })
-  //   })
-  //   .then(response => response.json())
-  //   .then(data => console.log(data))
-  //   .catch(error => console.error(error));
-
-  //   fetch("https://script.google.com/macros/s/AKfycbyeE1pKoXSIM6qjxHD2V0AojbnXASLaKi1YXYZg9yl_rthjxZf3deXfm-QrdcvkVdXb/exec")
-  //   .then(response => response.json())
-  //   .then(data => console.log(data))
-  //   .catch(error => console.error("Error:", error));
-
-  //   const fetchMachineId = async () => {
-  //     const fp = await FingerprintJS.load();
-  //     const result = await fp.get();
-  //     setMachineId(result.visitorId);
-  //   };
-
-  // }, []);
+  
   const [theme, setTheme] = useState("");
   const [animate, setAnimate] = useState(Boolean);
   const toggleTheme = (e: string) => {

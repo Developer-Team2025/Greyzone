@@ -1,6 +1,6 @@
-import React, { useState} from 'react'
+  import React, { useState } from 'react';
 
-interface InputType{
+  interface InputType {
     type: string;
     name: string;
     placeholder: string;
@@ -8,124 +8,186 @@ interface InputType{
     classess: string;
     setPhone?: (value: React.SetStateAction<string>) => void;
     phoneData?: any;
-    setSelect?: (value: React.SetStateAction<any>) => void; 
-    selectOpt?: string; 
-}
+    setSelect?: (value: React.SetStateAction<any>) => void;
+    selectOpt?: string;
+  }
 
-const index: React.FC<InputType> = ({type, name, placeholder, option, classess, setPhone, phoneData, setSelect, selectOpt}) => {
-      const [isOpen, setIsOpen] = useState(false);
-      // const [selectedOption, setSelectedOption] = useState();     
-      const options = !option ? [""] : option;
-    
-      const toggleDropdown = () => {
-        setIsOpen(!isOpen);
-      };
-    
-      const selectOption = (option: any) => {
-        // console.log(option)
-        setSelect && setSelect(option);
-        setIsOpen(false);
-      };
+  const index: React.FC<InputType> = ({
+    type,
+    name,
+    placeholder,
+    option,
+    classess,
+    setPhone,
+    phoneData,
+    setSelect,
+    selectOpt,
+  }) => {
+    const [isOpen, setIsOpen] = useState(false);
+    const [selectedCountry, setSelectedCountry] = useState({ code: '+1', name: 'USA' });
+    const [searchQuery, setSearchQuery] = useState('');
+    const [phoneValue, setPhoneValue] = useState('');
 
+    // List of countries and their codes
+    const countries = [
+      { name: 'Afghanistan', code: '+93' },
+      { name: 'Albania', code: '+355' },
+      { name: 'Algeria', code: '+213' },
+      { name: 'Andorra', code: '+376' },
+      { name: 'Angola', code: '+244' },
+      { name: 'Australia', code: '+61' },
+      { name: 'Austria', code: '+43' },
+      // Add more countries as needed
+    ];
 
-      // const [phoneNumber, setPhoneNumber] = useState("");
+    const toggleDropdown = () => {
+      setIsOpen(!isOpen);
+    };
 
-      const formatPhoneNumber = (value: string) => {
-        // Remove all non-numeric characters except "+"
-        const sanitizedValue = value.replace(/[^0-9+]/g, "");
-    
-        // If the user deletes back to "+", keep it as is
-        if (sanitizedValue === "+") return "+";
-    
-        // Ensure the number starts with "+" if it's not empty
-        if (!sanitizedValue.startsWith("+") && sanitizedValue.length > 0) {
-          return `+${sanitizedValue}`;
-        }
-    
-        // Apply formatting
-        const match = sanitizedValue.match(
-          /^(\+\d{1,3})?(\d{1,3})?(\d{1,3})?(\d{1,4})?(\d{1,2})?$/
-        );
-    
-        if (!match) return sanitizedValue; // Return sanitized value if it doesn't match the format
-    
-        const [, countryCode, areaCode, firstPart, secondPart, extension] = match;
-    
-        let formatted = "";
-        if (countryCode) formatted += `${countryCode} `;
-        if (areaCode) formatted += `(${areaCode}) `;
-        if (firstPart) formatted += `${firstPart}-`;
-        if (secondPart) formatted += `${secondPart}`;
-        if (extension) formatted += `-${extension}`;
-    
-        return formatted.trim();
-      };
-    
-      const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-        const rawValue = e.target.value;
-        // Only format if it's not just the plus sign "+"
-        if(rawValue.length <= 22){
-          if (rawValue !== "+") {
-            const formattedValue = formatPhoneNumber(rawValue);
-            setPhone && setPhone(formattedValue.toString());
-          } else {
-            setPhone && setPhone(rawValue.toString());
-          }
-          // const regex = /[0-9]/g;
-          // const match = rawValue.toString().match(regex)?.join('')
-          // return match
-        }
-      };
-    
-      const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-        if (e.key === "Backspace") {
-          const pop_value = phoneData.split('')
-          const text_value = pop_value.filter((data: any,indx: number) => data && indx !== pop_value.length -1 )
-          setPhone && setPhone(text_value.join(''))
-        }
-      };
-    
-  return (
-    <>
-    {
-      type === 'text'  ? 
-      <input type={type} className={`${classess}`} name={name} placeholder={placeholder} style={{color:"#000"}} />
-      :
-      type === 'number' ? 
-      <input  className={`${classess}`} value={phoneData} name={name}  onChange={handleChange} onKeyDown={handleKeyDown} placeholder={placeholder} style={{color:"#000"}}/> 
-      :
-      type === 'textarea' ?
-      <textarea className={`${classess}`} name={name} placeholder={placeholder} style={{color:"#000"}} />
-      :
-      <div className="relative w-full">
-        <input
-        type="text"
-        value={selectOpt}
-        name={name}
-        placeholder={placeholder}
-        className={classess}
-        onClick={toggleDropdown}
-        readOnly
-        style={{color:"#000"}}
-        />
-        {isOpen && (
-          <ul className="absolute left-0 w-full mt-2 bg-white text-[#000] border border-gray-300 rounded-md shadow-lg z-10 overflow-y-auto" style={{maxHeight: '20rem'}}>
-              {options.map((option, index) => (
-              <li
-                  key={index}
-                  className="px-4 py-2 hover:bg-blue-100 cursor-pointer"
-                  onClick={() => {selectOption(option)}}
+    const selectCountry = (country: { name: string; code: string }) => {
+      setSelectedCountry(country);
+      setPhoneValue(country.code); // Set the country code in the phone number input
+      setIsOpen(false);
+    };
+
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+      const rawValue = e.target.value;
+      if (rawValue.length <= 22) {
+        setPhoneValue(rawValue);
+        setPhone && setPhone(rawValue);
+      }
+    };
+
+    const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+      if (e.key === 'Backspace') {
+        const pop_value = phoneValue.split('');
+        const text_value = pop_value.filter((data, indx) => data && indx !== pop_value.length - 1);
+        setPhoneValue(text_value.join(''));
+        setPhone && setPhone(text_value.join(''));
+      }
+    };
+
+    const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+      setSearchQuery(e.target.value);
+    };
+
+    const filteredCountries = countries.filter((country) =>
+      country.name.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+
+    return (
+      <>
+        {type === 'text' ? (
+          <input
+            type={type}
+            className={`${classess}`}
+            name={name}
+            placeholder={placeholder}
+            style={{ color: '#000' }}
+            required
+          />
+        ) : type === 'number' ? (
+          <div className="relative w-full">
+            {/* Country Code Select */}
+            <div
+              className="relative w-full"
+              style={{ display: 'flex', alignItems: 'center' }}
+            >
+              {/* Country Code Input */}
+              <input
+                type="text"
+                value={selectedCountry.code}
+                name={name}
+                placeholder={placeholder}
+                className={`${classess} w-20 pr-1`} // Added padding-right for the arrow
+                onClick={toggleDropdown}
+                readOnly
+                style={{ color: '#000', padding: '6px .6rem', cursor: 'pointer' }}
+              />
+              
+              {/* Phone Number Input */}
+              <input
+                className={classess}
+                value={phoneValue}
+                name={name}
+                onChange={handleChange}
+                onKeyDown={handleKeyDown}
+                placeholder="Phone Number"
+                style={{ color: '#000', padding: '6px .6rem' }}
+                required
+              />
+            </div>
+
+            {/* Country Dropdown */}
+            {isOpen && (
+              <ul
+                className="absolute left-0 w-full mt-2 bg-white text-[#000] border border-gray-300 rounded-md shadow-lg z-10 overflow-y-auto"
+                style={{ maxHeight: '15rem', maxWidth: '100%' }}
               >
-                  {option}
-              </li>
-              ))}
-          </ul>
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={handleSearchChange}
+                  className="p-2 w-full border-b-2 border-gray-300"
+                  placeholder="Search Country Name"
+                />
+                <div
+                  className="overflow-y-auto"
+                  style={{ maxHeight: '10rem', paddingRight: '10px' }}
+                >
+                  {filteredCountries.map((country) => (
+                    <li
+                      key={country.code}
+                      className="px-4 py-2 hover:bg-blue-100 cursor-pointer"
+                      onClick={() => selectCountry(country)}
+                    >
+                      {country.name} {country.code}
+                    </li>
+                  ))}
+                </div>
+              </ul>
+            )}
+          </div>
+        ) : type === 'textarea' ? (
+          <textarea
+            className={`${classess}`}
+            name={name}
+            placeholder={placeholder}
+            style={{ color: '#000' }}
+            required
+          />
+        ) : (
+          <div className="relative w-full">
+            <input
+              type="text"
+              value={selectOpt}
+              name={name}
+              placeholder={placeholder}
+              className={classess}
+              onClick={toggleDropdown}
+              readOnly
+              style={{ color: '#000' }}
+            />
+            {isOpen && (
+              <ul
+                className="absolute left-0 w-full mt-2 bg-white text-[#000] border border-gray-300 rounded-md shadow-lg z-10 overflow-y-auto"
+                style={{ maxHeight: '20rem' }}
+              >
+                {option?.map((option, index) => (
+                  <li
+                    key={index}
+                    className="px-4 py-2 hover:bg-blue-100 cursor-pointer"
+                    onClick={() => toggleDropdown(option)}
+                  >
+                    {option}
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
         )}
-      </div>
+      </>
+    );
+  };
 
-    }
-    </>
-  )
-}
-
-export default index
+  export default index;
