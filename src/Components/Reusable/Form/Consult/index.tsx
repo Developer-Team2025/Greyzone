@@ -75,33 +75,34 @@ const index = () => {
 
   const UseCallback = useCallback(
     debounce((form_value: any, keys: any, event: any) => {
-      api
-        .post("google-api-create-row", form_value)
-        .then((res) => {
-          setload(true);
-          if (res) {
-            if (res.response) {
-              toast.success(res.response);
-              keys.forEach((data: any) => (event[`${data}`].value = ""));
-              reF.current && (reF.current.checked = false);
-              themeContext?.toggleTheme("Congrats");
-              themeContext?.Animate(true);
-              setphone("");
-              setSelectOption("");
-            } else {
-              toast.error(res.errors);
-            }
-          } else {
-            toast.error("Something Went Wrong");
-          }
-        })
-        .catch((error) => {
-          setload(true);
-          toast.error("Error submitting form: " + error.message);
-        });
-    }, 300),
-    []
-  );
+    console.log(form_value);
+      // api
+      //   .post("google-api-create-row", form_value)
+      //   .then((res) => {
+      //     setload(true);
+      //     if (res) {
+      //       if (res.response) {
+      //         toast.success(res.response);
+      //         keys.forEach((data: any) => (event[`${data}`].value = ""));
+      //         reF.current && (reF.current.checked = false);
+      //         themeContext?.toggleTheme("Congrats");
+      //         themeContext?.Animate(true);
+      //         setphone("");
+      //         setSelectOption("");
+      //       } else {
+      //         toast.error(res.errors);
+      //       }
+      //     } else {
+      //       toast.error("Something Went Wrong");
+      //     }
+    //     })
+    //     .catch((error) => {
+    //       setload(true);
+    //       toast.error("Error submitting form: " + error.message);
+    //     });
+     }, 300),
+  []
+);
 
   const form = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
@@ -218,9 +219,9 @@ const index = () => {
                     day: "2-digit",
                     year: "numeric",
                   })} */}
-                  Nov 10, 2024
+                  January 12, 2025 - 9:00 am - Sun
                 </p>
-                <p className="pb-6">Excellent!!!</p>
+                <p className="pb-6">Ahmed you did an amazing job! Your dedication and hardwork truly paid off.</p>
               </div>
               <div className="text-white border-b-2 border-white leading-9 pt-4">
                 <p>Lindiwe Tshabalala</p>
@@ -230,10 +231,10 @@ const index = () => {
                     day: "2-digit",
                     year: "numeric",
                   })} */}
-                  August 10, 2024
+                  February 3, 2025 - 1:45 pm - Mon
                 </p>
                 <p className="pb-6">
-                  Thank you Jennifer for your help, it was really helpful
+                  Fantastic work, team! Your collaboration and effort made  all the difference.
                 </p>
               </div>
               <div className="text-white border-b-2 border-white leading-9 pt-4">
@@ -244,10 +245,10 @@ const index = () => {
                     day: "2-digit",
                     year: "numeric",
                   })} */}
-                  March 16, 2024
+                  February 20, 2025 - 10:30 am - Thu
                 </p>
                 <p className="pb-6">
-                  Thank you Jennifer for your help, it was really helpful
+                  I really appreciate your positive attitude! It's inspiring to see such great teamwork.
                 </p>
               </div>
               <div className={classNames(styles.extra, "text-white ")}>
