@@ -262,7 +262,7 @@
                 value={selectedCountry.code}
                 name={name}
                 placeholder={placeholder}
-                className={`${classess} w-11 pr-1`} // Added padding-right for the arrow
+                className={`${classess} w-10 pr-1`} // Added padding-right for the arrow
                 onClick={toggleDropdown}
                 readOnly
                 style={{ color: '#000', padding: '6px .2rem', cursor: 'pointer' }}
