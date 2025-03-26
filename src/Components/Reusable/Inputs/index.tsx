@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 interface InputType {
   type: string;
@@ -10,6 +10,11 @@ interface InputType {
   phoneData?: any;
   setSelect?: (value: React.SetStateAction<any>) => void;
   selectOpt?: string;
+}
+
+interface Country {
+  name: string;
+  code: string;
 }
 
 const index: React.FC<InputType> = ({
@@ -24,11 +29,12 @@ const index: React.FC<InputType> = ({
   selectOpt,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const [selectedCountry, setSelectedCountry] = useState({ code: '+1', name: 'USA' });
+  const [selectedCountry, setSelectedCountry] = useState<Country>({ code: '+1', name: 'USA' });
   const [searchQuery, setSearchQuery] = useState('');
   const [phoneValue, setPhoneValue] = useState('');
+  const [filteredCountries, setFilteredCountries] = useState<Country[]>([]);
 
-  const countries = [
+  const countries: Country[] = [
     { name: 'Afghanistan', code: '+93' },
     { name: 'Albania', code: '+355' },
     { name: 'Algeria', code: '+213' },
@@ -39,13 +45,29 @@ const index: React.FC<InputType> = ({
     { name: 'Canada', code: '+1' },
     { name: 'Germany', code: '+49' },
     { name: 'France', code: '+33' },
+    { name: 'South Africa', code: '+27' },
   ];
+
+  useEffect(() => {
+    const uniqueCountries = countries.reduce((acc: Country[], country) => {
+      if (!acc.find(c => c.code === country.code)) {
+        acc.push(country);
+      }
+      return acc;
+    }, []);
+
+    setFilteredCountries(
+      uniqueCountries.filter((country) =>
+        country.name.toLowerCase().includes(searchQuery.toLowerCase())
+      )
+    );
+  }, [searchQuery]);
 
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
 
-  const selectCountry = (country: { name: string; code: string }) => {
+  const selectCountry = (country: Country) => {
     setSelectedCountry(country);
     setPhoneValue(country.code);
     setIsOpen(false);
@@ -62,10 +84,6 @@ const index: React.FC<InputType> = ({
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchQuery(e.target.value);
   };
-
-  const filteredCountries = countries.filter((country) =>
-    country.name.toLowerCase().includes(searchQuery.toLowerCase())
-  );
 
   return (
     <>
