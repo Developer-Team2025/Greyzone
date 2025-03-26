@@ -30,64 +30,64 @@ const index = () => {
 
   const certificates = [
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/benjamin.jpeg`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/benjamin.jpeg?v=2`,
       alt: "benjamin",
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/benjamin_acad.jpeg`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/benjamin_acad.jpeg?v=2`,
       alt: "benjamin_acad",
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Amanda_acad.jpeg`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Amanda_acad.jpeg?v=2`,
       alt: "Amanda",
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Amanda_inves.jpeg`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Amanda_inves.jpeg?v=2`,
       alt: "Amanda_inves",
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Gabriella.jpeg`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Gabriella.jpeg?v=2`,
       alt: "Gabriella",
       caption: "",
     },
     {
       src: `${
         import.meta.env.VITE_REDIRECT
-      }/img/certificate/jasmine_valentine.jpeg`,
+      }/img/certificate/jasmine_valentine.jpeg?v=2`,
       alt: "Jasmine",
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Jessica.jpeg`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Jessica.jpeg?v=2`,
       alt: "Jessica",
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/John.jpeg`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/John.jpeg?v=2`,
       alt: "John",
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Jon.jpeg`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Jon.jpeg?v=2`,
       alt: "jon",
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Joseph.jpeg`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Joseph.jpeg?v=2`,
       alt: "Joseph",
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Phoebe.jpeg`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Phoebe.jpeg?v=2`,
       alt: "Phoebe",
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Richard.jpeg`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Richard.jpeg?v=2`,
       alt: "Richard",
       caption: "",
     },

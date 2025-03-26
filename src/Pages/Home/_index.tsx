@@ -11,7 +11,7 @@ import ImageBox from "../../Components/Reusable/ImageBox/index";
 import Carousell from "../../Components/Reusable/Swiper";
 
 import { edit } from "../../Components/Reusable/Addition/index";
-import bg_banner from "../../assets/images/pexels-goumbik-577210.jpeg";
+import bg_banner from "../../assets/images/pexels-goumbik-577210.jpeg?v=2";
 
 const index = () => {
   return (
@@ -102,7 +102,7 @@ const index = () => {
                 )}
               >
                 <img
-                  src={`${import.meta.env.VITE_REDIRECT}/img/about_us.jpeg`}
+                  src={`${import.meta.env.VITE_REDIRECT}/img/about_us.jpeg?v=2`}
                   alt="about us"
                 />
               </picture>
@@ -181,7 +181,7 @@ const index = () => {
         <section className={styles.banner_digital}>
           <picture className={styles.digital_bg}>
             <img
-              src={`${import.meta.env.VITE_REDIRECT}/img/digital.jpeg`}
+              src={`${import.meta.env.VITE_REDIRECT}/img/digital.jpeg?v=2`}
               alt="digital_bg"
             />
           </picture>
@@ -278,7 +278,7 @@ const index = () => {
                 <ImageBox
                   image={`${
                     import.meta.env.VITE_REDIRECT
-                  }/img/we_can_help.jpeg`}
+                  }/img/we_can_help.jpeg?v=2`}
                   href={`/blog/${edit(
                     "The Crucial Role of Expert Support When Dealing with Banks in Fraud Cases"
                   )}/`}
@@ -302,7 +302,7 @@ const index = () => {
                 <ImageBox
                   image={`${
                     import.meta.env.VITE_REDIRECT
-                  }/img/ticket_scam.jpeg`}
+                  }/img/ticket_scam.jpeg?v=2`}
                   href={`/blog/${edit(
                     "Understanding Common Ticket Scams Essential Tips for Protection"
                   )}/`}
@@ -326,7 +326,7 @@ const index = () => {
                 <ImageBox
                   image={`${
                     import.meta.env.VITE_REDIRECT
-                  }/img/business_identity_theft.jpeg`}
+                  }/img/business_identity_theft.jpeg?v=2`}
                   href={`/blog/${edit(
                     "Identifying and Handling Business Identity Theft What You Should Know"
                   )}/`}
@@ -350,7 +350,7 @@ const index = () => {
                 <ImageBox
                   image={`${
                     import.meta.env.VITE_REDIRECT
-                  }/img/report_scam_norway.jpeg`}
+                  }/img/report_scam_norway.jpeg?v=2`}
                   href={`/blog/${edit(
                     "A Guide to Reporting Scams in Norway"
                   )}/`}
@@ -374,7 +374,7 @@ const index = () => {
                 <ImageBox
                   image={`${
                     import.meta.env.VITE_REDIRECT
-                  }/img/report_scam_spain.jpeg`}
+                  }/img/report_scam_spain.jpeg?v=2`}
                   href={`/blog/${edit("A Guide to Reporting Scams in Spain")}/`}
                   style={{
                     minHeight: "315px",
@@ -396,7 +396,7 @@ const index = () => {
                 <ImageBox
                   image={`${
                     import.meta.env.VITE_REDIRECT
-                  }/img/fake_job_scam.jpeg`}
+                  }/img/fake_job_scam.jpeg?v=2`}
                   href={`/blog/${edit(
                     "Beware of Task Completion and Fake Job Scams How to Protect Yourself from Online Fraud"
                   )}/`}

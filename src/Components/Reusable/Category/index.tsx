@@ -55,7 +55,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/we_can_help.jpeg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/we_can_help.jpeg?v=2`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
 
@@ -104,7 +104,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/ticket_scam.jpeg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/ticket_scam.jpeg?v=2`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -150,7 +150,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/business_identity_theft.jpeg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/business_identity_theft.jpeg?v=2`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -202,7 +202,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2025/01/large.jpeg" alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src="https://tandhconsult.com/wp-content/uploads/2025/01/large.jpeg?v=2" alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags">
@@ -393,7 +393,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/report_scam_norway.jpeg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/report_scam_norway.jpeg?v=2`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -494,7 +494,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/report_scam_spain.jpeg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/report_scam_spain.jpeg?v=2`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -585,7 +585,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/fake_job_scam.jpeg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/fake_job_scam.jpeg?v=2`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -644,7 +644,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/navigating_scams.jpeg`} alt="image"/>
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/navigating_scams.jpeg?v=2`} alt="image"/>
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -748,7 +748,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/newzealand.jpeg`} alt="image"/>
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/newzealand.jpeg?v=2`} alt="image"/>
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -799,7 +799,7 @@ const index = () => {
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
                                     <img style={{ border: "solid 1px #fff"}}
-                                    src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/qatar.jpeg`}
+                                    src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/qatar.jpeg?v=2`}
                                     alt="image"
                                     />
                                 </picture>
@@ -883,7 +883,7 @@ const index = () => {
                         id === 'a-complete-guide-to-reporting-scams-in-france' &&
                         <div className="article__short">
                             <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/france.jpeg`} alt="image" />
+                                <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/france.jpeg?v=2`} alt="image" />
                             </picture>
                             <div className="article__content wow animate__animated animate__fadeInUp">
                                 <div className="blogs__tags article__tags"></div>
@@ -949,7 +949,7 @@ const index = () => {
                         id === 'reporting-scams-in-canada-what-you-need-to-know' &&
                         <>
                             <div className="article__short">
-                                <picture className="article__pic wow animate__animated animate__fadeInLeft"><img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/canada.jpeg`} alt="image" className="wow animate__animated animate__fadeInLeft" /></picture>
+                                <picture className="article__pic wow animate__animated animate__fadeInLeft"><img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/canada.jpeg?v=2`} alt="image" className="wow animate__animated animate__fadeInLeft" /></picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags">
                                     </div>
@@ -1024,7 +1024,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft" >
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/exposing_crypto_fraud.jpeg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/exposing_crypto_fraud.jpeg?v=2`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp" >
                                     <div className="blogs__tags article__tags"></div>
@@ -1078,7 +1078,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft" >
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/business_security.jpeg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/business_security.jpeg?v=2`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp" >
                                     <div className="blogs__tags article__tags"></div>
@@ -1119,7 +1119,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft" >
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/south_africa.jpeg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/south_africa.jpeg?v=2`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp" >
                                     <div className="blogs__tags article__tags"></div>
@@ -1193,7 +1193,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/understanding_crypto.jpeg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/understanding_crypto.jpeg?v=2`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -1268,7 +1268,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/essential_duediligence.jpeg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/essential_duediligence.jpeg?v=2`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -1313,7 +1313,7 @@ const index = () => {
                         <>
                             <div className="article__short">
                                 <picture className="article__pic wow animate__animated animate__fadeInLeft">
-                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/mastery_duediligence.jpeg`} alt="image" />
+                                    <img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/mastery_duediligence.jpeg?v=2`} alt="image" />
                                 </picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
@@ -1350,7 +1350,7 @@ const index = () => {
                         id === 'how-to-effectively-report-fraud-in-germany' &&
                         <>
                             <div className="article__short">
-                                <picture className="article__pic wow animate__animated animate__fadeInLeft" ><img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/germany.jpeg`} alt="image"/></picture>
+                                <picture className="article__pic wow animate__animated animate__fadeInLeft" ><img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/germany.jpeg?v=2`} alt="image"/></picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp" >
                                     <div className="blogs__tags article__tags"></div>
                                     <span className="article__date">June 22, 2023</span>
@@ -1403,7 +1403,7 @@ const index = () => {
                         id === 'why-due-diligence-services-are-crucial-for-business-success' &&
                         <>
                             <div className="article__short">
-                                <picture className="article__pic wow animate__animated animate__fadeInLeft"><img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/why_duediligence.jpeg`} alt="image"/></picture>
+                                <picture className="article__pic wow animate__animated animate__fadeInLeft"><img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/why_duediligence.jpeg?v=2`} alt="image"/></picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
                                     <span className="article__date">June 19, 2023</span>
@@ -1440,7 +1440,7 @@ const index = () => {
                         id === 'exploring-ai-blockchain-and-digital-surveillance-in-depth' &&
                         <>
                             <div className="article__short">
-                                <picture className="article__pic wow animate__animated animate__fadeInLeft"><img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/exploring_ai_blockchain.jpeg`} alt="image"/></picture>
+                                <picture className="article__pic wow animate__animated animate__fadeInLeft"><img style={{ border: "solid 1px #fff"}} src={`${import.meta.env.VITE_REDIRECT}/img/blog_v2/exploring_ai_blockchain.jpeg?v=2`} alt="image"/></picture>
                                 <div className="article__content wow animate__animated animate__fadeInUp">
                                     <div className="blogs__tags article__tags"></div>
                                     <span className="article__date">June 9, 2023</span>

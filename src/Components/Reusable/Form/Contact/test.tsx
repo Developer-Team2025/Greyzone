@@ -73,7 +73,7 @@ const index = () => {
           <input type="checkbox" id='checkbox' name='checkbox' ref={reF}/>
           <span className={styles.privacy} onClick={()=>{window.location.pathname = '/privacy-policy'}}>I accept Privacy Policy</span>
         </div>
-        <Button element='input' text={load ? 'Submit': '...loading'}/>
+        <Button style={{display: 'block'}} element='input' text={load ? 'Submit': '...loading'}/>
       </form>
     </>
   )

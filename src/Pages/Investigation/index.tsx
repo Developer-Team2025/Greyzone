@@ -34,35 +34,35 @@ const index = () => {
                     delay: "0.1s",
                     href: "/solutions/research-and-dispute-resolution/comprehensive-due-diligence-solutions/",
                     imgSrc:
-                    `${import.meta.env.VITE_REDIRECT}/img/due_diligence.jpeg`,
+                    `${import.meta.env.VITE_REDIRECT}/img/due_diligence.jpeg?v=2`,
                     name: "Comprehensive Due Diligence Solutions",
                 },
                 {
                     delay: "0.2s",
                     href: "/solutions/research-and-dispute-resolution/premium-dispute-settlement-package/",
                     imgSrc:
-                    `${import.meta.env.VITE_REDIRECT}/img/premium_dispute.jpeg`,
+                    `${import.meta.env.VITE_REDIRECT}/img/premium_dispute.jpeg?v=2`,
                     name: "Premium Dispute Settlement Package",
                 },
                 {
                     delay: "0.3s",
                     href: "/solutions/research-and-dispute-resolution/optimal-dispute-settlement-package/",
                     imgSrc:
-                    `${import.meta.env.VITE_REDIRECT}/img/optimal_dispute.jpeg`,
+                    `${import.meta.env.VITE_REDIRECT}/img/optimal_dispute.jpeg?v=2`,
                     name: "Optimal Dispute Settlement Package",
                 },
                 {
                     delay: "0.4s",
                     href: "/solutions/research-and-dispute-resolution/special-dispute-settlement-package/",
                     imgSrc:
-                    `${import.meta.env.VITE_REDIRECT}/img/special_dispute.jpeg`,
+                    `${import.meta.env.VITE_REDIRECT}/img/special_dispute.jpeg?v=2`,
                     name: "Special Dispute Settlement Package",
                 },
                 {
                     delay: "0.5s",
                     href: "/solutions/research-and-dispute-resolution/basic-dispute-settlement-package/",
                     imgSrc:
-                    `${import.meta.env.VITE_REDIRECT}/img/basic_dispute.jpeg`,
+                    `${import.meta.env.VITE_REDIRECT}/img/basic_dispute.jpeg?v=2`,
                     name: "Basic Dispute Settlement Package",
                 },
                 ].map((item, idx) => (

@@ -75,31 +75,31 @@ const index = () => {
 
   const UseCallback = useCallback(
     debounce((form_value: any, keys: any, event: any) => {
-    console.log(form_value);
-      // api
-      //   .post("google-api-create-row", form_value)
-      //   .then((res) => {
-      //     setload(true);
-      //     if (res) {
-      //       if (res.response) {
-      //         toast.success(res.response);
-      //         keys.forEach((data: any) => (event[`${data}`].value = ""));
-      //         reF.current && (reF.current.checked = false);
-      //         themeContext?.toggleTheme("Congrats");
-      //         themeContext?.Animate(true);
-      //         setphone("");
-      //         setSelectOption("");
-      //       } else {
-      //         toast.error(res.errors);
-      //       }
-      //     } else {
-      //       toast.error("Something Went Wrong");
-      //     }
-    //     })
-    //     .catch((error) => {
-    //       setload(true);
-    //       toast.error("Error submitting form: " + error.message);
-    //     });
+    //console.log(form_value);
+      api
+        .post("google-api-create-row", form_value)
+        .then((res) => {
+          setload(true);
+          if (res) {
+            if (res.response) {
+              toast.success(res.response);
+              keys.forEach((data: any) => (event[`${data}`].value = ""));
+              reF.current && (reF.current.checked = false);
+              themeContext?.toggleTheme("Congrats");
+              themeContext?.Animate(true);
+              setphone("");
+              setSelectOption("");
+            } else {
+              toast.error(res.errors);
+            }
+          } else {
+            toast.error("Something Went Wrong");
+          }
+        })
+        .catch((error) => {
+          setload(true);
+          toast.error("Error submitting form: " + error.message);
+        });
      }, 300),
   []
 );

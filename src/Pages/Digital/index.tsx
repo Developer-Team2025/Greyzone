@@ -52,7 +52,7 @@ const index = () => {
                     href="/solutions/digital-goods/10-indicators-of-a-love-scam-a-comprehensive-checklist"
                 >
                     <picture className="dispute__pic">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/indicators.jpeg`} alt="indicators" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/indicators.jpeg?v=2`} alt="indicators" />
                     </picture>
                     <span className="dispute__name">10 Indicators Of A Love Scam: A Comprehensive Checklist</span>
                     <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
@@ -64,7 +64,7 @@ const index = () => {
                     href="/solutions/digital-goods/online-fraud-protection-a-practical-guide"
                 >
                     <picture className="dispute__pic">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/online_fraud.jpeg`} alt="online_fraud" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/online_fraud.jpeg?v=2`} alt="online_fraud" />
                     </picture>
                     <span className="dispute__name">Online Fraud Protection: A Practical Guide</span>
                     <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>
@@ -88,7 +88,7 @@ const index = () => {
                     href="/solutions/digital-goods/fraud-awareness-masterclass-with-detailed-presentation"
                 >
                     <picture className="dispute__pic">
-                    <img src={`${import.meta.env.VITE_REDIRECT}/img/masterclass.jpeg`} alt="masterclass" />
+                    <img src={`${import.meta.env.VITE_REDIRECT}/img/masterclass.jpeg?v=2`} alt="masterclass" />
                     </picture>
                     <span className="dispute__name">Fraud Awareness Masterclass with Detailed Presentation</span>
                     <span className="dispute__more">See more<i className="i i-arrow-right"></i></span>

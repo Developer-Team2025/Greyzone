@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-
+import phoneNumber from './countries.json'
 interface InputType {
   type: string;
   name: string;
@@ -19,12 +19,12 @@ const index: React.FC<InputType> = ({
   option,
   classess,
   setPhone,
-  phoneData,
+  // phoneData,
   setSelect,
   selectOpt,
 }) => {
 const [isOpen, setIsOpen] = useState(false);
-const [selectedCountry, setSelectedCountry] = useState({ code: '+27', name: 'South Africa' });
+const [selectedCountry, setSelectedCountry] = useState(phoneNumber[10]);
 const [searchQuery, setSearchQuery] = useState('');
 const [phoneValue, setPhoneValue] = useState('');
 const [debouncedSearchQuery, setDebouncedSearchQuery] = useState(searchQuery);
@@ -35,6 +35,8 @@ const selectOption = (option: any) => {
   setIsOpen(false);
 };
 
+
+console.log(phoneNumber[10], 'hello')
 // List of countries
 const countries = [
   { name: 'Afghanistan', code: '+93' },
@@ -49,9 +51,9 @@ const toggleDropdown = () => {
 };
 
 // Select country from the list
-const selectCountry = (country: { name: string; code: string }) => {
+const selectCountry = (country: { name: string,dial_code: string, code: string }) => {
   setSelectedCountry(country);
-  setPhoneValue(country.code); // Set the country code in the phone number input
+  setPhoneValue(country.dial_code); // Set the country code in the phone number input
   setIsOpen(false);
 };
 
@@ -88,10 +90,17 @@ useEffect(() => {
   return () => clearTimeout(timer); // Clean up timeout on change
 }, [searchQuery]);
 
+
+type country = {
+  name: string,
+  code: string,
+  dial_code: string
+}
 // Filter countries based on the debounced search query
-const filteredCountries = countries.filter((country) =>
+const filteredCountries = phoneNumber.filter((country: country) =>
   country.name.toLowerCase().includes(debouncedSearchQuery.toLowerCase())
 );
+
 
 return (
   <>
@@ -112,7 +121,7 @@ return (
         {/* Country Code Input */}
         <input
           type="text"
-          value={selectedCountry.code}
+          value={selectedCountry.dial_code}
           name={name}
           placeholder={placeholder}
           className={`${classess} w-11 pr-1`}
@@ -153,13 +162,13 @@ return (
               style={{ maxHeight: '10rem', paddingRight: '10px' }}
             >
               {filteredCountries.length > 0 ? (
-                filteredCountries.map((country) => (
+                filteredCountries.map((country: country, index: number) => (
                   <li
-                    key={country.code}
+                    key={index}
                     className="px-4 py-2 hover:bg-blue-100 cursor-pointer"
                     onClick={() => selectCountry(country)}
                   >
-                    {country.name} {country.code}
+                    {country.name} {country.dial_code}
                   </li>
                 ))
               ) : (
