@@ -107,8 +107,9 @@ const index = () => {
   const form = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
     const target = new FormData(event.currentTarget);
-    if (target) {
+    if (target ) {
       const object = Object.fromEntries(target.entries());
+      // const filter = object.map((res) => {return !res.phone_v2} )
       const keys = Object.keys(object);
       setload(false);
       const form_value: any = {
