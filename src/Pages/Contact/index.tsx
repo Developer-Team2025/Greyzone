@@ -16,9 +16,8 @@ const index = () => {
             <div className={classNames(styles.contacts__left, 'wow', 'animate__animated','animate__fadeInUp')}>
               <div className={styles.contacts__info}>
                 <p>
-                  Thank you for reaching out to us. Do you have an inquiry but do not know where to turn? Want to talk about business? 
-                  Then contact us by the web inquiry form, online chat, or email listed below and we will respond to you within one business day. 
-                  Or you can give us a call.
+                Thank you for reaching out to us. Do you have an inquiry but don’t know where to turn? Want to talk about business?
+                 Then contact us using the web inquiry form or email listed below, and we will respond within one business day. 
                 </p>
               </div>
               <span className={styles.contacts__subinfo}>Here are all the ways you can contact Greyzone consulting:</span>
@@ -73,7 +72,7 @@ const index = () => {
               </div>
 
               <div className={styles.contacts__last}>
-                <p>We will reply to your questions as soon as possible. Greyzone Consulting is open to answer calls and email messages from 9:00 a.m. to 6:00 p.m (CET) In Weekdays.</p>
+                <p>We will reply to your questions as soon as possible. Greyzone Consulting is available to respond to inquiries from 9:00 a.m. to 6:00 p.m. (CET) on weekdays.</p>
               </div>
             </div>
             <div className={classNames(styles.contact__right ,`wow animate__animated animate__fadeInUp`)}>
