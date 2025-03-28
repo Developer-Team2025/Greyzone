@@ -104,7 +104,7 @@ const index = () => {
                     <img src={`${import.meta.env.VITE_REDIRECT}/img/indicators.jpeg?v=2`} alt="indicator" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       This comprehensive checklist is designed to assist
                       individuals in identifying the various signs and
                       indicators commonly associated with romance scams, thereby
@@ -150,7 +150,7 @@ const index = () => {
                 </div>
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Stay safe in the digital dating world with our “10 Signs to
                     Spot a Love Scam Checklist.” This comprehensive 5-page guide
                     helps you recognize the warning signs of romance scams,
@@ -202,7 +202,7 @@ const index = () => {
                     <img src={`${import.meta.env.VITE_REDIRECT}/img/online_fraud.jpeg?v=2`} alt="online_fraud" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       A comprehensive guide offering practical tips and
                       strategies to protect yourself from online scams. Ideal
                       for enhancing your scam awareness and online security.
@@ -214,7 +214,7 @@ const index = () => {
                 </div>
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Introducing “How Not to Get Scammed: A Guide to Protecting
                     Yourself Online,” your ultimate resource for fraud
                     prevention. This 25-page guide provides practical tips and
@@ -269,7 +269,7 @@ const index = () => {
                     <img src={`${import.meta.env.VITE_REDIRECT}/img/printable.jpg`} alt="printable" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Enhance your fraud prevention skills with our Fraud
                       Awareness Workbook. This comprehensive printable guide
                       includes self-assessments, interactive exercises, and
@@ -284,7 +284,7 @@ const index = () => {
                 </div>
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Happy to present you the{" "}
                     <strong>Fraud Awareness Workbook</strong>, your
                     comprehensive guide to mastering fraud prevention and online
@@ -295,7 +295,7 @@ const index = () => {
                     skills, this workbook offers valuable insights and practical
                     exercises to help you stay vigilant.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     <strong>Features:</strong>
                   </p>
                   <ul>
@@ -336,7 +336,7 @@ const index = () => {
                       measures with our up-to-date resources.
                     </li>
                   </ul>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     <strong>Key Benefits:</strong>
                   </p>
                   <ul>
@@ -361,7 +361,7 @@ const index = () => {
                       materials.
                     </li>
                   </ul>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     By completing the <strong>Fraud Awareness Workbook</strong>,
                     you’ll develop the confidence and skills needed to safeguard
                     yourself and your assets from potential scams. This workbook
@@ -370,7 +370,7 @@ const index = () => {
                     mark your progress, and take proactive steps to protect
                     yourself from fraud with our detailed and practical guide.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Boost your fraud prevention capabilities today with the{" "}
                     <strong>Fraud Awareness Workbook</strong>—your ultimate
                     resource for scam prevention and online security.
@@ -434,13 +434,13 @@ const index = () => {
                     "animate__fadeInRight"
                   )}
                 >
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     <strong>
                       Unlock the Secrets to Protecting Your Finances with Our
                       Fraud Awareness Bundle
                     </strong>
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     In an era dominated by digital transactions, safeguarding
                     against financial fraud is crucial. With cybercrime damages
                     projected to cost the global economy $10.5 trillion annually
@@ -476,13 +476,13 @@ const index = () => {
                 )}
               >
                 <h3>Key Features of Our Fraud Awareness Bundle</h3>
-                <p>
+                <p style={{color: "rgba(0,0,0,1)"}}>
                   <strong>Expert-Led Workshop:</strong> Gain exclusive access to
                   a 2-hour recorded workshop led by seasoned industry experts.
                   Delve into essential fraud prevention strategies and learn
                   practical methods to protect yourself and others from scams.
                 </p>
-                <p>
+                <p style={{color: "rgba(0,0,0,1)"}}>
                   <strong>Detailed Presentation PDF:</strong> Receive a
                   presentation PDF that complements the workshop. This resource
                   is perfect for following along, taking notes, and revisiting
@@ -509,31 +509,31 @@ const index = () => {
                     </video>
                   </div>
                 </div>
-                <p>&nbsp;</p>
+                <p style={{color: "rgba(0,0,0,1)"}}>&nbsp;</p>
                 <h3>Why Choose Our Fraud Awareness Bundle?</h3>
-                <p>
+                <p style={{color: "rgba(0,0,0,1)"}}>
                   <strong>Learn from Experts:</strong> Benefit from the
                   expertise of professionals who bring real-world insights and
                   highlight red flags to detect and prevent fraud.
                 </p>
-                <p>
+                <p style={{color: "rgba(0,0,0,1)"}}>
                   <strong>Flexible Learning Options:</strong> Study at your own
                   pace with the ability to pause, rewind, and replay the
                   workshop. Our bundle adapts to your schedule.
                 </p>
-                <p>
+                <p style={{color: "rgba(0,0,0,1)"}}>
                   <strong>Enhance Your Knowledge:</strong> Boost your
                   understanding of various fraud types, their impacts, and
                   effective prevention strategies.
                 </p>
-                <p>
+                <p style={{color: "rgba(0,0,0,1)"}}>
                   <strong>Global Perspective:</strong> Understand the global
                   landscape of financial fraud with examples from around the
                   world.
                 </p>
 
                 <h3>Act Now and Secure Your Financial Future</h3>
-                <p>
+                <p style={{color: "rgba(0,0,0,1)"}}>
                   Equip yourself with the tools and knowledge to stay one step
                   ahead of{" "}
                   <Link to="/blog/what-to-do-if-you-suspect-fraud/">
@@ -566,7 +566,7 @@ const index = () => {
                     <img src={`${import.meta.env.VITE_REDIRECT}/img/Analysis_crypto.jpeg?v=2`} alt="Analysis_crypto" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Managing cryptocurrency transactions is complicated,
                       especially when it comes to staying compliant and avoiding
                       illegal activity. That’s where our{" "}
@@ -603,10 +603,10 @@ const index = () => {
                 </div>
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     <strong>How It Works:</strong>
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     In the world of cryptocurrency, ensuring the legitimacy and
                     security of every transaction is crucial, particularly for
                     large institutions like banks or financial firms. Our{" "}
@@ -615,7 +615,7 @@ const index = () => {
                     cryptocurrency transactions, bringing clarity and safety to
                     an otherwise complex process.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     We utilize advanced blockchain analysis tools and
                     methodologies to uncover risks, flag suspicious activities,
                     and ensure compliance with industry regulations, providing
@@ -651,10 +651,10 @@ const index = () => {
                       potential risk to your institution.
                     </li>
                   </ul>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     <strong>Risk Scoring and Categorization</strong>:
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Following the analysis, every transaction is assigned a{" "}
                     <strong>risk score</strong> ranging from low to high,
                     allowing your compliance team to focus on areas that need
@@ -671,7 +671,7 @@ const index = () => {
                       indicate money laundering attempts.
                     </li>
                   </ul>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     <strong>Deliverables</strong>:
                   </p>
                   <ul>
@@ -688,7 +688,7 @@ const index = () => {
                       increasing monitoring frequency for high-risk activities.
                     </li>
                   </ul>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     <strong>Who Will Benefit From This Service</strong>:
                   </p>
                   <ul>
@@ -713,7 +713,7 @@ const index = () => {
                       inadvertently involved in illegal activities.
                     </li>
                   </ul>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     By implementing our{" "}
                     <strong>Crypto Transaction Risk Audit</strong>, your
                     institution adopts a proactive stance against fraud,
@@ -723,7 +723,7 @@ const index = () => {
                     cryptocurrency from a potential risk into a well-managed,
                     compliant financial tool.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     <strong>Ready to fortify your crypto operations?</strong>{" "}
                     Contact us today to learn more about how our tailored audit
                     can enhance your institution’s security and regulatory
@@ -754,7 +754,7 @@ const index = () => {
                     <img src={`${import.meta.env.VITE_REDIRECT}/img/asset_location.jpeg?v=2`} alt="asset_location" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       At Greyzone Consulting, we specialize in providing
                       comprehensive{" "}
                       <strong>asset search and tracing services</strong>, with a
@@ -859,7 +859,7 @@ const index = () => {
                       to meet individual client needs.
                     </li>
                   </ul>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     If you’re looking to <strong>trace assets</strong> and
                     navigate the ever-evolving digital landscape, Greyzone
                     Consulting is here to assist you every step of the way.
@@ -895,7 +895,7 @@ const index = () => {
                       Expert Witness for Cryptocurrency – Bridging the Gap in
                       Legal Proceedings
                     </h2>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       In cases involving cryptocurrencies that escalate to court
                       proceedings, the expertise of an expert witness becomes
                       crucial. Judges and juries often lack understanding of how
@@ -907,7 +907,7 @@ const index = () => {
                       traceability, and the nuances of their usage.
                     </p>
                     <h3>Unraveling the Complexity with Certified Experts</h3>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Greyzone Consulting boasts a team of certified experts in
                       cryptocurrency and blockchain technology. Our expert
                       witnesses provide valuable testimony in cryptocurrency
@@ -923,7 +923,7 @@ const index = () => {
                     <h3>
                       Comprehensive Cryptocurrency Analysis and Investigation
                     </h3>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Our team at Greyzone Consulting conducts thorough{" "}
                       <Link to="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/">
                         cryptocurrency analysis and investigations
@@ -936,7 +936,7 @@ const index = () => {
                       legal proceedings grasp the underlying concepts.
                     </p>
                     <h3>Extensive International Experience</h3>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       With a vast experience spanning multiple jurisdictions
                       internationally, including Europe, Australia, the U.K.,
                       the USA, New Zealand, and more, our cybercrime
@@ -953,7 +953,7 @@ const index = () => {
                       to achieve successful outcomes.
                     </p>
                     <h3>Secure Successful Outcomes with Greyzone Consulting</h3>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Trust Greyzone Consulting’s expert witnesses to bridge the
                       knowledge gap in cryptocurrency-related legal proceedings.
                       Our team of certified experts is dedicated to offering
@@ -994,14 +994,14 @@ const index = () => {
                   <h3 className="title card__subtit">
                     <span>Description</span>
                   </h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     In cases involving cryptocurrencies where it has been
                     decided to escalate it to the competent authorities and a
                     process with a court is taking place, the assistance of an
                     expert witness may help judges and juries understand how
                     these currencies work and which regulations, if any, apply.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Cryptocurrency expert witnesses can help the authorities—who
                     often have little to no knowledge of blockchain
                     technology—to understand the particularities of
@@ -1011,14 +1011,14 @@ const index = () => {
                     testify or may support a legal team by helping attorneys and
                     their staff understand how cryptocurrencies work.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     At Greyzone Consulting, we are a team that counts with
                     certified experts for matters involving cryptocurrency and
                     blockchain technology. We’re available to offer expert
                     witness testimony in cases connected to blockchain
                     technology.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Our cybercrime investigators have operated in many
                     jurisdictions internationally, including most of Europe,
                     Australia, the U.K., the USA, New Zealand, and many more. We
@@ -1061,7 +1061,7 @@ const index = () => {
                       Expert Witness for Cryptocurrency – Bridging the Gap in
                       Legal Proceedings
                     </h2>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       In cases involving cryptocurrencies that escalate to court
                       proceedings, the expertise of an expert witness becomes
                       crucial. Judges and juries often lack understanding of how
@@ -1073,7 +1073,7 @@ const index = () => {
                       traceability, and the nuances of their usage.
                     </p>
                     <h3>Unraveling the Complexity with Certified Experts</h3>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Greyzone Consulting boasts a team of certified experts in
                       cryptocurrency and blockchain technology. Our expert
                       witnesses provide valuable testimony in cryptocurrency
@@ -1089,7 +1089,7 @@ const index = () => {
                     <h3>
                       Comprehensive Cryptocurrency Analysis and Investigation
                     </h3>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Our team at Greyzone Consulting conducts thorough{" "}
                       <Link to="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/">
                         cryptocurrency analysis and investigations
@@ -1102,7 +1102,7 @@ const index = () => {
                       legal proceedings grasp the underlying concepts.
                     </p>
                     <h3>Extensive International Experience</h3>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       With a vast experience spanning multiple jurisdictions
                       internationally, including Europe, Australia, the U.K.,
                       the USA, New Zealand, and more, our cybercrime
@@ -1119,7 +1119,7 @@ const index = () => {
                       to achieve successful outcomes.
                     </p>
                     <h3>Secure Successful Outcomes with Greyzone Consulting</h3>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Trust Greyzone Consulting’s expert witnesses to bridge the
                       knowledge gap in cryptocurrency-related legal proceedings.
                       Our team of certified experts is dedicated to offering
@@ -1160,14 +1160,14 @@ const index = () => {
                   <h3 className="title card__subtit">
                     <span>Description</span>
                   </h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     In cases involving cryptocurrencies where it has been
                     decided to escalate it to the competent authorities and a
                     process with a court is taking place, the assistance of an
                     expert witness may help judges and juries understand how
                     these currencies work and which regulations, if any, apply.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Cryptocurrency expert witnesses can help the authorities—who
                     often have little to no knowledge of blockchain
                     technology—to understand the particularities of
@@ -1177,14 +1177,14 @@ const index = () => {
                     testify or may support a legal team by helping attorneys and
                     their staff understand how cryptocurrencies work.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     At Greyzone Consulting, we are a team that counts with
                     certified experts for matters involving cryptocurrency and
                     blockchain technology. We’re available to offer expert
                     witness testimony in cases connected to blockchain
                     technology.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Our cybercrime investigators have operated in many
                     jurisdictions internationally, including most of Europe,
                     Australia, the U.K., the USA, New Zealand, and many more. We
@@ -1222,7 +1222,7 @@ const index = () => {
                       Cryptocurrency Fraud Investigation – Safeguard Your
                       Investments with Greyzone Consulting
                     </h2>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Are you concerned about the rising risks associated with
                       cryptocurrency speculation? As virtual currency markets
                       gain popularity, instances of investment fraud, theft, and
@@ -1232,7 +1232,7 @@ const index = () => {
                       investors, businesses, public agencies, financial
                       advisors, and law firms.
                     </p>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Greyzone Consulting specializes in cryptocurrency
                       investigation, offering unparalleled expertise with a
                       proven track record. Trusted by law enforcement and backed
@@ -1262,7 +1262,7 @@ const index = () => {
                 </div>
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     The dynamic world of cryptocurrency presents both
                     opportunities and challenges. As digital currencies gain
                     traction, they also attract a myriad of sophisticated
@@ -1324,7 +1324,7 @@ const index = () => {
                       are both relevant and effective.
                     </li>
                   </ul>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     <img
                       decoding="async"
                       className="aligncenter wp-image-28767 size-large"
@@ -1336,7 +1336,7 @@ const index = () => {
                     />
                   </p>
                   <strong>Beyond Cryptocurrency Investigation:</strong>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     While cryptocurrency investigation is our forte, our
                     expertise doesn’t end there. Greyzone Consulting also
                     extends its services to:
@@ -1360,7 +1360,7 @@ const index = () => {
                       informed decisions.
                     </li>
                   </ul>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     In the perplexing world of cryptocurrency, clarity and
                     security are paramount. Greyzone Consulting is here to be
                     your guiding light. By scheduling a consultation, you’re
@@ -1395,7 +1395,7 @@ const index = () => {
                     />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Delve deeper into your cryptocurrency transactions with
                       our comprehensive report. Leveraging the cutting-edge
                       tools of Crystal and Blockchain Intelligence Group (BIG),
@@ -1427,13 +1427,13 @@ const index = () => {
                 </div>
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     <strong>
                       Cryptocurrency Intelligence Report – Your Shield in the
                       Cryptocurrency Realm
                     </strong>
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     In the dynamic landscape of cryptocurrency, the emergence of
                     deceptive activities poses challenges even for the seasoned.
                     While cryptocurrencies like Bitcoin, Ethereum, and USDT
@@ -1498,7 +1498,7 @@ const index = () => {
                       your concerns, offer guidance, and ensure peace of mind.
                     </li>
                   </ol>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     <strong>
                       Entrust your cryptocurrency concerns with Greyzone
                       Consulting’s Cryptocurrency Intelligence Report — a
@@ -1530,8 +1530,8 @@ const index = () => {
                     <img src={`${import.meta.env.VITE_REDIRECT}/img/Data_Collection.jpeg?v=2`} alt="Data_Collection" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p>&nbsp;</p>
-                    <p>&nbsp;</p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>&nbsp;</p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>&nbsp;</p>
                     <div className="card__ctrl">
                       <Link
                         to="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-information-gathering-support/"
@@ -1558,7 +1558,7 @@ const index = () => {
                   <h3 className="title card__subtit">
                     <span>Description</span>
                   </h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Many clients who come to us fell victim to cryptocurrency
                     scams without even knowing. As scammers improve upon and
                     diversify their methods, cryptocurrencies become a more
@@ -1574,7 +1574,7 @@ const index = () => {
                     suspects to protect themselves due to the complexity of
                     recovering the converted money.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     When this happens, the only way to proceed is to contact the
                     beneficiary crypto exchanges in order to request additional
                     information regarding the wallet addresses that the client
@@ -1589,13 +1589,13 @@ const index = () => {
                     cryptocurrency exchanges are willing to cooperate and
                     provide the information requested of them from the get-go.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Our team is well versed and experienced in the handling of
                     cases where the clients cannot provide wallet addresses.
                     Until now, we have been very successful in obtaining any
                     missing wallet addresses pertaining to our cases.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     At Greyzone our fundamental purpose is to provide you with
                     the highest quality attention and services. You can always
                     contact our agents, who will be more than happy to assist
@@ -1633,7 +1633,7 @@ const index = () => {
                         Decision-Making
                       </em>
                     </h3>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       At Greyzone Consulting, we offer comprehensive due
                       diligence services that transform high-risk situations
                       into high-growth opportunities. Our unique blend of AI
@@ -1644,7 +1644,7 @@ const index = () => {
                       specific needs of our clients, providing them with the
                       tools they need to make confident decisions.
                     </p>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Unlike conventional due diligence service providers, we
                       don’t solely rely on automated data that may fall short of
                       providing valuable insights. While AI technology plays a
@@ -1675,13 +1675,13 @@ const index = () => {
                 </div>
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Our due diligence services provide a holistic view of your
                     target, identifying risks, value creation opportunities, and
                     data-driven decision-making. We excel at connecting
                     different aspects of your business in our tailored reports.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     As part of our due diligence services, we offer executive
                     vetting, a crucial process in today’s competitive and
                     evolving business landscape. Our team is skilled at
@@ -1695,7 +1695,7 @@ const index = () => {
                       Analytics: Uncovering Hidden Gems
                     </strong>
                   </h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Our expertise in Open Source Intelligence (OSINT) techniques
                     allows us to uncover information hidden deep in the web,
                     including social media. This insight, combined with access
@@ -1703,7 +1703,7 @@ const index = () => {
                     us to provide a comprehensive understanding of potential
                     risks and opportunities.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Our due diligence services span across various areas
                     including commercial, operational, IT, and ESG. Our team
                     identifies and untangles problems, ensuring post-close
@@ -1712,13 +1712,13 @@ const index = () => {
                     personalized approach that gets to the heart of your
                     business needs.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     In addition to due diligence, we provide sell-side due
                     diligence, business data analytics, business combination
                     accounting, and valuations. This well-rounded portfolio
                     supports your overall goals.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     At Greyzone Consulting, we provide more than just data. We
                     offer insights that empower you to navigate your journey
                     with confidence and ease. Our tailored reports and top-tier
@@ -1754,7 +1754,7 @@ const index = () => {
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <h2>Salient features</h2>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Under the “Premium Package” program, we provide our
                       customers with the following:
                     </p>
@@ -1827,7 +1827,7 @@ const index = () => {
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
                   <h3 className="title card__subtit">Description</h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     At Greyzone Consulting, we pride ourselves on our proven
                     track record of securing favorable outcomes for our clients
                     over the years. Our seasoned team of professionals handle a
@@ -1837,7 +1837,7 @@ const index = () => {
                     results-driven approach, assures that our clients receive
                     exceptional service.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Our “Premium Package” is tailor-made to provide our clients
                     with the comprehensive attention they require. This
                     all-encompassing package includes thorough investigations of
@@ -1847,7 +1847,7 @@ const index = () => {
                     the capability to conduct highly specialized research to
                     fortify your case.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     The initial step in processing a priority case involves
                     gathering all necessary evidence pertinent to the case,
                     supplemented by any information the client can provide. This
@@ -1855,13 +1855,13 @@ const index = () => {
                     assessment, which guides us in determining the optimal
                     course of action.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Upon signing the agreement, all necessary documentation
                     should be provided within a 30-day timeframe. If our
                     compliance team finds any gaps in the information, they may
                     request further documents or evidence.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Subsequently, we delve into the evidence to understand the
                     mechanics of the fraud/misconduct, the modus operandi of the
                     suspects, and gather any other pertinent information. We
@@ -1875,7 +1875,7 @@ const index = () => {
                     business information or reports, though these are billed
                     separately as they are not included in the package.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     After completing the evidence analysis, we devise a
                     strategic plan that is included in the “Premium Package”
                     case report. This report is delivered within four business
@@ -1888,7 +1888,7 @@ const index = () => {
                     depending on the workload.
                   </p>
                   <h2>Salient features</h2>
-                  <p>The “Premium Package” offers clients:</p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>The “Premium Package” offers clients:</p>
                   <ul>
                     <li>
                       Extensive investigation on the primary opposing
@@ -1918,7 +1918,7 @@ const index = () => {
                       delivery.
                     </li>
                   </ul>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Our account managers are on hand for scheduled meetings to
                     clarify any queries, handle any urgent matters, provide
                     essential information, and respond to inquiries. While we
@@ -1926,7 +1926,7 @@ const index = () => {
                     on the responses of other parties involved in the case. As
                     such, certain steps may be revised or omitted as required.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     For cases involving damages exceeding £250,000 or those
                     involving more than 20 transactions, please reach out to our
                     team to receive a personalized quote. We’re always available
@@ -1962,7 +1962,7 @@ const index = () => {
                     <h2>
                       <span>Salient features</span>
                     </h2>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Under the “Optimal” Tariff plan, we provide our customers
                       with:
                     </p>
@@ -2016,7 +2016,7 @@ const index = () => {
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
                   <h3 className="title card__subtit">Description</h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     At Greyzone Consulting we take pride in the favourable
                     results we have presented to our clients over the past
                     years. We have an experienced and professional team that has
@@ -2025,7 +2025,7 @@ const index = () => {
                     standards of service quality and a strong vision on how to
                     best assist our clients.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     With our “Optimal Package” we provide clients with the
                     attention they deserve. This includes extended consultation
                     time with our agents, a more thorough investigation into the
@@ -2033,7 +2033,7 @@ const index = () => {
                     Every case is unique and we tailor our packages in
                     accordance with the needs of our clients.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Initially, it is essential to understand all the different
                     aspects of a client’s case, and part of this understanding
                     involves collecting all possible information on the case
@@ -2041,7 +2041,7 @@ const index = () => {
                     preliminary assessment of the case’s background once all the
                     required information is assembled.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     After processing the payment and signing the agreement, the
                     required documentation from the client needs to be sent in a
                     period no longer than 30 calendar days. It should also be
@@ -2049,7 +2049,7 @@ const index = () => {
                     insufficient pending a review by the compliance team,
                     further evidence may be required.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Following the conditions outlined above, we then begin with
                     an extensive investigation into the companies/fraudsters and
                     an analysis of their website. The investigation is included
@@ -2059,7 +2059,7 @@ const index = () => {
                     between the information provided to the client of the
                     suspect(s) and determine an outcome of the research.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     The investigation conducted in this package will be
                     moderate, which means that the resources at our disposal
                     when dealing with the scammers will be limited, and will be
@@ -2069,7 +2069,7 @@ const index = () => {
                     make said purchases, at which point he will be responsible
                     for the extra expenses incurred.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Once we have made a comprehensive analysis of the evidence,
                     we proceed with designing the strategic plan that will be
                     implemented and includes a summary of it in the “Optimal
@@ -2078,7 +2078,7 @@ const index = () => {
                     notified that the evidence is sufficient to proceed, and not
                     before.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Following the presentation of the case report, the client
                     has to approve the information and the strategic plan
                     contained within. Once approved, we begin with drafting the
@@ -2092,7 +2092,7 @@ const index = () => {
                     especially important when it comes to regulated brokers and
                     established companies.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Following the delivery of the case report, we follow the
                     strategic plan and try to commit to it as much as possible.
                     However, the plan is subject to adaptation or change
@@ -2130,7 +2130,7 @@ const index = () => {
                     <h2>
                       <span>Salient features</span>
                     </h2>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Dispute Settlement “Special Package” is characterized by
                       the following conditions:
                     </p>
@@ -2172,7 +2172,7 @@ const index = () => {
                 </div>
                 <div className="card__desc wow animate__animated animate__fadeInUp">
                   <h3 className="title card__subtit">Description</h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Even though our packages are designed to cover all the
                     bases, it is sometimes necessary to specialize and adjust
                     our cases according to the needs and requirements of our
@@ -2180,7 +2180,7 @@ const index = () => {
                     need to make use of every facet of Greyzone’s default
                     packages.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     This might be due to several reasons, such as when clients
                     take the initiative on their own, before deciding to contact
                     us. In such cases, it is unnecessary to create a case report
@@ -2191,7 +2191,7 @@ const index = () => {
                     circumstances of his/her case, decides on how to best
                     benefit from our assistance.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Additionally, many clients turn to us after problems with
                     several unscrupulous organizations that may have some kind
                     of connection with one another. In such cases, it is
@@ -2203,7 +2203,7 @@ const index = () => {
                     organizations. This is best achieved through specialists and
                     experts, such as the ones at our disposal.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     You can discuss the relevant factors of your case with your
                     assigned account manager so that we can create the package
                     that best suits your needs and that allows us to achieve
@@ -2236,7 +2236,7 @@ const index = () => {
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <h2>Salient features</h2>
-                    <p>The Basic Tariff has the following salient features:</p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>The Basic Tariff has the following salient features:</p>
                     <ul>
                       <li>Assessment of Case’s background.</li>
                       <li>
@@ -2288,7 +2288,7 @@ const index = () => {
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
                   <h3 className="title card__subtit">Description</h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     At Greyzone Consulting we take pride in the favorable
                     results we have presented to our clients over the past
                     years. We have an experienced and professional team that has
@@ -2297,7 +2297,7 @@ const index = () => {
                     standards of service quality and a strong vision on how to
                     best assist our clients.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     The initial step in the processing of a priority case is the
                     proper assembly and gathering of all necessary evidence
                     pertaining to the case, in addition to all that the client
@@ -2305,7 +2305,7 @@ const index = () => {
                     assessment is made that determines where and how we can make
                     the first move.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Once the agreement is signed, the list of the documentation
                     required by the agent must be sent in a period no longer
                     than 30 calendar days. Additionally, should the compliance
@@ -2313,7 +2313,7 @@ const index = () => {
                     the client are insufficient, further documents/evidence may
                     be required.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     After the information and the strategic plan contained in
                     the “Basic Package” case report is approved by the client,
                     we begin with drafting the agreed-upon applications and
@@ -2331,7 +2331,7 @@ const index = () => {
                     account manager is always available should you have any
                     inquires or require any clarification.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Should you have any further questions or doubts, do not
                     hesitate to contact our agents, we will be happy to help
                     you.
@@ -2361,7 +2361,7 @@ const index = () => {
                     <img src={`${import.meta.env.VITE_REDIRECT}/img/chargeback.jpeg?v=2`} alt="chargeback" />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Disputes can be easily handled with Chargeback
                       Consultation: As a chargeback dispute is an incredibly
                       complex process that involves various parties, you may
@@ -2409,7 +2409,7 @@ const index = () => {
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
                   <h3 className="title card__subtit">Description</h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     At Greyzone Consulting, we are experts in transactions that
                     involve payments with debit and credit cards. The variety
                     and complexity of the situations in which people lose money
@@ -2421,7 +2421,7 @@ const index = () => {
                     your rights to be respected, you need to properly understand
                     them and how the chargeback process is conducted.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     When the dispute leads to a positive result, a transfer is
                     made by the issuing bank to the customer, the amount of
                     which will be debited from the involved merchant and
@@ -2430,7 +2430,7 @@ const index = () => {
                     the bank and operates under the rules of the card issuer, be
                     it VISA or MasterCard.
                   </p>
-                  <p>The process is as follows:</p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>The process is as follows:</p>
                   <ol>
                     <li>
                       The cardholder files a chargeback/A dissatisfied customer
@@ -2464,7 +2464,7 @@ const index = () => {
                       fraudulently removed.
                     </li>
                   </ol>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Our team is well versed and highly experienced in this
                     process and can assist you with raising a chargeback dispute
                     with the bank in question. Remember, a chargeback is not
@@ -2474,14 +2474,14 @@ const index = () => {
                     understanding of how to do it, as a single wrong word could
                     be disruptive to the whole process.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     At Greyzone our fundamental purpose is to give you the best
                     attention and quality of service. As such, you can always
                     discuss your needs and concerns with our agents, who will be
                     more than happy to listen to and assist you.
                   </p>
                   <h2>Salient features</h2>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     The Client hereby agrees to engage the Consultant to provide
                     the Client with the following consulting services under the
                     Chargeback Processing Consultation:
@@ -2495,12 +2495,12 @@ const index = () => {
                     </li>
                     <li>45 minutes of consultation with our specialist.</li>
                   </ul>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     The Services will also include any other consulting tasks
                     which the Parties may agree on. The Consultant hereby agrees
                     to provide such Services to the Client.
                   </p>
-                  <p>One-time payment – 189 GBP.</p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>One-time payment – 189 GBP.</p>
                 </div>
               </div>
             </section>
@@ -2530,7 +2530,7 @@ const index = () => {
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <h2>Salient features</h2>
-                    <p>Supported languages:</p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>Supported languages:</p>
                     <ul>
                       <li>Spanish</li>
                       <li>Arabic</li>
@@ -2570,14 +2570,14 @@ const index = () => {
                     Translations that do not require a Court Interpreter’s
                     certification
                   </h4>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     <strong>Non-certified translations</strong> are{" "}
                     <em>translations</em> that do not bear the Court
                     Interpreter’s certification. Such translations are usually
                     made electronically (Microsoft Word, Microsoft Excel,
                     Microsoft PowerPoint, and, in some cases, in PDF).
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     At Greyzone Consulting, we have a diverse multi-lingual team
                     that comes from a wide variety of backgrounds. Because of
                     this, we are able to offer non-certified technical
@@ -2591,7 +2591,7 @@ const index = () => {
                     languages (from the previously mentioned list) to
                     accommodate special requests and exceptional circumstances.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     <strong>Non-certified translations</strong> can be printed
                     or delivered electronically. If we receive the text
                     electronically, we can overwrite the text. The goal is to
@@ -2606,7 +2606,7 @@ const index = () => {
                     margins 2.5 cm. Different formats may be used if required by
                     the original text.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     We are here to clarify and answer all your inquiries. If you
                     have any doubts regarding this service and what is included,
                     please ask our agents. We will be happy to help you.
@@ -2639,7 +2639,7 @@ const index = () => {
                       Wondering how we craft your comprehensive Case Assessment
                       Report?
                     </h2>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Success in investigations hinges on a deep understanding
                       of the target company. Our team of experts conducts
                       thorough case assessments. They delve deep into the
@@ -2649,7 +2649,7 @@ const index = () => {
                       brings to light the company’s true nature. This report
                       further affirms the initial clues.
                     </p>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Consider the unique features of our Case Assessment and
                       Compilation service:
                     </p>
@@ -2684,12 +2684,12 @@ const index = () => {
                       Why should you opt for our Case Assessment & Compilation
                       Services?
                     </h2>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       We aim to enable informed decisions. Each case is unique.
                       Therefore, we ensure to provide accurate and detailed
                       information.
                     </p>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       By choosing us, you get a dedicated team of experts. They
                       stay updated with the latest investigative techniques and
                       tools. As a result, our case assessment process is always
@@ -2698,12 +2698,12 @@ const index = () => {
                     <h3>
                       We do more than just providing a detailed case report.
                     </h3>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       We also offer consultation services. You can discuss the
                       case with our experts, understand the evidence, and gain
                       insights into our findings.
                     </p>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Numerous clients trust our case assessment & compilation
                       services. We attribute this to our commitment to quality,
                       precision, and confidentiality. Whether you need a
@@ -2711,7 +2711,7 @@ const index = () => {
                       enforcement or state authorities,{" "}
                       <Link to="/contact-us">we are here to assist</Link>.
                     </p>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Experience the difference with our Case Assessment &
                       Compilation services. Make informed decisions,
                       confidently.
@@ -2742,7 +2742,7 @@ const index = () => {
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
                   <h3 className="title card__subtit">Description</h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     At Greyzone Consulting, we offer a variety of services that
                     our clients can select according to their needs. With our
                     “Compilation & Case Preparation” service, we can prepare{" "}
@@ -2760,7 +2760,7 @@ const index = () => {
                       state authorities including regulatory agencies
                     </li>
                   </ul>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     For the drafting of the Case report, the first step is to
                     understand the case. For this, we request that the client
                     sends us all the relevant documentation and evidence they
@@ -2775,7 +2775,7 @@ const index = () => {
                     information with our findings and point out any
                     discrepancies.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Once the analyses are complete, we proceed with designing a
                     strategic plan to adhere to and compile both sections in a
                     Basic case report that is delivered within 10 working days.
@@ -2790,7 +2790,7 @@ const index = () => {
                     tailored strategic plan which entails the steps that may be
                     taken in order to achieve the client’s goals.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     As for the file for law enforcement, this is a package of
                     documents that the client presents to their local police (or
                     any other department if applied to the situation) in order
@@ -2813,7 +2813,7 @@ const index = () => {
                     documentation prepared by our specialists valuable and
                     helpful for investigating and progressing the case.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     At Greyzone, our fundamental purpose is to give you the best
                     attention and quality of service. As such, you can always
                     discuss your needs and concerns with our agents, who will be
@@ -2848,7 +2848,7 @@ const index = () => {
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <h2>Salient features</h2>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Application Processing / Drafting is characterized by the
                       following conditions:
                     </p>
@@ -2884,7 +2884,7 @@ const index = () => {
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
                   <h3 className="title card__subtit">Description</h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Due to the complexity and diversity of the cases we have at
                     Greyzone Consulting, on some occasions, it is necessary to
                     design custom-made packages adjusted to the needs and
@@ -2902,13 +2902,13 @@ const index = () => {
                     fully reflect your situation and increase the chances of
                     acceptance.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     This option is also available for our current clients who
                     have already exhausted the content of their packages and
                     wish to continue using our services by purchasing extra
                     add-ons.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     At Greyzone, our fundamental purpose is to give you the best
                     attention and quality of service. As such, you can always
                     discuss your needs and concerns with our agents, who will be
@@ -2942,7 +2942,7 @@ const index = () => {
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
                     <h2>Evaluate your fraud case</h2>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       We understand how stressful it can be when you are
                       confronted with a situation where fraud is involved, so
                       here at Greyzone Consulting, we do our utmost to simplify
@@ -2997,7 +2997,7 @@ const index = () => {
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
                   <h3 className="title card__subtit">Description</h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     We will evaluate your case, gather all the evidence and
                     documents you need, and create a report comprising pertinent
                     information about your case so that you can start the
@@ -3007,7 +3007,7 @@ const index = () => {
                     will explain to you the entire process and will actively
                     guide you.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     The purpose of the evaluation is to determine whether your
                     evidence is sufficient enough to have a chance of winning
                     your case, as well as to assess which level of investigation
@@ -3023,7 +3023,7 @@ const index = () => {
                     research and findings are based on the evidence provided by
                     the client.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     After all analyses are complete, we will provide a full
                     report within 15 business days. In this time, all the
                     evidence you have provided us will have been professionally
@@ -3056,8 +3056,8 @@ const index = () => {
                       working days.
                     </li>
                   </ul>
-                  <p>One-time payment – 649 GBP.</p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>One-time payment – 649 GBP.</p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     At Greyzone, our fundamental purpose is to give you the best
                     attention and quality of service. As such, you can always
                     discuss your needs and concerns with our agents, who will be
@@ -3091,7 +3091,7 @@ const index = () => {
                     />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Discover Greyzone Consulting’s premier Employee Background
                       Check services. Tailored solutions that prioritize trust,
                       accuracy, and compliance in your hiring process.
@@ -3111,7 +3111,7 @@ const index = () => {
                 </div>
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     In an era where information is abundant but authenticity is
                     scarce, implementing a reliable Employee Background Check is
                     pivotal for businesses aiming to secure their most valuable
@@ -3123,7 +3123,7 @@ const index = () => {
                   <h3>
                     <strong>The Essence of Comprehensive Checks</strong>
                   </h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Mistakes in hiring decisions can ripple through businesses.
                     As a result, they might stain reputations, dent morale, and
                     be financially draining. That’s where our service comes in.
@@ -3175,7 +3175,7 @@ const index = () => {
                   <h3>
                     <strong>Additional Services</strong>
                   </h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Apart from our core offerings, we provide an array of
                     specialized checks tailored to diverse business needs. These
                     include Financial Regulatory Checks, Social Media Scrutiny,
@@ -3185,7 +3185,7 @@ const index = () => {
                   <h3>
                     <strong>Tailored Solutions, Global Reach</strong>
                   </h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Every business is unique, and so are its requirements. We
                     design our bespoke Employee Background Check services with
                     this principle at the forefront. Whether you’re a startup in
@@ -3196,7 +3196,7 @@ const index = () => {
                   <h3>
                     <strong>Solutions for Every Business Size</strong>
                   </h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Our flexibility is our strength. Whether you require a
                     single check once a year or need to process thousands every
                     month, our scalable solutions ensure that every check is
@@ -3237,7 +3237,7 @@ const index = () => {
                       Beyond Individual Checks – Extending to Companies
                     </strong>
                   </h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     At Greyzone Consulting, we recognize that understanding the
                     landscape of business partnerships is just as critical as
                     individual hiring. For this reason, we extend our expertise
@@ -3282,7 +3282,7 @@ const index = () => {
                     />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Background Check by Greyzone Consulting is a comprehensive
                       service designed to provide small and medium-sized
                       businesses with detailed insights into a company’s
@@ -3307,7 +3307,7 @@ const index = () => {
                 </div>
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Greyzone Consulting presents our global Background Check
                     service—a comprehensive, bespoke solution architected with
                     precision for small and medium-sized enterprises across all
@@ -3316,7 +3316,7 @@ const index = () => {
                     complexities of any company’s financial footprint, legal
                     history, and operational authenticity.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Our service is a testament to the harmonious blend of
                     sophisticated AI technology and the human touch of our
                     highly skilled researchers and specialists, steeped in
@@ -3328,7 +3328,7 @@ const index = () => {
                     backbone of our comprehensive, insightful, and precise
                     background checks.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Each Background Check report—delivered as a detailed,
                     reader-friendly PDF—is the culmination of our rigorous
                     process. Every client is assigned a dedicated specialist who
@@ -3341,7 +3341,7 @@ const index = () => {
                     Greyzone Consulting, we have an unyielding commitment to the
                     security and confidentiality of your data.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Engage with Greyzone Consulting’s Background Check service
                     for an unobstructed view into the corporate world. Equipped
                     with our insights, our clients can make informed decisions,
@@ -3378,20 +3378,20 @@ const index = () => {
                     />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Greyzone Consulting takes pride in offering an
                       all-encompassing suite of corporate fraud investigation
                       services. Our mission is to uphold the safety and
                       integrity of all businesses, from emerging startups to
                       established multinational corporations.
                     </p>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       <strong>
                         The Greyzone Approach: Uncovering the Hidden, Securing
                         the Future
                       </strong>
                     </p>
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       Our approach to fraud management is exhaustive and
                       integrated. We dig deep, unveiling hidden fraudulent
                       activities and delivering actionable insights to secure
@@ -3418,7 +3418,7 @@ const index = () => {
                   <h2>
                     <strong>Step 1: Rigorous Fraud Investigation</strong>
                   </h2>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     The first line of our defense against corporate fraud is our
                     meticulous investigation process. We employ cutting-edge
                     technology and methodologies to probe complex financial
@@ -3427,7 +3427,7 @@ const index = () => {
                   <h2>
                     <strong>Step 2: Detailed Evidence Collection</strong>
                   </h2>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Following the investigation, we move to evidence collection.
                     Our team ensures an accurate and comprehensive collection of
                     data linked to suspected fraudulent activities. This
@@ -3438,7 +3438,7 @@ const index = () => {
                   <h2>
                     <strong>Step 3: Fact Verification and Validation</strong>
                   </h2>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     We then meticulously verify and validate the collected facts
                     and information. This critical step guarantees the
                     credibility and accuracy of our findings, ensuring that they
@@ -3450,7 +3450,7 @@ const index = () => {
                       Step 4: In-Depth Analysis and Tailored Recommendations
                     </strong>
                   </h2>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Upon validating the facts, we undertake an in-depth analysis
                     of our findings. We decode patterns, decipher the modus
                     operandi of the fraud, and measure the potential impact on
@@ -3464,7 +3464,7 @@ const index = () => {
                       Prevention
                     </strong>
                   </h2>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     We don’t stop at recommendations; we help you strategize for
                     the future. Our team collaborates with you to develop a
                     proactive plan, fortified against potential fraudulent
@@ -3472,13 +3472,13 @@ const index = () => {
                     policies, strengthening internal controls, and providing
                     fraud awareness training.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     <strong>
                       Greyzone Consulting: Your Trusted Ally in the Fight
                       Against Fraud
                     </strong>
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     When you choose Greyzone Consulting, you’re opting for a
                     future free from the shadow of fraud. Our commitment is to
                     fortify your business, transforming it into a fortress of
@@ -3486,7 +3486,7 @@ const index = () => {
                     place. Allow us to be your partner in building a secure,
                     fraud-resistant future.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     <strong>Key Benefits:</strong>
                   </p>
                   <ul>
@@ -3511,7 +3511,7 @@ const index = () => {
                       protecting the business in the long run.
                     </li>
                   </ul>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     <Link to="/contact-us">
                       Contact our team for more information.
                     </Link>
@@ -3543,7 +3543,7 @@ const index = () => {
                     />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       At Greyzone Consulting, we offer comprehensive company
                       valuation services designed to provide accurate,
                       insightful, and objective analyses of your business’s
@@ -3568,7 +3568,7 @@ const index = () => {
                 </div>
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Our company valuation services are meticulously tailored to
                     accommodate the unique aspects of your business and
                     industry. We dive deep into the financial and non-financial
@@ -3579,7 +3579,7 @@ const index = () => {
                     strategic decisions about future investments, acquisitions,
                     sales, and more.
                   </p>
-                  <p>Our company valuation services include:</p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>Our company valuation services include:</p>
                   <ol>
                     <li>
                       <strong>Business Valuation:</strong> We conduct an
@@ -3610,10 +3610,10 @@ const index = () => {
                       requirements.
                     </li>
                   </ol>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     <strong>Service Benefits:</strong>
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Choosing Greyzone Consulting’s company valuation services
                     offers you:
                   </p>
@@ -3629,7 +3629,7 @@ const index = () => {
                     </li>
                     <li>Confidential and reliable service</li>
                   </ul>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Let Greyzone Consulting illuminate your business’s true
                     value and provide the insights necessary to propel your
                     company towards future success.
@@ -3661,12 +3661,12 @@ const index = () => {
                     />
                   </picture>
                   <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>
                       We specialize in preventing and winning chargebacks for
                       merchants. We are here to help you to make your payments
                       secure, reduce the chargebacks, and win existing disputes.
                     </p>
-                    <p>Our process includes:</p>
+                    <p style={{color: "rgba(0,0,0,1)"}}>Our process includes:</p>
                     <ul>
                       <li>
                         Recommendations of chargeback policy to reduce future
@@ -3692,11 +3692,11 @@ const index = () => {
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
                   <h3 className="title card__subtit">Description</h3>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Greyzone Consulting: Your Ultimate Chargeback Processing
                     Consultant!
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Chargebacks can be costly, let alone time-consuming, and
                     harder to win. For those still in the dark, a chargeback is
                     essentially the process by which a customer’s card issuer is
@@ -3704,21 +3704,21 @@ const index = () => {
                     chargeback amount is usually deducted from a merchant
                     account, inclusive of all applicable fees.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Chargebacks are some of the biggest risks that merchants
                     have to contend with, as they always cause a win to become a
                     loss in a transaction. While such processes play an
                     essential role in handling inevitable disputes, they are not
                     so popular among merchants.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     To stand a chance to win a chargeback no matter how
                     difficult or impossible they may seem, then Greyzone
                     Consulting should be your trusted partner. Not all
                     chargebacks are legitimate, which raises the risk of
                     merchants being scammed by unscrupulous clients.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     While merchants have limited protection when it comes to
                     fighting chargebacks, at Greyzone Consulting, we strive to
                     ensure that our clients end up with the best deal as part of
@@ -3726,14 +3726,14 @@ const index = () => {
                     responsibilities of both merchants and customers are well
                     articulated to ensure fairness to everyone.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     We will take you through the representment process whereby,
                     as a merchant, you stand a chance to rebut a chargeback sent
                     back to the issuer. As your representative, we will ensure
                     you respond and present evidence in fighting back any
                     illegitimate chargeback.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     While representing our clients in fighting off chargebacks
                     at Greyzone Consulting, we also advise on the best practices
                     for minimizing chargebacks. Identifying business billing
@@ -3741,14 +3741,14 @@ const index = () => {
                     about the cancellation and return policies are some of the
                     options that merchants can use to reduce chargeback claims.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     Merchants are also advised to maintain detailed transaction
                     logs as well as obtain proper authentication such as
                     customer signature and CVV codes. It is also their
                     responsibility to ensure they collect as much information as
                     possible for validating each transaction.
                   </p>
-                  <p>
+                  <p style={{color: "rgba(0,0,0,1)"}}>
                     If faced with any problem pertaining to fighting off
                     chargebacks or minimizing their occurrence, be sure to
                     contact Greyzone Consulting.
