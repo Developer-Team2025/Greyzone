@@ -35,15 +35,15 @@ const selectOption = (option: any) => {
   setIsOpen(false);
 };
 
+  var phoneInput = document.getElementsByName('phone');
 
-console.log(phoneNumber[10], 'hello')
-// List of countries
-const countries = [
-  { name: 'Afghanistan', code: '+93' },
-  { name: 'South Africa', code: '+27' },
-  { name: 'Argentina', code: '+54' },
-  // Other countries...
-];
+  for (let i = 0; i < phoneInput.length; i++) {
+    const input = phoneInput[i] as HTMLInputElement;
+    input.addEventListener('input', function(event) {
+      // Replace non-digit characters with an empty string
+      input.value = input.value.replace(/\D/g, '');
+    });
+  }
 
 // Toggle dropdown
 const toggleDropdown = () => {
@@ -124,10 +124,10 @@ return (
           value={selectedCountry.dial_code}
           name={name}
           placeholder={placeholder}
-          className={`${classess} w-11 pr-1`}
+          className={`${classess} w-10 pr-1`}
           onClick={toggleDropdown}
           readOnly
-          style={{ color: '#000', padding: '6px .2rem', cursor: 'pointer' }}
+          style={{ color: '#000', padding: '6px .2rem', cursor: 'pointer', width: '4.5rem', justifyItems:'center' }}
         />
 
         {/* Phone Number Input */}
@@ -146,7 +146,7 @@ return (
         {isOpen && (
           <ul
             className="absolute left-0 w-full mt-2 bg-white text-[#000] border border-gray-300 rounded-md shadow-lg z-10 overflow-y-auto"
-            style={{ maxHeight: '15rem', maxWidth: '100%' }}
+            style={{ maxHeight: '15rem', maxWidth: '100%', top:'2rem' }}
           >
             {/* Search Input */}
             <input
