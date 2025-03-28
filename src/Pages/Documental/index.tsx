@@ -19,7 +19,7 @@ const index = () => {
                 className={classNames(styles.disputeInfo, 'wow', 'animate__animated', 'animate__fadeInLeft')}
                 data-wow-delay="0.6s"
             >
-            <p>
+            <p style={{color:'rgba(0,0,0,1)'}}>
                 At Greyzone Consulting, we pride ourselves on delivering comprehensive consulting and documental support. Our experts assist in the preparation of crucial documentation, including evidence of incidents, correspondence with authorities, case reports, and applications to various institutions. We delve deep into research and analysis to provide intelligent, tailored solutions for our clients. Our adept team swiftly identifies key facts, assesses their relevance, and crafts sound, professionally-presented recommendations.
             </p>
             </div>
@@ -98,6 +98,7 @@ const index = () => {
             <div
                 className={classNames(styles.disputeSubinfo, 'wow', 'animate__animated', 'animate__fadeInUp')}
                 data-wow-delay="0.2s"
+                style={{color:'rgba(0,0,0,1)'}}
             >
                 {[
                 "“Highly qualified staff”—our team has been working with individuals and businesses on a daily basis for many years, which enables them to quickly understand and identify your needs, offering you tailor-made solutions.",

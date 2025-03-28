@@ -4,7 +4,9 @@ const index = () => {
   return (
     <ShadowDOM.div>
     <style>
+         
         {`
+        
             @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
             .slick-track{
             gap: 1rem;
@@ -20,7 +22,7 @@ const index = () => {
                     color: #181a18;
                     font-weight: bolder;
                     p{
-                        color: #181a18;
+                        color: red;
                     }
                 }
                 .dispute__subinfo{
@@ -40,7 +42,7 @@ const index = () => {
                     <span>Digital Goods</span>
                 </h2>
                 <div className="dispute__info wow animate__animated animate__fadeInLeft" >
-                    <p>
+                    <p style={{color: 'rgba(0,0,0,1)'}}>
                         Explore our range of digital products designed to enhance your knowledge and skills in fraud prevention and online security. Our offerings include comprehensive workbooks, detailed self-assessments, interactive exercises, and curated resources that provide valuable insights and practical tools for staying vigilant against scams. Each product is crafted to help you improve your fraud detection capabilities, implement effective security practices, and stay informed about the latest fraud prevention techniques. Perfect for individuals and professionals looking to boost their cybersecurity measures and protect themselves from fraudulent activities.
                     </p>
                 </div>
@@ -100,12 +102,14 @@ const index = () => {
                 <h2 className="title dispute__subtitle wow animate__animated animate__fadeInUp">
                 <span>Benefits of working with us</span>
                 </h2>
-                <div className="dispute__subinfo wow animate__animated animate__fadeInUp" >
-                <p>“Highly qualified staff”, our staff that has been working with cases of individuals and businesses on the daily basis for many years now, therefore, it enables them to swiftly understand and identify their needs and give offer them tailor-made solutions.</p>
-                <p>Besides, the certifications of our staff provide with necessary assurance and surety that you are in good hands and persons that you are dealing with are certified professionals with a proven track record and excellent reputation which in most cases is paramount.</p>
-                <p>Professional certifications can also help give your independent business a solid foundation. The advanced training, information, and knowledge you gain from specialized coursework can provide you with up-to-date tools and technical strategies that will serve to guide and direct you in the execution of your projects, allowing you to manage all aspects of your work more effectively.</p>
-                <p>In order to increase earning potential, solving the complex blockchain problems and investigating the prompt ways with the industry-leading tool is a huge asset, let alone it being the trend of the world that we live in.</p>
-                <p>The biggest challenge for the majority of people is the understanding of the crypto world and its dynamics, just like any new major adaptation it will take its own time, and thereby organizations and individuals are pacing up to adapt and partake in the revolutionary transformation of cryptocurrencies in order to stay updated and meet current demands of the market.</p>
+                <div className="dispute__subinfo wow animate__animated animate__fadeInUp" 
+                style={{color:'rgba(0,0,0,1)'}}
+                >
+                <p>Highly qualified staff”—our team has been working with individuals and businesses on a daily basis for many years, which enables them to quickly understand and identify your needs, offering you tailor-made solutions.</p>
+                <p>Furthermore, the certifications of our staff provide the necessary assurance that you are in good hands. The professionals you are working with are certified, with a proven track record and excellent reputation, which is paramount in most cases.</p>
+                <p>Professional certifications also help give your independent business a solid foundation. The advanced training, knowledge, and information you gain from specialized coursework equip you with up-to-date tools and technical strategies. These will guide and direct you in executing your projects, allowing you to manage all aspects of your work more effectively.</p>
+                <p>To increase earning potential, solving complex blockchain problems and investigating prompt solutions with industry-leading tools is a huge asset, especially as it is the trend in today's world.</p>
+                <p>The biggest challenge for most people is understanding the crypto world and its dynamics. Just like any major new adaptation, it takes time. Therefore, organizations and individuals are quickly adapting to partake in the revolutionary transformation of cryptocurrencies, staying updated to meet current market demands.</p>
                 </div>
 
                 <div className="dispute__benef" >
