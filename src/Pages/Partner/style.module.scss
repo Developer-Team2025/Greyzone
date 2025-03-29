@@ -211,7 +211,8 @@
     line-height: 1.354;
     margin-bottom: 40px;
     span{
-        background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+        // background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+        background: linear-gradient(to right,#012555,#55719f,#012555);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -270,7 +271,8 @@
   overflow: hidden;
   max-width: 100%;
   padding: 56px 0 58px;
-  background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+  // background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+  background: linear-gradient(to right,#012555,#55719f,#012555);
   .container{
     box-sizing: border-box;
     width: 100%;
@@ -409,6 +411,7 @@
 .i_phone_call {
   width: 14px;
   height: 14px;
+  // background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
   background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
   background: url(https://tandhconsult.com/wp-content/themes/th/img/icons/phone-call.svg);
   mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/phone-call.svg);

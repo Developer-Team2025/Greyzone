@@ -58,7 +58,8 @@
         font-weight: 600;
         margin-bottom: 20px;
   
-        background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+        // background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+         background: linear-gradient(to right,#012555,#55719f,#012555);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         max-width: max-content;
@@ -84,7 +85,8 @@
         margin-inline-end: 0px;
         font-weight: bold;
         unicode-bidi: isolate;
-        background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+        // background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+         background: linear-gradient(to right,#012555,#55719f,#012555);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         max-width: max-content;
@@ -143,7 +145,8 @@
     line-height: 1.354;
     margin-bottom: 40px;
     span{
-        background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+        // background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+         background: linear-gradient(to right,#012555,#55719f,#012555);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -164,7 +167,8 @@ ol {
             left: 0;
             content: counter(myCounter) '.';
             counter-increment: myCounter;
-            background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+            // background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+             background: linear-gradient(to right,#012555,#55719f,#012555);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
