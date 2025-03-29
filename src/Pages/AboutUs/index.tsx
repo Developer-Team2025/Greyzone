@@ -82,19 +82,19 @@ const index = () => {
                             <h2 className={classNames(`${styles.title} ${styles.abt_title}`)}><span>Greyzone Consulting by numbers</span></h2>
                             <div className={styles.abt_platform}>
                                 <div className={classNames(`${styles.abt_platform_item} wow animate_animated animate__fadeInUp`)}>
-                                    <i className={styles.client_icon}></i>
+                                    <div className={styles.client_icon}></div>
                                     <div className={classNames(`${styles.abt_platform_content}`)}><span className={classNames(`${styles.abt_platform_name}`)}><span>Individual clients</span></span><span className={classNames(`${styles.abt_platform_count}`)}><span>19 500+</span></span></div>
                                 </div>
                                 <div className={classNames(`${styles.abt_platform_item} wow animate_animated animate__fadeInUp`)}>
-                                <i className={styles.client_icon}></i>
+                                <div className={styles.client_icon}></div>
                                 <div className={classNames(`${styles.abt_platform_content}`)}><span className={classNames(`${styles.abt_platform_name}`)}><span>Languages</span></span><span className={classNames(`${styles.abt_platform_count}`)}><span>16</span></span></div>
                                 </div>
                                 <div className={classNames(`${styles.abt_platform_item} wow animate_animated animate__fadeInUp`)}>
-                                <i className={styles.fake_news_icon}></i>
+                                <div className={styles.fake_news_icon}></div>
                                 <div className={classNames(`${styles.abt_platform_content}`)}><span className={classNames(`${styles.abt_platform_name}`)}><span>Certificates</span></span><span className={classNames(`${styles.abt_platform_count}`)}><span>10+</span></span></div>
                                 </div>
                                 <div className={classNames(`${styles.abt_platform_item} wow animate_animated animate__fadeInUp`)}>
-                                <i className={styles.traded_icon}></i>
+                                <div className={styles.traded_icon}></div>
                                 <div className={classNames(`${styles.abt_platform_content}`)}><span className={classNames(`${styles.abt_platform_name}`)}><span>Serve Clients</span></span><span className={classNames(`${styles.abt_platform_count}`)}><span>Worldwide</span></span></div>
                                 </div>
                             </div>

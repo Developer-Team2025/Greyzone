@@ -10,6 +10,7 @@
     );
 }
 
+
 .overlay{
     position: relative;
     display: flex;
@@ -182,11 +183,12 @@
                             width: 100%;
                             max-width: calc(50% - 14.5px);
                             min-height: 156px;
-                            padding: 20px 50px 20px 66px;
+                            padding: 20px 50px 20px 50px;
                             background-color: #f5f5f5;
                             margin-bottom: 15px;
                             align-items: center;
                             justify-content: flex-start;
+                            gap: 1rem;
                             @media only screen and (max-width: 1250px){
                                 max-width: 100%;
                             }
@@ -197,7 +199,8 @@
                             }
                             .abt_platform_content{
                                 .abt_platform_name{
-                                    font-size: 24px;
+                                    font-size: Clamp-all(28, 28, 24px );
+                                    // font-size: 24px;
                                     font-weight: 600;
                                     line-height: 1.354;
                                     display: block;
@@ -209,7 +212,8 @@
                                     }
                                 }
                                 .abt_platform_count{
-                                    font-size: 36px;
+                                    // font-size: 36px;
+                                    font-size: Clamp-all(46, 46, 36px );
                                     font-weight: 600;
                                     line-height: 1.354;
                                     display: block;
@@ -372,7 +376,10 @@
     background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
     display: inline-block;
     background: url(https://tandhconsult.com/wp-content/themes/th/img/icons/clients.svg);
-    mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/clients.svg);
+    background-size: Clamp-all(120, 120, 70px );
+    background-position: center;
+    background-repeat: no-repeat;
+    // mask-image: url(https://tandhconsult.com/wp-content/themes/th/img/icons/clients.svg);
 }
 .fake_news_icon{
     width: 71px;
@@ -380,7 +387,7 @@
     background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
     display: inline-block;
     background: url(https://tandhconsult.com/wp-content/uploads/2021/05/fake-news.svg);
-    mask-image: url(https://tandhconsult.com/wp-content/uploads/2021/05/fake-news.svg);
+    // mask-image: url(https://tandhconsult.com/wp-content/uploads/2021/05/fake-news.svg);
 }
 .traded_icon{
     width: 71px;
@@ -388,7 +395,7 @@
     background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
     display: inline-block;
     background: url(https://tandhconsult.com/wp-content/uploads/2021/05/traded.svg);
-    mask-image: url(https://tandhconsult.com/wp-content/uploads/2021/05/traded.svg);
+    // mask-image: url(https://tandhconsult.com/wp-content/uploads/2021/05/traded.svg);
 }
 
 .partner_icon{
