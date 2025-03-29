@@ -11,7 +11,7 @@ import ImageBox from "../../Components/Reusable/ImageBox/index";
 import Carousell from "../../Components/Reusable/Swiper";
 
 import { edit } from "../../Components/Reusable/Addition/index";
-import bg_banner from "../../assets/images/pexels-goumbik-577210.jpeg";
+import bg_banner from "../../assets/images/Image_Darken.png";
 
 const index = () => {
   return (
