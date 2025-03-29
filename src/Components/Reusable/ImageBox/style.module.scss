@@ -69,6 +69,12 @@
         z-index: 1;
         color: #fff;
         -webkit-text-fill-color: #ffff !important;
+        @media only screen and (max-width: 765px) {
+            font-size: Clamp-all(27, 27, 27px);
+            font-size: 28px;
+        font-weight: 600;
+        line-height: 1.354;
+    }
     }
     .seeMore{
         z-index: 1;
