@@ -178,6 +178,7 @@ const Index = () => {
             </p>
 
             <h3>Refund & Cancellation Policy</h3>
+            <br></br>
             <h4>Changes to Services</h4>
             <p>
               If a client alters a service significantly after finalizing the

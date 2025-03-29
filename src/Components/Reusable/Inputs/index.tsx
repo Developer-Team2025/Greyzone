@@ -121,7 +121,7 @@ return (
      
         {/* Country Code Input */}
         <input
-          // type="text"
+          type="text"
           value={selectedCountry.dial_code}
           // name='phone_v3'
           placeholder={placeholder}
@@ -143,13 +143,13 @@ return (
           required
         />
           <input
-          // className={classess}
+          className={classess}
           value={selectedCountry.dial_code + phoneValue}
           name={name}
-          // onChange={handleChange}
-          // onKeyDown={handleKeyDown}
-          // placeholder="Phone Number"
-          // style={{ color: '#000', padding: '6px .2rem' }}
+          onChange={handleChange}
+          onKeyDown={handleKeyDown}
+          placeholder="Phone Number"
+          style={{ color: '#000', padding: '6px .2rem' }}
           type='hidden'
         />
 
