@@ -109,7 +109,10 @@ const index = () => {
     const target = new FormData(event.currentTarget);
     if (target) {
       const object = Object.fromEntries(target.entries());
+      const reuse_object: any = {...object, "phone": `${object.dial_code}${object.phone}` }
       const keys = Object.keys(object);
+      delete reuse_object.dial_code
+      console.log(reuse_object)      
       setload(false);
       const form_value: any = {
         ...object,

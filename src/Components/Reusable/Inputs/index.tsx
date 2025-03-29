@@ -122,7 +122,7 @@ return (
         <input
           type="text"
           value={selectedCountry.dial_code}
-          name={name}
+          name="dial_code"
           placeholder={placeholder}
           className={`${classess} w-10 pr-1`}
           onClick={toggleDropdown}
