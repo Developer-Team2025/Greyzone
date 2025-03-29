@@ -114,7 +114,7 @@ const index = () => {
       // console.log(reuse_object)
       // delete reuse_object.dial_code
       // console.log(reuse_object)
-      console.log(object)      
+      // console.log(object)      
       setload(false);
       const form_value: any = {
         ...object,

@@ -134,7 +134,7 @@ return (
         {/* Phone Number Input */}
         <input
           className={classess}
-          // value={ phoneValue}
+          value={ phoneValue}
           name={name}
           onChange={handleChange}
           onKeyDown={handleKeyDown}
