@@ -49,7 +49,7 @@ class HostService {
 
 // const domain = 'http://localhost:8000'
 
-const domain = window.location.origin
+const domain = "https://greyzoneconsulting.com"
 
 const HttpService = new HostService(domain)
 

@@ -40,6 +40,7 @@ const selectOption = (option: any) => {
   for (let i = 0; i < phoneInput.length; i++) {
     const input = phoneInput[i] as HTMLInputElement;
     input.addEventListener('input', function(event) {
+      event.preventDefault();
       // Replace non-digit characters with an empty string
       input.value = input.value.replace(/\D/g, '');
     });
@@ -53,7 +54,7 @@ const toggleDropdown = () => {
 // Select country from the list
 const selectCountry = (country: { name: string,dial_code: string, code: string }) => {
   setSelectedCountry(country);
-  setPhoneValue(country.dial_code); // Set the country code in the phone number input
+  // setPhoneValue(country.dial_code); // Set the country code in the phone number input
   setIsOpen(false);
 };
 
@@ -101,7 +102,7 @@ const filteredCountries = phoneNumber.filter((country: country) =>
   country.name.toLowerCase().includes(debouncedSearchQuery.toLowerCase())
 );
 
-
+console.log(searchQuery,'dsdsd')
 return (
   <>
     {type === 'text' ? (
@@ -122,24 +123,34 @@ return (
         <input
           type="text"
           value={selectedCountry.dial_code}
-          name="dial_code"
+          name={name}
           placeholder={placeholder}
           className={`${classess} w-10 pr-1`}
           onClick={toggleDropdown}
-          readOnly
+          required
           style={{ color: '#000', padding: '6px .2rem', cursor: 'pointer', width: '4.5rem', justifyItems:'center' }}
         />
 
         {/* Phone Number Input */}
         <input
           className={classess}
-          value={phoneValue}
+          // value={ phoneValue}
           name={name}
           onChange={handleChange}
           onKeyDown={handleKeyDown}
           placeholder="Phone Number"
           style={{ color: '#000', padding: '6px .2rem' }}
           required
+        />
+          <input
+          className={classess}
+          value={selectedCountry.dial_code + phoneValue}
+          name={name}
+          onChange={handleChange}
+          onKeyDown={handleKeyDown}
+          placeholder="Phone Number"
+          style={{ color: '#000', padding: '6px .2rem' }}
+          type='hidden'
         />
 
         {/* Country Dropdown */}

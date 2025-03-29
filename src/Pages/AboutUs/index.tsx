@@ -63,7 +63,7 @@ const index = () => {
                         <article className={styles.abt_block}>
                             <h2 className={classNames(`${styles.title} ${styles.abt_title}`)}><span>Our Mission</span></h2>
                             <p>Greyzone Consulting team strives to provide our clients with the highest quality services. By constantly meeting and exceeding their expectations without fail we have solidified our reputation. For instance, as one of the most well-established companies in providing them with professional services in the aforementioned industries.</p>
-                            <p>We create a media space for our clients to keep abreast of events. We raise awareness of the industry’s significant changes, maintain a blog, write articles, take interviews, and sharing case studies.&nbsp;Greyzone Consulting strives to continuously follow this Mission and sustain its supporting Values &ZeroWidthSpace;&ZeroWidthSpace;by:</p>
+                            <p>We create a media space for our clients to keep abreast of events. We raise awareness of the industry’s significant changes, maintain a blog, write articles, take interviews, and sharing case studies.&nbsp;Greyzone Consulting strives to continuously follow this Mission and sustain its supporting Values   by:</p>
                             <ol>
                             <li>Providing our clients with the best possible service using a unique combination of our tested and proven methods as well as our team of highly skilled specialists</li>
                             <li>Ensuring that we are as accurate and efficient as possible by using the most advanced software and methods in our projects</li>

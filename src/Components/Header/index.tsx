@@ -5,7 +5,7 @@ import WOW from 'wow.js';
 import classNames from 'classnames';
 import logo from '../../assets/images/photo_2025-01-20_15-12-38-removebg-preview.png'
 import { clearTimeout } from 'timers';
-import bg_banner from '../../assets/images/pexels-goumbik-577210.jpeg?v=2'
+import bg_banner from '../../assets/images/pexels-goumbik-577210.jpeg'
 import ReactDOMServer from "react-dom/server";
 
 const content = [
