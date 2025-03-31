@@ -58,18 +58,22 @@
         .slick_track {
           display: grid;
           align-items: center;
-          grid-template-columns: auto auto auto auto auto auto auto;
+          // grid-template-columns: auto auto auto auto auto auto auto;
+          @media screen and (max-width: 650px) {
+            gap: 2rem; 
+            padding: 0rem 4rem;
+          }
           .partner_pic {
             display: flex !important;
             margin: 0 20px;
             transition: all .3s ease;
             justify-content: center;
-            filter: grayscale(100%);
+            // filter: grayscale(100%);
             will-change: filter;
             width: 185px;
-            &:hover{
-              filter: grayscale(0%);
-            }
+            // &:hover{
+            //   filter: grayscale(0%);
+            // }
             img {
               max-width: 100%;
               height: auto;

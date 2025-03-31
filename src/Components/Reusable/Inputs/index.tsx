@@ -102,7 +102,7 @@ const filteredCountries = phoneNumber.filter((country: country) =>
   country.name.toLowerCase().includes(debouncedSearchQuery.toLowerCase())
 );
 
-console.log(searchQuery,'dsdsd')
+// console.log(searchQuery,'dsdsd')
 return (
   <>
     {type === 'text' ? (

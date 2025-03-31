@@ -314,7 +314,7 @@ function App(props: any) {
         setTimeout(()=>{
             setload(false)
             if(filteredRoutes.length === 0){
-                console.log('here',false)
+                // console.log('here',false)
                 settimer(false)
             }else{
                 settimer(true)
@@ -322,7 +322,7 @@ function App(props: any) {
         },1000)
     }
 
-    console.log('timer:', timer, 'load:', load, 'searchTerm:', searchTerm, 'routes:',routes.length, 'filteredRoutes:',filteredRoutes)
+    // console.log('timer:', timer, 'load:', load, 'searchTerm:', searchTerm, 'routes:',routes.length, 'filteredRoutes:',filteredRoutes)
   return (
     <>
     <div className={styles.heading}>
