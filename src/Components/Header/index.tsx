@@ -337,6 +337,7 @@ function App(props: any) {
                             <li className={styles.arrow_down} onClick={()=> setAbout(!About)}>
                                 <a href="/about-us" style={{color: filter === 'about us' ? '#012555' : ''}} >About us</a> 
                                 <ul style={{display: About ? 'block' : 'none'}}>
+                                <li><a href="/digital-goods">Digital Goods</a></li>                                    
                                     <li><a href="/terms-and-conditions">Terms and Condition</a></li>
                                     <li><a href="/privacy-policy">Privacy Policy</a></li>
                                     <li><a href="/fraud-awareness">Fraud Awareness</a></li>

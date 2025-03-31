@@ -92,7 +92,7 @@ function App() {
 
       <ThemeContext.Provider value={{ theme, toggleTheme, Animate }}>
         {
-          !localStorage.getItem('warning') && 
+          // !localStorage.getItem('warning') && 
           <div className="warning">
             <span>
               BEWARE OF IMPERSONATION SCAMS! Ensure you're communicating with

@@ -12,7 +12,7 @@ const index = () => {
                         <img src={logo} alt="icon" />
                     </a>
                     <div className={styles.footer_text}>
-                        <p>Helping you prove the facts and turning it into an <br/> obtainable outcome</p>
+                        <p>Helping you prove the facts and turning it into an obtainable outcome</p>
                     </div>
                     {}
                 </div>

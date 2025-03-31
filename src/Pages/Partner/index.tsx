@@ -1,5 +1,6 @@
 import styles from './style.module.scss'
 import classNames from 'classnames'
+import Carousell from "../../Components/Reusable/Swiper";
 const index = () => {
   return (
     <>
@@ -189,7 +190,7 @@ const index = () => {
       </div>
     </section>
     <section className={classNames(`${styles.banner_partner} wow  animate__fadeIn animate__animated`)}>
-      <div className={styles.container}>
+      {/* <div className={styles.container}>
         <div className={styles.partner_slider}>
           <div className={styles.slick_list}>
             <div className={styles.slick_track}>
@@ -203,7 +204,8 @@ const index = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <Carousell></Carousell> 
     </section>
     {/* <section className={styles.call} id="call">
       <div className={styles.container}>

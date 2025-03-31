@@ -101,7 +101,6 @@ export default function Carousel() {
     }
   }, [currentIndex]);
 
-  console.log(arr)
 
   return (
     <section className={classNames(`${styles.banner_partner} wow animate__fadeIn animate__animated`)} id="banner_partner">
