@@ -17,7 +17,7 @@ const index = () => {
                 </div>
                 <div className={styles.card}>
                   <div className={classNames(styles.design, ' wow  animate__fadeInLeft animate__animated')}/>
-                  <ImageBox image={`${import.meta.env.VITE_REDIRECT}/img/Cryptocurrency.jpeg?v=2`} href='/solutions/cryptocurrency-investigations-and-regulatory-compliance' style={{minHeight: '315px', height: '20rem', borderRadius: '3rem', boxShadow: '6px 8px 10px #888888'}} name="Cryptocurrency Investigations and Regulatory Compliance" size="100%" more={true}/>
+                  <ImageBox image={`${import.meta.env.VITE_REDIRECT}/img/Cryptocurrency.jpeg?v=2`} href='/solutions/cryptocurrency-investigations-and-regulatory-compliance' style={{minHeight: '315px', height: '20rem', borderRadius: '3rem', boxShadow: '6px 8px 10px #888888'}} name="Cryptocurrency Investigations and Regulatory Compliance " size="100%" more={true}/>
                 </div>
                 <div className={styles.card}>
                   <div className={classNames(styles.design, ' wow  animate__fadeInLeft animate__animated')}/>
