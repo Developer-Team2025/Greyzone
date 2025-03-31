@@ -39,7 +39,11 @@ const index = () => {
         <section className="solutions" id="solutions">
             <div className="container">
                 <h2 className="title solutions__title wow animate__animated animate__fadeInLeft" >
-                    <span>Digital Goods</span>
+                    <span style={{
+    background: 'linear-gradient(to right, #012555, #55719f, #012555)',
+    WebkitBackgroundClip: 'text',
+    color: 'transparent'
+  }}>Digital Goods</span>
                 </h2>
                 <div className="dispute__info wow animate__animated animate__fadeInLeft" >
                     <p style={{color: 'rgba(0,0,0,1)'}}>
@@ -100,7 +104,11 @@ const index = () => {
                 <div className="e-pagination wow animate__animated fadeInUp cn-mt-100"></div>
 
                 <h2 className="title dispute__subtitle wow animate__animated animate__fadeInUp">
-                <span>Benefits of working with us</span>
+                <span style={{
+    background: 'linear-gradient(to right, #012555, #55719f, #012555)',
+    WebkitBackgroundClip: 'text',
+    color: 'transparent'
+  }}>Benefits of working with us</span>
                 </h2>
                 <div className="dispute__subinfo wow animate__animated animate__fadeInUp" 
                 style={{color:'rgba(0,0,0,1)'}}

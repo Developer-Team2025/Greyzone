@@ -30,22 +30,22 @@ const index = () => {
 
   const certificates = [
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/benjamin.jpeg?v=2`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/BENJAMIN_FORD_CRYSTAL_BLOCKCHAIN_CERT.png?v=2`,
       alt: "benjamin",
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/benjamin_acad.jpeg?v=2`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/BENJAMIN_FORD_BIT2ME_ACADEMY.png?v=2`,
       alt: "benjamin_acad",
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Amanda_acad.jpeg?v=2`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/AMANDA_VELASQUEZ_BIT2ME_ACADEMY.png?v=2`,
       alt: "Amanda",
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Amanda_inves.jpeg?v=2`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/AMANDA_VELASQUEZ_BIG_CERT.png?v=2`,
       alt: "Amanda_inves",
       caption: "",
     },
@@ -57,17 +57,17 @@ const index = () => {
     {
       src: `${
         import.meta.env.VITE_REDIRECT
-      }/img/certificate/jasmine_valentine.jpeg?v=2`,
+      }/img/certificate/Jasmine_Valentine_Berkeley.png?v=2`,
       alt: "Jasmine",
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Jessica.jpeg?v=2`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Jessica_Sanches_Berkeley.png?v=2`,
       alt: "Jessica",
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/John.jpeg?v=2`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/John_Davis_Berkeley.png?v=2`,
       alt: "John",
       caption: "",
     },
@@ -77,17 +77,17 @@ const index = () => {
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Joseph.jpeg?v=2`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Joseph_Agabin_Berkeley.png?v=2`,
       alt: "Joseph",
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Phoebe.jpeg?v=2`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/PHOEBE_FAMIA_BIG_CERT.png?v=2`,
       alt: "Phoebe",
       caption: "",
     },
     {
-      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Richard.jpeg?v=2`,
+      src: `${import.meta.env.VITE_REDIRECT}/img/certificate/Richard_Abdul_Berkeley.png?v=2`,
       alt: "Richard",
       caption: "",
     },
