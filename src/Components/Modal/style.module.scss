@@ -44,7 +44,7 @@
     height: 100%;
     &_wrapper{
         position: relative;
-        width: 25rem;
+        width: 35rem;
         height: 96%;
         // width: Clamp-all(560, 560, 560px);
         // display: flex;
@@ -93,6 +93,15 @@
             &::-webkit-scrollbar{
                 display: none;
             }
+        }
+        @media only screen and (max-width: 600px) {
+        position: relative; 
+        width: 23rem;
+        height: 90%;
+        background-color: #fff;
+        padding: 1rem;
+        gap: 1rem;
+        border-radius: 1rem;
         }
     }
     // padding: 156px 20px 0;
