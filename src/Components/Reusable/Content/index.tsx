@@ -89,7 +89,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                }
+                .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                  background: linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text !important;
+                }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
               `}
             </style>
             <section className="card" id="card">
@@ -190,6 +203,19 @@ const index = () => {
             <style>
               {`
                   @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
               `}
             </style>
             <section className="card" id="card">
@@ -256,7 +282,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -553,7 +592,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -741,7 +793,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -878,7 +943,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -1039,7 +1117,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -1205,7 +1296,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -1379,7 +1483,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -1517,7 +1634,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -1614,7 +1744,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -1740,7 +1883,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -1946,7 +2102,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                        @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                     `}
             </style>
             <section className="card" id="card">
@@ -2114,7 +2283,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -2222,7 +2404,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -2348,7 +2543,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -2513,7 +2721,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -2622,7 +2843,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -2831,7 +3065,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -2925,7 +3172,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -3075,7 +3335,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -3266,7 +3539,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -3362,7 +3648,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -3527,7 +3826,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -3645,7 +3957,20 @@ const index = () => {
           <ShadowDOM.div>
             <style>
               {`
-                            @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                  .title span{
+                  background:  linear-gradient(to right, #012555, #55719F, #012555);
+                  -webkit-background-clip: text!important;
+                  }
+                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+                    background: linear-gradient(to right, #012555, #55719F, #012555);
+                    -webkit-background-clip: text !important;
+                  }
+                    
+                .card__right h2, .card__right h3, .card__right h4{
+                background: linear-gradient(to right, #012555, #55719F, #012555);
+                -webkit-background-clip: text !important;
+                }
                         `}
             </style>
             <section className="card" id="card">
@@ -3766,6 +4091,14 @@ const index = () => {
             @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
             .slick-track{
             gap: 1rem;
+            }
+            .title span{
+            background:  linear-gradient(to right, #012555, #55719F, #012555);
+            -webkit-background-clip: text!important;
+            }
+            .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
+            background: linear-gradient(to right, #012555, #55719F, #012555);
+            -webkit-background-clip: text !important;
             }
           `}
         </style>

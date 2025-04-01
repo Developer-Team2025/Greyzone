@@ -18,7 +18,8 @@
             line-height: 1.354;
             margin-bottom: 40px;
              span {
-                background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                // background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                background:  linear-gradient(to right, #012555, #55719F, #012555);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
             }
@@ -107,7 +108,8 @@
         .card__desc {
             max-width: 1369px;
             h3{
-                background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                // background: linear-gradient(to right, #32509d 0%, #70abdc 100%);
+                background:  linear-gradient(to right, #012555, #55719F, #012555);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 width: 100%;

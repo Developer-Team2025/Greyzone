@@ -20,14 +20,14 @@ const index = () => {
             @media only screen and (max-width: 700px){
                 .dispute__info{
                     color: #181a18;
-                    font-weight: bolder;
+                    // font-weight: bolder;
                     p{
                         color: red;
                     }
                 }
                 .dispute__subinfo{
                     color: #181a18;
-                    font-weight: bolder;
+                    // font-weight: bolder;
                     p{
                         color: #181a18;
                     }
@@ -40,10 +40,12 @@ const index = () => {
             <div className="container">
                 <h2 className="title solutions__title wow animate__animated animate__fadeInLeft" >
                     <span style={{
-    background: 'linear-gradient(to right, #012555, #55719f, #012555)',
-    WebkitBackgroundClip: 'text',
-    color: 'transparent'
-  }}>Digital Goods</span>
+                        background: 'linear-gradient(to right, #012555, #55719f, #012555)',
+                        WebkitBackgroundClip: 'text',
+                        color: 'transparent'
+                    }}>
+                    Digital Goods
+                    </span>
                 </h2>
                 <div className="dispute__info wow animate__animated animate__fadeInLeft" >
                     <p style={{color: 'rgba(0,0,0,1)'}}>
