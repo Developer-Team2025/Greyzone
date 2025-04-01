@@ -349,7 +349,7 @@ function App(props: any) {
                             <li className={styles.arrow_down} onClick={()=> setSolution(!Solution)}>
                                 <a href="/solutions" style={{color: filter === 'solutions' ? '#012555' : ''}}>Solutions</a> 
                                 <ul style={{display: Solution ? 'block' : 'none'}}>
-                                    <li><a href="/digital-goods">Digital Goods</a></li> 
+                                    <li><a href="/solutions/digital-goods">Digital Goods</a></li> 
                                     <li><a href="/solutions/research-and-dispute-resolution">Research and Dispute Resolution</a></li>
                                     <li><a href="/solutions/advisory-and-documentation-assistance">Advisory and Documentation Assistance</a></li>
                                     <li><a href="/solutions/cryptocurrency-investigations-and-regulatory-compliance">Cryptocurrency Investigations and Regulatory Compliance</a></li>
