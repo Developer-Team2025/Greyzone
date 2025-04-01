@@ -532,21 +532,16 @@ const index = () => {
                   <div
                     id="mep_0"
                     className={classNames("mejs-container", "mejs-video")}
-                  >
-                    <video
-                      className={classNames("wp-video-shortcode")}
-                      id="video-29378-1_html5"
-                      width="640"
-                      height="360"
-                      preload="metadata"
-                      src="https://tandhconsult.com/wp-content/uploads/2024/05/fraud-awareness-workshop_teaser_1.mp4?_=1"
                     >
-                      <source
-                        type="video/mp4"
-                        src="https://tandhconsult.com/wp-content/uploads/2024/05/fraud-awareness-workshop_teaser_1.mp4?_=1"
-                      />
-                    </video>
-                  </div>
+                    <img 
+                          src="/img/certificate/fraud.jpg" 
+                          alt="fraud" 
+                          width={769} 
+                          height={360} 
+                        />
+                    </div>
+                      
+
                 </div>
                 <p style={{color: "rgba(0,0,0,1)"}}>&nbsp;</p>
                 <h3>Why Choose Our Fraud Awareness Bundle?</h3>
@@ -632,25 +627,7 @@ const index = () => {
                       world confidently, knowing that your assets are safe and
                       your transactions are above board.
                     </p>
-                    <div className="card__ctrl">
-                      <Link
-                        to="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-transaction-risk-analysis/"
-                        aria-describedby="woocommerce_loop_add_to_cart_link_describedby_33046"
-                        data-quantity="1"
-                        className="button product_type_simple"
-                        data-product_id="33046"
-                        data-product_sku=""
-                        aria-label="Read more about “Crypto Transaction Risk Audit”"
-                        rel="nofollow"
-                      >
-                        Read more
-                      </Link>
-                      <span
-                        id="woocommerce_loop_add_to_cart_link_describedby_33046"
-                        className="screen-reader-text"
-                      ></span>
-                      <span className="card__price"></span>
-                    </div>
+                    
                   </div>
                 </div>
 
@@ -1659,29 +1636,7 @@ const index = () => {
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
                     <img src={`${import.meta.env.VITE_REDIRECT}/img/Data_Collection.jpeg?v=2`} alt="Data_Collection" />
                   </picture>
-                  <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p style={{color: "rgba(0,0,0,1)"}}>&nbsp;</p>
-                    <p style={{color: "rgba(0,0,0,1)"}}>&nbsp;</p>
-                    <div className="card__ctrl">
-                      <Link
-                        to="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-information-gathering-support/"
-                        aria-describedby="woocommerce_loop_add_to_cart_link_describedby_589"
-                        data-quantity="1"
-                        className="button product_type_simple"
-                        data-product_id="589"
-                        data-product_sku=""
-                        aria-label="Read more about “Cryptocurrency Information Gathering Support”"
-                        rel="nofollow"
-                      >
-                        Read more
-                      </Link>
-                      <span
-                        id="woocommerce_loop_add_to_cart_link_describedby_589"
-                        className="screen-reader-text"
-                      ></span>
-                      <span className="card__price"></span>
-                    </div>
-                  </div>
+                  
                 </div>
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
