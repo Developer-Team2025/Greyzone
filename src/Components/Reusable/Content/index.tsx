@@ -1,5 +1,5 @@
 import classNames from "classnames";
-import styles from "./style.module.scss";
+import styles from "./styles.module.scss";
 import { useParams } from "react-router-dom";
 import ShadowDOM from "react-shadow";
 import Slider from "react-slick";
@@ -86,84 +86,29 @@ const index = () => {
 
       {id === "10-indicators-of-a-love-scam-a-comprehensive-checklist" && (
         <>
-          <ShadowDOM.div>
-            <style>
-              {`
-                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
-                .title span{
-                  background:  linear-gradient(to right, #012555, #55719F, #012555);
-                  -webkit-background-clip: text!important;
-                }
-                .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
-                  background: linear-gradient(to right, #012555, #55719F, #012555);
-                  -webkit-background-clip: text !important;
-                }
-                    
-                .card__right h2, .card__right h3, .card__right h4{
-                background: linear-gradient(to right, #012555, #55719F, #012555);
-                -webkit-background-clip: text !important;
-                }
-              `}
-            </style>
-            <section className="card" id="card">
-              <div className="container">
-                <h1 className="title card__name wow animate__animated animate__fadeInLeft">
+            <section className={styles.card} id="card">
+              <div className={styles.container}>
+                <h1 className={`${styles.title} ${styles.card__name} wow animate__animated animate__fadeInLeft`}>
                   <span>
                     10 Indicators of a Love Scam: A Comprehensive Checklist
                   </span>
                 </h1>
-                <div className="card__row">
-                  <picture className="card__pic wow animate__animated animate__fadeInUp">
+                <div className={styles.card__row}>
+                  <picture className={`${styles.card__pic} wow animate__animated animate__fadeInUp`}>
                     <img src={`${import.meta.env.VITE_REDIRECT}/img/indicators.jpeg?v=2`} alt="indicator" />
                   </picture>
-                  <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p style={{color: "rgba(0,0,0,1)"}}>
+                  <div className={`${styles.card__right} wow animate__animated animate__fadeInRight`}>
+                    <p style={{ color: "rgba(0,0,0,1)" }}>
                       This comprehensive checklist is designed to assist
                       individuals in identifying the various signs and
                       indicators commonly associated with romance scams, thereby
                       enhancing their ability to protect themselves from such
                       fraudulent activities.
                     </p>
-                    <div className="card__ctrl">
-                      {/* <a
-                                    aria-describedby="woocommerce_loop_add_to_cart_link_describedby_29424"
-                                    data-quantity="1"
-                                    className="button product_type_simple add_to_cart_button ajax_add_to_cart"
-                                    data-product_id="29424"
-                                    data-product_sku=""
-                                    aria-label="Add to cart: “10 Signs to Spot a Love Scam Checklist”"
-                                    rel="nofollow"
-                                    data-success_message="“10 Signs to Spot a Love Scam Checklist” has been added to your cart"
-                                >
-                                    Add to cart
-                                </a>
-                                <span id="woocommerce_loop_add_to_cart_link_describedby_29424" className="screen-reader-text"></span>
-                                <span className="card__price">
-                                    <span className="price">
-                                    <del aria-hidden="true">
-                                        <span className="woocommerce-Price-amount amount">
-                                        <bdi>
-                                            <span className="woocommerce-Price-currencySymbol">£</span>9.99
-                                        </bdi>
-                                        </span>
-                                    </del>
-                                    <span className="screen-reader-text">Original price was: £9.99.</span>
-                                    <ins aria-hidden="true">
-                                        <span className="woocommerce-Price-amount amount">
-                                        <bdi>
-                                            <span className="woocommerce-Price-currencySymbol">£</span>0.99
-                                        </bdi>
-                                        </span>
-                                    </ins>
-                                    <span className="screen-reader-text">Current price is: £0.99.</span>
-                                    </span>
-                                </span> */}
-                    </div>
                   </div>
                 </div>
-
-                <div className="card__desc wow animate__animated animate__fadeInUp">
-                  <p style={{color: "rgba(0,0,0,1)"}}>
+                <div className={`${styles.card__desc} wow animate__animated animate__fadeInUp`}>
+                  <p style={{ color: "rgba(0,0,0,1)" }}>
                     Stay safe in the digital dating world with our “10 Signs to
                     Spot a Love Scam Checklist.” This comprehensive 5-page guide
                     helps you recognize the warning signs of romance scams,
@@ -176,267 +121,127 @@ const index = () => {
                     finances. Download now and ensure your online interactions
                     remain safe and genuine.
                   </p>
-                  {/* <figure id="attachment_29426" aria-describedby="caption-attachment-29426" className="wp-caption alignnone">
-                            <img
-                            decoding="async"
-                            className="size-medium wp-image-29426"
-                            src="https://tandhconsult.com/wp-content/uploads/2024/06/for-workbooks-300x300.png"
-                            alt="10 Signs to Spot a Love Scam Checklist"
-                            width="300"
-                            height="300"
-                            sizes="(max-width: 300px) 100vw, 300px"
-                            />
-                            <figcaption id="caption-attachment-29426" className="wp-caption-text">
-                            10 Signs to Spot a Love Scam Checklist
-                            </figcaption>
-                        </figure> */}
                 </div>
               </div>
             </section>
-          </ShadowDOM.div>
         </>
       )}
 
       {id === "online-fraud-protection-a-practical-guide" && (
         <>
-          <ShadowDOM.div>
-            <style>
-              {`
-                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
-                  .title span{
-                  background:  linear-gradient(to right, #012555, #55719F, #012555);
-                  -webkit-background-clip: text!important;
-                  }
-                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
-                    background: linear-gradient(to right, #012555, #55719F, #012555);
-                    -webkit-background-clip: text !important;
-                  }
-                    
-                .card__right h2, .card__right h3, .card__right h4{
-                background: linear-gradient(to right, #012555, #55719F, #012555);
-                -webkit-background-clip: text !important;
-                }
-              `}
-            </style>
-            <section className="card" id="card">
-              <div className="container">
-                <h1 className="title card__name wow animate__animated animate__fadeInLeft">
+            <section className={styles.card} id="card">
+              <div className={styles.container}>
+                <h1 className={classNames(styles.title, styles.card__name, "wow", "animate__animated", "animate__fadeInLeft")}>
                   <span>Online Fraud Protection: A Practical Guide</span>
                 </h1>
-                <div className="card__row">
-                  <picture className="card__pic wow animate__animated animate__fadeInUp">
+                <div className={styles.card__row}>
+                  <picture className={classNames(styles.card__pic, "wow", "animate__animated", "animate__fadeInUp")}>
                     <img src={`${import.meta.env.VITE_REDIRECT}/img/online_fraud.jpeg?v=2`} alt="online_fraud" />
                   </picture>
-                  <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p style={{color: "rgba(0,0,0,1)"}}>
-                      A comprehensive guide offering practical tips and
-                      strategies to protect yourself from online scams. Ideal
-                      for enhancing your scam awareness and online security.
+                  <div className={classNames(styles.card__right, "wow", "animate__animated", "animate__fadeInRight")}>
+                    <p style={{ color: "rgba(0,0,0,1)" }}>
+                      A comprehensive guide offering practical tips and strategies to protect yourself from online scams.
+                      Ideal for enhancing your scam awareness and online security.
                     </p>
-                    <div className="card__ctrl">
-                      {}
-                    </div>
+                    <div className={styles.card__ctrl}>{/* Add control elements here */}</div>
                   </div>
                 </div>
 
-                <div className="card__desc wow animate__animated animate__fadeInUp">
-                  <p style={{color: "rgba(0,0,0,1)"}}>
-                    Introducing “How Not to Get Scammed: A Guide to Protecting
-                    Yourself Online,” your ultimate resource for fraud
-                    prevention. This 25-page guide provides practical tips and
-                    strategies to help you recognize and avoid various online
-                    scams. With detailed chapters on identifying scams,
-                    protecting personal information, and reporting fraudulent
-                    activities, this guide equips you with the knowledge to stay
-                    safe online. Learn about phishing, tech support scams,
-                    investment frauds, and more, while implementing effective
-                    security measures to safeguard your digital life.
+                <div className={classNames(styles.card__desc, "wow", "animate__animated", "animate__fadeInUp")}>
+                  <p style={{ color: "rgba(0,0,0,1)" }}>
+                    Introducing “How Not to Get Scammed: A Guide to Protecting Yourself Online,” your ultimate resource
+                    for fraud prevention. This 25-page guide provides practical tips and strategies to help you recognize
+                    and avoid various online scams. With detailed chapters on identifying scams, protecting personal
+                    information, and reporting fraudulent activities, this guide equips you with the knowledge to stay
+                    safe online. Learn about phishing, tech support scams, investment frauds, and more, while implementing
+                    effective security measures to safeguard your digital life.
                   </p>
-                  {/* <figure
-                                id="attachment_29410"
-                                aria-describedby="caption-attachment-29410"
-                                style={{ width: "300px" }}
-                                className="wp-caption alignnone"
-                            >
-                                <img
-                                className="size-medium wp-image-29410"
-                                src="https://tandhconsult.com/wp-content/uploads/2024/05/for-workbooks-300x300.png"
-                                alt="How Not to Get Scammed: A Guide to Protecting Yourself Online"
-                                width="300"
-                                height="300"
-                                sizes="(max-width: 300px) 100vw, 300px"
-                                />
-                                <figcaption id="caption-attachment-29410" className="wp-caption-text">
-                                How Not to Get Scammed: A Guide to Protecting Yourself Online
-                                </figcaption>
-                            </figure> */}
                 </div>
               </div>
             </section>
-          </ShadowDOM.div>
         </>
       )}
 
       {id === "printable-fraud-awareness-workbook-with-exercises" && (
         <>
-          <ShadowDOM.div>
-            <style>
-              {`
-                  @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
-                  .title span{
-                  background:  linear-gradient(to right, #012555, #55719F, #012555);
-                  -webkit-background-clip: text!important;
-                  }
-                  .card__desc h4, .card__desc h3, .card__desc h2, .card__desc h5, .card__desc h6{
-                    background: linear-gradient(to right, #012555, #55719F, #012555);
-                    -webkit-background-clip: text !important;
-                  }
-                    
-                .card__right h2, .card__right h3, .card__right h4{
-                background: linear-gradient(to right, #012555, #55719F, #012555);
-                -webkit-background-clip: text !important;
-                }
-                        `}
-            </style>
-            <section className="card" id="card">
-              <div className="container">
-                <h1 className="title card__name wow animate__animated animate__fadeInLeft">
+            <section className={styles.card} id="card">
+              <div className={styles.container}>
+                <h1 className={classNames(styles.title, styles.card__name, "wow", "animate__animated", "animate__fadeInLeft")}>
                   <span>Printable Fraud Awareness Workbook with Exercises</span>
                 </h1>
-                <div className="card__row">
-                  <picture className="card__pic wow animate__animated animate__fadeInUp">
+                <div className={styles.card__row}>
+                  <picture className={classNames(styles.card__pic, "wow", "animate__animated", "animate__fadeInUp")}>
                     <img src={`${import.meta.env.VITE_REDIRECT}/img/printable.jpg`} alt="printable" />
                   </picture>
-                  <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p style={{color: "rgba(0,0,0,1)"}}>
-                      Enhance your fraud prevention skills with our Fraud
-                      Awareness Workbook. This comprehensive printable guide
-                      includes self-assessments, interactive exercises, and
-                      essential resources to help you identify and protect
-                      against scams. Perfect for boosting your online security
-                      and staying vigilant against fraud.
+                  <div className={classNames(styles.card__right, "wow", "animate__animated", "animate__fadeInRight")}>
+                    <p style={{ color: "rgba(0,0,0,1)" }}>
+                      Enhance your fraud prevention skills with our Fraud Awareness Workbook. This comprehensive printable guide
+                      includes self-assessments, interactive exercises, and essential resources to help you identify and protect
+                      against scams. Perfect for boosting your online security and staying vigilant against fraud.
                     </p>
-                    <div className="card__ctrl">
-                      {}
-                    </div>
+                    <div className={styles.card__ctrl}>{/* Add control elements here */}</div>
                   </div>
                 </div>
 
-                <div className="card__desc wow animate__animated animate__fadeInUp">
-                  <p style={{color: "rgba(0,0,0,1)"}}>
-                    Happy to present you the{" "}
-                    <strong>Fraud Awareness Workbook</strong>, your
-                    comprehensive guide to mastering fraud prevention and online
-                    security. This printable workbook is designed to enhance
-                    your scam awareness and equip you with the tools needed to
-                    protect yourself from various fraudulent activities. Whether
-                    you’re new to fraud prevention or looking to refine your
-                    skills, this workbook offers valuable insights and practical
-                    exercises to help you stay vigilant.
+                <div className={classNames(styles.card__desc, "wow", "animate__animated", "animate__fadeInUp")}>
+                  <p style={{ color: "rgba(0,0,0,1)" }}>
+                    Happy to present you the <strong>Fraud Awareness Workbook</strong>, your comprehensive guide to mastering fraud
+                    prevention and online security. This printable workbook is designed to enhance your scam awareness and equip
+                    you with the tools needed to protect yourself from various fraudulent activities.
                   </p>
-                  <p style={{color: "rgba(0,0,0,1)"}}>
+
+                  <p style={{ color: "rgba(0,0,0,1)" }}>
                     <strong>Features:</strong>
                   </p>
                   <ul>
                     <li>
-                      <strong>Self-Assessments</strong>: Start and end your
-                      journey with detailed self-assessments to measure your
-                      initial understanding and track your progress in fraud
-                      awareness. These assessments provide a clear baseline and
-                      highlight areas for improvement.
+                      <strong>Self-Assessments</strong>: Measure your understanding and track your progress in fraud awareness.
                     </li>
                     <li>
-                      <strong>Masterclass &amp; Presentation</strong>: Dive deep
-                      into the world of fraud prevention with our expertly
-                      crafted masterclass and comprehensive presentation
-                      materials. Learn about the latest fraud detection
-                      techniques and strategies to stay ahead of scammers.
+                      <strong>Masterclass & Presentation</strong>: Learn about fraud detection techniques and scam prevention.
                     </li>
                     <li>
-                      <strong>Interactive Exercises</strong>: Engage in
-                      practical exercises designed to enhance your ability to
-                      identify and respond to various fraud scenarios, including
-                      phishing emails, romance scams, and investment frauds.
-                      These activities reinforce your knowledge and boost your
-                      confidence in handling real-life situations.
+                      <strong>Interactive Exercises</strong>: Engage in hands-on activities to recognize phishing and scams.
                     </li>
                     <li>
-                      <strong>Checklists &amp; Trackers</strong>: Utilize our
-                      practical checklists and trackers to maintain and improve
-                      your security practices. These tools help you stay
-                      organized, monitor your progress, and ensure consistent
-                      vigilance against fraud.
+                      <strong>Checklists & Trackers</strong>: Stay organized and monitor your security practices.
                     </li>
                     <li>
-                      <strong>Resources &amp; Materials</strong>: Access a
-                      curated collection of essential resources and educational
-                      materials to support your ongoing learning. Stay informed
-                      about the latest fraud prevention tactics and protective
-                      measures with our up-to-date resources.
+                      <strong>Resources & Materials</strong>: Get access to educational materials and up-to-date fraud prevention
+                      tactics.
                     </li>
                   </ul>
-                  <p style={{color: "rgba(0,0,0,1)"}}>
+
+                  <p style={{ color: "rgba(0,0,0,1)" }}>
                     <strong>Key Benefits:</strong>
                   </p>
                   <ul>
                     <li>
-                      <strong>Enhanced Fraud Awareness</strong>: Improve your
-                      understanding of common fraud tactics and learn how to
-                      recognize potential scams.
+                      <strong>Enhanced Fraud Awareness</strong>: Recognize common fraud tactics and potential scams.
                     </li>
                     <li>
-                      <strong>Effective Security Practices</strong>: Implement
-                      advanced security measures for your online accounts and
-                      personal information.
+                      <strong>Effective Security Practices</strong>: Improve online account security and protect personal data.
                     </li>
                     <li>
-                      <strong>Practical Skills</strong>: Gain hands-on
-                      experience through interactive exercises that prepare you
-                      for real-life fraud scenarios.
+                      <strong>Practical Skills</strong>: Hands-on exercises prepare you for real-life fraud situations.
                     </li>
                     <li>
-                      <strong>Ongoing Support</strong>: Stay informed with
-                      access to the latest fraud prevention resources and
-                      materials.
+                      <strong>Ongoing Support</strong>: Stay updated with the latest scam prevention resources.
                     </li>
                   </ul>
-                  <p style={{color: "rgba(0,0,0,1)"}}>
-                    By completing the <strong>Fraud Awareness Workbook</strong>,
-                    you’ll develop the confidence and skills needed to safeguard
-                    yourself and your assets from potential scams. This workbook
-                    is perfect for individuals looking to improve their online
-                    security and fraud detection capabilities. Print it out,
-                    mark your progress, and take proactive steps to protect
-                    yourself from fraud with our detailed and practical guide.
+
+                  <p style={{ color: "rgba(0,0,0,1)" }}>
+                    By completing the <strong>Fraud Awareness Workbook</strong>, you’ll gain the confidence and skills to safeguard
+                    yourself against scams. Print it, track your progress, and take proactive steps to stay safe online.
                   </p>
-                  <p style={{color: "rgba(0,0,0,1)"}}>
-                    Boost your fraud prevention capabilities today with the{" "}
-                    <strong>Fraud Awareness Workbook</strong>—your ultimate
+
+                  <p style={{ color: "rgba(0,0,0,1)" }}>
+                    Boost your fraud prevention capabilities today with the <strong>Fraud Awareness Workbook</strong>—your ultimate
                     resource for scam prevention and online security.
                   </p>
-                  {/* <figure
-                                    id="attachment_29404"
-                                    aria-describedby="caption-attachment-29404"
-                                    style={{ width: "300px" }}
-                                    className="wp-caption alignnone"
-                                >
-                                    <img
-                                    className="size-medium wp-image-29404"
-                                    src="https://tandhconsult.com/wp-content/uploads/2024/05/fraud-awareness-printable-workbook2-300x300.png"
-                                    alt="Fraud Awareness Printable Workbook"
-                                    width="300"
-                                    height="300"
-                                    data-pin-description="Fraud Awareness Printable Workbook"
-                                    sizes="(max-width: 300px) 100vw, 300px"
-                                    />
-                                    <figcaption id="caption-attachment-29404" className="wp-caption-text">
-                                    Fraud Awareness Printable Workbook
-                                    </figcaption>
-                                </figure> */}
                 </div>
               </div>
-            </section>
-          </ShadowDOM.div>
+            </section>;
         </>
       )}
 
@@ -532,21 +337,16 @@ const index = () => {
                   <div
                     id="mep_0"
                     className={classNames("mejs-container", "mejs-video")}
-                  >
-                    <video
-                      className={classNames("wp-video-shortcode")}
-                      id="video-29378-1_html5"
-                      width="640"
-                      height="360"
-                      preload="metadata"
-                      src="https://tandhconsult.com/wp-content/uploads/2024/05/fraud-awareness-workshop_teaser_1.mp4?_=1"
                     >
-                      <source
-                        type="video/mp4"
-                        src="https://tandhconsult.com/wp-content/uploads/2024/05/fraud-awareness-workshop_teaser_1.mp4?_=1"
-                      />
-                    </video>
-                  </div>
+                    <img 
+                          src="/img/certificate/fraud.jpg" 
+                          alt="fraud" 
+                          width={769} 
+                          height={360} 
+                        />
+                    </div>
+                      
+
                 </div>
                 <p style={{color: "rgba(0,0,0,1)"}}>&nbsp;</p>
                 <h3>Why Choose Our Fraud Awareness Bundle?</h3>
@@ -632,25 +432,7 @@ const index = () => {
                       world confidently, knowing that your assets are safe and
                       your transactions are above board.
                     </p>
-                    <div className="card__ctrl">
-                      <Link
-                        to="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-transaction-risk-analysis/"
-                        aria-describedby="woocommerce_loop_add_to_cart_link_describedby_33046"
-                        data-quantity="1"
-                        className="button product_type_simple"
-                        data-product_id="33046"
-                        data-product_sku=""
-                        aria-label="Read more about “Crypto Transaction Risk Audit”"
-                        rel="nofollow"
-                      >
-                        Read more
-                      </Link>
-                      <span
-                        id="woocommerce_loop_add_to_cart_link_describedby_33046"
-                        className="screen-reader-text"
-                      ></span>
-                      <span className="card__price"></span>
-                    </div>
+                    
                   </div>
                 </div>
 
@@ -1003,7 +785,7 @@ const index = () => {
                     </h3>
                     <p style={{color: "rgba(0,0,0,1)"}}>
                       Our team at Greyzone Consulting conducts thorough{" "}
-                      <Link to="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/">
+                      <Link to="/solutions/cryptocurrency-investigations-and-regulatory-compliance/in-depth-cryptocurrency-investigation-services">
                         cryptocurrency analysis and investigations
                       </Link>{" "}
                       to deliver customized reports and case responses for our
@@ -1182,8 +964,8 @@ const index = () => {
                     </h3>
                     <p style={{color: "rgba(0,0,0,1)"}}>
                       Our team at Greyzone Consulting conducts thorough{" "}
-                      <Link to="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-investigation/">
-                        cryptocurrency analysis and investigations
+                      <Link to="/solutions/cryptocurrency-investigations-and-regulatory-compliance/in-depth-cryptocurrency-investigation-services/">
+                      In-Depth Cryptocurrency Investigation Services
                       </Link>{" "}
                       to deliver customized reports and case responses for our
                       clients. We comprehend the complexities and unique aspects
@@ -1659,29 +1441,7 @@ const index = () => {
                   <picture className="card__pic wow animate__animated animate__fadeInUp">
                     <img src={`${import.meta.env.VITE_REDIRECT}/img/Data_Collection.jpeg?v=2`} alt="Data_Collection" />
                   </picture>
-                  <div className="card__right wow animate__animated animate__fadeInRight">
-                    <p style={{color: "rgba(0,0,0,1)"}}>&nbsp;</p>
-                    <p style={{color: "rgba(0,0,0,1)"}}>&nbsp;</p>
-                    <div className="card__ctrl">
-                      <Link
-                        to="/solutions/cryptocurrency-investigation-compliance/cryptocurrency-information-gathering-support/"
-                        aria-describedby="woocommerce_loop_add_to_cart_link_describedby_589"
-                        data-quantity="1"
-                        className="button product_type_simple"
-                        data-product_id="589"
-                        data-product_sku=""
-                        aria-label="Read more about “Cryptocurrency Information Gathering Support”"
-                        rel="nofollow"
-                      >
-                        Read more
-                      </Link>
-                      <span
-                        id="woocommerce_loop_add_to_cart_link_describedby_589"
-                        className="screen-reader-text"
-                      ></span>
-                      <span className="card__price"></span>
-                    </div>
-                  </div>
+                  
                 </div>
 
                 <div className="card__desc wow animate__animated animate__fadeInUp">
