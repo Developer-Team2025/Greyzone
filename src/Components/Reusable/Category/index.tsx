@@ -70,13 +70,13 @@ const index = () => {
                                     <ul className="wp-block-list">
                                     <li>Imposter scams</li>
                                     <li>Debt collection, settlement, and relief scams</li>
-                                    <li><a href="/blog/phishing-scams-and-tips-to-prevent-them">Phishing Scams</a></li>
+                                    <li><a href="/blog/the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases/">Phishing Scams</a></li>
                                     <li>Social media scams</li>
-                                    <li><a href="/blog/how-to-avoid-investment-scams">Investment scams</a></li>
+                                    <li><a href="/blog/the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases/">Investment scams</a></li>
                                     <li>Romance scams</li>
-                                    <li><a href="/blog/how-to-avoid-charity-scams">Charity scams</a></li>
+                                    <li><a href="/blog/the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases/">Charity scams</a></li>
                                     <li>Blackmail scams</li>
-                                    <li><a href="/blog/understanding-common-ticket-scams-essential-tips-for-protection">Ticket Scams</a></li>
+                                    <li><a href="/blog/the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases/">Ticket Scams</a></li>
                                     <li>PayPal scams</li>
                                     <li>Selling nonexistent products or services</li>
                                     </ul>
@@ -690,7 +690,7 @@ const index = () => {
                                     <figure className="wp-block-table is-style-stripes">
                                         <table>
                                             <tbody>
-                                                <tr>
+                                                <tr style={{ backgroundColor: "#f0f0f0" }}>
                                                     <td>Steps</td>
                                                     <td>Description</td>
                                                 </tr>
@@ -698,7 +698,7 @@ const index = () => {
                                                     <td><strong>Stop All Communication with the Scammer</strong></td>
                                                     <td>Cease any further communication with the suspected scammer as soon as you realize something is amiss. Scammers can be persuasive, so it’s crucial to cut off their ability to manipulate or confuse you further.</td>
                                                 </tr>
-                                                <tr>
+                                                <tr style={{ backgroundColor: "#f0f0f0" }}>
                                                     <td><strong>Do Not Make Any Further Payments</strong></td>
                                                     <td>If you haven’t transferred any money yet, please hold off on doing so. Were you just about to send payment? It’s important to stop right there. And if you’ve unfortunately already made a payment, getting in touch with your bank or payment service to share what’s happened and explore ways to possibly get your money back is a crucial next step.</td>
                                                 </tr>
@@ -706,7 +706,7 @@ const index = () => {
                                                     <td><strong>Gather All Evidence of the Scam</strong></td>
                                                     <td>Compiling evidence is essential for reporting the scam effectively and may aid in any potential recovery of funds or legal action. <br/><strong>Screenshots of Conversations:</strong> Take detailed screenshots of all your communications with the scammer, including messages that led up to the scam. Any promises or claims made, and the moment you suspected a scam.<br/><strong>Payment Receipts:</strong> Secure copies of any payment receipts or transaction records associated with the scam. This includes transaction IDs, amounts, dates, and payment methods used.<br/><strong>Listing Details:</strong> Capture screenshots of the item listing, including images, descriptions, and any other relevant details that were part of the scam.</td>
                                                 </tr>
-                                                <tr>
+                                                <tr style={{ backgroundColor: "#f0f0f0" }}>
                                                     <td><strong>Report the Scam to Facebook Marketplace</strong></td>
                                                     <td>Once you’ve gathered your evidence, it’s important to report the scammer to Facebook Marketplace to help protect others in the community.<br/><strong>How to Report a Listing or User:</strong> Navigate to the suspicious listing or the scammer’s profile.<br/>Look for a report option (usually represented by three dots or a flag icon).<br/>Select the most appropriate reason for your report, such as “scam or fraud” or “suspicious activity.”<br/>Follow the prompts to provide details about the scam, including any evidence you have gathered.<br/><strong>Importance of Reporting for Community Safety:</strong> Reporting scams not only helps you take action against the scammer but also plays a crucial role in safeguarding the Facebook Marketplace community. Each report contributes to Facebook’s ability to identify and remove scammers from the platform. It makes it a safer environment for legitimate buyers and sellers.</td>
                                                 </tr>

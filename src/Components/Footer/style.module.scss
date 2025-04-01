@@ -24,13 +24,14 @@
                 padding: 50px;
             }
             .footer_text {
-                font-size: 12px;
+                font-size: 14px;
                 font-weight: normal;
                 line-height: 1.83;
                 max-width: 310px;
                 margin-bottom: 20px;
                 opacity: .8;
-                color: #fff
+                // color: #fff
+                color: #000;
                 // #060606;
             }
             .add_foot{
@@ -45,7 +46,8 @@
                 line-height: normal;
                 display: block;
                 margin-bottom: 21px;
-                background: #fff;
+                // background: #fff;
+                background-color: #000;
                 // linear-gradient(to right, #012555, #55719F, #012555);
                 // linear-gradient(to right, #32509d 0%, #70abdc 100%);
                 -webkit-background-clip: text;
@@ -65,7 +67,8 @@
                     font-weight: normal;
                     line-height: 2;
                     position: relative;
-                    color: #fff;
+                    // color: #fff;
+                    color: #000;
                 }
                 .contact_line{
                     font-size: 12px;
@@ -73,14 +76,16 @@
                     line-height: 16px;
                     text-decoration: none !important;
                     position: relative;
-                    color: #fff;
+                    // color: #fff;
+                    color: #000;
                 }
                 p{
                     font-size: 12px;
                     font-weight: normal;
                     line-height: 16px;
                     margin-bottom: 15px !important;
-                    color: #fff;
+                    // color: #fff;
+                    color: #000;
                     // margin: -7px 0 0;
                 }
                 .sizeIcon{
