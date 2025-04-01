@@ -95,7 +95,7 @@ function App() {
           // !localStorage.getItem('warning') && 
           <div className="warning">
             <span>
-              BEWARE OF IMPERSONATION SCAMS! Ensure you're communicating with
+              <b>BEWARE OF IMPERSONATION SCAMS!</b> Ensure you're communicating with
               official Greyzone Consulting via info@greyzoneconsulting.com emails.&nbsp;
               <a href="/fraud-awareness" style={{ color: "red" }}>
                 Learn more &gt;&gt;&gt;

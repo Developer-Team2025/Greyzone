@@ -470,7 +470,7 @@ const index = () => {
                   className={classNames(
                     styles.card__right,
                     "wow animate__animated",
-                    "animate__fadeInRight"
+                    "animate__fadeInUp"
                   )}
                 >
                   <p style={{color: "rgba(0,0,0,1)"}}>
