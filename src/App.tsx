@@ -96,7 +96,7 @@ function App() {
           <div className="warning">
             <span>
               <b>BEWARE OF IMPERSONATION SCAMS!</b> Ensure you're communicating with
-              official Greyzone Consulting via info@greyzoneconsulting.com emails.&nbsp;
+              official Greyzone Consulting via @greyzoneconsulting.com emails.&nbsp;
               <a href="/fraud-awareness" style={{ color: "red" }}>
                 Learn more &gt;&gt;&gt;
               </a>

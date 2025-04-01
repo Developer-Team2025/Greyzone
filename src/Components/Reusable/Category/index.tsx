@@ -2,7 +2,8 @@ import ShadowDOM from 'react-shadow';
 import { Link, useParams } from 'react-router-dom';
 import {edit} from '../Addition/index'
 import { useEffect, useState } from 'react';
-import NotFound from '../../../Pages/404/index'
+import NotFound from '../../../Pages/404/index';
+import styles from './style.module.scss';
 const index = () => {
     const { id } = useParams();
 
@@ -45,6 +46,15 @@ const index = () => {
             <style>
                 {`
                     @import url(https://tandhconsult.com/wp-content/themes/th/style.css);
+                    .wrap_text{
+                    display: flex;
+                    gap: 1rem;
+                    justify-content: center;
+                        @media screen and (max-width: 650px) {
+                            flex-direction: column;
+                            gap: 0rem;  
+                        }
+                    }
                 `}
             </style>
 
@@ -67,19 +77,23 @@ const index = () => {
                                     {/* <p>Many people believe they are immune to money scams, but this is far from true. As per The Federal Trade Commission (FTC) reported that scammers defrauded U.S. citizens of <a href="https://www.ftc.gov/news-events/news/press-releases/2024/02/nationwide-fraud-losses-top-10-billion-2023-ftc-steps-efforts-protect-public">over $10 billion</a> in 2023. This marks a $1 billion increase compared to 2022. As, scammers continue to evolve and use various tactics to deceive individuals into transferring money.</p> */}
                                     <p>Many people believe they are immune to money scams, but this is far from true. As per The Federal Trade Commission (FTC) reported that scammers defrauded U.S. citizens of <a >over $10 billion</a> in 2023. This marks a $1 billion increase compared to 2022. As, scammers continue to evolve and use various tactics to deceive individuals into transferring money.</p>
                                     <p>Here are some common types of money scams:</p>
-                                    <ul className="wp-block-list">
-                                    <li>Imposter scams</li>
-                                    <li>Debt collection, settlement, and relief scams</li>
-                                    <li><a href="/blog/the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases/">Phishing Scams</a></li>
-                                    <li>Social media scams</li>
-                                    <li><a href="/blog/the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases/">Investment scams</a></li>
-                                    <li>Romance scams</li>
-                                    <li><a href="/blog/the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases/">Charity scams</a></li>
-                                    <li>Blackmail scams</li>
-                                    <li><a href="/blog/the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases/">Ticket Scams</a></li>
-                                    <li>PayPal scams</li>
-                                    <li>Selling nonexistent products or services</li>
-                                    </ul>
+                                    <div className="wrap_text" >
+                                    <ul className="wp-block-list" >
+                                        <li>Imposter scams</li>
+                                        <li>Debt collection, settlement, and relief scams</li>
+                                        <li><a href="/blog/the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases/">Phishing Scams</a></li>
+                                        <li>Social media scams</li>
+                                        <li><a href="/blog/the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases/">Investment scams</a></li>
+                                        <li>Romance scams</li>
+                                        </ul>
+                                        <ul className="wp-block-list">
+                                        <li><a href="/blog/the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases/">Charity scams</a></li>
+                                        <li>Blackmail scams</li>
+                                        <li><a href="/blog/the-crucial-role-of-expert-support-when-dealing-with-banks-in-fraud-cases/">Ticket Scams</a></li>
+                                        <li>PayPal scams</li>
+                                        <li>Selling nonexistent products or services</li>
+                                        </ul>
+                                    </div>
                                     <p>Among these, imposter scams remain the most prevalent as the FTC estimates scammers stole $2.7 billion in 2023 alone. Scammers often pose as trusted sources, such as a bank’s fraud department, government officials, or a distressed relative. They also impersonate businesses or tech support experts to trick individuals.</p>
                                     <h2 className="wp-block-heading"><strong>Steps to Take After Falling Victim to a Scam</strong></h2>
                                     <p>Once you realize that you have been scammed, your first priority should be to report the scam. Therefore, It is essential to act quickly as it reduces the scammer’s chances of succeeding and may help recover your funds. So, make sure to report the scam to your bank, the Federal Trade Commission (FTC), and relevant authorities, including local law enforcement.</p>

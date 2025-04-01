@@ -78,6 +78,12 @@ body{
   /* #868686; */
 }
 
+
+.wrap_text{
+  display: flex;
+  
+}
+
 .bread{
   overflow: hidden;
   max-width: 100%;

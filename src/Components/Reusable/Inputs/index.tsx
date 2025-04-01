@@ -123,7 +123,7 @@ return (
         <input
           type="text"
           value={selectedCountry.dial_code}
-          name={name}
+          // name={name}
           placeholder={placeholder}
           className={`${classess} w-10 pr-1`}
           onClick={toggleDropdown}
@@ -135,7 +135,7 @@ return (
         <input
           className={classess}
           value={ phoneValue}
-          name={name}
+          // name={name}
           onChange={handleChange}
           onKeyDown={handleKeyDown}
           placeholder="Phone Number"

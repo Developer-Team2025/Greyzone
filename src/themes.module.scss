@@ -11811,20 +11811,23 @@
   }
   
   .article__short {
-    width: 100%;
-    margin-bottom: 47px;
+    // width: 100%;
+    // margin-bottom: 47px;
   
-    &::after {
-      display: table;
-      clear: both;
-      content: '';
-    }
+    // &::after {
+    //   display: table;
+    //   clear: both;
+    //   content: '';
+    // }
   
-    p {
-      font-size: 14px;
-      line-height: 1.8;
-      margin-bottom: 20px;
-      padding-right: 10px;
+    // p {
+    //   font-size: 14px;
+    //   line-height: 1.8;
+    //   margin-bottom: 20px;
+    //   padding-right: 10px;
+    // }
+    .wrap_text{
+      display: flex;
     }
   }
   
