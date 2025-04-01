@@ -128,7 +128,7 @@ return (
           className={`${classess} w-10 pr-1`}
           onClick={toggleDropdown}
           required
-          style={{ color: '#000', padding: '6px .2rem', cursor: 'pointer', width: '4.5rem', justifyItems:'center' }}
+          style={{ color: '#000', padding: '6px .2rem', cursor: 'pointer', width: '4.5rem', justifyItems:'center', marginRight: '1.rem' }}
         />
 
         {/* Phone Number Input */}
@@ -139,7 +139,7 @@ return (
           onChange={handleChange}
           onKeyDown={handleKeyDown}
           placeholder="Phone Number"
-          style={{ color: '#000', padding: '6px .2rem' }}
+          style={{ color: '#000', padding: '6px .2rem', marginLeft:'.5rem' }}
           required
         />
           <input
