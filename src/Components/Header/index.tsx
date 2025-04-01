@@ -336,8 +336,7 @@ function App(props: any) {
                             <li> <a href="/" style={{color: filter === 'home' ? '#012555' : ''}}>Home</a> </li>
                             <li className={styles.arrow_down} onClick={()=> setAbout(!About)}>
                                 <a href="/about-us" style={{color: filter === 'about us' ? '#012555' : ''}} >About us</a> 
-                                <ul style={{display: About ? 'block' : 'none'}}>
-                                <li><a href="/digital-goods">Digital Goods</a></li>                                    
+                                <ul style={{display: About ? 'block' : 'none'}}>                                   
                                     <li><a href="/terms-and-conditions">Terms and Condition</a></li>
                                     <li><a href="/privacy-policy">Privacy Policy</a></li>
                                     <li><a href="/fraud-awareness">Fraud Awareness</a></li>
@@ -350,6 +349,7 @@ function App(props: any) {
                             <li className={styles.arrow_down} onClick={()=> setSolution(!Solution)}>
                                 <a href="/solutions" style={{color: filter === 'solutions' ? '#012555' : ''}}>Solutions</a> 
                                 <ul style={{display: Solution ? 'block' : 'none'}}>
+                                    <li><a href="/digital-goods">Digital Goods</a></li> 
                                     <li><a href="/solutions/research-and-dispute-resolution">Research and Dispute Resolution</a></li>
                                     <li><a href="/solutions/advisory-and-documentation-assistance">Advisory and Documentation Assistance</a></li>
                                     <li><a href="/solutions/cryptocurrency-investigations-and-regulatory-compliance">Cryptocurrency Investigations and Regulatory Compliance</a></li>
